@@ -1,0 +1,5 @@
+\babel@toc {french}{}\relax 
+\contentsline {part}{I\hspace {1em}Chapitre 1}{2}{part.1}%
+\contentsline {section}{\numberline {1}Partie 1 du cour}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Eléments du sismologie}{2}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Manifestaion des séismes}{2}{subsubsection.1.1.1}%

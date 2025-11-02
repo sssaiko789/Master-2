@@ -1,0 +1,11 @@
+\babel@toc {french}{}\relax 
+\contentsline {part}{I\hspace {1em}Chapitre $\MakeUppercase []{i}$}{2}{part.1}%
+\contentsline {part}{II\hspace {1em}Chapitre $\MakeUppercase []{ii}$ : Les fondations}{2}{part.2}%
+\contentsline {section}{\numberline {II.1}Les types de fondations}{2}{section.2.1}%
+\contentsline {section}{\numberline {II.2}Calcul du chargement appliquer au fondations}{2}{section.2.2}%
+\contentsline {section}{\numberline {II.3}Pré-dimensionemment d'une fondation }{4}{section.2.3}%
+\contentsline {subsection}{\numberline {II.3.1}Exercice}{5}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {II.3.2}Devoir maison}{7}{subsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {II.3.2.1}Correction}{8}{subsubsection.2.3.2.1}%
+\contentsline {paragraph}{Condition de rigidité}{8}{section*.9}%
+\contentsline {paragraph}{Vérification de l'admissiblité de la semelle}{8}{section*.10}%

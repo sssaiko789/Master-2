@@ -1,0 +1,410 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+\usepackage{amsmath, amssymb}
+
+\usepackage{graphicx}
+\usepackage{caption}
+
+\usepackage{siunitx} % Pour les unités
+
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2.5cm, left=2cm, right=1.5cm}
+\setlength{\parindent}{0pt}
+
+
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+
+\usepackage{multicol}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{gray}}
+
+
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+
+
+\newcommand{\RomanNum}[1] %pour les chiffre romain
+{\MakeUppercase{\romannumeral #1}}
+
+
+\usepackage{chngcntr} % pour que \section{} recommence de 1 aprés \part{} 
+
+
+
+
+
+
+\title{Plasticité et endommagement}
+\author{}
+\date{\today}
+
+\begin{document}
+	
+	
+	\maketitle
+	
+	\tableofcontents
+	
+	\newpage
+	
+	
+	\counterwithin{section}{part} % pour que \section{} recommence de 1 aprés \part{}
+	
+	
+	
+	
+	\part{Chapitre \RomanNum{1} : Modéle ROBOTNOV}
+	
+	\section{Définition}
+	
+	On dit qu'un matériaux et vierge de tout endommagement si il est démunie de toute cavité et de fissures a l'échelle microscopique,
+	si le matériau 'a un coportement 'a la déformation identique a celui élaboré dans les meilleurs conditions de laboratoir.
+	
+	\section{Aspect phénoménologique}
+	
+	phénoménologique : Concerne l'étude des phénomènes qui se base sur l'observation des choses telles qu'elles nous apparaissent
+	
+	\vspace{\baselineskip}
+	
+	Aucune variable mécanique d'endommagement ne peut distinguer entre un matériaux forttement endommager et d'un autre légérement ou non endommager.
+	
+	\section{Objectif de la théorie d'endommagement}
+	
+	Est de crée une variable d'endommagement noté \textbf{"D"} qui perment de quantifier l'état de la détérioration.
+	
+	\vspace{\baselineskip}
+	
+	Les mesures a l'échelle de la microstructure \big(mesure de microfissure et de densité(cavité)\big) conduisant a des modules microscopique qu'on peut intégrer a l'échelle macroscopique a l'aide des technique mathématiques d'homogéinisation.
+	
+	\vspace{\baselineskip}
+	
+	Un autre type d'évaluation d'un endommagement d'un matériau qui est lié a la durée de vie résiduelle (ce qui lui reste a vivre)
+	mais ce concepte ne conduit pas directement a la notion de loi de comportement de l'endommagement.
+	
+	\vspace{\baselineskip}
+	
+	Les mesures physiques globales (résistance...) nécessite la définition d'un modéle globale pour les convertire au caractéres mécanique
+	
+	exemple :
+	
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\linewidth]{"figures/chapitre 1/courbe-exemple"}
+		\caption{exemple sur des courbes}
+		\label{fig:courbe-exemple}
+	\end{figure}
+	
+	
+	\section{Variable d'endommagement \textbf{"$D$"}}
+	
+	La notion de contrainte effective ou bien la section effective a etait élaboré et introduite par ROBOTNOV, elle permet de déterminer la variable d'endommagement "$D$".
+	
+	Soit l'aire d'une section d'un élément repérer par sa normale $ \vec{n}$ \textbf{\big( La normale est perpendiculaire a la section de la coupe \big)}
+	
+	Dans cette section les fissures et les vides qui constituent les dommages laisse des traces de divérse forme.
+	
+	\vspace{\baselineskip}
+	
+	Soit \textbf{$\overline{S}$} est la section effective qui résiste a l'effort. (sans vides ou fissurer (sans dommages))
+	
+	et \textbf{S} la section totale (avec des dommages)
+	
+	\[ \overline{S} \leq S \]
+	
+	$S_{p}$ La section totale des vides.
+	
+	\[ S_{p} = S-\overline{S} \]
+	
+	Par définition :
+	
+	\[ D_{\vec{n}} = \dfrac{S_{p}}{S} \quad \text{avec : } 0 \leq D_{\vec{n}} \leq 1 \]
+	
+	et $D_{\vec{n}}$ qui est la proportion des vides (pourcentage).
+	
+	\[ \text{Quand } D_{\vec{n}} \overset{\text{approche ou egale }}{\rightarrow} 1 \Rightarrow S_{p} \rightarrow S \Rightarrow \text{ Matériau trés endommager} \]
+	
+	\[ D_{\vec{n}} \rightarrow 0 \Rightarrow S_{p} \rightarrow 0 \Rightarrow \text{ Matériau non ou trés peu endommager} \]
+	
+	\[ D_{\vec{n}} \neq 0 \text{ Matériau endommager} \]
+	
+	En génerale quand $D_{\vec{n}} \leq 0.5$ on peut dire que la structue est récupérable ou bien non endommager.
+	
+	d'un point de vue physique la variable d'endommagement  est donc l'aire relative des vides coupé par la normale $\vec{n}$.
+	
+	\section{Hyphothése d'isopropie d'endommagement}
+	
+	\subsection{Définition d'isotropie}
+	
+	En science isotropie veut dire : qui a les mêmes propriétés dans toutes les directions.
+	
+	\subsection{L'hypothése}
+	
+	Lorsque la section des vides est la meme dans les deux sens c a d les fissures sont répartie uniformément dans les deux directions.
+	
+	\[ \forall \vec{n} \Rightarrow D_{\vec{n}} = D = \dfrac{S_{p}}{S}\]
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{"figures/chapitre 1/endommagement-isotrope"}
+		\caption{différence entre un endommagement normale et isotrope}
+		\label{fig:endommagement-isotrope}
+	\end{figure}
+	
+	
+	\section{Contrainte effective $\sigma_{eff}$}
+	
+	C'est la contrainte qui agit réellement sur la section endommager.
+	
+	Cette contrainte est calculé en divisant la force sur la section sans vides car y'as pas de contrainte dans les vides ou fissures.
+	
+	\[ \sigma_{eff} = \dfrac{F}{S_{eff}} \]
+	
+	\[ \sigma_{eff} \geq \sigma \quad\text{ et si : } \sigma_{eff} = \sigma \text{ alors la section n'est pas endommager} \]
+	
+	\subsection{Cas unidimensionnelle}
+	
+	Si F est la force appliquer \`{a} un élément de section S, $\sigma = \dfrac{F}{S}$ représente la contrainte usuelle qui satisfait les équations d'équilibre \big(c-a-d $\sum F_{ext} = 0$ et $\sum M/_{0} = 0$\big).
+	
+	\vspace{\baselineskip}
+	
+	Dans le cas unidimensionnelle la contrainte est un scalaire et non pas un vecteur et un exemple d'un cas tridimensionnelle la pression de l'eau.
+	
+	\vspace{\baselineskip}
+	
+	En présence d'un endommagement isotrope de variable "\textbf{D}" on aura :
+	
+	\[ D = \dfrac{S_{p}}{S} \rightarrow S_{p} = D \cdot S \]
+	
+	\[ \overline{S} = S - S_{p} \text{ Avec $\overline{S}$ étant la section résistante effective} \]
+	
+	\[ \Downarrow \]
+	
+	\[ \overline{S} = S - S \cdot D \]
+	
+	\[ \overline{S} = S \cdot (1-D) \]
+	
+	alors la contrainte effective sera :
+	
+	\[ \sigma_{eff} = \dfrac{F}{\overline{S}} = \dfrac{F}{S \cdot (1-D)} = \dfrac{\dfrac{F}{S}}{\dfrac{S \cdot (1-D)}{S}} = \dfrac{\sigma}{1 - D} \]
+	
+	\[ \fbox{$\sigma_{eff} = \dfrac{\sigma}{1-D}$ \qquad avec $\sigma_{eff} \geq \sigma$ } \]
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Dans le cas non isotrope on doit \'{e}tudier l'endommagement dans les deux sens.
+	\end{tcolorbox}
+	
+	
+	\subsection{Cas tridimensionnelle (Isotrope)}
+	
+	Dans le cas d'un chargement tridimensionnelle d'un matériau endommager il suffit d'appliquer l'opérateur (1 - D) \`{a} chaque composante de la contrainte usuelle.
+	
+	\[
+	\sigma_{eff} \rightarrow
+	\begin{cases}
+		\sigma_{x \: eff} = \dfrac{\sigma_{x}}{1 - D} \\ \\
+		\sigma_{y \: eff} = \dfrac{\sigma_{y}}{1 - D} \\ \\
+		\sigma_{z \: eff} = \dfrac{\sigma_{z}}{1 - D}
+	\end{cases}
+	\]
+	
+	
+	\section{Hypothése d'équilibre en déforamtion}
+	
+	En suppose que le comportement a la déformation d'un matériau  $\overset{\text{ne pas \^{e}tre}}{\text{n'est affécter par}}$ l'endommagement que sous la seul forme de la contrainte effective.
+	
+	\vspace{\baselineskip}
+	
+	En d'autres termes le comportement \`{a} la déformation unidimensionnelle ou tridimensionnelle d'un matériau endommager est traduit par les m\^{e}me loi de comportement appliquer au matériau non endommager a condition de changer la contrainte usuelle par la contrainet effective.
+	
+	\vspace{\baselineskip}
+	
+	\paragraph{Exemple }:
+	
+	\[ \sigma = \varepsilon \cdot E \quad(\text{ NON endommager}) \]
+	
+	\[ \text{deviendra} \]
+	\[ \downarrow \]
+	
+	\[ \sigma_{eff} = \varepsilon_{eff} \cdot E \quad(\text{ Endommager}) \]
+	\vspace{1cm}
+	
+	
+	\section{Endommagement critique de rupture $D_{c}$}
+	
+	\subsection{Rupture}
+	
+	La rupture d’un matériau désigne le moment où il se casse, c’est-à-dire le point où il ne peut plus supporter les contraintes qu’on lui applique (tension, compression, flexion, cisaillement, etc.).
+	
+	\vspace{\baselineskip}
+	
+	En d'autre terme la rupture d’un matériau est la séparation d’un corps en deux ou plusieurs parties sous l’effet d’un effort mécanique.
+	
+	\subsection{Endommagement critique $D_{c}$}
+	
+	L’endommagement critique ($D_{c}$) est la valeur de la variable d’endommagement à partir de laquelle la rupture se produit.
+	
+	
+	Autrement dit :
+	
+	
+	C’est le seuil où le matériau ne peut plus supporter la charge il cède.
+	
+	\vspace{\baselineskip}
+	
+	En appliquant la notion de la contrainte effective  a la rupture par décohésion inter-atomique on définie la valeur critique de la variable d'endommagement noté "$D_{c}$".
+	
+	\vspace{\baselineskip}
+	
+	On a :
+	
+	$\sigma_{u} \rightarrow$ La contrainte juste avant la rupture (contrainte ultime).
+	
+	$\sigma_{u \: eff} \rightarrow$ La contrainte ultime réelle appliquer sur la surface endommager.
+	
+	\[ \sigma_{u \: eff} = \dfrac{\sigma_{u}}{1 - D} \]
+	
+	\[ \text{Comme c'est dans un \^{e}tat critique alors on aura finalement : } \]
+	
+	\[ \sigma_{u \: eff} = \dfrac{\sigma_{u}}{1 - D_{c}} \]
+	
+	\[ \Downarrow \]
+	
+	\[ \fbox{$D_{c} = 1 - \dfrac{\sigma_{u}}{\sigma_{u \: eff}}$} \qquad avec \quad \sigma_{u \: eff} \geq \sigma_{u} \]
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		$D_{c}$ varie de 0,5 a 0,9
+		
+		\vspace{\baselineskip}
+		$D_{c}$ ne peut pas \^{e}tre égale a 1 parce qu'a la rupture les contrainte n'éxiste plus et le matériau est peut étre totalement séparer donc on peut plus parler de dommage ou de rupture.
+	\end{tcolorbox}
+	
+	\vspace{\baselineskip}
+	\vspace{\baselineskip}
+	
+	
+	
+	
+	
+	\section{Application}
+	
+	Soit une section rectangulaire de section 30 $\times$ 40$~\unit{cm}$ suite a un séisme la section a subit une perte de 15\%.
+	
+	On suppose que toute les fissures sont identique dans les 2 direction (Isotrope).
+	
+	Determiner la variable d'endommagement D et $D_{c}$ (critique) si la résistance a la rupture est de $\sigma_{u} = 20~\unit{MPa}$  et la résistance ultime effective est de $\sigma_{u \: eff} = 25~\unit{\mega \pascal}$
+	
+	Faire une conclusion.
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		\[
+		\sigma = \dfrac{F}{S} \longrightarrow
+		\begin{cases}
+			\text{Si  } S \searrow \text{  Alors  } \sigma \nearrow \\ \\
+			\text{Si  } S \nearrow \text{  Alors  } \sigma \searrow
+		\end{cases}
+		\]
+		Donc la section avec vide aura une plus grande contrainte
+	\end{tcolorbox}
+	
+	
+	\vspace{\baselineskip}
+	
+	Comme les fissures sont identique dans les deux direction alors l'endommagement est isotrope.
+	
+	\[ D_{\vec{n}} = D = \dfrac{S_{p}}{S} \quad \text{ et } \quad S = 30 \cdot 40 = 1200~\unit{cm^{2}} ;\qquad S_{p} = 15\% \cdot 1200 = 180~\unit{cm^{2}}\]
+	
+	\[ D = \dfrac{180}{1200} = 0,15 \]
+	
+	\[ D_{c} = 1 - \dfrac{\sigma_{u}}{\sigma_{u \: eff}} = 1 - \dfrac{20}{25} = 0,2 \]
+	
+	En conclusion on peut dire que notre matériau est légérment endommager et ca résistance est faible car $D_{c} = 0,2$
+	
+	{\hspace{0.45\textwidth} \Huge ????}
+	
+	
+	
+	
+	
+	
+	
+	\newpage
+	
+	
+	
+	\part{Chapitre \RomanNum{2} : Modéle MAZARS}
+	
+	
+	
+	
+	\section{Définition}
+	
+	Le modéle de comportement de Mazars est un modéle (simple) réputé robuste basée sur la mécanique de l'endommagement qui permet de décrire la dimunition de la rigidité d'un matériau sous l'effetde la création de fissure ou de cavité.
+	
+	Il s'appuie sur une seule variable \textbf{"D"} (Varibale d'endommagement) est d'écrivant d'une maniére \underline{isotrope} l'endommagement de l'élément.
+	
+	\vspace{\baselineskip}
+	
+	Le modéle de Mazars contrairement au modéle de Robtnov distingue l'endommagement a la traction de l'endommagement a la compression noté : $D_{T}$ et $D_{C}$, donc l'endommagement sera une combinaison de $D_{T}$ et de $D_{C}$ \big($D = f(D_{T},D_{C})$\big).
+	
+	\vspace{\baselineskip}
+	
+	$D_{T}$ : L'endommagement a la traction.
+	
+	$D_{C}$ : L'endommagement a la compression.
+	
+	\vspace{\baselineskip}
+	
+	Le modéle de Mazars \underline{ne prend pas} en considération les éventuelle déformations plastique au bien visquese qui peuvent être absorbée lors des déformations du béton.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}

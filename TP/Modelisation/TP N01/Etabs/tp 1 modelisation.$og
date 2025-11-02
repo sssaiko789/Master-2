@@ -1,0 +1,69 @@
+                                                                                
+                                                                                
+ B E G I N   A N A L Y S I S                                2025/10/20  19:38:51
+                                                                                
+                                                                                
+ E L E M E N T   F O R M A T I O N                                      19:38:51
+
+
++NUMBER OF JOINT  ELEMENTS FORMED          =           9                        
+
++NUMBER OF SPRING ELEMENTS FORMED          =           0                        
+                                                                                
++Frame  element       0 of       8                                              
++Frame  element       8 of       8                                              
++NUMBER OF FRAME  ELEMENTS FORMED          =           8                        
+                                                                                
+                                                                                
+ E Q U A T I O N   S O L U T I O N                                      19:38:51
+                                                                                
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =           7                        
+ APPROXIMATE "EFFECTIVE" BAND WIDTH        =           1                        
+                                                                                
+ NUMBER OF EQUATION STORAGE BLOCKS         =           1                        
+ MAXIMUM BLOCK SIZE (8-BYTE TERMS)         =          13                        
+ SIZE OF STIFFNESS FILE(S) (BYTES)         =         148 B                      
+                                                                                
+ NUMBER OF EQUATIONS TO SOLVE              =           7                        
+ NUMBER OF STATIC LOAD CASES               =           3                        
+ NUMBER OF ACCELERATION LOADS              =           6                        
+ NUMBER OF NONLINEAR DEFORMATION LOADS     =           0                        
+                                                                                
+                                                                                
+ E I G E N   A N A L Y S I S                                            19:38:52
+                                                                                
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =           7                        
+ NUMBER OF MASS DEGREES OF FREEDOM         =           0                        
+ NUMBER OF EIGEN MODES SOUGHT              =          12                        
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0                        
+ NUMBER OF SUBSPACE VECTORS USED           =           0                        
+                                                                                
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-07                        
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000                        
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =     .000000                        
+                                                                                
+ * * * W A R N I N G * * *                                                      
+ THE STRUCTURE HAS NO (UNRESTRAINED) MASS; NO EIGEN MODES CAN BE FOUND          
+                                                                                
+                                                                                
+                                                                                
+ J O I N T   O U T P U T                                                19:38:52
+                                                                                
+                                                                                
+ E L E M E N T   J O I N T - F O R C E   O U T P U T                    19:38:52
+
+                                                                                
++Joint  element       0 of       9                                              
++Joint  element       9 of       9                                              
++NUMBER OF JOINT  ELEMENTS SAVED           =           9                        
+                                                                                
++Frame  element       0 of       8                                              
++Frame  element       8 of       8                                              
++NUMBER OF FRAME  ELEMENTS SAVED           =           8                        
+                                                                                
+                                                                                
+ E L E M E N T   O U T P U T                                            19:38:52
+
+                                                                                
+                                                                                
+ A N A L Y S I S   C O M P L E T E                          2025/10/20  19:38:52

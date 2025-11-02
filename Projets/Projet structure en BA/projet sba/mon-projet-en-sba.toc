@@ -1,0 +1,20 @@
+\babel@toc {french}{}\relax 
+\contentsline {part}{I\hspace {1em}Chapitre \MakeUppercase []{i}}{2}{part.1}%
+\contentsline {section}{\numberline {I.1}Présentation et descrpition de l'ouvrage}{2}{section.1.1}%
+\contentsline {section}{\numberline {I.2}Caractéristique des matériaux}{2}{section.1.2}%
+\contentsline {section}{\numberline {I.3}Pré-dimensionnement}{2}{section.1.3}%
+\contentsline {subsection}{\numberline {I.3.1}Pré-dimensionnement du plancher}{2}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {I.3.2}Pré-dimensionnement des poutres}{2}{subsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {I.3.2.1}Hauteur de la poutre}{2}{subsubsection.1.3.2.1}%
+\contentsline {subsubsection}{\numberline {I.3.2.2}Largeur de la poutre}{3}{subsubsection.1.3.2.2}%
+\contentsline {subsubsection}{\numberline {I.3.2.3}Dimensions retenues de la poutre}{3}{subsubsection.1.3.2.3}%
+\contentsline {subsection}{\numberline {I.3.3}Pré-dimensionnement des voiles}{3}{subsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {I.3.3.1}Étage courant}{3}{subsubsection.1.3.3.1}%
+\contentsline {subsubsection}{\numberline {I.3.3.2}RDC}{3}{subsubsection.1.3.3.2}%
+\contentsline {subsection}{\numberline {I.3.4}Pré-dimensionnement des pouteaux}{4}{subsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {I.3.4.1}Calcul decente des charges}{4}{subsubsection.1.3.4.1}%
+\contentsline {paragraph}{Plancher terrasse inaccessible}{4}{section*.3}%
+\contentsline {paragraph}{Plancher courant}{5}{section*.4}%
+\contentsline {subsubsection}{\numberline {I.3.4.2}Calculs des sections des poteaux}{7}{subsubsection.1.3.4.2}%
+\contentsline {paragraph}{Poteaux du RDC, $1^{er}$ et $2^{eme}$ étages}{8}{section*.6}%
+\contentsline {paragraph}{Poteaux du $3^{er}$ jusqu'a la terrasse}{8}{section*.7}%

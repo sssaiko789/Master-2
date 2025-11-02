@@ -1,0 +1,102 @@
+                                 E T A B S (R)                                  
+
+                                 Version 9.6.0.0                                
+
+                            Copyright (C) 1984-2009                             
+                         COMPUTERS AND STRUCTURES, INC.                         
+                              All rights reserved                               
+
+                 This copy of ETABS is for the exclusive use of                 
+
+                                  THE LICENSEE                                  
+
+           Unauthorized use is in violation of Federal copyright laws           
+
+               It is the responsibility of the user to verify all               
+                        results produced by this program                        
+
+                             20 Oct 2025  19:38:51                              
+ Program ETABS Version 9.6.0.0                        File:tp 1 modelisation.OUT
+                                                                            Page
+                                                                               1
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+       1               -   -   -   -   -   -
+       2 TO       8    -   -   -       A    
+       9               -   -   -   -   -   -
+ Program ETABS Version 9.6.0.0                        File:tp 1 modelisation.OUT
+                                                                            Page
+                                                                               2
+
+ A S S E M B L E D   J O I N T   M A S S E S
+
+ IN GLOBAL COORDINATES
+
+   JOINT          UX          UY          UZ          RX          RY          RZ
+       1    0.220350    0.220350     .000000     .000000     .000000     .000000
+       2    0.440700    0.440700     .000000     .000000     .000000     .000000
+       3    0.389850    0.389850     .000000     .000000     .000000     .000000
+       4    0.339000    0.339000     .000000     .000000     .000000     .000000
+       5    0.339000    0.339000     .000000     .000000     .000000     .000000
+       6    0.339000    0.339000     .000000     .000000     .000000     .000000
+       7    0.389850    0.389850     .000000     .000000     .000000     .000000
+       8    0.440700    0.440700     .000000     .000000     .000000     .000000
+       9    0.220350    0.220350     .000000     .000000     .000000     .000000
+
+
+ T O T A L   A S S E M B L E D   J O I N T   M A S S E S
+
+ IN GLOBAL COORDINATES
+
+                  UX          UY          UZ          RX          RY          RZ
+   TOTAL    3.118800    3.118800     .000000     .000000     .000000     .000000
+
+
+ T O T A L   A C C E L E R A T E D   M A S S   A N D   L O C A T I O N
+
+ TOTAL MASS ACTIVATED BY ACCELERATION LOADS, IN GLOBAL COORDINATES
+
+                  UX          UY          UZ
+    MASS     .000000     .000000     .000000
+   X-LOC     .000000     .000000     .000000
+   Y-LOC     .000000     .000000     .000000
+   Z-LOC     .000000     .000000     .000000
+ Program ETABS Version 9.6.0.0                        File:tp 1 modelisation.OUT
+                                                                            Page
+                                                                               3
+
+ G L O B A L   F O R C E   B A L A N C E
+
+ TOTAL FORCE AND MOMENT AT THE ORIGIN, IN GLOBAL COORDINATES
+
+ LOADG        ------------------    
+
+                  FX          FY          FZ          MX          MY          MZ
+ APPLIED     .000000     .000000 -128.961000     .000000    1779.662     .000000
+ REACTNS     .000000     .000000  128.961000     .000000   -1779.662     .000000
+
+   TOTAL     .000000     .000000     .000000     .000000    2.27E-13     .000000
+
+ LOADQ        ------------------    
+
+                  FX          FY          FZ          MX          MY          MZ
+ APPLIED     .000000     .000000  -71.760000     .000000  990.288000     .000000
+ REACTNS     .000000     .000000   71.760000     .000000 -990.288000     .000000
+
+   TOTAL     .000000     .000000   -1.42E-14     .000000   -3.41E-13     .000000
+
+ LOADTRIBUTAR ------------------    
+
+                  FX          FY          FZ          MX          MY          MZ
+ APPLIED     .000000     .000000     .000000     .000000     .000000     .000000
+ REACTNS     .000000     .000000     .000000     .000000     .000000     .000000
+
+   TOTAL     .000000     .000000     .000000     .000000     .000000     .000000
