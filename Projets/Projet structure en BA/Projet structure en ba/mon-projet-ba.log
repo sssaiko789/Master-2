@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  31 OCT 2025 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  3 NOV 2025 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./mon-projet-en-sba.tex
-(mon-projet-en-sba.tex
+**./mon-projet-ba.tex
+(mon-projet-ba.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -906,72 +906,57 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks47
 \@floatcapt=\box134
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
-eys2e.sty
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-01-18 L3 programming layer (loader) 
-
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count365
 \l__pdf_internal_box=\box135
-))
-Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
-)
-Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count366
-\l__lipsum_a_int=\count367
-\l__lipsum_b_int=\count368
-
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
-(mon-projet-en-sba.aux
+) (mon-projet-ba.aux
 Package babel Info: 'french' activates 'french' shorthands.
 (babel)             Reported  on input line 12.
 )
-\openout1 = `mon-projet-en-sba.aux'.
+\openout1 = `mon-projet-ba.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Info: Redefining \degres on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Info: Redefining \degres on input line 60.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 70.
+(french.ldf)             reported on input line 60.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 70.
-LaTeX Info: Redefining \up on input line 70.
+(french.ldf)             reported on input line 60.
+LaTeX Info: Redefining \up on input line 60.
 
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count369
+\scratchcounter=\count366
 \scratchdimen=\dimen314
 \scratchbox=\box136
-\nofMPsegments=\count370
-\nofMParguments=\count371
+\nofMPsegments=\count367
+\nofMParguments=\count368
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count372
+\MPscratchCnt=\count369
 \MPscratchDim=\dimen315
-\MPnumerator=\count373
-\makeMPintoPDFobject=\count374
+\MPnumerator=\count370
+\makeMPintoPDFobject=\count371
 \everyMPtoPDFconversion=\toks49
 )
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -995,7 +980,7 @@ File: translations-basic-dictionary-french.trsl (french translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 70.
+or `french'. on input line 60.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1006,14 +991,14 @@ or `french'. on input line 70.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
-* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 717.00946pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=426.79135pt
-* \textheight=702.78308pt
+* \textheight=717.00946pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
-* \topmargin=-38.1381pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -1031,10 +1016,10 @@ or `french'. on input line 70.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 70.
-(mon-projet-en-sba.out) (mon-projet-en-sba.out)
+Package hyperref Info: Link coloring OFF on input line 60.
+(mon-projet-ba.out) (mon-projet-ba.out)
 \@outlinefile=\write4
-\openout4 = `mon-projet-en-sba.out'.
+\openout4 = `mon-projet-ba.out'.
 
 
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
@@ -1050,19 +1035,27 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-(mon-projet-en-sba.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+(mon-projet-ba.toc
+Overfull \hbox (3.30475pt too wide) detected at line 7
+\T1/cmr/bx/n/12 II.1 
+ []
 
+
+Overfull \hbox (3.30475pt too wide) detected at line 8
+\T1/cmr/bx/n/12 II.2 
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
 
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write5
-\openout5 = `mon-projet-en-sba.toc'.
+\openout5 = `mon-projet-ba.toc'.
 
 
 
@@ -1071,70 +1064,39 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/jamal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 [2]
-Overfull \hbox (19.68062pt too wide) detected at line 182
-[] [] \OMS/cmsy/m/n/12 ^^T \OT1/cmr/m/n/12 4 [][]\OMS/cmsy/m/n/12 ! \OT1/cmr/m/
-n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4 \OML/cmm/m/it/12 < \OT1/cmr/m/n/12 4
-[]
- []
 
-<figures/plancher reprie par poteau.png, id=102, 564.4287pt x 542.9886pt>
-File: figures/plancher reprie par poteau.png Graphic file (type png)
-<use figures/plancher reprie par poteau.png>
-Package pdftex.def Info: figures/plancher reprie par poteau.png  used on input 
-line 260.
-(pdftex.def)             Requested size: 298.75264pt x 287.40974pt.
-
-
-[3]
-
-[4 <./figures/plancher reprie par poteau.png>]
-
-[5]
-<figures/charge-des-planchers.png, id=121, 237.13594pt x 496.10344pt>
-File: figures/charge-des-planchers.png Graphic file (type png)
-<use figures/charge-des-planchers.png>
-Package pdftex.def Info: figures/charge-des-planchers.png  used on input line 4
-26.
-(pdftex.def)             Requested size: 213.39568pt x 446.45111pt.
-
-
-[6]
-
-[7 <./figures/charge-des-planchers.png>]
-
-[8] (mon-projet-en-sba.aux)
+[3] (mon-projet-ba.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `mon-projet-en-sba.out' has not changed.
-(rerunfilecheck)             Checksum: FB65EDE0513EEF3BB30E65698CB6C363;2919.
+Package rerunfilecheck Info: File `mon-projet-ba.out' has not changed.
+(rerunfilecheck)             Checksum: C22A60C7389DF774CE12F4DE74999DF5;1545.
  ) 
 Here is how much of TeX's memory you used:
- 32065 strings out of 473523
- 665158 string characters out of 5714631
- 1090707 words of memory out of 5000000
- 54788 multiletter control sequences out of 15000+600000
- 571734 words of font info for 67 fonts, out of 8000000 for 9000
+ 31573 strings out of 473523
+ 652920 string characters out of 5714631
+ 990618 words of memory out of 5000000
+ 54330 multiletter control sequences out of 15000+600000
+ 570414 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,20n,101p,434b,1156s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc
-1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx2488.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecrm1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/jamal/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jamal/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jamal/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jamal
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Use
-rs/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-<C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb>
-Output written on mon-projet-en-sba.pdf (8 pages, 249446 bytes).
+ 98i,9n,101p,430b,1034s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
+2488.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecbx1440.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/jamal/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jamal/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jamal/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jamal/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jam
+al/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Us
+ers/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb>
+Output written on mon-projet-ba.pdf (3 pages, 125369 bytes).
 PDF statistics:
- 366 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 

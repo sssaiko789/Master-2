@@ -1,0 +1,206 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+\usepackage{amsmath, amssymb}
+
+\usepackage{graphicx}
+\usepackage{caption}
+
+\usepackage{siunitx} % Pour les unités
+
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2.5cm, left=3cm, right=3cm}
+\setlength{\parindent}{0pt}
+
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+
+\usepackage{multicol}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{gray}}
+
+\usepackage{tcolorbox}
+
+
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+
+\newcommand{\RomanNum}[1] %pour les chiffre romain
+{\MakeUppercase{\romannumeral #1}}
+
+
+
+
+
+
+
+
+
+
+
+\title{Mon projet structure en BA V2}
+\author{}
+\date{\today}
+
+\begin{document}
+	\counterwithin{section}{part} % pour que \section{} recommence de 1 aprés \part{}
+	
+	
+	\tableofcontents
+	
+	\newpage
+	
+	
+	
+	\part{Présentation et généralités}
+	
+	\section{Introduction}
+	
+	\section{Présentation de l'ouvrage}
+	
+	\section{Caractéristique des matériaux}
+	
+	
+	
+	
+	\part{Prédimensionnement des éléments}
+	
+	Dans ce chapitre les éléments prédimensionné sont :
+	
+	\begin{itemize}
+		\item Poteaux, poutres.
+		\item Plancher.
+		\item Voiles.
+		\item Balcon.
+		\item Escalier.
+		\item Acrotére.
+	\end{itemize}
+	
+	
+	\section{Prédimensionnement du plancher}
+	
+	Il existe deux type de plancher en corps creux un 16(corps creux)+4(dalle de compression) et un 20+5.
+	
+	\[ H_{p} = \dfrac{L_{\max}}{22,5} \]
+	
+	Avec :
+	
+	$H_{p}$ : la hauteur du plancher.
+	
+	$L_{\max}$ : La plus grande travée (plus grande distance entre nue d'appuies).
+	
+	
+	
+	\[ \begin{cases}
+		\text{si  } H_{p} < 16+4 = 20~\unit{cm} \text{  alors on choisie un plancher en 16+4} \\\\
+		\text{sinon si  } 16+4 < H_{p} < 20+5 \text{  alors on va opter pour un plancher en 25 cm} 
+	\end{cases} \]
+	
+	
+	
+	\[ H_{p} = \dfrac{440}{22,5} = 19,55 ~\unit{cm} < 20 ~\unit{cm} \]
+	
+	Donc un plancher de 16+4=20 cm.
+	
+	
+	\section{Prédimensionnment des poutres}
+	
+	Comme le plancher est en corps creux donc on aura deux type de poutre des poutres principale et d'autre secondaire.
+	
+	\vspace{\baselineskip}
+	
+	Ce que impose le réglement parassismique algérien (RPA 99 version 2003).
+	
+	Dans l'article 7.5.1 on a pour le coffrage : 
+	
+	\begin{equation}
+		\begin{aligned}
+			b& \geq 20 ~\unit{cm} \\
+			h& \geq 30 ~\unit{cm} \\
+			\dfrac{h}{b}& \leq 4 \\
+			b_{max}& \leq 1,5\cdot h + b
+		\end{aligned}
+		\label{RPA coffrage des poutres}
+	\end{equation}
+	
+	
+	\vspace{\baselineskip}
+	
+	\subsection{Hauteur}
+	
+	\[ \dfrac{L_{\max}}{15} \leq h \leq \dfrac{L_{\max}}{10} \]
+	
+	
+	
+	
+	
+	\[ \dfrac{440}{15} \leq h \leq \dfrac{440}{10} \]
+	
+	\[ 29,33 ~\unit{cm} \leq h \leq 44 ~\unit{cm} \]
+	
+	Finalement on opte pour :
+	
+	\[ h = 35 ~\unit{cm} \]
+	
+	\subsection{Largeur}
+	
+	\[ 0,4 \cdot h \leq b \leq 0,7 \cdot h \]
+	
+	\[ 14 ~\unit{cm} \leq b \leq 24,5 ~\unit{cm} \]
+	
+	On prend :
+	
+	\[ b = 20 ~\unit{cm} \]
+	
+	\[ \dfrac{h}{b} = \dfrac{35}{20} = 1,75 < 4 \] 
+	
+	{\centering Donc aucun risque de deversement. \par}
+	
+	\[ b_{\max} \leq 1,5 \cdot 35 + 20 = 72,5 ~\unit{cm} \]
+	
+	{\centering Condition vérifiée. \par} 	
+	
+	
+	
+	\vspace{\baselineskip}
+	
+	Dimensions retenue : 
+	
+	\[ \fbox{$h=35 ~\unit{cm} \quad ; \quad b=20 ~\unit{cm}$} \]
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}
