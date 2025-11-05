@@ -44,6 +44,7 @@
 {\MakeUppercase{\romannumeral #1}}
 
 
+\numberwithin{equation}{section}
 
 
 
@@ -70,7 +71,7 @@
 	\part{Présentation et généralités}
 	
 	\section{Introduction}
-	
+	\section{rst}
 	\section{Présentation de l'ouvrage}
 	
 	\section{Caractéristique des matériaux}
@@ -120,7 +121,7 @@
 	
 	\section{Prédimensionnment des poutres}
 	
-	Comme le plancher est en corps creux donc on aura deux type de poutre des poutres principale et d'autre secondaire.
+	Comme le plancher est en corps creux donc on aura deux type de poutre, des poutres principale, d'autre secondaire.
 	
 	\vspace{\baselineskip}
 	
@@ -187,15 +188,211 @@
 	
 	
 	
+	\subsection{Prédimensionnement des poteaux}
+	
+	Pour pouvoir prédimensionner les poteaux on doit connaitre la charge revenant au poteau, et chaque poteau reprend la moitié des charges des poutres, la poutre reprend la moitié du plancher et ses charges reposant sur cette dernière.
+	
+	\vspace{\baselineskip}
+		
+	On dimensionne uniquement le poteau le plus sollicité, donc celui qui reprend le plus de charge (surface), qui n'est autre que le poteau XX : 
+	
+
+	{\huge \textcolor{red}{figure} \par}
+	
+	
+	
+	Une fois que les charges F revenant au poteau sont connues, on prédimensionne de cette sorte : 
+	
+	\[ \sigma=\dfrac{F}{S} \quad\leq\quad \overline{\sigma}_{b}=0,Ê\cdot f_{c28} \]
+	
+	Avec : $F=G+Q$, et $S=a\cdot b$ étant la surface du poteau.
+	
+	$\overline{\sigma}_{b} = 0,6 \cdot 25 = 15 ~\unit{MPa} = 15 \cdot 10^{3} ~\unit{kN\per m^{2}}$
+	
+		
+	 
+	
+	
+	\subsubsection{Calcul de la descente des charges}
+	
+	
+	Pour résumer, on aura : La charge d'exploitation + Poids du plancher + Poids propre des poutres + Poids propre du poteau.
+	
+	
+	
+	\paragraph{Surcharge d'exploitation} :
+	
+	\begin{itemize}
+		\item Plancher terrasse : $Q = 1~\unit{kN\per m^{2}}$
+		\item Plancher courant : $Q = 1,5~\unit{kN\per m^{2}}$
+		\item Escalier : $Q = 2,5~\unit{kN\per m^{2}}$
+		\item Balcon : $Q = 3,5~\unit{kN\per m^{2}}$
+	\end{itemize}
+	
+	
+	\paragraph{Poids du plancher} :
+	\begin{itemize}
+		
+	\item La surface du plancher : $S_{plancher} = 2 \cdot 2,1 \cdot (1,8 + 1,9) = 15,54 ~\unit{m^{2}}$
+	
+	\item Poids du béton armé : $\rho_{ba} = 25 ~\unit{kN\per m^{2}}$
+	
+	\end{itemize}
+	
+	
+	
+	\subparagraph{Plancher terrasse inaccessible} :
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.2\linewidth]{figures/Chapitre-1/elements-plancher}
+		\caption{Éléments d'un plancher terrase innaccesible}
+		\label{fig:elements-plancher}
+	\end{figure}
+	
+	
+	\begin{itemize}
+		\item Enduit platre = $0,2~\unit{kN\per m^{2}}$
+		\item Hourdis + Dalle de copression = $2,8~\unit{kN\per m^{2}}$
+		\item Isolation thermique = $0,16~\unit{kN\per m^{2}}$
+		\item Feuille de polyne = $0,01~\unit{kN\per m^{2}}$
+		\item Forme de pente en béton = $1,54~\unit{kN\per m^{2}}$
+		\item Feuille de pax (étanchiéter multi couche) = $0,12~\unit{kN\per m^{2}}$
+		\item Couche de gravier = $0,85~\unit{kN\per m^{2}}$
+	\end{itemize}
+	
+	\[ g = 0,2+2,8+0,16+0,01+... = 5,68~\unit{kN\per m^{2}} \]
+	
+	
+	\[ \fbox{$G_{plancher\, T} = 15,54 \cdot 5,68 = 88,267 ~\unit{kN}$} \]
+	
+	
+	\subparagraph{Plancher courant} :
+	
+	Pour le placher courant on aura le sable pour revétement, l'isolation phonique et le carlage.
+	
+	\begin{itemize}
+		\item Enduit = $0,4~\unit{kN\per m^{2}}$
+		\item Hourdis + Dalle de copression = $2,8~\unit{kN\per m^{2}}$
+		\item Cloison en brique = $0,9~\unit{kN\per m^{2}}$
+		\item Isolation phonique = $0,1~\unit{kN\per m^{2}}$
+		\item Couche de sable = $0,36~\unit{kN\per m^{2}}$
+		\item Mortier de pose = $0,44~\unit{kN\per m^{2}}$
+		\item Carrelage = $0,4~\unit{kN\per m^{2}}$
+	\end{itemize}
+	
+	\[ g = 0,4 + 2,8 + 0,9 + 0,1 +... = 5,4~\unit{kN\per m^{2}} \]
+	
+	
+	\[ \fbox{$G_{plancher\, C} = 15,54 \cdot 5,4 = 83,916 ~\unit{kN}$} \]
+	
+	
+	
+	\paragraph{Poids propre des poutres} :
+	
+	\[ G_{poutres} = 25 \cdot 0,2 \cdot 0,35 \cdot (2 \cdot 2,1 + (1,9 + 1,8)) \]
+	
+	\[ \fbox{$G_{poutres} = 13,825 ~\unit{kN}$} \]
+	
+	
+	\paragraph{Poids propre d'un poteau} :
+	
+	Nous avons la hauteur de tout les poteaux égale a 3 m, et on suppose que la section des poteaux est de $35 ~\unit{cm} \times 35 ~\unit{cm}$.
+	
+	
+	\[ G_{poteau} = 25 \cdot 0,35 \cdot 0,35 \cdot 3 \]
+	
+	\[ \fbox{$G_{poteau} = 9,187 ~\unit{kN}$} \]
+	
+	
+	
+	\vspace{\baselineskip}
+	
+	
+	
+	\paragraph{La charge F}:
+	
+	
+	\subparagraph{Plancher terasse incassesible}:
+	
+	
+	\begin{minipage}{0.3\textwidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.7\linewidth]{figures/Chapitre-1/charges-dimension}
+			\caption{Vue d'en face du plancher}
+			\label{fig:charges-dimension}
+		\end{figure}
+		
+	\end{minipage}
+	\begin{minipage}{0.7\textwidth}
+		\[ G = G_{plancher\, T} + G_{poutres} + G_{poteau} = 88,267 + 13,825 + 9,187 = 111,28 ~\unit{kN} \]
+		
+		\[ Q = 15,54 \cdot 1 = 15,54 ~\unit{kN} \]
+		
+		\[ \fbox{$F_{terrasse} = G + Q = 126,82 ~\unit{kN}$} \]
+	\end{minipage}
 	
 	
 	
 	
 	
+	\subparagraph{Plancher courant}:
+	
+	
+	\begin{minipage}{0.3\textwidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.7\linewidth]{figures/Chapitre-1/charges-dimension}
+			\ref{fig:charges-dimension}
+		\end{figure}
+		
+	\end{minipage}
+	\begin{minipage}{0.7\textwidth}
+		\[ G = G_{plancher\, C} + G_{poutres} + G_{poteau} = 83,916 + 13,825 + 9,187 = 106,93 ~\unit{kN} \]
+		
+		\[ Q = 15,54 \cdot 1,5 = 23,31 ~\unit{kN} \]
+		
+		\[ \fbox{$F_{courant} = G + Q = 130,24 ~\unit{kN}$} \]
+	\end{minipage}
 	
 	
 	
+	\paragraph{Dimensionnement}:
 	
+	Comme notre bâtiment et composée uniquement de 4 étages on dimensionne uniquement le poteau du RDC qui sera le plus sollicité.
+	
+	\[ S \geq \dfrac{F}{\overline{\sigma}}_{b} \]
+	
+	\[ F_{RDC} = 1 \times F_{terasse} + 4 \times F_{courant} = 126,82 + 4 \cdot 130,24 = 647,78 ~\unit{kN} \]
+	
+	\vspace{\baselineskip}
+	
+	\[ S \quad\geq\quad \dfrac{647,78}{15 \cdot 10^{3}} = 0,0432 ~\unit{m^{2}} = 432 ~\unit{cm^{2}} \]
+	
+	
+	Selon le RPA : les dimension minimale des poteaux est en fonction des zones sismique :
+	
+	\begin{minipage}[t]{0.6\textwidth}
+		\vspace{-2cm}
+		\begin{equation}
+			\begin{split}
+				\min(a, b) &\geq 25~\unit{cm} \text{  en zones 	$\RomanNum{1}$ et $\RomanNum{2}$a } \\
+				\min(a, b) &\geq 30~\unit{cm} \text{  en zones 	$\RomanNum{2}$b et $\RomanNum{3}$}
+			\end{split}
+			\label{dtr:RPA prédimensionnement poutre}
+		\end{equation}
+	\end{minipage}\hfill
+	\begin{minipage}[b]{0.3\textwidth}
+		\includegraphics[width=0.5\linewidth]{figures/chapitre-1/section-ab-rpa}
+	\end{minipage}
+	
+	\vspace{\baselineskip}
+	
+	Comme l'ouvrage ce trouve en zone \RomanNum{2}a on pose $a = b = 25 ~\unit{cm}$
+	
+	
+	\[ 25 \cdot 25 = 625 ~\unit{cm^{2}} \quad > \quad 432 ~\unit{cm^{2}} \quad \text{Condition vérifier} \]
 	
 	
 	

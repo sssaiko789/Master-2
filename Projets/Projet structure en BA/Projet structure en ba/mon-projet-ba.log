@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  3 NOV 2025 23:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  5 NOV 2025 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -917,32 +917,32 @@ Package babel Info: 'french' activates 'french' shorthands.
 )
 \openout1 = `mon-projet-ba.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Info: Redefining \degres on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Info: Redefining \degres on input line 61.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 60.
+(french.ldf)             reported on input line 61.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 60.
-LaTeX Info: Redefining \up on input line 60.
+(french.ldf)             reported on input line 61.
+LaTeX Info: Redefining \up on input line 61.
 
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -980,7 +980,7 @@ File: translations-basic-dictionary-french.trsl (french translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 60.
+or `french'. on input line 61.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1016,7 +1016,7 @@ or `french'. on input line 60.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 60.
+Package hyperref Info: Link coloring OFF on input line 61.
 (mon-projet-ba.out) (mon-projet-ba.out)
 \@outlinefile=\write4
 \openout4 = `mon-projet-ba.out'.
@@ -1036,20 +1036,22 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 (mon-projet-ba.toc
-Overfull \hbox (3.30475pt too wide) detected at line 7
+Overfull \hbox (3.30475pt too wide) detected at line 8
 \T1/cmr/bx/n/12 II.1 
  []
 
 
-Overfull \hbox (3.30475pt too wide) detected at line 8
+Overfull \hbox (3.30475pt too wide) detected at line 9
 \T1/cmr/bx/n/12 II.2 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+
 
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1065,38 +1067,105 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [2]
 
-[3] (mon-projet-ba.aux)
+[3]
+
+LaTeX Warning: Command \^ invalid in math mode on input line 206.
+
+Missing character: There is no Ê in font cmr12!
+<figures/Chapitre-1/elements-plancher.png, id=92, 274.02374pt x 325.215pt>
+File: figures/Chapitre-1/elements-plancher.png Graphic file (type png)
+<use figures/Chapitre-1/elements-plancher.png>
+Package pdftex.def Info: figures/Chapitre-1/elements-plancher.png  used on inpu
+t line 248.
+(pdftex.def)             Requested size: 85.35696pt x 101.30191pt.
+
+
+[4 <./figures/Chapitre-1/elements-plancher.png>]
+<figures/Chapitre-1/charges-dimension.png, id=105, 199.49532pt x 255.20343pt>
+File: figures/Chapitre-1/charges-dimension.png Graphic file (type png)
+<use figures/Chapitre-1/charges-dimension.png>
+Package pdftex.def Info: figures/Chapitre-1/charges-dimension.png  used on inpu
+t line 322.
+(pdftex.def)             Requested size: 89.6267pt x 114.65356pt.
+
+Overfull \hbox (67.97401pt too wide) detected at line 329
+\OML/cmm/m/it/12 G \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OM
+L/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 88\O
+ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 267 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825
+ + 9\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 187 = 111\OML/cmm/m/it/12 ; \OT1/cmr/m/n
+/12 28 []
+ []
+
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 319--335
+[]$[]$ $[]$ 
+ []
+
+
+
+[5]
+File: figures/Chapitre-1/charges-dimension.png Graphic file (type png)
+<use figures/Chapitre-1/charges-dimension.png>
+Package pdftex.def Info: figures/Chapitre-1/charges-dimension.png  used on inpu
+t line 346.
+(pdftex.def)             Requested size: 89.6267pt x 114.65356pt.
+
+Overfull \hbox (68.46817pt too wide) detected at line 352
+\OML/cmm/m/it/12 G \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OM
+L/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 83\O
+ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 916 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825
+ + 9\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 187 = 106\OML/cmm/m/it/12 ; \OT1/cmr/m/n
+/12 93 []
+ []
+
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 343--358
+[]$[]$ $[]$ 
+ []
+
+<figures/chapitre-1/section-ab-rpa.png, id=115, 70.76437pt x 80.55093pt>
+File: figures/chapitre-1/section-ab-rpa.png Graphic file (type png)
+<use figures/chapitre-1/section-ab-rpa.png>
+Package pdftex.def Info: figures/chapitre-1/section-ab-rpa.png  used on input l
+ine 387.
+(pdftex.def)             Requested size: 64.01935pt x 72.87865pt.
+
+
+[6 <./figures/Chapitre-1/charges-dimension.png> <./figures/chapitre-1/section-a
+b-rpa.png>] (mon-projet-ba.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `mon-projet-ba.out' has not changed.
-(rerunfilecheck)             Checksum: C22A60C7389DF774CE12F4DE74999DF5;1545.
+(rerunfilecheck)             Checksum: 227D14E10CF245AA5D4D653D22D70540;2085.
  ) 
 Here is how much of TeX's memory you used:
- 31573 strings out of 473523
- 652920 string characters out of 5714631
- 990618 words of memory out of 5000000
- 54330 multiletter control sequences out of 15000+600000
- 570414 words of font info for 63 fonts, out of 8000000 for 9000
+ 31655 strings out of 473523
+ 655164 string characters out of 5714631
+ 994838 words of memory out of 5000000
+ 54388 multiletter control sequences out of 15000+600000
+ 572506 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,9n,101p,430b,1034s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
-2488.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecbx1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx1440.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/jamal/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jamal/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jamal/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jamal/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jam
-al/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Us
-ers/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb>
-Output written on mon-projet-ba.pdf (3 pages, 125369 bytes).
+ 98i,22n,101p,430b,1148s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc
+1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm2488.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx2488.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecrm1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/jamal/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jamal/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jamal/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users
+/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+8.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb>
+Output written on mon-projet-ba.pdf (6 pages, 187296 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 85 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 368 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 124 words of extra memory for PDF output out of 10000 (max. 10000000)
 
