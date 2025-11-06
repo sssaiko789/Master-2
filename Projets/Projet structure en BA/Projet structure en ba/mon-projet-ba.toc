@@ -9,15 +9,21 @@
 \contentsline {section}{\numberline {II.2}Prédimensionnment des poutres}{3}{section.2.2}%
 \contentsline {subsection}{\numberline {II.2.1}Hauteur}{3}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {II.2.2}Largeur}{3}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {II.2.3}Prédimensionnement des poteaux}{4}{subsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {II.2.3.1}Calcul de la descente des charges}{4}{subsubsection.2.2.3.1}%
+\contentsline {subsection}{\numberline {II.2.3}Prédimensionnement des voiles}{4}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {II.2.4}Prédimensionnement des poteaux}{4}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {II.2.4.1}Calcul de la descente des charges}{4}{subsubsection.2.2.4.1}%
 \contentsline {paragraph}{Surcharge d'exploitation}{4}{section*.2}%
 \contentsline {paragraph}{Poids du plancher}{4}{section*.3}%
-\contentsline {subparagraph}{Plancher terrasse inaccessible}{4}{section*.4}%
+\contentsline {subparagraph}{Plancher terrasse inaccessible}{5}{section*.4}%
 \contentsline {subparagraph}{Plancher courant}{5}{section*.6}%
 \contentsline {paragraph}{Poids propre des poutres}{5}{section*.7}%
-\contentsline {paragraph}{Poids propre d'un poteau}{5}{section*.8}%
-\contentsline {paragraph}{La charge F}{5}{section*.9}%
+\contentsline {paragraph}{Poids propre d'un poteau}{6}{section*.8}%
+\contentsline {paragraph}{La charge F}{6}{section*.9}%
 \contentsline {subparagraph}{Plancher terasse incassesible}{6}{section*.10}%
 \contentsline {subparagraph}{Plancher courant}{6}{section*.12}%
 \contentsline {paragraph}{Dimensionnement}{6}{section*.14}%
+\contentsline {section}{\numberline {II.3}Résumé du prédimensionnement}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {II.3.1}Plancher}{7}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {II.3.2}Poutres}{7}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {II.3.3}Voiles}{7}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {II.3.4}Poteaux}{7}{subsection.2.3.4}%

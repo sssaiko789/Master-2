@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  5 NOV 2025 23:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  6 NOV 2025 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -948,32 +948,32 @@ Package babel Info: 'french' activates 'french' shorthands.
 )
 \openout1 = `"projet structure en ba.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Info: Redefining \degres on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Info: Redefining \degres on input line 69.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 65.
+(french.ldf)             reported on input line 69.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 65.
-LaTeX Info: Redefining \up on input line 65.
+(french.ldf)             reported on input line 69.
+LaTeX Info: Redefining \up on input line 69.
 
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -1011,7 +1011,7 @@ File: translations-basic-dictionary-french.trsl (french translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 65.
+or `french'. on input line 69.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1047,7 +1047,7 @@ or `french'. on input line 65.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 65.
+Package hyperref Info: Link coloring OFF on input line 69.
 (projet structure en ba.out) (projet structure en ba.out)
 \@outlinefile=\write4
 \openout4 = `"projet structure en ba.out"'.
@@ -1066,19 +1066,24 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
 
 
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
 
 
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(projet structure en ba.toc)
+(projet structure en ba.toc
+Overfull \hbox (3.30475pt too wide) detected at line 18
+\T1/cmr/bx/n/12 II.1 
+ []
+
+)
 \tf@toc=\write5
 \openout5 = `"projet structure en ba.toc"'.
 
@@ -1089,81 +1094,104 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/jamal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 [2]
-<figures/charge-sur-poteau.png, id=84, 438.13687pt x 611.28375pt>
+<figures/charge-sur-poteau.png, id=104, 438.13687pt x 611.28375pt>
 File: figures/charge-sur-poteau.png Graphic file (type png)
 <use figures/charge-sur-poteau.png>
-Package pdftex.def Info: figures/charge-sur-poteau.png  used on input line 125.
+Package pdftex.def Info: figures/charge-sur-poteau.png  used on input line 131.
 
 (pdftex.def)             Requested size: 208.39568pt x 290.75455pt.
-<figures/charge-reprie2.png, id=86, 352.31625pt x 391.4625pt>
+<figures/charge-reprie2.png, id=106, 352.31625pt x 391.4625pt>
 File: figures/charge-reprie2.png Graphic file (type png)
 <use figures/charge-reprie2.png>
-Package pdftex.def Info: figures/charge-reprie2.png  used on input line 135.
+Package pdftex.def Info: figures/charge-reprie2.png  used on input line 141.
 (pdftex.def)             Requested size: 208.39568pt x 231.55222pt.
-<figures/charge reprie 3.png, id=87, 397.485pt x 406.51875pt>
+<figures/charge reprie 3.png, id=107, 397.485pt x 406.51875pt>
 File: figures/charge reprie 3.png Graphic file (type png)
 <use figures/charge reprie 3.png>
-Package pdftex.def Info: figures/charge reprie 3.png  used on input line 151.
+Package pdftex.def Info: figures/charge reprie 3.png  used on input line 157.
 (pdftex.def)             Requested size: 197.7467pt x 202.24779pt.
 
 
 [3 <./figures/charge-sur-poteau.png> <./figures/charge-reprie2.png> <./figures/
 charge reprie 3.png>]
-<figures/elements-plancher.png, id=99, 274.02374pt x 325.215pt>
+<figures/elements-plancher.png, id=119, 274.02374pt x 325.215pt>
 File: figures/elements-plancher.png Graphic file (type png)
 <use figures/elements-plancher.png>
-Package pdftex.def Info: figures/elements-plancher.png  used on input line 173.
+Package pdftex.def Info: figures/elements-plancher.png  used on input line 179.
 
 (pdftex.def)             Requested size: 170.71393pt x 202.6088pt.
 
 
 [4 <./figures/elements-plancher.png>]
-<figures/section-ab-rpa.png, id=111, 70.76437pt x 80.55093pt>
+<figures/section-ab-rpa.png, id=131, 70.76437pt x 80.55093pt>
 File: figures/section-ab-rpa.png Graphic file (type png)
 <use figures/section-ab-rpa.png>
-Package pdftex.def Info: figures/section-ab-rpa.png  used on input line 253.
+Package pdftex.def Info: figures/section-ab-rpa.png  used on input line 259.
 (pdftex.def)             Requested size: 64.01935pt x 72.87865pt.
-<figures/ferraillage-deux-poteau.png, id=112, 311.66437pt x 238.64156pt>
+<figures/ferraillage-deux-poteau.png, id=132, 311.66437pt x 238.64156pt>
 File: figures/ferraillage-deux-poteau.png Graphic file (type png)
 <use figures/ferraillage-deux-poteau.png>
 Package pdftex.def Info: figures/ferraillage-deux-poteau.png  used on input lin
-e 263.
+e 269.
 (pdftex.def)             Requested size: 276.84418pt x 211.98247pt.
 
 
 [5 <./figures/section-ab-rpa.png>]
 
 [6 <./figures/ferraillage-deux-poteau.png>]
-<figures/continuite-poutre.png, id=128, 591.71063pt x 403.5075pt>
+<figures/continuite-poutre.png, id=148, 591.71063pt x 403.5075pt>
 File: figures/continuite-poutre.png Graphic file (type png)
 <use figures/continuite-poutre.png>
-Package pdftex.def Info: figures/continuite-poutre.png  used on input line 336.
+Package pdftex.def Info: figures/continuite-poutre.png  used on input line 342.
 
 (pdftex.def)             Requested size: 276.84418pt x 188.79272pt.
-<figures/continuite-poutre2.png, id=129, 401.24907pt x 272.51813pt>
+<figures/continuite-poutre2.png, id=149, 401.24907pt x 272.51813pt>
 File: figures/continuite-poutre2.png Graphic file (type png)
 <use figures/continuite-poutre2.png>
-Package pdftex.def Info: figures/continuite-poutre2.png  used on input line 340
+Package pdftex.def Info: figures/continuite-poutre2.png  used on input line 346
 .
 (pdftex.def)             Requested size: 197.7467pt x 134.30849pt.
 
 
 [7 <./figures/continuite-poutre.png> <./figures/continuite-poutre2.png>]
+<figures/chapitre-2/dim-acrotere.png, id=158, 337.26pt x 402.00188pt>
+File: figures/chapitre-2/dim-acrotere.png Graphic file (type png)
+<use figures/chapitre-2/dim-acrotere.png>
+Package pdftex.def Info: figures/chapitre-2/dim-acrotere.png  used on input lin
+e 404.
+(pdftex.def)             Requested size: 170.71393pt x 203.48473pt.
+<figures/chapitre-2/charge-acrotere.png, id=159, 295.85532pt x 361.35pt>
+File: figures/chapitre-2/charge-acrotere.png Graphic file (type png)
+<use figures/chapitre-2/charge-acrotere.png>
+Package pdftex.def Info: figures/chapitre-2/charge-acrotere.png  used on input 
+line 420.
+(pdftex.def)             Requested size: 128.0387pt x 156.38649pt.
 
-[8] (projet structure en ba.aux)
+
+[8 <./figures/chapitre-2/dim-acrotere.png>]
+<figures/chapitre-2/efforts-acrotere.png, id=166, 342.5297pt x 122.70844pt>
+File: figures/chapitre-2/efforts-acrotere.png Graphic file (type png)
+<use figures/chapitre-2/efforts-acrotere.png>
+Package pdftex.def Info: figures/chapitre-2/efforts-acrotere.png  used on input
+ line 444.
+(pdftex.def)             Requested size: 298.75264pt x 107.03445pt.
+
+
+[9 <./figures/chapitre-2/charge-acrotere.png> <./figures/chapitre-2/efforts-acr
+otere.png>] (projet structure en ba.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `"projet structure en ba".out' has not change
 d.
-(rerunfilecheck)             Checksum: 3506277A1CB05A8501BEB4BCC5C5C646;1929.
+(rerunfilecheck)             Checksum: 6725075C5E9A24BA705B81DE2FC5F658;2569.
  ) 
 Here is how much of TeX's memory you used:
- 32358 strings out of 473523
- 668346 string characters out of 5714631
- 1010981 words of memory out of 5000000
- 55090 multiletter control sequences out of 15000+600000
+ 32407 strings out of 473523
+ 670053 string characters out of 5714631
+ 1011178 words of memory out of 5000000
+ 55131 multiletter control sequences out of 15000+600000
  575105 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,22n,105p,460b,1158s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1183,9 +1211,9 @@ amal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
 .pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmr8.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb>
-Output written on "projet structure en ba.pdf" (8 pages, 329807 bytes).
+Output written on "projet structure en ba.pdf" (9 pages, 370487 bytes).
 PDF statistics:
- 401 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 462 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 

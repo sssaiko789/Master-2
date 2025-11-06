@@ -58,11 +58,17 @@
 
 
 
+
+
+
+
 \title{Projet structure en BA}
 \author{}
 \date{\today}
 
 \begin{document}
+	
+	\counterwithin{section}{part}
 	
 	\maketitle
 	
@@ -363,6 +369,93 @@
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	\part{Calculs des éléments}
+	
+	Le calcul des éléments se fera a l'ELU.
+	
+	
+	\section{Calcul de l'acrotére}
+	
+	
+	L'acrotére est un élements dans la terrasse, destiné à protéger les personnes 
+	contre la chute et d’éviter le ruissellement d’eau sur la façade. Il est soumis uniqument a son poids propre avec une surcharge d'exploitation qui peut être l'échelle des pompiers, maintenance ou autre.
+	
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\linewidth]{figures/chapitre-2/dim-acrotere}
+		\caption{Forme et dimension de l'acrotére}
+		\label{fig:dim-acrotere}
+	\end{figure}
+	
+	
+	
+	\vspace{\baselineskip}
+	
+	\subsection{Charges}
+	
+	
+	L'acrotére est soumis a la flexion composée.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.3\linewidth]{figures/chapitre-2/charge-acrotere}
+		\caption{Chargement appliquer a l'acrotére}
+		\label{fig:charge-acrotere}
+	\end{figure}
+	
+	
+	Le calcul se fait pour 1m linéaire.
+	
+	
+	
+	\[ G = V \cdot \rho_{ba} = \left( 40 \cdot 10 + 20 \cdot 10 + \dfrac{20 \cdot 10}{2} \right) \cdot 25  = 1,75 ~\unit{kN} \text{ Pour 1m linéaire} \]
+	
+	
+	Et depuis le DTR charge et surcharge d'exploitation on a $q = 1 ~\unit{kN\per m}$
+	
+	\[ Q = q \cdot 1 ~\unit{ml} = 1 ~\unit{kN} \]
+	
+	
+	\subsection{Diagramme des efforts}
+	
+	Sous flexion composée
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{figures/chapitre-2/efforts-acrotere}
+		\caption{Effort interne de l'acrotére}
+		\label{fig:efforts-acrotere}
+	\end{figure}
+	
+	
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		L'effort normale est triangulaire car plus on descend plus on a le volume qui augmente.
+	\end{tcolorbox}
+	
+	
+	
+	 
 	
 	
 	

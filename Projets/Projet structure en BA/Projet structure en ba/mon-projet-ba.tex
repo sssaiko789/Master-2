@@ -49,7 +49,7 @@
 
 
 
-
+\usepackage{caption}
 
 
 
@@ -180,9 +180,40 @@
 	
 	\vspace{\baselineskip}
 	
-	Dimensions retenue : 
+	Dimensions retenue qui vérifie les condition du RPA \eqref{dtr:RPA prédimensionnement poutre} : 
 	
 	\[ \fbox{$h=35 ~\unit{cm} \quad ; \quad b=20 ~\unit{cm}$} \]
+	
+	
+	
+	
+	
+	
+	\subsection{Prédimensionnement des voiles}
+	
+	Depuis le RPA (article 7.7.1) l'épaisseur du voile est déterminée selon la hauteur libre d'étage, et des conditions de rigidité.
+	
+	Nos voiles sont de formes rectangulaire donc :
+	
+	\[ e = \dfrac{h_{e}}{20} \]
+	
+	Avec $h_{e}$ étant la hauteur libre d'étage.
+	
+	\[ e = \dfrac{300}{20} = 15 ~\unit{cm} \] 
+	
+	
+	Et aussi dans l'article 7.7.1 l'épaisseur minimale est de $e_{\min} = 15 ~\unit{cm}  = e$ donc condtions vérifiée.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -393,6 +424,54 @@
 	
 	
 	\[ 25 \cdot 25 = 625 ~\unit{cm^{2}} \quad > \quad 432 ~\unit{cm^{2}} \quad \text{Condition vérifier} \]
+	
+	
+	\section{Résumé du prédimensionnement}
+	
+	Au premier lieu, le plancher et les poutres ont été dimenesionner pour avoir les détails, ainsi pouvoir calculer la descente des charges avec plus de précision, avec quoi on prédimensionne le poteau le plus sollicitée.
+	
+	
+	Les dimensions retenue de chaque éléments sont : 
+	
+	\subsection{Plancher}
+	
+	\[ \fbox{$\text{Plancher en }16 + 4 = 20 ~\unit{cm} $}\]
+	
+		
+	
+	\subsection{Poutres}
+	
+	
+	Pour les poutres principales et secondaires on a :
+	
+	\[ \fbox{$\begin{aligned}
+			h &= 35 ~\unit{cm} \\
+		 b &= 20 ~\unit{cm}
+		\end{aligned}$} \]
+	
+	
+	\subsection{Voiles}
+	
+	\[ \fbox{$e = 15 ~\unit{cm}$} \]
+	
+	
+	
+	\subsection{Poteaux}
+	
+	Tous les poteaux auront les même dimensions de :
+	
+	
+	\[ \fbox{$h = b = 25 ~\unit{cm}$} \]
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

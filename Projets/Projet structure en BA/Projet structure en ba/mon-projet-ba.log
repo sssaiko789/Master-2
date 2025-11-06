@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  5 NOV 2025 23:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  6 NOV 2025 23:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1055,7 +1055,12 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
 
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)
+Overfull \hbox (3.30475pt too wide) detected at line 25
+\T1/cmr/bx/n/12 II.3 
+ []
+
+)
 \tf@toc=\write5
 \openout5 = `mon-projet-ba.toc'.
 
@@ -1069,26 +1074,28 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [3]
 
-LaTeX Warning: Command \^ invalid in math mode on input line 206.
+LaTeX Warning: Command \^ invalid in math mode on input line 237.
 
 Missing character: There is no Ê in font cmr12!
-<figures/Chapitre-1/elements-plancher.png, id=92, 274.02374pt x 325.215pt>
+<figures/Chapitre-1/elements-plancher.png, id=124, 274.02374pt x 325.215pt>
 File: figures/Chapitre-1/elements-plancher.png Graphic file (type png)
 <use figures/Chapitre-1/elements-plancher.png>
 Package pdftex.def Info: figures/Chapitre-1/elements-plancher.png  used on inpu
-t line 248.
+t line 279.
 (pdftex.def)             Requested size: 85.35696pt x 101.30191pt.
 
 
-[4 <./figures/Chapitre-1/elements-plancher.png>]
-<figures/Chapitre-1/charges-dimension.png, id=105, 199.49532pt x 255.20343pt>
+[4]
+
+[5 <./figures/Chapitre-1/elements-plancher.png>]
+<figures/Chapitre-1/charges-dimension.png, id=143, 199.49532pt x 255.20343pt>
 File: figures/Chapitre-1/charges-dimension.png Graphic file (type png)
 <use figures/Chapitre-1/charges-dimension.png>
 Package pdftex.def Info: figures/Chapitre-1/charges-dimension.png  used on inpu
-t line 322.
+t line 353.
 (pdftex.def)             Requested size: 89.6267pt x 114.65356pt.
 
-Overfull \hbox (67.97401pt too wide) detected at line 329
+Overfull \hbox (67.97401pt too wide) detected at line 360
 \OML/cmm/m/it/12 G \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OM
 L/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 88\O
 ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 267 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825
@@ -1097,20 +1104,17 @@ ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 267 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825
  []
 
 
-Overfull \hbox (2.61047pt too wide) in paragraph at lines 319--335
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 350--366
 []$[]$ $[]$ 
  []
 
-
-
-[5]
 File: figures/Chapitre-1/charges-dimension.png Graphic file (type png)
 <use figures/Chapitre-1/charges-dimension.png>
 Package pdftex.def Info: figures/Chapitre-1/charges-dimension.png  used on inpu
-t line 346.
+t line 377.
 (pdftex.def)             Requested size: 89.6267pt x 114.65356pt.
 
-Overfull \hbox (68.46817pt too wide) detected at line 352
+Overfull \hbox (68.46817pt too wide) detected at line 383
 \OML/cmm/m/it/12 G \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OM
 L/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 83\O
 ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 916 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825
@@ -1119,35 +1123,36 @@ ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 916 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825
  []
 
 
-Overfull \hbox (2.61047pt too wide) in paragraph at lines 343--358
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 374--389
 []$[]$ $[]$ 
  []
 
-<figures/chapitre-1/section-ab-rpa.png, id=115, 70.76437pt x 80.55093pt>
+<figures/chapitre-1/section-ab-rpa.png, id=145, 70.76437pt x 80.55093pt>
 File: figures/chapitre-1/section-ab-rpa.png Graphic file (type png)
 <use figures/chapitre-1/section-ab-rpa.png>
 Package pdftex.def Info: figures/chapitre-1/section-ab-rpa.png  used on input l
-ine 387.
+ine 418.
 (pdftex.def)             Requested size: 64.01935pt x 72.87865pt.
 
 
-[6 <./figures/Chapitre-1/charges-dimension.png> <./figures/chapitre-1/section-a
-b-rpa.png>] (mon-projet-ba.aux)
+[6 <./figures/Chapitre-1/charges-dimension.png>]
+
+[7 <./figures/chapitre-1/section-ab-rpa.png>] (mon-projet-ba.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `mon-projet-ba.out' has not changed.
-(rerunfilecheck)             Checksum: 227D14E10CF245AA5D4D653D22D70540;2085.
+(rerunfilecheck)             Checksum: 35D055FE6B57E800266E1FE66C0E2B27;2896.
  ) 
 Here is how much of TeX's memory you used:
- 31655 strings out of 473523
- 655164 string characters out of 5714631
- 994838 words of memory out of 5000000
- 54388 multiletter control sequences out of 15000+600000
+ 31668 strings out of 473523
+ 655364 string characters out of 5714631
+ 993836 words of memory out of 5000000
+ 54394 multiletter control sequences out of 15000+600000
  572506 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,22n,101p,430b,1148s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,22n,101p,430b,1036s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc
 1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecrm2488.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -1163,9 +1168,9 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users
 C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
 8.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb>
-Output written on mon-projet-ba.pdf (6 pages, 187296 bytes).
+Output written on mon-projet-ba.pdf (7 pages, 198142 bytes).
 PDF statistics:
- 368 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 418 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
 
