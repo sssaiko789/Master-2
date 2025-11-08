@@ -18,3 +18,12 @@
 \contentsline {section}{\numberline {II.1}Calcul de l'acrotére}{8}{section.2.1}%
 \contentsline {subsection}{\numberline {II.1.1}Charges}{9}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {II.1.2}Diagramme des efforts}{9}{subsection.2.1.2}%
+\contentsline {section}{\numberline {II.2}Calcul des poutrelles}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {II.2.1}Les charges}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {II.2.2}Calcul des efforts}{10}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {II.2.2.1}Méthode forfaitaire}{11}{subsubsection.2.2.2.1}%
+\contentsline {paragraph}{Conditions et méthode de calcul}{11}{section*.15}%
+\contentsline {paragraph}{Moments au appuie de rive}{11}{section*.17}%
+\contentsline {paragraph}{Moments au appuie intermidiaire}{12}{section*.18}%
+\contentsline {paragraph}{Moments en travée}{12}{section*.19}%
+\contentsline {paragraph}{Vérification}{12}{section*.20}%

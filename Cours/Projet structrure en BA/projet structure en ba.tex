@@ -454,14 +454,163 @@
 	\end{tcolorbox}
 	
 	
-	
-	 
-	
+	\vspace{\baselineskip}
 	
 	
 	
+	\section{Calcul des poutrelles}
 	
 	
+	Les poutrelles reprenne la moitié de l'hourdis a droite et la moitié a gauche.
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{figures/chapitre-2/charge-poutrelle}
+		\caption{Charges reprie par une poutrelle.}
+		\label{fig:charge-poutrelle}
+	\end{figure}
+	
+	
+	
+	On dimensionnne uniquement celle qui est la défavorable (celle qui reprend le plus de charges).
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Les poutrelles sont continue sur toute la longeur, cad la poutrelle a un chapeau (ferraillge) qui assure la continuité. 
+	\end{tcolorbox}
+	
+	\vspace{\baselineskip}
+	
+	\subsection{Les charges}
+	
+	
+	
+	Comme on calcul uniqument la poutrelle la plus chargé donc :
+	
+	
+	\[ 
+	\begin{array}{l c l}
+		\text{Plancher courant} &\quad& \text{Plancher terrasse} \\
+		g = 5,4 ~\unit{kN\per m^{2}} &\quad& g = 5,68 ~\unit{kN\per m^{2}} \\
+		q = 1,5 ~\unit{kN\per m^{2}} &\quad& q = 1 ~\unit{kN\per m^{2}}
+	\end{array}
+	 \]
+	
+	Le plus sollicité c'est le plancher courant avec :
+	
+	\[ Q = 1,35 \cdot g + 1,5 \cdot q = 1,35 \cdot 5,4 + 1,5^{2} = 9,54 ~\unit{kN\per m^{2}} \]
+	
+	
+	
+	\subsection{Calcul des efforts}
+	
+	On différente méthode de calcul :
+	
+	\begin{itemize}
+		\item Méthode des trois moments.
+		\item Méthode de Caquot.
+		\item Méthode forfaitaire.
+	\end{itemize}
+	
+	
+	\subsubsection{Méthode forfaitaire}
+	
+	
+	
+	\paragraph{Conditions et méthode de calcul}:
+	
+	
+	\begin{itemize}
+	
+		\item Les charges d'exploitations doivent être modérée
+	
+		\[ Q \leq 500 ~\unit{kg\per m^{2}} \]
+		
+		\[ Q \leq 2 \cdot G \]
+		
+		
+		\item Fissuration est peu nuisible (fissuration peu préjudiciable).
+		
+		\item Le rapport entre deux travée successive est de :
+		
+		\[ 0,8 \leq \dfrac{L_{i + 1}}{L_{i}} \leq 1,25 \]
+		
+		\item Les poutrelles doivent être semi-encastrée
+		
+		\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+			
+			Un encastrement parfait c'est quand : inertie du poteau >>> inertie de la poutre.
+			
+			\vspace{\baselineskip}
+			
+			Semi-encastrée $I_{poteau} \approx I_{poutre}$
+			
+			\vspace{\baselineskip}
+			
+			Le moment en appuie de rive varie selon l'encastrement.
+			 
+		\end{tcolorbox}
+	
+	\end{itemize}
+	
+	\vspace{3\baselineskip}
+	
+	
+	On suppose que les moments sont isostatique, puis on multiplie par des coefficient pour trouvée les moments de rives et hyperstatiques.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{figures/chapitre-2/forfaitaire-statique}
+		\caption{Les moments statiques}
+		\label{fig:forfaitaire-statique}
+	\end{figure}
+	
+	
+	\paragraph{Moments au appuie de rive}:
+	
+	
+	\[ M_{A} = 0,15 \cdot M_{0\,1} \]
+	
+	\[ M_{D} = 0,15 \cdot M_{0\,3} \]
+	
+	
+	\paragraph{Moments au appuie intermidiaire}:
+	
+	\[
+	\begin{cases}
+		0,6 \cdot M_{0} \quad\text{ Pour une poutre a 2 travée} \\
+		0,5 \cdot M_{0} \quad\text{ Pour les appuie voisin d'appuie de rive} \\
+		0,4 \cdot M_{0} \quad\text{ Pour les autres appuie intermidiare a plus de 3 travée.}
+	\end{cases}
+	\]	
+	
+	\paragraph{Moments en travée}:
+	
+	\[
+	\begin{cases}
+		M_{t} \geq \dfrac{1 + 0,3 \cdot \alpha}{2} \cdot M_{0} \quad\text{ Travée intermidiare.} \\ \\
+		M_{t} \geq \dfrac{1,2 + 0,3 \cdot \alpha}{2} \cdot M_{0} \quad\text{ Travée de rive.}
+	\end{cases}
+	\]	
+	
+	Avec \[ \alpha = \dfrac{Q}{G + Q} \]
+	
+	\paragraph{Vérification}:
+	
+	Pour chaque travée il faut vérifier que :
+	
+	\[ M_{t\,i} + \dfrac{M_{w} + M_{e}}{2} \geq \max 
+	\begin{cases}
+		(1 + 0,3 \cdot \alpha) \cdot M_{0\,i} \\
+		1,05 \cdot M_{0\,i}
+	\end{cases}
+	 \]
+	
+	\vspace{3\baselineskip}
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		On peut aussi trouvée les moments graphiquement on superposant le moment isostatique a partir des moments en appuie.
+	\end{tcolorbox}
 	
 	
 	
