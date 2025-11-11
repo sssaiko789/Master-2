@@ -352,20 +352,20 @@
 	
 	
 	
-	\part{Chapitre \RomanNum{2} : Modéle MAZARS}
+	\part{Chapitre \RomanNum{2} : Modéle MAZARDS}
 	
 	
 	
 	
 	\section{Définition}
 	
-	Le modéle de comportement de Mazars est un modéle (simple) réputé robuste basée sur la mécanique de l'endommagement qui permet de décrire la dimunition de la rigidité d'un matériau sous l'effetde la création de fissure ou de cavité.
+	Le modéle de comportement de Mazards est un modéle (simple) réputé robuste basée sur la mécanique de l'endommagement qui permet de décrire la dimunition de la rigidité d'un matériau sous l'effetde la création de fissure ou de cavité.
 	
 	Il s'appuie sur une seule variable \textbf{"D"} (Varibale d'endommagement) est d'écrivant d'une maniére \underline{isotrope} l'endommagement de l'élément.
 	
 	\vspace{\baselineskip}
 	
-	Le modéle de Mazars contrairement au modéle de Robtnov distingue l'endommagement a la traction de l'endommagement a la compression noté : $D_{T}$ et $D_{C}$, donc l'endommagement sera une combinaison de $D_{T}$ et de $D_{C}$ \big($D = f(D_{T},D_{C})$\big).
+	Le modéle de Mazards contrairement au modéle de Robtnov distingue l'endommagement a la traction de l'endommagement a la compression noté : $D_{T}$ et $D_{C}$, donc l'endommagement sera une combinaison de $D_{T}$ et de $D_{C}$ \big($D = f(D_{T},D_{C})$\big).
 	
 	\vspace{\baselineskip}
 	
@@ -375,20 +375,146 @@
 	
 	\vspace{\baselineskip}
 	
-	Le modéle de Mazars \underline{ne prend pas} en considération les éventuelle déformations plastique au bien visquese qui peuvent être absorbée lors des déformations du béton.
+	Le modéle de Mazards \underline{ne prend pas} en considération les éventuelle déformations plastique au bien visquese qui peuvent être absorbée lors des déformations du béton.
+	
+	\vspace{\baselineskip}
+	
+	
+	\section{Contrainte d'un matériau endommager}
+	
+	Le modéle est élaboré avec :
+	
+	\[ \sigma = (1 - D) \cdot A \cdot \varepsilon^{e} \]
+	
+	
+	Avec :
+	
+	$\varepsilon^{e}$ : Déformations élastique.
+	
+	$A$ : Matrice de Hook.
+	
+	$D$ : Variable d'endommagement.
+	
+	On remarque que cette équation ressemble a $\sigma = E \cdot \varepsilon$ avec $(1 - D) \cdot A \rightarrow E$ pour un matériau endommager.
+	
+	 
+	
+	Ce modéle est valable uniquement dans le domaine élastique.
+	
+	
+	\section{Déformations}
+	
+	
+	\begin{samepage}
+	
+
+		\[ \varepsilon_{tot} = \varepsilon^{e} + \varepsilon^{r} + \varepsilon^{th} \]
+		
+		Avec :
+		
+		\begin{itemize}
+			\item $\varepsilon^{r}$ : déformation de retrait.
+			\item $\varepsilon^{th}$ : déformation thermique.
+			\item $\varepsilon^{e}$ : déformation élastique.
+		\end{itemize}
+	
+	
+	\end{samepage}
 	
 	
 	
 	
+	\subsection{Déformations élastique}
+		
+		
+	\[ \varepsilon^{e} = \varepsilon^{tot} - \varepsilon^{r} - \varepsilon^{th} \]
+		
+		
+	
+	\subsection{Déformations thermique}
+	
+	\[ \varepsilon^{th} = \alpha \cdot (T - T_{ref}) \cdot [I_{d}] \]
+	
+	Avec : 
+	
+	\begin{itemize}
+		\item $\alpha$ : Coefficent de dilatation.
+		\item $T$ : temperature avant.
+		\item $T_{ref}$ : temperature apres.
+		\item $[I_{d}]$ : matrice identité.
+	\end{itemize}
+	
+	
+	\subsection{Déformations de retrait}
+	
+	
+	\[ \varepsilon^{r} = \varepsilon^{re} - \varepsilon^{rd}?????( + ) \]
+	
+	
+	
+	\subsubsection{Déformations de retrait endogène}
+	
+	Qui est du a l'hydratation du ciment pour le béton, cad ne dépend pas d'un facteur extérieur mais plutot a l'intérieur du matériau.
+	
+	\[ \varepsilon^{re} =  - \beta \cdot \xi \cdot [I_{d}] \]
+	
+	$\varepsilon^{re}$ : Déformations du retrait endogène (hydratation du ciment).
+	
+	Endogène = qui naît, agit ou se produit à l’intérieur d’un organisme, d’un système ou d’un phénomène.
 	
 	
 	
 	
+	\subsubsection{Déformations du retrait exogène}
+	
+	Cela peut être causé par une dessification ou bien un séchage (l'eau qui s'evapore dans un béton) cad du a un facteur externe.
+	
+	\[ \varepsilon^{rd} =  - K \cdot (C_{ref} - C) \cdot [I_{d}] \]
+	
+	$\varepsilon^{rd}$ : Déformations du retrait exogène .
+	
+	Exogène = C’est l’opposé de endogène, qui veut dire « venant de l’extérieur ».
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Pour les défromations endogène et exogène en remarque que leur equations sont négatif, car ces dernieres engender des efforts de traction certe cela parait contre intuitif car le retrait est un raccoursissement, On explique cela avec l'apparition des fissures durant le retrait pour le béton, en sachant que le béton résiste trés bien a la compression mais mal a la traction.????? lorrque empéché uniqument.???
+	\end{tcolorbox}
 	
 	
 	
 	
+	\section{Variable d'endommagement}
 	
+	Dans le modéle de Mazards la variable d'endommagement $D$ est la combinaison d'un endommagement de traction $D_{t}$ et de compression $D_{c}$.
+	
+	\[ D = \alpha^{\beta}_{t} \cdot D_{t} + (1 - \alpha_{t})^{\beta} \cdot D_{c} \]
+	
+	
+	Le coefficient $\alpha_{t}$ qui dépend du matériau et qui lorsque il est supérieur a 1 améliore la réponse au cissaillement.
+	
+	
+	\subsection{Variable d'endommagement a la traction et a la compression}
+	
+	Les variables a la traction $D_{t}$ et a la compression $D_{c}$ qui sont empirique et qui sont définie par les relations suivante : 
+	
+	(Le mot empirique veut dire : fondé sur l’expérience, l’observation ou la pratique, et non pas seulement sur la théorie ou le raisonnement.)
+	
+	\[ D_{c} = 1 - 
+	\dfrac{\varepsilon_{d_{0}} \cdot (1 - A_{c})}{\varepsilon_{eq}}  
+	- \dfrac{A_{c}}{\exp\bigg(B_{c} \cdot (\varepsilon_{eq} - \varepsilon_{d_{0}})\bigg)} \]
+	
+	\[ 0\leq D_{c} \leq 1 \]
+	
+	
+	
+	\[ D_{c} = 1 - \dfrac{\varepsilon_{d_{0}} \cdot (1 - A_{t})}{\varepsilon_{eq}}  - \dfrac{A_{t}}{\exp\bigg(B_{t} \cdot (\varepsilon_{eq} - \varepsilon_{d_{0}})\bigg)} \]
+	
+	
+	\[ 0\leq D_{t} \leq 1 \]
+	
+	
+	
+	$A_{t},A_{c},B_{c},B_{t},\varepsilon_{d_{0}}$ Sont des paramétre du matériaux a identifier.
 	
 	
 	

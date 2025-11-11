@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  17 OCT 2025 21:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  11 NOV 2025 19:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1060,16 +1060,33 @@ Overfull \hbox (3.30475pt too wide) detected at line 20
 \T1/cmr/bx/n/12 II.1 
  []
 
-)
-\tf@toc=\write5
-\openout5 = `"plasticite et endommagement.toc"'.
+
+Overfull \hbox (3.30475pt too wide) detected at line 21
+\T1/cmr/bx/n/12 II.2 
+ []
+
+
+Overfull \hbox (3.30475pt too wide) detected at line 22
+\T1/cmr/bx/n/12 II.3 
+ []
 
 
 
 [1
 
 {C:/Users/jamal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<figures/chapitre 1/courbe-exemple.png, id=110, 325.215pt x 261.22594pt>
+Overfull \hbox (3.30475pt too wide) detected at line 28
+\T1/cmr/bx/n/12 II.4 
+ []
+
+)
+\tf@toc=\write5
+\openout5 = `"plasticite et endommagement.toc"'.
+
+
+
+[2]
+<figures/chapitre 1/courbe-exemple.png, id=159, 325.215pt x 261.22594pt>
 File: figures/chapitre 1/courbe-exemple.png Graphic file (type png)
 <use figures/chapitre 1/courbe-exemple.png>
 Package pdftex.def Info: figures/chapitre 1/courbe-exemple.png  used on input l
@@ -1086,8 +1103,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[2 <./figures/chapitre 1/courbe-exemple.png>]
-<figures/chapitre 1/endommagement-isotrope.png, id=121, 539.01375pt x 257.46187
+[3 <./figures/chapitre 1/courbe-exemple.png>]
+<figures/chapitre 1/endommagement-isotrope.png, id=170, 539.01375pt x 257.46187
 pt>
 File: figures/chapitre 1/endommagement-isotrope.png Graphic file (type png)
 <use figures/chapitre 1/endommagement-isotrope.png>
@@ -1096,7 +1113,7 @@ Package pdftex.def Info: figures/chapitre 1/endommagement-isotrope.png  used on
 (pdftex.def)             Requested size: 348.54475pt x 166.48393pt.
 
 
-[3]
+[4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 175.
@@ -1115,7 +1132,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[4 <./figures/chapitre 1/endommagement-isotrope.png>]
+[5 <./figures/chapitre 1/endommagement-isotrope.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 253.
@@ -1130,7 +1147,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[5]
+[6]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 263.
@@ -1145,27 +1162,31 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[6]
-
 [7]
 
-[8] (plasticite et endommagement.aux)
+[8]
+
+[9]
+
+[10]
+
+[11] (plasticite et endommagement.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `"plasticite et endommagement".out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 7E3F2EC44F56195DA31427258FFD95A1;3272.
+(rerunfilecheck)             Checksum: 2855EF3A909F1CAA6047CC090E32082E;5216.
  ) 
 Here is how much of TeX's memory you used:
- 31735 strings out of 473523
- 657181 string characters out of 5714631
- 992888 words of memory out of 5000000
- 54466 multiletter control sequences out of 15000+600000
+ 31766 strings out of 473523
+ 657735 string characters out of 5714631
+ 995904 words of memory out of 5000000
+ 54485 multiletter control sequences out of 15000+600000
  577423 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,11n,105p,465b,1044s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,11n,105p,479b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
 2488.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecrm0800.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -1183,11 +1204,12 @@ s/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 mmi12.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
 onts/cm/cmmi8.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmr12.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "plasticite et endommagement.pdf" (8 pages, 244262 bytes).
+ype1/public/amsfonts/cm/cmr6.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jamal/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on "plasticite et endommagement.pdf" (11 pages, 276481 bytes).
 PDF statistics:
- 511 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
- 167 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 592 PDF objects out of 1000 (max. 8388607)
+ 43 named destinations out of 1000 (max. 500000)
+ 239 words of extra memory for PDF output out of 10000 (max. 10000000)
 
