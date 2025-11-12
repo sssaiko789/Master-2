@@ -344,7 +344,7 @@
 	
 	\begin{minipage}{0.7\textwidth}
 		
-		C'est un ensemble de fils enroulée autour d'un fil centrale le plus utilisé est 7 fils, le diamétre du toron de $13~\unit{mm}$ (plus utilisé) (T13)
+		C'est un ensemble de fils enroulée autour d'un fil centrale le plus utilisé est 7 fils, le diamétre du toron de $13~\unit{cm}$ (plus utilisé) (T13)
 		
 	\end{minipage}
 	\begin{minipage}{0.3\textwidth}
@@ -359,7 +359,7 @@
 	\end{minipage}
 	
 	
-	\subsubsection{Les c\^{a}ble}
+	\subsubsection{Les c\^{a}bles}
 	
 	
 	\begin{minipage}{0.8\textwidth}
@@ -385,16 +385,61 @@
 	
 	
 	
+	\subsection{Caracteristiques des armatures}
+	
+	\subsubsection{La résistance a la rupture garantie $f_{prg}$}
+	
+	\[ 1570 ~\unit{MPa} \leqslant f_{prg} \leqslant 1770 ~\unit{MPa} \rightarrow fils \]
+	
+	\[ 1030 ~\unit{MPa} \leqslant f_{prg} \leqslant 1230 ~\unit{MPa} \rightarrow barres \]
+	
+	\[ 1770 ~\unit{MPa} \leqslant f_{prg} \leqslant 1960 ~\unit{MPa} \rightarrow torons \]
+	
+	
+	\subsubsection{La limite élastique garantie}
+	
+	La limite élastique des armatures, représente 80\% a 90\% de $f_{prg}$, elle est la contrainte qui aprés déchargement est retour a une contrainte nul, laisse une déformation résiduelle de 1\textperthousand.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\linewidth]{figures/chapitre1/contrainte-deformation2}
+		\caption{}
+		\label{fig:contrainte-deformation2}
+	\end{figure}
+	
+	Dans le domaine élastique le matériau revient presque a son état initiale, mais dans le domaine plastique il se déforme peu a peu sans vraiment revenir a l'état initial, et cela continue jusqu'a rupture.
+	
+	Donc dans la pré contraine le matériau dois rester dans le domaine élastique, cad ne pas charger jusqu'a atteindre la zone plastique.
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Ces données doivent etre garantie par le fabricant.
+	\end{tcolorbox}
+	
+	
+	\subsubsection{Module de Young}
+	
+	\[ E_{p} = 200 000 ~\unit{MPa} \text{ Pour les barres} \]
+	
+	\[ E_{p} = 190 000 ~\unit{MPa} \text{ Pour les torons} \]
 	
 	
 	
+	\subsubsection{Tension initial}
+	
+	\[ \sigma_{p_{0}} = \min\begin{cases}
+		0,9 \cdot f_{peg} \\
+		0,8 \cdot f_{prg}
+	\end{cases} \]
 	
 	
+	\subsection{Armatures passives}
 	
-	
-	
-	
-	
+	\begin{itemize}
+		\item Les armatures des zones tendue de béton en classe \RomanNum{2} et \RomanNum{3}.
+		\item Les armatures de peau.
+		\item Les armatures d'effort tarnchant (cadre,epingle,...).
+	\end{itemize}
 	
 	
 	

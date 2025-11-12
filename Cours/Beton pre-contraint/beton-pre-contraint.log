@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  2 NOV 2025 22:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  12 NOV 2025 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1068,7 +1068,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {C:/Users/jamal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<figures/moment-+-.png, id=136, 600.74437pt x 216.05719pt>
+<figures/moment-+-.png, id=168, 600.74437pt x 216.05719pt>
 File: figures/moment-+-.png Graphic file (type png)
 <use figures/moment-+-.png>
 Package pdftex.def Info: figures/moment-+-.png  used on input line 120.
@@ -1076,17 +1076,17 @@ Package pdftex.def Info: figures/moment-+-.png  used on input line 120.
 
 
 [2]
-<figures/zone-comprime.png, id=146, 253.69781pt x 109.1578pt>
+<figures/zone-comprime.png, id=177, 253.69781pt x 109.1578pt>
 File: figures/zone-comprime.png Graphic file (type png)
 <use figures/zone-comprime.png>
 Package pdftex.def Info: figures/zone-comprime.png  used on input line 135.
 (pdftex.def)             Requested size: 149.37631pt x 64.27261pt.
-<figures/zone-tendu.png, id=147, 253.69781pt x 109.1578pt>
+<figures/zone-tendu.png, id=178, 253.69781pt x 109.1578pt>
 File: figures/zone-tendu.png Graphic file (type png)
 <use figures/zone-tendu.png>
 Package pdftex.def Info: figures/zone-tendu.png  used on input line 151.
 (pdftex.def)             Requested size: 149.37631pt x 64.27261pt.
-<figures/force-excentree.png, id=148, 392.96812pt x 109.91063pt>
+<figures/force-excentree.png, id=179, 392.96812pt x 109.91063pt>
 File: figures/force-excentree.png Graphic file (type png)
 <use figures/force-excentree.png>
 Package pdftex.def Info: figures/force-excentree.png  used on input line 190.
@@ -1099,7 +1099,7 @@ Overfull \hbox (26.5428pt too wide) in paragraph at lines 215--215
 []\T1/cmr/bx/n/17.28 Flexion com-po-sée dé-viée (flexion com-po-sée oblique) 
  []
 
-<figures/force-excentree2.png, id=160, 392.21532pt x 182.93344pt>
+<figures/force-excentree2.png, id=191, 392.21532pt x 182.93344pt>
 File: figures/force-excentree2.png Graphic file (type png)
 <use figures/force-excentree2.png>
 Package pdftex.def Info: figures/force-excentree2.png  used on input line 229.
@@ -1109,7 +1109,7 @@ Package pdftex.def Info: figures/force-excentree2.png  used on input line 229.
 [4 <./figures/force-excentree.png> <./figures/force-excentree2.png>]
 
 [5]
-<figures/fluage.png, id=179, 143.03438pt x 262.73157pt>
+<figures/fluage.png, id=209, 143.03438pt x 262.73157pt>
 File: figures/fluage.png Graphic file (type png)
 <use figures/fluage.png>
 Package pdftex.def Info: figures/fluage.png  used on input line 323.
@@ -1119,7 +1119,7 @@ Overfull \hbox (2.61047pt too wide) in paragraph at lines 313--329
 []$[]$ $[]$ 
  []
 
-<figures/torons.png, id=180, 87.32625pt x 87.32625pt>
+<figures/torons.png, id=210, 87.32625pt x 87.32625pt>
 File: figures/torons.png Graphic file (type png)
 <use figures/torons.png>
 Package pdftex.def Info: figures/torons.png  used on input line 354.
@@ -1132,7 +1132,7 @@ Overfull \hbox (2.61047pt too wide) in paragraph at lines 345--360
 
 
 [6 <./figures/fluage.png>]
-<figures/cables.png, id=187, 87.32625pt x 87.32625pt>
+<figures/cables.png, id=217, 87.32625pt x 87.32625pt>
 File: figures/cables.png Graphic file (type png)
 <use figures/cables.png>
 Package pdftex.def Info: figures/cables.png  used on input line 374.
@@ -1143,41 +1143,65 @@ Overfull \hbox (2.61047pt too wide) in paragraph at lines 365--380
  []
 
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 390.
 
-[7 <./figures/torons.png> <./figures/cables.png>] (beton-pre-contraint.aux)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 390.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 390.
+
+<figures/chapitre1/contrainte-deformation2.png, id=218, 217.5628pt x 183.68625p
+t>
+File: figures/chapitre1/contrainte-deformation2.png Graphic file (type png)
+<use figures/chapitre1/contrainte-deformation2.png>
+Package pdftex.def Info: figures/chapitre1/contrainte-deformation2.png  used on
+ input line 405.
+(pdftex.def)             Requested size: 170.71393pt x 144.14075pt.
+
+
+[7 <./figures/torons.png> <./figures/cables.png> <./figures/chapitre1/contraint
+e-deformation2.png>]
+
+[8] (beton-pre-contraint.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `beton-pre-contraint.out' has not changed.
-(rerunfilecheck)             Checksum: 5D7BDFF6907AAA6721BD58821336033C;3864.
+(rerunfilecheck)             Checksum: 4BEA1162BB8D6C89E1BA30E1FA1EBDEF;5062.
  ) 
 Here is how much of TeX's memory you used:
- 31837 strings out of 473523
- 658683 string characters out of 5714631
- 996521 words of memory out of 5000000
- 54561 multiletter control sequences out of 15000+600000
- 571089 words of font info for 64 fonts, out of 8000000 for 9000
+ 31871 strings out of 473523
+ 659710 string characters out of 5714631
+ 1000552 words of memory out of 5000000
+ 54586 multiletter control sequences out of 15000+600000
+ 571426 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,8n,101p,436b,1048s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc
+ <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx2488.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecrm1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/jamal/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jamal/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jamal/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jamal
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Use
-rs/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb>
-<C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r8.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb>
-Output written on beton-pre-contraint.pdf (7 pages, 220292 bytes).
+0\eccc1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx2488.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecrm1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk><C:/Users/jamal/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jamal/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jamal/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users
+/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+6.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/symbols/msam10.pfb>
+Output written on beton-pre-contraint.pdf (8 pages, 257771 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 511 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 298 words of extra memory for PDF output out of 10000 (max. 10000000)
 

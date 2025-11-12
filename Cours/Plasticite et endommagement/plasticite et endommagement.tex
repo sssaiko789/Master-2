@@ -48,6 +48,30 @@
 \usepackage{chngcntr} % pour que \section{} recommence de 1 aprés \part{} 
 
 
+%Pas obligatoire juste pour l'apparence
+\renewcommand{\leq}{\leqslant}
+\renewcommand{\geq}{\geqslant}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -515,6 +539,136 @@
 	
 	
 	$A_{t},A_{c},B_{c},B_{t},\varepsilon_{d_{0}}$ Sont des paramétre du matériaux a identifier.
+	
+	
+	
+	
+	\subsubsection{La déforamtion $\varepsilon_{d_{0}}$}
+	
+	C'est la valeur de la déformation au seuil (limite) de l'apparition de l'endommagement.
+	
+	\[ \varepsilon \underset{\text{atteint}}{\longrightarrow} \varepsilon_{d_{0}} \text{ Apparition de l'endommagement} \]
+	
+	
+	
+	\subsubsection{La déformation $\varepsilon_{eq}$}
+	
+	L'endommagement est pilotée par la déforamtion $\varepsilon_{eq}$ qui permet de traduire un état de déforamtion tri-axiale par une équivalence a un état uni-axiale.
+	
+
+	\[ \varepsilon_{eq} = \sqrt{<\varepsilon_{1}>^{2} + <\varepsilon_{2}>^{2} + <\varepsilon_{3}>^{2}} \]
+	
+	Sachant que $<\varepsilon_{i}>$ est définie de telle sorte que si :
+	
+	\[ \begin{cases}
+		\varepsilon_{i} \geq 0 \rightarrow <\varepsilon_{i}> = \varepsilon_{i} \\ \\
+		\text{et si : } \varepsilon < 0 \rightarrow <\varepsilon_{i}>  = 0
+	\end{cases} \]
+	
+	
+	
+	
+	
+	\subsubsection{Les grandeurs des paramétres}
+	
+	Pour un certain type de matériau les grandeurs des paramétres sont :
+	\begin{itemize}[label*=$\bullet$]
+		
+	\item $A_{c}$ est compris entre 1 et 1,15.
+	
+	\item $A_{t}$ est compris entre 0,7 et 1.
+	
+	\item $B_{c}$ est compris entre 1000 et 2000.
+	
+	\item $B_{t}$ est compris entre 10 000 et 100 000.
+	
+	\item $\varepsilon_{d_{0}}$ est compris entre 0,5 et $1,5 \cdot 10^{ - 4}$.
+	
+	\end{itemize}
+	
+	
+	
+	
+	
+	\newpage
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	\part{Théorie de plasticité et introduction a l'analyse limite}
+	
+	
+	\section{Introduction}
+	
+	
+	
+	Dans le cadre de l'élasticité linéaire en petite déforamtions, la loi de Hook prévoit la porpotionalité entre les contraintes et les déforamtions, ainsi que les forces et les déplacements.
+	
+	\vspace{\baselineskip}
+	
+	Dans le cas le plus simple qui est la traction d'une éprouvette pour laquelle on peut lier la contrainte a la force et la défromation ($\varepsilon = \dfrac{\Delta L}{L}$) a l'alongement de facon suivante : $\sigma = \varepsilon \cdot E$
+	
+	\vspace{\baselineskip}
+	
+	
+	La loi de Hook qui est une équation linéaire ($y = ax \rightarrow \sigma = E\varepsilon$) ne peut par être appliquer dans le domaine plastique. 
+	
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\linewidth]{figures/chapitre-2/contrainte-deformation}
+		\caption{}
+		\label{fig:contrainte-deformation}
+	\end{figure}
+	
+	
+	
+	
+	
+	$\Delta L$ : désigne la variation de la longeur de la zone mesurer de l'eprouvette.
+	
+	$L$ : La longeur initiale de la zone mesuré de l'eprouvette.
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\linewidth]{figures/chapitre-2/contrainte-deformation2}
+		\caption{}
+		\label{fig:contrainte-deformation2}
+	\end{figure}
+	
+	
+	La partie OA représenté par une droite donc y'a une proportionatlité entre $\sigma$ et $\varepsilon$, et la loi de Hook reste valable.
+	
+	Au-dela du point A de la courbe, cad pour $\sigma > \sigma_{e}$ la relation entre la contrainte et la déformation n'est plus linéaire, on quitte le domaine élastique pour rentrer dans le domaine plastique, l'étude devient alors plus complexe.
+	
+	Dans ce domaine la courbe de chargement est différente de la courbe de déchargement.
+	
+	On ce contente alors de définir et prévoir la valeur de $\sigma_{e}$ au dela de laquelle le phénomene de plasticité se produit.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

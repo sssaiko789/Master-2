@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  11 NOV 2025 19:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  12 NOV 2025 21:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -925,32 +925,32 @@ Package babel Info: 'french' activates 'french' shorthands.
 )
 \openout1 = `"plasticite et endommagement.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Info: Redefining \degres on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Info: Redefining \degres on input line 83.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 59.
+(french.ldf)             reported on input line 83.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 59.
-LaTeX Info: Redefining \up on input line 59.
+(french.ldf)             reported on input line 83.
+LaTeX Info: Redefining \up on input line 83.
 
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -988,7 +988,7 @@ File: translations-basic-dictionary-french.trsl (french translation file `trans
 lations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 59.
+or `french'. on input line 83.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1024,7 +1024,7 @@ or `french'. on input line 59.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 83.
 (plasticite et endommagement.out) (plasticite et endommagement.out)
 \@outlinefile=\write4
 \openout4 = `"plasticite et endommagement.out"'.
@@ -1043,13 +1043,13 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
 
 
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
 
 
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1079,6 +1079,11 @@ Overfull \hbox (3.30475pt too wide) detected at line 28
 \T1/cmr/bx/n/12 II.4 
  []
 
+
+Overfull \hbox (8.7062pt too wide) detected at line 34
+\T1/cmr/bx/n/12 III.1 
+ []
+
 )
 \tf@toc=\write5
 \openout5 = `"plasticite et endommagement.toc"'.
@@ -1086,79 +1091,79 @@ Overfull \hbox (3.30475pt too wide) detected at line 28
 
 
 [2]
-<figures/chapitre 1/courbe-exemple.png, id=159, 325.215pt x 261.22594pt>
+<figures/chapitre 1/courbe-exemple.png, id=185, 325.215pt x 261.22594pt>
 File: figures/chapitre 1/courbe-exemple.png Graphic file (type png)
 <use figures/chapitre 1/courbe-exemple.png>
 Package pdftex.def Info: figures/chapitre 1/courbe-exemple.png  used on input l
-ine 112.
+ine 136.
 (pdftex.def)             Requested size: 199.16626pt x 159.98134pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 118.
+(hyperref)                removing `math shift' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 118.
+(hyperref)                removing `math shift' on input line 142.
 
 
 
 [3 <./figures/chapitre 1/courbe-exemple.png>]
-<figures/chapitre 1/endommagement-isotrope.png, id=170, 539.01375pt x 257.46187
+<figures/chapitre 1/endommagement-isotrope.png, id=196, 539.01375pt x 257.46187
 pt>
 File: figures/chapitre 1/endommagement-isotrope.png Graphic file (type png)
 <use figures/chapitre 1/endommagement-isotrope.png>
 Package pdftex.def Info: figures/chapitre 1/endommagement-isotrope.png  used on
- input line 169.
+ input line 193.
 (pdftex.def)             Requested size: 348.54475pt x 166.48393pt.
 
 
 [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 175.
+(hyperref)                removing `math shift' on input line 199.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 175.
+(hyperref)                removing `\sigma' on input line 199.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 175.
+(hyperref)                removing `subscript' on input line 199.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 175.
+(hyperref)                removing `math shift' on input line 199.
 
 
 
 [5 <./figures/chapitre 1/endommagement-isotrope.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 253.
+(hyperref)                removing `math shift' on input line 277.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 253.
+(hyperref)                removing `subscript' on input line 277.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 253.
+(hyperref)                removing `math shift' on input line 277.
 
 
 
 [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 263.
+(hyperref)                removing `math shift' on input line 287.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 263.
+(hyperref)                removing `subscript' on input line 287.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 263.
+(hyperref)                removing `math shift' on input line 287.
 
 
 
@@ -1170,20 +1175,79 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 [10]
 
-[11] (plasticite et endommagement.aux)
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 546.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\varepsilon' on input line 546.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 546.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 546.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 546.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 554.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\varepsilon' on input line 554.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 554.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 554.
+
+
+
+[11]
+
+[12]
+<figures/chapitre-2/contrainte-deformation.png, id=245, 299.61937pt x 215.30438
+pt>
+File: figures/chapitre-2/contrainte-deformation.png Graphic file (type png)
+<use figures/chapitre-2/contrainte-deformation.png>
+Package pdftex.def Info: figures/chapitre-2/contrainte-deformation.png  used on
+ input line 633.
+(pdftex.def)             Requested size: 199.16626pt x 143.12305pt.
+<figures/chapitre-2/contrainte-deformation2.png, id=246, 212.29312pt x 182.1806
+2pt>
+File: figures/chapitre-2/contrainte-deformation2.png Graphic file (type png)
+<use figures/chapitre-2/contrainte-deformation2.png>
+Package pdftex.def Info: figures/chapitre-2/contrainte-deformation2.png  used o
+n input line 649.
+(pdftex.def)             Requested size: 199.16626pt x 170.92455pt.
+
+
+[13 <./figures/chapitre-2/contrainte-deformation.png> <./figures/chapitre-2/con
+trainte-deformation2.png>]
+
+[14] (plasticite et endommagement.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `"plasticite et endommagement".out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 2855EF3A909F1CAA6047CC090E32082E;5216.
+(rerunfilecheck)             Checksum: A9E050E99D65249579CC5FD0A9030885;6255.
  ) 
 Here is how much of TeX's memory you used:
- 31766 strings out of 473523
- 657735 string characters out of 5714631
- 995904 words of memory out of 5000000
- 54485 multiletter control sequences out of 15000+600000
+ 31806 strings out of 473523
+ 659173 string characters out of 5714631
+ 995975 words of memory out of 5000000
+ 54515 multiletter control sequences out of 15000+600000
  577423 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,11n,105p,479b,1270s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1206,10 +1270,12 @@ onts/cm/cmmi8.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmr12.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr6.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jamal/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "plasticite et endommagement.pdf" (11 pages, 276481 bytes).
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jamal/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jamal/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "plasticite et endommagement.pdf" (14 pages, 330176 bytes).
 PDF statistics:
- 592 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 239 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 657 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
 

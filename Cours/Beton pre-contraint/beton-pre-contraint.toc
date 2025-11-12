@@ -24,4 +24,10 @@
 \contentsline {subsubsection}{\numberline {II.1.3.1}Les barres d'aciers}{6}{subsubsection.2.1.3.1}%
 \contentsline {subsubsection}{\numberline {II.1.3.2}Les fils de précontainte}{6}{subsubsection.2.1.3.2}%
 \contentsline {subsubsection}{\numberline {II.1.3.3}Les torons}{7}{subsubsection.2.1.3.3}%
-\contentsline {subsubsection}{\numberline {II.1.3.4}Les c\^{a}ble}{7}{subsubsection.2.1.3.4}%
+\contentsline {subsubsection}{\numberline {II.1.3.4}Les c\^{a}bles}{7}{subsubsection.2.1.3.4}%
+\contentsline {subsection}{\numberline {II.1.4}Caracteristiques des armatures}{7}{subsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {II.1.4.1}La résistance a la rupture garantie $f_{prg}$}{7}{subsubsection.2.1.4.1}%
+\contentsline {subsubsection}{\numberline {II.1.4.2}La limite élastique garantie}{7}{subsubsection.2.1.4.2}%
+\contentsline {subsubsection}{\numberline {II.1.4.3}Module de Young}{8}{subsubsection.2.1.4.3}%
+\contentsline {subsubsection}{\numberline {II.1.4.4}Tension initial}{8}{subsubsection.2.1.4.4}%
+\contentsline {subsection}{\numberline {II.1.5}Armatures passives}{8}{subsection.2.1.5}%
