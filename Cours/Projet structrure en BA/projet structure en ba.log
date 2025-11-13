@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  8 NOV 2025 12:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  13 NOV 2025 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1088,6 +1088,11 @@ Overfull \hbox (3.30475pt too wide) detected at line 21
 \T1/cmr/bx/n/12 II.2 
  []
 
+
+Overfull \hbox (3.30475pt too wide) detected at line 30
+\T1/cmr/bx/n/12 II.3 
+ []
+
 )
 \tf@toc=\write5
 \openout5 = `"projet structure en ba.toc"'.
@@ -1099,18 +1104,18 @@ Overfull \hbox (3.30475pt too wide) detected at line 21
 {C:/Users/jamal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 [2]
-<figures/charge-sur-poteau.png, id=124, 438.13687pt x 611.28375pt>
+<figures/charge-sur-poteau.png, id=164, 438.13687pt x 611.28375pt>
 File: figures/charge-sur-poteau.png Graphic file (type png)
 <use figures/charge-sur-poteau.png>
 Package pdftex.def Info: figures/charge-sur-poteau.png  used on input line 131.
 
 (pdftex.def)             Requested size: 208.39568pt x 290.75455pt.
-<figures/charge-reprie2.png, id=126, 352.31625pt x 391.4625pt>
+<figures/charge-reprie2.png, id=166, 352.31625pt x 391.4625pt>
 File: figures/charge-reprie2.png Graphic file (type png)
 <use figures/charge-reprie2.png>
 Package pdftex.def Info: figures/charge-reprie2.png  used on input line 141.
 (pdftex.def)             Requested size: 208.39568pt x 231.55222pt.
-<figures/charge reprie 3.png, id=127, 397.485pt x 406.51875pt>
+<figures/charge reprie 3.png, id=167, 397.485pt x 406.51875pt>
 File: figures/charge reprie 3.png Graphic file (type png)
 <use figures/charge reprie 3.png>
 Package pdftex.def Info: figures/charge reprie 3.png  used on input line 157.
@@ -1119,7 +1124,7 @@ Package pdftex.def Info: figures/charge reprie 3.png  used on input line 157.
 
 [3 <./figures/charge-sur-poteau.png> <./figures/charge-reprie2.png> <./figures/
 charge reprie 3.png>]
-<figures/elements-plancher.png, id=139, 274.02374pt x 325.215pt>
+<figures/elements-plancher.png, id=179, 274.02374pt x 325.215pt>
 File: figures/elements-plancher.png Graphic file (type png)
 <use figures/elements-plancher.png>
 Package pdftex.def Info: figures/elements-plancher.png  used on input line 179.
@@ -1128,12 +1133,12 @@ Package pdftex.def Info: figures/elements-plancher.png  used on input line 179.
 
 
 [4 <./figures/elements-plancher.png>]
-<figures/section-ab-rpa.png, id=151, 70.76437pt x 80.55093pt>
+<figures/section-ab-rpa.png, id=191, 70.76437pt x 80.55093pt>
 File: figures/section-ab-rpa.png Graphic file (type png)
 <use figures/section-ab-rpa.png>
 Package pdftex.def Info: figures/section-ab-rpa.png  used on input line 259.
 (pdftex.def)             Requested size: 64.01935pt x 72.87865pt.
-<figures/ferraillage-deux-poteau.png, id=152, 311.66437pt x 238.64156pt>
+<figures/ferraillage-deux-poteau.png, id=192, 311.66437pt x 238.64156pt>
 File: figures/ferraillage-deux-poteau.png Graphic file (type png)
 <use figures/ferraillage-deux-poteau.png>
 Package pdftex.def Info: figures/ferraillage-deux-poteau.png  used on input lin
@@ -1144,13 +1149,13 @@ e 269.
 [5 <./figures/section-ab-rpa.png>]
 
 [6 <./figures/ferraillage-deux-poteau.png>]
-<figures/continuite-poutre.png, id=168, 591.71063pt x 403.5075pt>
+<figures/continuite-poutre.png, id=208, 591.71063pt x 403.5075pt>
 File: figures/continuite-poutre.png Graphic file (type png)
 <use figures/continuite-poutre.png>
 Package pdftex.def Info: figures/continuite-poutre.png  used on input line 342.
 
 (pdftex.def)             Requested size: 276.84418pt x 188.79272pt.
-<figures/continuite-poutre2.png, id=169, 401.24907pt x 272.51813pt>
+<figures/continuite-poutre2.png, id=209, 401.24907pt x 272.51813pt>
 File: figures/continuite-poutre2.png Graphic file (type png)
 <use figures/continuite-poutre2.png>
 Package pdftex.def Info: figures/continuite-poutre2.png  used on input line 346
@@ -1159,13 +1164,13 @@ Package pdftex.def Info: figures/continuite-poutre2.png  used on input line 346
 
 
 [7 <./figures/continuite-poutre.png> <./figures/continuite-poutre2.png>]
-<figures/chapitre-2/dim-acrotere.png, id=178, 337.26pt x 402.00188pt>
+<figures/chapitre-2/dim-acrotere.png, id=218, 337.26pt x 402.00188pt>
 File: figures/chapitre-2/dim-acrotere.png Graphic file (type png)
 <use figures/chapitre-2/dim-acrotere.png>
 Package pdftex.def Info: figures/chapitre-2/dim-acrotere.png  used on input lin
 e 404.
 (pdftex.def)             Requested size: 170.71393pt x 203.48473pt.
-<figures/chapitre-2/charge-acrotere.png, id=179, 295.85532pt x 361.35pt>
+<figures/chapitre-2/charge-acrotere.png, id=219, 295.85532pt x 361.35pt>
 File: figures/chapitre-2/charge-acrotere.png Graphic file (type png)
 <use figures/chapitre-2/charge-acrotere.png>
 Package pdftex.def Info: figures/chapitre-2/charge-acrotere.png  used on input 
@@ -1174,13 +1179,13 @@ line 420.
 
 
 [8 <./figures/chapitre-2/dim-acrotere.png>]
-<figures/chapitre-2/efforts-acrotere.png, id=186, 342.5297pt x 122.70844pt>
+<figures/chapitre-2/efforts-acrotere.png, id=226, 342.5297pt x 122.70844pt>
 File: figures/chapitre-2/efforts-acrotere.png Graphic file (type png)
 <use figures/chapitre-2/efforts-acrotere.png>
 Package pdftex.def Info: figures/chapitre-2/efforts-acrotere.png  used on input
  line 444.
 (pdftex.def)             Requested size: 298.75264pt x 107.03445pt.
-<figures/chapitre-2/charge-poutrelle.png, id=187, 514.92375pt x 297.36093pt>
+<figures/chapitre-2/charge-poutrelle.png, id=227, 514.92375pt x 297.36093pt>
 File: figures/chapitre-2/charge-poutrelle.png Graphic file (type png)
 <use figures/chapitre-2/charge-poutrelle.png>
 Package pdftex.def Info: figures/chapitre-2/charge-poutrelle.png  used on input
@@ -1192,7 +1197,7 @@ Package pdftex.def Info: figures/chapitre-2/charge-poutrelle.png  used on input
 otere.png>]
 
 [10 <./figures/chapitre-2/charge-poutrelle.png>]
-<figures/chapitre-2/forfaitaire-statique.png, id=202, 398.99063pt x 112.16907pt
+<figures/chapitre-2/forfaitaire-statique.png, id=242, 398.99063pt x 112.16907pt
 >
 File: figures/chapitre-2/forfaitaire-statique.png Graphic file (type png)
 <use figures/chapitre-2/forfaitaire-statique.png>
@@ -1202,21 +1207,46 @@ nput line 563.
 
 
 [11 <./figures/chapitre-2/forfaitaire-statique.png>]
+<figures/chapitre-2/escalier.png, id=251, 567.62062pt x 407.27156pt>
+File: figures/chapitre-2/escalier.png Graphic file (type png)
+<use figures/chapitre-2/escalier.png>
+Package pdftex.def Info: figures/chapitre-2/escalier.png  used on input line 64
+7.
+(pdftex.def)             Requested size: 298.75264pt x 214.36142pt.
 
-[12] (projet structure en ba.aux)
+
+[12]
+<figures/chapitre-2/modele-escalier.png, id=259, 204.765pt x 367.3725pt>
+File: figures/chapitre-2/modele-escalier.png Graphic file (type png)
+<use figures/chapitre-2/modele-escalier.png>
+Package pdftex.def Info: figures/chapitre-2/modele-escalier.png  used on input 
+line 672.
+(pdftex.def)             Requested size: 128.0387pt x 229.73056pt.
+<figures/chapitre-2/modele-escalier2.png, id=260, 212.29312pt x 335.75438pt>
+File: figures/chapitre-2/modele-escalier2.png Graphic file (type png)
+<use figures/chapitre-2/modele-escalier2.png>
+Package pdftex.def Info: figures/chapitre-2/modele-escalier2.png  used on input
+ line 685.
+(pdftex.def)             Requested size: 128.0387pt x 202.50955pt.
+
+
+[13 <./figures/chapitre-2/escalier.png> <./figures/chapitre-2/modele-escalier.p
+ng>]
+
+[14 <./figures/chapitre-2/modele-escalier2.png>] (projet structure en ba.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `"projet structure en ba".out' has not change
 d.
-(rerunfilecheck)             Checksum: 143800EE9B2C77E3B14F00E584C47D76;3183.
+(rerunfilecheck)             Checksum: B700CF7F384360ABE0C6F0AB164FCBA2;4564.
  ) 
 Here is how much of TeX's memory you used:
- 32454 strings out of 473523
- 671478 string characters out of 5714631
- 1012310 words of memory out of 5000000
- 55164 multiletter control sequences out of 15000+600000
+ 32511 strings out of 473523
+ 673262 string characters out of 5714631
+ 1016413 words of memory out of 5000000
+ 55208 multiletter control sequences out of 15000+600000
  575105 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,22n,105p,460b,1172s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1236,9 +1266,9 @@ amal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
 .pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmr8.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb>
-Output written on "projet structure en ba.pdf" (12 pages, 427929 bytes).
+Output written on "projet structure en ba.pdf" (14 pages, 490977 bytes).
 PDF statistics:
- 518 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
- 238 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 584 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 317 words of extra memory for PDF output out of 10000 (max. 10000000)
 

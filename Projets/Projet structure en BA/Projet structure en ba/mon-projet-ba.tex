@@ -81,15 +81,18 @@
 	
 	\part{Prédimensionnement des éléments}
 	
+	
+	\section{Introduction}
+	
 	Dans ce chapitre les éléments prédimensionné sont :
 	
 	\begin{itemize}
 		\item Poteaux, poutres.
 		\item Plancher.
 		\item Voiles.
-		\item Balcon.
-		\item Escalier.
-		\item Acrotére.
+		%\item Balcon.
+		%\item Escalier.
+		%\item Acrotére.
 	\end{itemize}
 	
 	
@@ -248,6 +251,8 @@
 	
 	
 	Pour résumer, on aura : La charge d'exploitation + Poids du plancher + Poids propre des poutres + Poids propre du poteau.
+	
+	Depuis le document technique réglementaire : Charges et surcharges d'exploitations(DTR), on a :
 	
 	
 	
@@ -426,7 +431,7 @@
 	\[ 25 \cdot 25 = 625 ~\unit{cm^{2}} \quad > \quad 432 ~\unit{cm^{2}} \quad \text{Condition vérifier} \]
 	
 	
-	\section{Résumé du prédimensionnement}
+	\section{Conclusion du prédimensionnement}
 	
 	Au premier lieu, le plancher et les poutres ont été dimenesionner pour avoir les détails, ainsi pouvoir calculer la descente des charges avec plus de précision, avec quoi on prédimensionne le poteau le plus sollicitée.
 	
@@ -466,8 +471,202 @@
 	
 	
 	
+	\part{Calcul des éléments secondaires}
 	
 	
+	
+	\section{Introduction}
+	
+	
+	\section{Calcul de l'acrotère}
+	
+	L'acrotère sera calculer a l'ELU et vérifier a l'ELS, mais dans le cadre de ce projet on va omettre la vérification à l'ELS car l'acrotère n'est pas un éléments a trés grande importance structurale.
+	
+	\vspace{\baselineskip}
+	
+	L'acrotère est un élément élancé, donc on va calculer pour 1 mètre linéaire.
+	
+	\subsection{Dimensions de l'acrotère}
+	
+	On va prendre des dimensions empirique pour l’acrotère.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\linewidth]{figures/chapitre-2/acrotere/dim-acrotere}
+		\caption{Dimensions de l'acrotère}
+		\label{fig:dim-acrotere}
+	\end{figure}
+	
+	
+	
+	
+	\subsection{Charge et surcharge d'exploitation}
+	
+	L'acrotère reprend uniqument son poids propre comme charge permanente, et la surcharge d'exploitation peut être une échelle des pompiers ou autre.
+	
+	Les charges seront appliquer comme montrer dans la figure \ref{fig:charge-acrotere}.
+	
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.2\linewidth]{figures/chapitre-2/acrotere/charge-acrotere}
+		\caption{Charges sur l'acrotère}
+		\label{fig:charge-acrotere}
+	\end{figure}
+	
+	
+	\subsubsection{Charge permanente}
+	
+	\[ G = \rho_{ba} \cdot V_{acrotere} = 25 ~\unit{kN\per m^{3}} \cdot 0,07 = 1,75 ~\unit{kN} \]
+	
+	Avec $V_{acrotere}$ : Volume de l'acrotère.
+	
+	
+	\subsubsection{Surcharge d'exploitation}
+	
+	Depuis le DTR Charges et surcharges d'exploitation on a : $Q = 1 ~\unit{kN}$
+	
+	
+	\subsection{Calcul du ferraillage}
+	
+	Notre élément est une console encastrée à sa base.
+	
+	Donc les forces appliquée vont engendrée un moment, un effort normale et un effort tranchant.
+	
+	Ces efforts sont maximal au niveau de l'encastrement.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{figures/chapitre-2/acrotere/efforts-acrotere}
+		\caption{Efforts internes du l'acrotère}
+		\label{fig:efforts-acrotere}
+	\end{figure}
+	
+	
+	\subsubsection{Calcul a l'ELU}
+	
+	La section la plus défavorable est au niveau de l'encastrement.
+	
+	\[ M_{u} = 1,5 \cdot Q \cdot l = 1,5 \cdot 1 \cdot 60 = 90 ~\unit{kNcm} \]
+	
+	\[ N_{u} = 1,35 \cdot G = 1,35 \cdot 1,75 = 2,36 ~\unit{kN} \]
+	
+	\[ T_{u} = 1,5 \cdot Q = 1,5 \cdot 1 = 1,5 ~\unit{kN} \]
+	
+	
+	On a une \textbf{\underline{flexion composée}}.
+	
+	\subsubsection{Données}
+	
+	\vspace{\baselineskip}
+	
+	On transforme notre effort normale et moment en un seul effort normale excentrée N.
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{figures/chapitre-2/acrotere/section-acro}
+		\caption{Section de l'acrotère et systéme equivalent}
+		\label{fig:section-acro}
+	\end{figure}
+	
+	\paragraph{Données et indices}
+	
+	\begin{itemize}[label*=$\bullet$]
+		\item $e = \dfrac{M_{u}}{N_{u}} = \dfrac{90}{2,36} = 38,13 ~\unit{cm}$ Excentricité.
+		\item $c = 2,5$ L'enrobage.
+		\item $g = e + \dfrac{h}{2} - c = 38,13 + 5 - 2,5 = 40,63 ~\unit{cm}$ qui est la distance entre N et les aciers tendue.
+		\item $d = 10 - 2,5 = 7,5$
+		\item $f_{c28} = 25 ~\unit{MPa} = 2,5 ~\unit{kN\per cm^{2}}$
+		\item $f_{t28} = 0,6 + 0,06 \cdot f_{c28} = 0,75 ~\unit{kN\per cm^{2}}$
+		\item $\sigma_{bc} = \dfrac{0,85 \cdot f_{c28}}{1 \cdot 1,5} = 1,42 ~\unit{kN\per cm^{2}}$
+		\item $\sigma_{s} = \dfrac{f_{e}}{1,15} = 34,8 ~\unit{kN\per cm^{2}}$
+	\end{itemize}
+	
+	
+	\subsubsection{Calcul des armatures fictives}
+	
+	On pose :
+	
+	
+	\[ N_{u} + A_{st} \cdot \sigma_{s} = A_{stf} \cdot \sigma_{s} \]
+	
+	\[ A_{sc} = A_{scf} \]
+	
+	\[ N_{u} \cdot g = M_{f} \]
+	
+	
+	\underline{Maintenant le calcul se fera en \textbf{flexion simple}}
+	
+	
+	\[ \mu_{f} = \dfrac{M_{f}}{b \cdot d^{2} \cdot \sigma_{bc}} = \dfrac{2,36 \cdot 40,63}{100 \cdot 7,5^{2} \cdot 1,41} = 0,012 \]
+	
+	Pour les aciers FeE400 on a $\mu_{l} = 0,392$
+	
+	\[ \mu_{l} > \mu_{f} \text{ Donc section simplement armé} \]
+	
+	
+	\[ A_{scf} = 0 \qquad A_{stf} = \dfrac{M_{f}}{Z \cdot \sigma_{s}} \]
+	
+	\[ Z = d \cdot (1 - 0,4\alpha) \rightarrow \alpha = 1,25 \cdot (1 - \sqrt{1 - 2 \cdot \mu_{f}}) = 0,015 \]
+	
+	
+	\[ Z = 7,455 ~\unit{cm} \]
+	
+	\[ A_{stf} = \dfrac{2,36 \cdot 40,63}{7,455 \cdot 34,8} = 0,37 ~\unit{cm^{2}} \]
+	
+	
+	\subsubsection{Calcul des armatures réelles}
+	
+	\[\fbox{$ A_{sc} = A_{scf} = 0 \text{ (armtures de montage)} $}\]
+	
+	\[ A_{st} = A_{stf} - \dfrac{N_{u}}{\sigma_{s}} = 0,37 - \dfrac{2,36}{34,8} \]
+	
+	\[ \fbox{$A_{st} = 0,302 ~\unit{cm^{2}}$} \]
+	
+	
+	\subsubsection{Condition non fragilité}
+	
+	\[ e_{s} = \dfrac{60}{1,75} = 34,28 ~\unit{cm} \]
+	
+	\[ A_{\min} = \dfrac{f_{t28}}{f_{e}} \cdot \dfrac{e_{s - 0,455 \cdot d}}{e_{s} - 0,185 \cdot d} \cdot b \cdot d \]
+	
+	\[ \fbox{$A_{\min} = 0,85 ~\unit{cm^{2}} > A_{st}$} \]
+	
+	\[ \text{Condition non vérifiée donc on prend : } A_{st} = A_{\min} \]
+	
+	\fbox{On prend 5HA6 = $1,41 ~\unit{cm^{2}}$}
+	
+	\vspace{\baselineskip}
+	
+	Avec un espacemet de $1000 - 5 \cdot 6 - 2 \cdot 25 = 230 ~\unit{mm} = 23 ~\unit{cm}$
+	
+	\vspace{\baselineskip}
+	
+	Un choix inférieur est une mauvaise idée, car de larges zones du l'acrotère seraient sans armatures.
+	
+	
+	\subsubsection{Vérification au cisaillement}
+	
+	\[ \tau_{u} = \dfrac{T_{u}}{b \cdot d} = \dfrac{1500 ~\unit{N}}{1000 \cdot 75 ~\unit{mm}} = 0,02 ~\unit{MPa} \quad<\quad \overline{\tau}_{u} = \min \left.\begin{cases}
+		0,15 \cdot \dfrac{f_{c28}}{\gamma_{b}} \\
+		4 ~\unit{MPa}
+	\end{cases} \right\} = 2,5 ~\unit{MPa} \]
+	
+	\[ \text{Condition vérifiée, on a pas besoin d'armtures transversale.} \]
+	
+	
+		
+	\subsection{Plan de ferraillage}
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{figures/chapitre-2/acrotere/ferraillage-acro}
+		\caption{Plan de ferraillage de l'acrotère}
+		\label{fig:ferraillage-acro}
+	\end{figure}
 	
 	
 	

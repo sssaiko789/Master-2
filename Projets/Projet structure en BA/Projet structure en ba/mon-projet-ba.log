@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  6 NOV 2025 23:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  14 NOV 2025 00:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1045,19 +1045,94 @@ Overfull \hbox (3.30475pt too wide) detected at line 9
 \T1/cmr/bx/n/12 II.2 
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+
+Overfull \hbox (3.30475pt too wide) detected at line 10
+\T1/cmr/bx/n/12 II.3 
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
 
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
 
 
 (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (3.30475pt too wide) detected at line 25
-\T1/cmr/bx/n/12 II.3 
+Overfull \hbox (3.30475pt too wide) detected at line 26
+\T1/cmr/bx/n/12 II.4 
+ []
+
+
+Overfull \hbox (8.7062pt too wide) detected at line 32
+\T1/cmr/bx/n/12 III.1 
+ []
+
+
+Overfull \hbox (8.7062pt too wide) detected at line 33
+\T1/cmr/bx/n/12 III.2 
+ []
+
+
+Overfull \hbox (4.62096pt too wide) detected at line 34
+\T1/cmr/m/n/12 III.2.1 
+ []
+
+
+Overfull \hbox (4.62096pt too wide) detected at line 35
+\T1/cmr/m/n/12 III.2.2 
+ []
+
+
+Overfull \hbox (3.18526pt too wide) detected at line 36
+\T1/cmr/m/n/12 III.2.2.1 
+ []
+
+
+Overfull \hbox (3.18526pt too wide) detected at line 37
+\T1/cmr/m/n/12 III.2.2.2 
+ []
+
+
+Overfull \hbox (4.62096pt too wide) detected at line 38
+\T1/cmr/m/n/12 III.2.3 
+ []
+
+
+Overfull \hbox (3.18526pt too wide) detected at line 39
+\T1/cmr/m/n/12 III.2.3.1 
+ []
+
+
+Overfull \hbox (3.18526pt too wide) detected at line 40
+\T1/cmr/m/n/12 III.2.3.2 
+ []
+
+
+Overfull \hbox (3.18526pt too wide) detected at line 42
+\T1/cmr/m/n/12 III.2.3.3 
+ []
+
+
+Overfull \hbox (3.18526pt too wide) detected at line 43
+\T1/cmr/m/n/12 III.2.3.4 
+ []
+
+
+Overfull \hbox (3.18526pt too wide) detected at line 44
+\T1/cmr/m/n/12 III.2.3.5 
+ []
+
+
+Overfull \hbox (3.18526pt too wide) detected at line 45
+\T1/cmr/m/n/12 III.2.3.6 
+ []
+
+
+Overfull \hbox (4.62096pt too wide) detected at line 46
+\T1/cmr/m/n/12 III.2.4 
  []
 
 )
@@ -1074,28 +1149,28 @@ Overfull \hbox (3.30475pt too wide) detected at line 25
 
 [3]
 
-LaTeX Warning: Command \^ invalid in math mode on input line 237.
+LaTeX Warning: Command \^ invalid in math mode on input line 240.
 
 Missing character: There is no Ê in font cmr12!
-<figures/Chapitre-1/elements-plancher.png, id=124, 274.02374pt x 325.215pt>
+<figures/Chapitre-1/elements-plancher.png, id=204, 274.02374pt x 325.215pt>
 File: figures/Chapitre-1/elements-plancher.png Graphic file (type png)
 <use figures/Chapitre-1/elements-plancher.png>
 Package pdftex.def Info: figures/Chapitre-1/elements-plancher.png  used on inpu
-t line 279.
+t line 284.
 (pdftex.def)             Requested size: 85.35696pt x 101.30191pt.
 
 
 [4]
 
 [5 <./figures/Chapitre-1/elements-plancher.png>]
-<figures/Chapitre-1/charges-dimension.png, id=143, 199.49532pt x 255.20343pt>
+<figures/Chapitre-1/charges-dimension.png, id=223, 199.49532pt x 255.20343pt>
 File: figures/Chapitre-1/charges-dimension.png Graphic file (type png)
 <use figures/Chapitre-1/charges-dimension.png>
 Package pdftex.def Info: figures/Chapitre-1/charges-dimension.png  used on inpu
-t line 353.
+t line 358.
 (pdftex.def)             Requested size: 89.6267pt x 114.65356pt.
 
-Overfull \hbox (67.97401pt too wide) detected at line 360
+Overfull \hbox (67.97401pt too wide) detected at line 365
 \OML/cmm/m/it/12 G \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OM
 L/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 88\O
 ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 267 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825
@@ -1104,17 +1179,17 @@ ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 267 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825
  []
 
 
-Overfull \hbox (2.61047pt too wide) in paragraph at lines 350--366
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 355--371
 []$[]$ $[]$ 
  []
 
 File: figures/Chapitre-1/charges-dimension.png Graphic file (type png)
 <use figures/Chapitre-1/charges-dimension.png>
 Package pdftex.def Info: figures/Chapitre-1/charges-dimension.png  used on inpu
-t line 377.
+t line 382.
 (pdftex.def)             Requested size: 89.6267pt x 114.65356pt.
 
-Overfull \hbox (68.46817pt too wide) detected at line 383
+Overfull \hbox (68.46817pt too wide) detected at line 388
 \OML/cmm/m/it/12 G \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OM
 L/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 83\O
 ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 916 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825
@@ -1123,36 +1198,90 @@ ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 916 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825
  []
 
 
-Overfull \hbox (2.61047pt too wide) in paragraph at lines 374--389
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 379--394
 []$[]$ $[]$ 
  []
 
-<figures/chapitre-1/section-ab-rpa.png, id=145, 70.76437pt x 80.55093pt>
+<figures/chapitre-1/section-ab-rpa.png, id=225, 70.76437pt x 80.55093pt>
 File: figures/chapitre-1/section-ab-rpa.png Graphic file (type png)
 <use figures/chapitre-1/section-ab-rpa.png>
 Package pdftex.def Info: figures/chapitre-1/section-ab-rpa.png  used on input l
-ine 418.
+ine 423.
 (pdftex.def)             Requested size: 64.01935pt x 72.87865pt.
 
 
 [6 <./figures/Chapitre-1/charges-dimension.png>]
 
-[7 <./figures/chapitre-1/section-ab-rpa.png>] (mon-projet-ba.aux)
+[7 <./figures/chapitre-1/section-ab-rpa.png>]
+<figures/chapitre-2/acrotere/dim-acrotere.png, id=244, 337.26pt x 402.00188pt>
+File: figures/chapitre-2/acrotere/dim-acrotere.png Graphic file (type png)
+<use figures/chapitre-2/acrotere/dim-acrotere.png>
+Package pdftex.def Info: figures/chapitre-2/acrotere/dim-acrotere.png  used on 
+input line 495.
+(pdftex.def)             Requested size: 170.71393pt x 203.48473pt.
+<figures/chapitre-2/acrotere/charge-acrotere.png, id=246, 295.85532pt x 361.35p
+t>
+File: figures/chapitre-2/acrotere/charge-acrotere.png Graphic file (type png)
+<use figures/chapitre-2/acrotere/charge-acrotere.png>
+Package pdftex.def Info: figures/chapitre-2/acrotere/charge-acrotere.png  used 
+on input line 513.
+(pdftex.def)             Requested size: 85.35696pt x 104.24846pt.
+
+
+[8 <./figures/chapitre-2/acrotere/dim-acrotere.png>]
+<figures/chapitre-2/acrotere/efforts-acrotere.png, id=254, 342.5297pt x 122.708
+44pt>
+File: figures/chapitre-2/acrotere/efforts-acrotere.png Graphic file (type png)
+<use figures/chapitre-2/acrotere/efforts-acrotere.png>
+Package pdftex.def Info: figures/chapitre-2/acrotere/efforts-acrotere.png  used
+ on input line 541.
+(pdftex.def)             Requested size: 298.75264pt x 107.03445pt.
+<figures/chapitre-2/acrotere/section-acro.png, id=255, 463.7325pt x 87.32625pt>
+
+File: figures/chapitre-2/acrotere/section-acro.png Graphic file (type png)
+<use figures/chapitre-2/acrotere/section-acro.png>
+Package pdftex.def Info: figures/chapitre-2/acrotere/section-acro.png  used on 
+input line 569.
+(pdftex.def)             Requested size: 298.75264pt x 56.25903pt.
+
+
+[9 <./figures/chapitre-2/acrotere/charge-acrotere.png> <./figures/chapitre-2/ac
+rotere/efforts-acrotere.png>]
+
+[10 <./figures/chapitre-2/acrotere/section-acro.png>]
+Overfull \hbox (9.14082pt too wide) detected at line 655
+\OML/cmm/m/it/12 ^^\[] \OT1/cmr/m/n/12 = [] = [] = 0\OML/cmm/m/it/12 ; \OT1/cmr
+/m/n/12 02 []  \OML/cmm/m/it/12 <  [][] \OT1/cmr/m/n/12 = [] [] = 2\OML/cmm/m/i
+t/12 ; \OT1/cmr/m/n/12 5 []
+ []
+
+<figures/chapitre-2/acrotere/ferraillage-acro.png, id=270, 511.15968pt x 243.15
+843pt>
+File: figures/chapitre-2/acrotere/ferraillage-acro.png Graphic file (type png)
+<use figures/chapitre-2/acrotere/ferraillage-acro.png>
+Package pdftex.def Info: figures/chapitre-2/acrotere/ferraillage-acro.png  used
+ on input line 666.
+(pdftex.def)             Requested size: 298.75264pt x 142.11539pt.
+
+
+[11]
+
+[12 <./figures/chapitre-2/acrotere/ferraillage-acro.png>] (mon-projet-ba.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `mon-projet-ba.out' has not changed.
-(rerunfilecheck)             Checksum: 35D055FE6B57E800266E1FE66C0E2B27;2896.
+(rerunfilecheck)             Checksum: 3F8202786A1234221B63AEAE645D0601;5777.
  ) 
 Here is how much of TeX's memory you used:
- 31668 strings out of 473523
- 655364 string characters out of 5714631
- 993836 words of memory out of 5000000
- 54394 multiletter control sequences out of 15000+600000
+ 31772 strings out of 473523
+ 659058 string characters out of 5714631
+ 1001163 words of memory out of 5000000
+ 54471 multiletter control sequences out of 15000+600000
  572506 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,22n,101p,430b,1036s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,22n,101p,430b,1061s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc
 1200.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecrm2488.pk> <C:\Users\jamal\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -1167,10 +1296,11 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users
 /jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
 8.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb>
-Output written on mon-projet-ba.pdf (7 pages, 198142 bytes).
+/cm/cmsy10.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb>
+Output written on mon-projet-ba.pdf (12 pages, 286774 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 570 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
