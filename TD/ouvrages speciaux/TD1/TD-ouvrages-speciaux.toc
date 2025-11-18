@@ -24,3 +24,6 @@
 \contentsline {paragraph}{Calcul de $\mu $}{7}{section*.6}%
 \contentsline {subsubsection}{\numberline {2.1.4}Calcul en appuie}{8}{subsubsection.2.1.4}%
 \contentsline {paragraph}{Calcul de $\mu $}{8}{section*.7}%
+\contentsline {subsection}{\numberline {2.2}Armatures de la poutre}{8}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Moment en travée}{8}{subsubsection.2.2.1}%
+\contentsline {section}{\numberline {3}Plan de ferraillage}{9}{section.3}%

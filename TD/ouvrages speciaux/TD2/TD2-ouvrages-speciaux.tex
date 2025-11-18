@@ -1,0 +1,171 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+\usepackage{amsmath, amssymb}
+
+\usepackage{graphicx}
+\usepackage{caption}
+
+\usepackage{siunitx} % Pour les unités
+
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2.5cm, left=3cm, right=3cm}
+\setlength{\parindent}{0pt}
+
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+
+\usepackage{multicol}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{gray}}
+
+\usepackage{tcolorbox}
+
+
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+
+\newcommand{\RomanNum}[1] %pour les chiffre romain
+{\MakeUppercase{\romannumeral #1}}
+
+
+
+
+
+
+
+
+
+
+
+\title{Ouvrages spéciaux : TD 2 passrelle en BA}
+\author{}
+\date{\today}
+
+\begin{document}
+	\counterwithin{section}{part} % pour que \section{} recommence de 1 aprés \part{}
+	
+	\maketitle
+	
+	\tableofcontents
+	
+	\newpage
+	
+	
+	\part{Exo 2}
+	
+	\section{Vérification au renversement}
+	
+	Vérifions que l'ouvrage ne risque pas de basculer autour du point A lorsqu'il n'est chargé que d'un seul coté.
+	
+	\vspace{\baselineskip}
+	
+	\begin{tikzpicture}[scale=0.3]
+		
+		
+		\draw (0,0)
+		-- (3,0) coordinate (A)
+		-- ++(0,4)
+		-- ++(5,3)
+		-- ++(0,3) coordinate (B);
+		
+		\draw (0,0)
+		-- (0,4)
+		-- ++(-5,3)
+		-- ++(0,3)
+		-- (B);
+		
+		
+		\fill (A) circle (10pt) node[right] {\Huge \textcolor{red}{A}};
+		
+		
+	\end{tikzpicture}
+	
+	
+	
+	\subsection{Rappel pour un trapéze}
+	
+	\begin{multicols}{2}
+	
+		
+		\[ S = \dfrac{B + b}{2} \cdot h \]
+		
+		\[ V_{1} = \dfrac{h \cdot (2B + b)}{3 \cdot (B + b)} \]
+		
+		\[ V_{2} = \dfrac{h \cdot (B + 2b)}{3 \cdot (B + b)} \]
+		
+		
+		\columnbreak
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.7\linewidth]{figures/rappel-trapeze}
+		\end{figure}
+		
+		
+	\end{multicols}
+	
+	
+	
+	
+	\subsubsection{Calcul du poids propre au 1ml}
+	
+	\begin{itemize}
+		\item Garde du corps (des deux coté) : $ = 40 ~\unit{kg}$
+		\item Murettes : $ = 2 \cdot (0,1 \cdot 0,1) \cdot 2500 = 50 ~\unit{kg}$
+		\item Console : $ = 2 \cdot \left( \dfrac{0,12 + 0,08}{2} \cdot 0,8 \right) \cdot 2500 = 400 ~\unit{kg}$
+		\item Poutre : $ = (0,4 \cdot 0,1) \cdot 2500 = 1000 ~\unit{kg}$
+		
+		\item Revetement : $ = 1,8 \cdot 100 = 180 ~\unit{kg}$
+	\end{itemize}
+	
+	\[ P = 1670 ~\unit{kg} \text{ pour 1ml} \]
+	
+	
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\linewidth]{figures/poutre-te}
+	\end{figure}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}

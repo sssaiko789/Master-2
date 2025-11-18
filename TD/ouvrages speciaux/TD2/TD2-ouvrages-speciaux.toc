@@ -1,0 +1,5 @@
+\babel@toc {french}{}\relax 
+\contentsline {part}{I\hspace {1em}Exo 2}{2}{part.1}%
+\contentsline {section}{\numberline {I.1}Vérification au renversement}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {I.1.1}Rappel pour un trapéze}{2}{subsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {I.1.1.1}Calcul du poids propre au 1ml}{2}{subsubsection.1.1.1.1}%

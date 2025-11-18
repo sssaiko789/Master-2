@@ -56,11 +56,16 @@
 
 
 
-\title{TD ouvrages speciaux}
+\title{Ouvrages spéciaux : TD 1 passrelle en BA}
 \author{}
 \date{\today}
 
 \begin{document}
+	
+	
+	
+	\maketitle
+	
 	\tableofcontents
 	
 	\newpage
@@ -435,11 +440,93 @@
 	
 	
 	
+	\[ \sigma_{b} = 4,526 ~\unit{MPa} < \overline{\sigma}_{b} = 15 ~\unit{MPa} \]
+	
+	\vspace{\baselineskip}
+	
+	\[ A_{st}^{ELS} = 1,145 ~\unit{cm^{2}} \]
+	
+	Comme $A_{st}^{ELS} > A_{st}^{ELU}$ on retiendra la valeur a l'ELS.
+	
+	\vspace{\baselineskip}
+	
+	On choisie 4HA10 = $3,14 ~\unit{cm^{2}}$ avec un espacement de 25cm.
+	
+	\vspace{\baselineskip}
+	
+	Les armatures de répartition : 4HA8 = $2,01 ~\unit{cm^{2}}$ avec un espacement de $25 ~\unit{cm} < 4 \cdot 8 = 32 ~\unit{cm}$
+	
+	
+	
+	\subsection{Armatures de la poutre}
+	
+	
+	\begin{itemize}
+		\item Garde-corps : $400 ~\unit{N}$
+		\item Poids propre : $0,8 \cdot 0,25 \cdot 1 \cdot 25000 = 5000 ~\unit{N}$
+		\item Reaction du Hourdis : $(3000 + 4000)\dfrac{2}{2} = 7000 ~\unit{N}$
+	\end{itemize}
+	
+	Le tout pour 1ml.
+	
+	\[ P_{ELS} = 12400 ~\unit{N} \quad\text{pour 1ml} \]
+	
+	
+	\subsubsection{Moment en travée}
+	
+	\[ M_{\max} = \dfrac{P_{ELS} \cdot l^{2}}{8} = \dfrac{12400 \cdot 12^{2}}{8} = 223200 ~\unit{Nm} \]
+	
+	\[ M_{\max} = 223200 ~\unit{Nm} \]
+	
+	\[ \overline{\sigma}_{s} = 240 ~\unit{MPa} \]
+	
+	
+	
+	\vspace{\baselineskip}
+	
+	
+	\[ \mu_{1} = \dfrac{M_{\max}}{b \cdot d^{2} \cdot \overline{\sigma}_{s}} = \dfrac{223200 \cdot 10^{2}}{25 \cdot 74^{2} \cdot 240 \cdot 10^{2}} \]
+	
+	\[ \mu_{1} = 0,00679 \rightarrow \begin{cases}
+		\beta_{1} = 0,8732 \\
+		K_{1} = 24,9185
+	\end{cases} \]
+	
+	
+	\[ \sigma_{b} = \dfrac{\overline{\sigma}_{s}}{K_{1}} = \dfrac{240}{24,9185} = 9,6314 ~\unit{MPa} < \overline{\sigma}_{b} = 15 ~\unit{MPa} \]
+	
+	\[ A_{st} = \dfrac{M_{\max}^{^{appuie}}}{\beta_{1} \cdot d \cdot \overline{\sigma}_{s}} = \dfrac{223200 \cdot 10^{2}}{0,8732 \cdot 74 \cdot 240 \cdot 10^{2}} \]
+	
+	
+	\[ A_{st}^{ELS} = 14,392 ~\unit{cm^{2}} > A_{st}^{ELU} = 13,44 ~\unit{cm^{2}} \]
+	
+	
+	Alors les armature seront choisie avec la valeur a l'ELS.
+	
+	On choisie : 3HA20 + 3HA16 $= 15,45 ~\unit{cm^{2}}$ avec un espacement de 25cm.
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Il s'agit d'une poutre de grande hauteur donc il faut prévoir des armatures de peau constituée de 3HA10 par face $(h > 50 ~\unit{cm})$ 
+	\end{tcolorbox}
 	
 	
 	
 	
 	
+	\section{Plan de ferraillage}
+	
+	
+	
+	
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{figures/exo1/ferraillage}
+		\caption{}
+		\label{fig:ferraillage}
+	\end{figure}
 	
 	
 	
