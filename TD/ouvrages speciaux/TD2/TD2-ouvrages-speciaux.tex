@@ -12,7 +12,7 @@
 \usepackage{siunitx} % Pour les unités
 
 \usepackage{geometry}
-\geometry{top=2cm, bottom=2.5cm, left=3cm, right=3cm}
+\geometry{top=2cm, bottom=1.5cm, left=2cm, right=1.5cm}
 \setlength{\parindent}{0pt}
 
 \usepackage{enumitem}
@@ -69,6 +69,53 @@
 	
 	\part{Exo 2}
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	\section{Rappel pour un trapéze}
+	
+	\begin{multicols}{2}
+		
+		
+		\[ S = \dfrac{B + b}{2} \cdot h \]
+		
+		\[ V_{1} = \dfrac{h \cdot (2B + b)}{3 \cdot (B + b)} \]
+		
+		\[ V_{2} = \dfrac{h \cdot (B + 2b)}{3 \cdot (B + b)} \]
+		
+		
+		\columnbreak
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=0.7\linewidth]{figures/rappel-trapeze}
+		\end{figure}
+		
+		
+	\end{multicols}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	\section{Vérification au renversement}
 	
 	Vérifions que l'ouvrage ne risque pas de basculer autour du point A lorsqu'il n'est chargé que d'un seul coté.
@@ -98,27 +145,6 @@
 	
 	
 	
-	\subsection{Rappel pour un trapéze}
-	
-	\begin{multicols}{2}
-	
-		
-		\[ S = \dfrac{B + b}{2} \cdot h \]
-		
-		\[ V_{1} = \dfrac{h \cdot (2B + b)}{3 \cdot (B + b)} \]
-		
-		\[ V_{2} = \dfrac{h \cdot (B + 2b)}{3 \cdot (B + b)} \]
-		
-		
-		\columnbreak
-		
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=0.7\linewidth]{figures/rappel-trapeze}
-		\end{figure}
-		
-		
-	\end{multicols}
 	
 	
 	
@@ -137,12 +163,195 @@
 	\[ P = 1670 ~\unit{kg} \text{ pour 1ml} \]
 	
 	
+	\subsubsection{Surcharge}
+	
+	\[ S = 500 \cdot 1 \cdot 0,7 = 350 ~\unit{kg} \]
+	
+	
 	
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=1\linewidth]{figures/poutre-te}
 	\end{figure}
+	
+	
+	
+	\subsubsection{Moments stabilisant}
+	
+	\[ M_{s} = M_{/a}\circlearrowleft = P \cdot 0,2 = 1670 \cdot 0,2 = 334 \]
+	
+	\[ \fbox{$M_{s} = 334 ~\unit{kgm}$} \]
+	
+	
+	\subsubsection{Moments reversant}
+	
+	\[ M_{r} = M_{/a}\circlearrowright = S \cdot 0,35 = 350 \cdot 0,35 = 122,5 \]
+	
+	\[ M_{r} = 122,5 ~\unit{kg} \]
+	
+	
+	\subsubsection{Sécurité au renversement}
+	
+	\[ \begin{aligned}
+		M_{s} &> 1,5 \cdot M_{r} \\
+		334 &> 1,5 \cdot 122,5 = 183,75\\
+	\end{aligned} \]
+	 
+	
+	{\centering Condition vérifier le systeme est stable. \par}
+	
+	
+	
+	
+	
+	
+	\section{Calcul des armatures des éléments de la passrelle en BA a \textbf{l'ELU}}
+	
+	
+	\subsection{Armature de la dalle en console}
+	
+	\subsubsection{Évaluation des moments reversant a une console}
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.45\linewidth]{figures/poutre-te2}
+		\caption{}
+		\label{fig:poutre-te2}
+	\end{figure}
+	
+	
+	
+	\begin{itemize}
+		\item Garde corp (un seul coté) $ = 1,35 \cdot \dfrac{40}{2} \cdot 0,75 = 20,25 ~\unit{kgm}$
+		
+		\item Murrette $ = 1,35 \cdot \dfrac{400}{2} \cdot V_{2} = 1,35 \cdot 200 \cdot 0,375 = 101,25 ~\unit{kgm}$
+		\subitem $V_{2} = \dfrac{h \cdot (B + 2b)}{3 \cdot (B + b)} = \dfrac{0,8 \cdot (2 \cdot 0,08 + 0,12)}{3 \cdot (0,12 + 0,08)} = 0,375 ~\unit{m}$
+		
+		\item Revêtement $ = 1,35 \cdot 100 \cdot 0,7 \cdot 0,35 = 33,075 ~\unit{kgm}$
+		
+		\item Surcharge $ = 1,5 \cdot 500 \cdot 0,7 \cdot 0,35 = 183,75 ~\unit{kgm}$
+		
+		 
+	\end{itemize}
+	
+	On somme et on a :
+	
+	\[ \fbox{$M_{ELU} = 363,7563 ~\unit{kgm}$} \]
+	
+	
+	
+	
+	\subsubsection{Ferraillage (armature principale)}
+	
+	Fissuration préjudiciable $\rightarrow c = 3 ~\unit{cm}$
+	
+	La hauteur utile $\rightarrow d = h - c = 12 - 3 = 9 ~\unit{cm}$
+	
+	\[ \mu = \dfrac{M_{\max}}{b \cdot d^{2 \cdot f_{bu}}} = \dfrac{363,6375 \cdot 10 \cdot 10^{2}}{100 \cdot 9^{2} \cdot 14,2 \cdot 10^{2}} \]
+	
+	\[ \mu = 0,0316 \]
+	
+	\[ \mu = 0,0316 < \mu_{l} = 0,392 \rightarrow SSA \]
+	
+	\vspace{\baselineskip}
+	
+	Par interpolation : $\beta = \beta_{1} + (\beta_{2} - \beta_{1}) \cdot \dfrac{(\mu - \mu_{1})}{(\mu_{2} - \mu_{1})}$
+	
+	Pour $\mu = 0,0316 \rightarrow \beta = 0,9839$
+	
+	\[ A_{st} = \dfrac{M_{ELU}}{\beta \cdot d \cdot \sigma_{st}} = \dfrac{363,7563 \cdot 10^{3}}{0,9839 \cdot 9 \cdot \dfrac{400}{1,15} \cdot 10^{2}} = 1,18 ~\unit{cm^{2}} \]
+	
+	Nous prendrons 5HA8 $ = 2,51 ~\unit{cm^{2}}$ avec un espacement de 20cm.
+	
+	
+	
+	\paragraph{Condition non fragitlité}
+	
+	\[ A_{st} > A_{\min} = \dfrac{0,23 \cdot b \cdot d \cdot f_{t28}}{f_{e}} = \dfrac{0,23 \cdot 100 \cdot 9 \cdot 2,1}{400} = 1,086 ~\unit{cm^{2}} \]
+	
+	\[ A_{st_{adoptée}} = 2,51 ~\unit{cm^{2}} > A_{\min}  = 1,086 ~\unit{cm^{2}} \]
+	
+	{\centering Condtion vérifiée \par}
+	
+	\vspace{\baselineskip}
+	
+	
+	
+	Armature de répartition : 
+	
+	\[ A_{r} = \dfrac{A_{st}}{4} = \dfrac{2,51}{4} = 0,6295 ~\unit{cm^{2}} \]
+	
+	Nous prendrons 4HA8 $ = 2,01 ~\unit{cm^{2}}$ avec un espacement 25cm.
+	
+	
+	\subsubsection{Effort tranchant max agissant sur l'appuie}
+	
+	\[ V_{\max} = 70 + 350 + 20 + 25 + 200 = 665 ~\unit{kg} \]
+	
+	\begin{center}
+		
+	
+	\begin{tikzpicture}
+		
+		\draw (0,0)
+		-- (5,0)
+		-- (5,0.5) -- (5,-0.5) -- ++(0.1,0.1);
+		\draw (5,0) coordinate (a);
+		\draw (5,0.1) coordinate (b);
+		\draw (5,0.2) coordinate (c);
+		\draw (5,-0.1) coordinate (d);
+		\draw (5,-0.2) coordinate (e);
+		
+		\draw (a) -- ++(0.1,0.1);
+		\draw (b) -- ++(0.1,0.1);
+		\draw (c) -- ++(0.1,0.1);
+		\draw (d) -- ++(0.1,0.1);
+		\draw (e) -- ++(0.1,0.1);
+		
+		\draw[->,thick] (0,0) -- (0,-1) coordinate(A);
+		\draw[<-,thick] (0,0) -- (0,1) coordinate(B);
+		\draw[->,thick] (2,0) -- ++(0,-1) coordinate(C);
+		\draw[<-,thick] (3,0) node[right] {350 ~\unit{kg}} -- (3,1) coordinate(D);
+		\draw[<-,thick] (D) -- ++(0,1) coordinate(E);
+		
+		\fill (A) node[right] {25 ~\unit{kg}};
+		\fill (B) node[right] {20 ~\unit{kg}};
+		\fill (C) node[right] {200 ~\unit{kg}};
+		\fill (E) node[right] {25 ~\unit{kg}};
+		
+	\end{tikzpicture}
+	
+	
+	
+	\end{center}
+	
+	
+	\subsubsection{Calcul des contrainte tangentielle}
+	
+	\[ \tau_{u} = \dfrac{V_{\max}}{b_{0} \cdot d} = \dfrac{665 \cdot 10}{1000 \cdot 90} = 0,0738 ~\unit{MPa} \]
+	
+	Fissuration préjudiciable : 
+	
+	\[ \overline{\tau}_{u} = \min \left.\begin{cases}
+		0,05 \cdot f_{c28} = 0,05 \cdot 30 = 1,5 ~\unit{MPa} \\
+		5 ~\unit{MPa}
+	\end{cases}\right\} \rightarrow \overline{\tau}_{u} = 1,5 ~\unit{MPa} \]
+	
+	\[ \tau_{u} = 0,073 ~\unit{MPa} < \overline{\tau}_{u} = 1,5 ~\unit{MPa} \]
+	
+	{\centering Condition vérifié \par}
+	
+	
+	\vspace{\baselineskip}
+	
+	\[ V_{\max} + \dfrac{M_{ELU}}{0,9d} = 665 + \dfrac{ - 363,7563}{0,9 \cdot 0,09} =  - 3824,35 < 0 \]
+	
+	{\centering Condition vérifiée \par}
+
+
+	
 	
 	
 	
