@@ -14,3 +14,13 @@
 \contentsline {paragraph}{Condition non fragitlité}{5}{section*.5}%
 \contentsline {subsubsection}{\numberline {I.3.1.3}Effort tranchant max agissant sur l'appuie}{5}{subsubsection.1.3.1.3}%
 \contentsline {subsubsection}{\numberline {I.3.1.4}Calcul des contrainte tangentielle}{6}{subsubsection.1.3.1.4}%
+\contentsline {subsection}{\numberline {I.3.2}Armature de la poutre}{6}{subsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {I.3.2.1}Évaluation de la charge}{6}{subsubsection.1.3.2.1}%
+\contentsline {subsubsection}{\numberline {I.3.2.2}Calcul section té (position l'axe neutre)}{7}{subsubsection.1.3.2.2}%
+\contentsline {paragraph}{Le moment équilibrée par la table de compression}{7}{section*.6}%
+\contentsline {subsubsection}{\numberline {I.3.2.3}Calcul du ferraillage}{7}{subsubsection.1.3.2.3}%
+\contentsline {subsubsection}{\numberline {I.3.2.4}Condition non fragilité}{7}{subsubsection.1.3.2.4}%
+\contentsline {subsubsection}{\numberline {I.3.2.5}L'effort tranchant au appuie}{7}{subsubsection.1.3.2.5}%
+\contentsline {paragraph}{Contrainte tangentielle}{8}{section*.7}%
+\contentsline {subsubsection}{\numberline {I.3.2.6}Vérification pour poutre a nervure rectangulaire}{8}{subsubsection.1.3.2.6}%
+\contentsline {subsubsection}{\numberline {I.3.2.7}Armature transverale}{8}{subsubsection.1.3.2.7}%
