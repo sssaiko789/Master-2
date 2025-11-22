@@ -54,8 +54,9 @@
 
 
 
-
-
+\usepackage{pgfplots}
+\usepackage{structuralanalysis}
+\usetikzlibrary { decorations.pathmorphing, decorations.pathreplacing, decorations.shapes, }
 
 
 
@@ -95,12 +96,12 @@
 	
 	
 	
-	\part{Chapitre \RomanNum{1} : Modéle ROBOTNOV}
+	\part{Chapitre \RomanNum{1} : modèle ROBOTNOV}
 	
 	\section{Définition}
 	
 	On dit qu'un matériaux et vierge de tout endommagement si il est démunie de toute cavité et de fissures a l'échelle microscopique,
-	si le matériau 'a un coportement 'a la déformation identique a celui élaboré dans les meilleurs conditions de laboratoir.
+	si le matériau 'a un comportement 'a la déformation identique a celui élaboré dans les meilleurs conditions de laboratoire.
 	
 	\section{Aspect phénoménologique}
 	
@@ -108,24 +109,24 @@
 	
 	\vspace{\baselineskip}
 	
-	Aucune variable mécanique d'endommagement ne peut distinguer entre un matériaux forttement endommager et d'un autre légérement ou non endommager.
+	Aucune variable mécanique d'endommagement ne peut distinguer entre un matériaux fortement endommager et d'un autre légèrement ou non endommager.
 	
 	\section{Objectif de la théorie d'endommagement}
 	
-	Est de crée une variable d'endommagement noté \textbf{"D"} qui perment de quantifier l'état de la détérioration.
+	Est de crée une variable d'endommagement noté \textbf{"D"} qui permet de quantifier l'état de la détérioration.
 	
 	\vspace{\baselineskip}
 	
-	Les mesures a l'échelle de la microstructure \big(mesure de microfissure et de densité(cavité)\big) conduisant a des modules microscopique qu'on peut intégrer a l'échelle macroscopique a l'aide des technique mathématiques d'homogéinisation.
+	Les mesures a l'échelle de la micro-structure \big(mesure de micro-fissure et de densité(cavité)\big) conduisant a des modules microscopique qu'on peut intégrer a l'échelle macroscopique a l'aide des technique mathématiques d'homogénéisation.
 	
 	\vspace{\baselineskip}
 	
 	Un autre type d'évaluation d'un endommagement d'un matériau qui est lié a la durée de vie résiduelle (ce qui lui reste a vivre)
-	mais ce concepte ne conduit pas directement a la notion de loi de comportement de l'endommagement.
+	mais ce concept ne conduit pas directement a la notion de loi de comportement de l'endommagement.
 	
 	\vspace{\baselineskip}
 	
-	Les mesures physiques globales (résistance...) nécessite la définition d'un modéle globale pour les convertire au caractéres mécanique
+	Les mesures physiques globales (résistance...) nécessite la définition d'un modèle globale pour les convertir au caractères mécanique
 	
 	exemple :
 	
@@ -141,11 +142,11 @@
 	
 	\section{Variable d'endommagement \textbf{"$D$"}}
 	
-	La notion de contrainte effective ou bien la section effective a etait élaboré et introduite par ROBOTNOV, elle permet de déterminer la variable d'endommagement "$D$".
+	La notion de contrainte effective ou bien la section effective a était élaboré et introduite par ROBOTNOV, elle permet de déterminer la variable d'endommagement "$D$".
 	
 	Soit l'aire d'une section d'un élément repérer par sa normale $ \vec{n}$ \textbf{\big( La normale est perpendiculaire a la section de la coupe \big)}
 	
-	Dans cette section les fissures et les vides qui constituent les dommages laisse des traces de divérse forme.
+	Dans cette section les fissures et les vides qui constituent les dommages laisse des traces de diverse forme.
 	
 	\vspace{\baselineskip}
 	
@@ -171,19 +172,19 @@
 	
 	\[ D_{\vec{n}} \neq 0 \text{ Matériau endommager} \]
 	
-	En génerale quand $D_{\vec{n}} \leq 0.5$ on peut dire que la structue est récupérable ou bien non endommager.
+	En générale quand $D_{\vec{n}} \leq 0.5$ on peut dire que la structue est récupérable ou bien non endommager.
 	
 	d'un point de vue physique la variable d'endommagement  est donc l'aire relative des vides coupé par la normale $\vec{n}$.
 	
-	\section{Hyphothése d'isopropie d'endommagement}
+	\section{Hyphothése d'isotropie d'endommagement}
 	
 	\subsection{Définition d'isotropie}
 	
 	En science isotropie veut dire : qui a les mêmes propriétés dans toutes les directions.
 	
-	\subsection{L'hypothése}
+	\subsection{L'hypothèse}
 	
-	Lorsque la section des vides est la meme dans les deux sens c a d les fissures sont répartie uniformément dans les deux directions.
+	Lorsque la section des vides est la même dans les deux sens c a d les fissures sont répartie uniformément dans les deux directions.
 	
 	\[ \forall \vec{n} \Rightarrow D_{\vec{n}} = D = \dfrac{S_{p}}{S}\]
 	
@@ -253,13 +254,13 @@
 	\]
 	
 	
-	\section{Hypothése d'équilibre en déforamtion}
+	\section{Hypothèse d'équilibre en déformation}
 	
 	En suppose que le comportement a la déformation d'un matériau  $\overset{\text{ne pas \^{e}tre}}{\text{n'est affécter par}}$ l'endommagement que sous la seul forme de la contrainte effective.
 	
 	\vspace{\baselineskip}
 	
-	En d'autres termes le comportement \`{a} la déformation unidimensionnelle ou tridimensionnelle d'un matériau endommager est traduit par les m\^{e}me loi de comportement appliquer au matériau non endommager a condition de changer la contrainte usuelle par la contrainet effective.
+	En d'autres termes le comportement \`{a} la déformation unidimensionnelle ou tridimensionnelle d'un matériau endommager est traduit par les m\^{e}me loi de comportement appliquer au matériau non endommager a condition de changer la contrainte usuelle par la contrainte effective.
 	
 	\vspace{\baselineskip}
 	
@@ -296,7 +297,7 @@
 	
 	\vspace{\baselineskip}
 	
-	En appliquant la notion de la contrainte effective  a la rupture par décohésion inter-atomique on définie la valeur critique de la variable d'endommagement noté "$D_{c}$".
+	En appliquant la notion de la contrainte effective  a la rupture par dé-cohésion inter-atomique on définie la valeur critique de la variable d'endommagement noté "$D_{c}$".
 	
 	\vspace{\baselineskip}
 	
@@ -376,20 +377,20 @@
 	
 	
 	
-	\part{Chapitre \RomanNum{2} : Modéle MAZARDS}
+	\part{Chapitre \RomanNum{2} : modèle MAZARDS}
 	
 	
 	
 	
 	\section{Définition}
 	
-	Le modéle de comportement de Mazards est un modéle (simple) réputé robuste basée sur la mécanique de l'endommagement qui permet de décrire la dimunition de la rigidité d'un matériau sous l'effetde la création de fissure ou de cavité.
+	Le modèle de comportement de Mazards est un modèle (simple) réputé robuste basée sur la mécanique de l'endommagement qui permet de décrire la dimunition de la rigidité d'un matériau sous l'effetde la création de fissure ou de cavité.
 	
 	Il s'appuie sur une seule variable \textbf{"D"} (Varibale d'endommagement) est d'écrivant d'une maniére \underline{isotrope} l'endommagement de l'élément.
 	
 	\vspace{\baselineskip}
 	
-	Le modéle de Mazards contrairement au modéle de Robtnov distingue l'endommagement a la traction de l'endommagement a la compression noté : $D_{T}$ et $D_{C}$, donc l'endommagement sera une combinaison de $D_{T}$ et de $D_{C}$ \big($D = f(D_{T},D_{C})$\big).
+	Le modèle de Mazards contrairement au modèle de Robtnov distingue l'endommagement a la traction de l'endommagement a la compression noté : $D_{T}$ et $D_{C}$, donc l'endommagement sera une combinaison de $D_{T}$ et de $D_{C}$ \big($D = f(D_{T},D_{C})$\big).
 	
 	\vspace{\baselineskip}
 	
@@ -399,14 +400,14 @@
 	
 	\vspace{\baselineskip}
 	
-	Le modéle de Mazards \underline{ne prend pas} en considération les éventuelle déformations plastique au bien visquese qui peuvent être absorbée lors des déformations du béton.
+	Le modèle de Mazards \underline{ne prend pas} en considération les éventuelle déformations plastique au bien visqueuse qui peuvent être absorbée lors des déformations du béton.
 	
 	\vspace{\baselineskip}
 	
 	
 	\section{Contrainte d'un matériau endommager}
 	
-	Le modéle est élaboré avec :
+	Le modèle est élaboré avec :
 	
 	\[ \sigma = (1 - D) \cdot A \cdot \varepsilon^{e} \]
 	
@@ -423,7 +424,7 @@
 	
 	 
 	
-	Ce modéle est valable uniquement dans le domaine élastique.
+	Ce modèle est valable uniquement dans le domaine élastique.
 	
 	
 	\section{Déformations}
@@ -462,9 +463,9 @@
 	Avec : 
 	
 	\begin{itemize}
-		\item $\alpha$ : Coefficent de dilatation.
-		\item $T$ : temperature avant.
-		\item $T_{ref}$ : temperature apres.
+		\item $\alpha$ : Coefficient de dilatation.
+		\item $T$ : température avant.
+		\item $T_{ref}$ : température après.
 		\item $[I_{d}]$ : matrice identité.
 	\end{itemize}
 	
@@ -478,7 +479,7 @@
 	
 	\subsubsection{Déformations de retrait endogène}
 	
-	Qui est du a l'hydratation du ciment pour le béton, cad ne dépend pas d'un facteur extérieur mais plutot a l'intérieur du matériau.
+	Qui est du a l'hydratation du ciment pour le béton, cad ne dépend pas d'un facteur extérieur mais plutôt a l'intérieur du matériau.
 	
 	\[ \varepsilon^{re} =  - \beta \cdot \xi \cdot [I_{d}] \]
 	
@@ -491,7 +492,7 @@
 	
 	\subsubsection{Déformations du retrait exogène}
 	
-	Cela peut être causé par une dessification ou bien un séchage (l'eau qui s'evapore dans un béton) cad du a un facteur externe.
+	Cela peut être causé par une dessification ou bien un séchage (l'eau qui s'évapore dans un béton) cad du a un facteur externe.
 	
 	\[ \varepsilon^{rd} =  - K \cdot (C_{ref} - C) \cdot [I_{d}] \]
 	
@@ -501,7 +502,7 @@
 	
 	
 	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
-		Pour les défromations endogène et exogène en remarque que leur equations sont négatif, car ces dernieres engender des efforts de traction certe cela parait contre intuitif car le retrait est un raccoursissement, On explique cela avec l'apparition des fissures durant le retrait pour le béton, en sachant que le béton résiste trés bien a la compression mais mal a la traction.????? lorrque empéché uniqument.???
+		Pour les déformations endogène et exogène en remarque que leur équations sont négatif, car ces dernières engendre des efforts de traction serte cela parait contre intuitif car le retrait est un raccourcissement, On explique cela avec l'apparition des fissures durant le retrait pour le béton, en sachant que le béton résiste très bien a la compression mais mal a la traction.????? lorsque empêche uniquement.???
 	\end{tcolorbox}
 	
 	
@@ -509,12 +510,12 @@
 	
 	\section{Variable d'endommagement}
 	
-	Dans le modéle de Mazards la variable d'endommagement $D$ est la combinaison d'un endommagement de traction $D_{t}$ et de compression $D_{c}$.
+	Dans le modèle de Mazards la variable d'endommagement $D$ est la combinaison d'un endommagement de traction $D_{t}$ et de compression $D_{c}$.
 	
 	\[ D = \alpha^{\beta}_{t} \cdot D_{t} + (1 - \alpha_{t})^{\beta} \cdot D_{c} \]
 	
 	
-	Le coefficient $\alpha_{t}$ qui dépend du matériau et qui lorsque il est supérieur a 1 améliore la réponse au cissaillement.
+	Le coefficient $\alpha_{t}$ qui dépend du matériau et qui lorsque il est supérieur a 1 améliore la réponse au cisaillement.
 	
 	
 	\subsection{Variable d'endommagement a la traction et a la compression}
@@ -538,12 +539,12 @@
 	
 	
 	
-	$A_{t},A_{c},B_{c},B_{t},\varepsilon_{d_{0}}$ Sont des paramétre du matériaux a identifier.
+	$A_{t},A_{c},B_{c},B_{t},\varepsilon_{d_{0}}$ Sont des paramètre du matériaux a identifier.
 	
 	
 	
 	
-	\subsubsection{La déforamtion $\varepsilon_{d_{0}}$}
+	\subsubsection{La déformation $\varepsilon_{d_{0}}$}
 	
 	C'est la valeur de la déformation au seuil (limite) de l'apparition de l'endommagement.
 	
@@ -553,7 +554,7 @@
 	
 	\subsubsection{La déformation $\varepsilon_{eq}$}
 	
-	L'endommagement est pilotée par la déforamtion $\varepsilon_{eq}$ qui permet de traduire un état de déforamtion tri-axiale par une équivalence a un état uni-axiale.
+	L'endommagement est pilotée par la déformation $\varepsilon_{eq}$ qui permet de traduire un état de déformation tri-axiale par une équivalence a un état uni-axiale.
 	
 
 	\[ \varepsilon_{eq} = \sqrt{<\varepsilon_{1}>^{2} + <\varepsilon_{2}>^{2} + <\varepsilon_{3}>^{2}} \]
@@ -569,9 +570,9 @@
 	
 	
 	
-	\subsubsection{Les grandeurs des paramétres}
+	\subsubsection{Les grandeurs des paramètres}
 	
-	Pour un certain type de matériau les grandeurs des paramétres sont :
+	Pour un certain type de matériau les grandeurs des paramètres sont :
 	\begin{itemize}[label*=$\bullet$]
 		
 	\item $A_{c}$ est compris entre 1 et 1,15.
@@ -615,11 +616,11 @@
 	
 	
 	
-	Dans le cadre de l'élasticité linéaire en petite déforamtions, la loi de Hook prévoit la porpotionalité entre les contraintes et les déforamtions, ainsi que les forces et les déplacements.
+	Dans le cadre de l'élasticité linéaire en petite déformations, la loi de Hook prévoit la proportionnalité entre les contraintes et les déformations, ainsi que les forces et les déplacements.
 	
 	\vspace{\baselineskip}
 	
-	Dans le cas le plus simple qui est la traction d'une éprouvette pour laquelle on peut lier la contrainte a la force et la défromation ($\varepsilon = \dfrac{\Delta L}{L}$) a l'alongement de facon suivante : $\sigma = \varepsilon \cdot E$
+	Dans le cas le plus simple qui est la traction d'une éprouvette pour laquelle on peut lier la contrainte a la force et la déformation ($\varepsilon = \dfrac{\Delta L}{L}$) a l'allongement de façon suivante : $\sigma = \varepsilon \cdot E$
 	
 	\vspace{\baselineskip}
 	
@@ -639,9 +640,9 @@
 	
 	
 	
-	$\Delta L$ : désigne la variation de la longeur de la zone mesurer de l'eprouvette.
+	$\Delta L$ : désigne la variation de la longueur de la zone mesurer de l'éprouvette.
 	
-	$L$ : La longeur initiale de la zone mesuré de l'eprouvette.
+	$L$ : La longueur initiale de la zone mesuré de l'éprouvette.
 	
 	
 	\begin{figure}[H]
@@ -652,27 +653,184 @@
 	\end{figure}
 	
 	
-	La partie OA représenté par une droite donc y'a une proportionatlité entre $\sigma$ et $\varepsilon$, et la loi de Hook reste valable.
+	La partie OA représenté par une droite donc y'a une proportionnalité entre $\sigma$ et $\varepsilon$, et la loi de Hook reste valable.
 	
-	Au-dela du point A de la courbe, cad pour $\sigma > \sigma_{e}$ la relation entre la contrainte et la déformation n'est plus linéaire, on quitte le domaine élastique pour rentrer dans le domaine plastique, l'étude devient alors plus complexe.
+	Au-delà du point A de la courbe, cad pour $\sigma > \sigma_{e}$ la relation entre la contrainte et la déformation n'est plus linéaire, on quitte le domaine élastique pour rentrer dans le domaine plastique, l'étude devient alors plus complexe.
 	
 	Dans ce domaine la courbe de chargement est différente de la courbe de déchargement.
 	
-	On ce contente alors de définir et prévoir la valeur de $\sigma_{e}$ au dela de laquelle le phénomene de plasticité se produit.
+	On ce contente alors de définir et prévoir la valeur de $\sigma_{e}$ au delà de laquelle le phénomène de plasticité se produit.
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Les critères d'apparitions de la plasticité feront souvent intervenir les contraintes tangentielles, plutôt que les contrainte normales (La plasticité est du au contraintes tangentielles).
+		\vspace{\baselineskip}
+		Un matériau se détériore et entre en plasticité en se déchirant et non pas en compression ou en traction.
+	\end{tcolorbox}
+	
+	\begin{center}
+		
+	
+	\begin{tikzpicture}
+		
+		\draw (0,0) rectangle (2,3);
+		\draw[->,thick] (1,4.5) node[above]{F} -- (1,3);
+		\draw[->,thick] (0,1.5) -- (-1.5,1.5) node[midway, above]{$\tau$};
+		\draw[->,thick] (2,1.5) -- (4,1.5) node[midway, above]{$\tau$};
+		
+		\draw[decorate,decoration=zigzag] (.5,1.5) -- (.5,.5);
+		\draw[decorate,decoration=zigzag] (1,2) -- (1,1);
+		\draw[decorate,decoration=zigzag] (1.5,2.5) -- (1.5,1.5);
+		
+	\end{tikzpicture}
+	
+	
+	
+	\end{center}
+	
+	
+	
+	\section{Critère de plasticité}
+	
+	\subsection{Définition}
+	
+	En tout point d'un solide il existe une contrainte équivalente noté "$\sigma_{eq}$" qui dépend d'un tenseur de contrainte "$ [\sigma] $", et une contrainte limite "$\sigma_{y}$", vérifions la condition suivante : 
+	
+	\vspace{\baselineskip}
+	
+	Le comportement est élastique linéaire tant que : $\sigma_{eq} < \sigma_{y} \quad$ ou bien $ \sigma_{eq}[\sigma] < \sigma_{y} $.
+	
+	\vspace{\baselineskip}
+	
+	D'une autre manière on peut dire que la plasticité apparait dé que : $\sigma_{eq} = \sigma_{y}$
+	
+	\vspace{\baselineskip}
+	
+	$\sigma_{y}$ : La limite a l'élasticité.
+	
+	$\sigma_{eq}$ : système uni-axiale équivalent a un système tri-axiale.
+	
+	\vspace{\baselineskip}
+	
+	La détermination d'un critère est souvent ardu(mêle)??? empirisme, modélisation (cheminement mathématique) et expérimentation.
+	
+	La détermination de la fonction $\sigma_{eq}$ fait partie du domaine de modélisation, alors que $\sigma_{y}$ fait partie du domaine de l'expérimentation.
+	
+	\[ \sigma_{eq} \rightarrow \text{Modélisation} \]
+	
+	\[ \sigma_{y} \rightarrow \text{Expérimentation} \]
+	
+	\vspace{\baselineskip}
+	
+	Il existe beaucoup de critères de plasticité pour tel ou tel matériau et pour tel et tel chargement (fonction selon un type(s) de matériau(x) et un type(s) de chargement).
+	
+	On peut cité : 
+	
+	{\centering Critère de Mohr-Coulomb (1773) 
+	
+	Critère de Drucher-Drager (1952)
+	
+	Et les plus utiliser :
+	
+	Critère de Tresca (1864)
+	
+	Critère de Von Mises (1913) \par}
+	
+	
+	\subsection{Critère de Tresca}
+	
+	En un point donnée d'un élément, la plasticité est atteinte dé que la valeur absolue de la contrainte de cisaillement atteint la valeur critique, sachant que :
+	
+	\[ |\tau_{\max}| = \dfrac{\sigma_{3} - \sigma_{1}}{2} \quad\text{ avec } \sigma_{1} < \sigma_{2} < \sigma_{3}  \]
+	
+	
+	\vspace{\baselineskip}
+	
+	\[ |\tau_{\max}| = 1/2 \underset{\underset{i,j \in [1,2,3]}{i\neq j}}{\max} |\sigma_{i} - \sigma_{j}| \]
+	
+	{\centering Sachant que : \par}
+	
+	\[ \sigma_{eq_{\max}} = \dfrac{\sigma_{y}}{2} \]
+	
+	{\centering on aura : \par}
+	
+	\[ \underset{\underset{i,j \in [1,2,3]}{i\neq j}}{\max} |\sigma_{i} - \sigma_{j}| < \sigma_{y} \]
+	
+	\vspace{\baselineskip}
+	
+	$\sigma_{eq} < \sigma_{y} \rightarrow Elasticité$
+	
+	$\sigma_{eq}  =  \sigma_{y} \rightarrow Plasticite$
+	
+	
+	\subsubsection{Application}
+	
+	
+	\paragraph{Chargement uni-axiale}
+	
+	Soit une tige soumise à une force axiale F : $\sigma = \dfrac{F}{S}$ 
+	
+	\[ [\sigma] = \begin{bmatrix}
+		\sigma & 0 & 0 \\
+		0&0&0\\
+		0&0&0\\
+	\end{bmatrix} \]
+	
+	\[ \sigma_{1} = \sigma \qquad \sigma_{2} = 0 \qquad \sigma_{3} = 0 \]
+	
+	\[ \sigma_{eq}(\sigma_{1},\sigma_{2},\sigma_{3}) = \underset{\underset{i,j \in [1,2,3]}{i\neq j}}{\max} |\sigma_{i} - \sigma_{j}| = 
+	\max \begin{bmatrix}
+		|\sigma_{1} - \sigma_{2}|\\
+		|\sigma_{1} - \sigma_{3}|\\
+		|\sigma_{2} - \sigma_{3}|
+	\end{bmatrix} 
+	= |\sigma|  \]
+	
+	\[ \begin{cases}
+		\text{si } |\sigma| < \sigma_{y} \rightarrow \text{ Pas de plasticité.}\\
+		\text{et si } |\sigma| = \sigma_{y} \rightarrow \text{ Entrée en plasticité.}
+	\end{cases} \]
+	
+	\vspace{\baselineskip}
 	
 	
 	
 	
+	\paragraph{Chargement hydrostatique (pression de l'eau)}
 	
 	
+	\[ [\sigma] = \begin{bmatrix}
+		\sigma & 0 & 0 \\
+		0&\sigma&0\\
+		0&0&\sigma\\
+	\end{bmatrix} \]
+	
+	{\centering La pression de l'eau dans les trois directions est pareil : \par}
+	
+	\[ \sigma_{1} = \sigma \qquad \sigma_{2} = \sigma \qquad \sigma_{3} = \sigma \]
+	
+	\[ \sigma_{eq}(\sigma_{1},\sigma_{2},\sigma_{3}) = \underset{\underset{i,j \in [1,2,3]}{i\neq j}}{\max} |\sigma_{i} - \sigma_{j}| = 
+	\max \begin{bmatrix}
+		|\sigma_{1} - \sigma_{2}|\\
+		|\sigma_{1} - \sigma_{3}|\\
+		|\sigma_{2} - \sigma_{3}|
+	\end{bmatrix} 
+	= \begin{bmatrix}
+		0\\
+		0\\
+		0
+	\end{bmatrix}  \]
 	
 	
-	
-	
-	
-	
-	
-	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		La contrainte équivalente selon Tresca est nul.
+		
+		Ainsi le critère de Tresca prédit que pour tout chargement hydrostatique, le comportement demeure élastique.
+		
+		\[ \forall \sigma_{1},\sigma_{2},\sigma_{3} \Rightarrow \sigma_{eq} = 0 < \sigma_{y} \]
+		
+		De ce fait un chargement hydrostatique reste indéterminé pour le critère de Tresca.
+	\end{tcolorbox}
 	
 	
 	

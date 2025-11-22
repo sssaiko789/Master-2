@@ -1,22 +1,22 @@
 \babel@toc {french}{}\relax 
-\contentsline {part}{I\hspace {1em}Chapitre \MakeUppercase []{i} : Modéle ROBOTNOV}{3}{part.1}%
+\contentsline {part}{I\hspace {1em}Chapitre \MakeUppercase []{i} : modèle ROBOTNOV}{3}{part.1}%
 \contentsline {section}{\numberline {I.1}Définition}{3}{section.1.1}%
 \contentsline {section}{\numberline {I.2}Aspect phénoménologique}{3}{section.1.2}%
 \contentsline {section}{\numberline {I.3}Objectif de la théorie d'endommagement}{3}{section.1.3}%
 \contentsline {section}{\numberline {I.4}Variable d'endommagement \textbf {"$D$"}}{4}{section.1.4}%
-\contentsline {section}{\numberline {I.5}Hyphothése d'isopropie d'endommagement}{4}{section.1.5}%
+\contentsline {section}{\numberline {I.5}Hyphothése d'isotropie d'endommagement}{4}{section.1.5}%
 \contentsline {subsection}{\numberline {I.5.1}Définition d'isotropie}{4}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {I.5.2}L'hypothése}{4}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {I.5.2}L'hypothèse}{4}{subsection.1.5.2}%
 \contentsline {section}{\numberline {I.6}Contrainte effective $\sigma _{eff}$}{5}{section.1.6}%
 \contentsline {subsection}{\numberline {I.6.1}Cas unidimensionnelle}{5}{subsection.1.6.1}%
 \contentsline {subsection}{\numberline {I.6.2}Cas tridimensionnelle (Isotrope)}{6}{subsection.1.6.2}%
-\contentsline {section}{\numberline {I.7}Hypothése d'équilibre en déforamtion}{6}{section.1.7}%
+\contentsline {section}{\numberline {I.7}Hypothèse d'équilibre en déformation}{6}{section.1.7}%
 \contentsline {paragraph}{Exemple }{6}{section*.4}%
 \contentsline {section}{\numberline {I.8}Endommagement critique de rupture $D_{c}$}{7}{section.1.8}%
 \contentsline {subsection}{\numberline {I.8.1}Rupture}{7}{subsection.1.8.1}%
 \contentsline {subsection}{\numberline {I.8.2}Endommagement critique $D_{c}$}{7}{subsection.1.8.2}%
 \contentsline {section}{\numberline {I.9}Application}{8}{section.1.9}%
-\contentsline {part}{II\hspace {1em}Chapitre \MakeUppercase []{ii} : Modéle MAZARDS}{9}{part.2}%
+\contentsline {part}{II\hspace {1em}Chapitre \MakeUppercase []{ii} : modèle MAZARDS}{9}{part.2}%
 \contentsline {section}{\numberline {II.1}Définition}{9}{section.2.1}%
 \contentsline {section}{\numberline {II.2}Contrainte d'un matériau endommager}{9}{section.2.2}%
 \contentsline {section}{\numberline {II.3}Déformations}{9}{section.2.3}%
@@ -27,8 +27,14 @@
 \contentsline {subsubsection}{\numberline {II.3.3.2}Déformations du retrait exogène}{10}{subsubsection.2.3.3.2}%
 \contentsline {section}{\numberline {II.4}Variable d'endommagement}{11}{section.2.4}%
 \contentsline {subsection}{\numberline {II.4.1}Variable d'endommagement a la traction et a la compression}{11}{subsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {II.4.1.1}La déforamtion $\varepsilon _{d_{0}}$}{11}{subsubsection.2.4.1.1}%
+\contentsline {subsubsection}{\numberline {II.4.1.1}La déformation $\varepsilon _{d_{0}}$}{11}{subsubsection.2.4.1.1}%
 \contentsline {subsubsection}{\numberline {II.4.1.2}La déformation $\varepsilon _{eq}$}{11}{subsubsection.2.4.1.2}%
-\contentsline {subsubsection}{\numberline {II.4.1.3}Les grandeurs des paramétres}{12}{subsubsection.2.4.1.3}%
+\contentsline {subsubsection}{\numberline {II.4.1.3}Les grandeurs des paramètres}{12}{subsubsection.2.4.1.3}%
 \contentsline {part}{III\hspace {1em}Théorie de plasticité et introduction a l'analyse limite}{13}{part.3}%
 \contentsline {section}{\numberline {III.1}Introduction}{13}{section.3.1}%
+\contentsline {section}{\numberline {III.2}Critère de plasticité}{14}{section.3.2}%
+\contentsline {subsection}{\numberline {III.2.1}Définition}{14}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {III.2.2}Critère de Tresca}{15}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {III.2.2.1}Application}{15}{subsubsection.3.2.2.1}%
+\contentsline {paragraph}{Chargement uni-axiale}{15}{section*.7}%
+\contentsline {paragraph}{Chargement hydrostatique (pression de l'eau)}{16}{section*.8}%
