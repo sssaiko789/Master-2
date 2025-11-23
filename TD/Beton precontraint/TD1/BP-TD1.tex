@@ -1,0 +1,253 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{stanli}
+
+%\usepackage[T1]{fontenc}
+%\usepackage[french]{babel}
+
+\usepackage{amsmath, amssymb}
+
+\usepackage{graphicx}
+\usepackage{caption}
+
+\usepackage{siunitx} % Pour les unités
+
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2.5cm, left=3cm, right=3cm}
+\setlength{\parindent}{0pt}
+
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+
+\usepackage{multicol}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{gray}}
+
+\usepackage{tcolorbox}
+
+
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+
+\newcommand{\RomanNum}[1] %pour les chiffre romain
+{\MakeUppercase{\romannumeral #1}}
+
+
+
+
+
+
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+
+
+
+
+
+\usepackage{polyglossia}
+\setmainlanguage{french}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\title{Béton précontraint}
+\author{}
+\date{\today}
+
+\begin{document}
+	\counterwithin{section}{part} % pour que \section{} recommence de 1 aprés \part{}
+	
+	\maketitle
+	
+	\tableofcontents
+	
+	\newpage
+	
+	
+	
+	
+	
+	\part{Examen de rattrapage}
+	
+	
+	
+	\begin{center}
+		
+		
+		\begin{tikzpicture}
+			
+			\point{A}{0}{0};
+			\point{B}{6}{0};
+			\point{C}{3}{0};
+			\beam{2}{A}{B};
+			
+			\notation{1}{A}{A}[left];
+			\notation{1}{B}{B}[right];
+			
+			\support{1}{A};
+			\support{2oo}{B};
+			
+			\load{1}{C}[90][3];
+
+			\foreach \xpos in {0,.5,...,6}
+			\draw[->, thick] (\xpos,2) -- (\xpos,0);
+			\draw (0,2) -- (6,2) node[left,above]{$q = 200 \cdot 10^{3} ~\unit{kg\per m}$};
+			
+			
+			\draw (3,3.1) node[above]{\large F};
+			
+		\end{tikzpicture}
+		
+		
+	\end{center}
+	
+	\begin{center}
+		
+		
+		\begin{tikzpicture}
+			
+			\draw (0,0) rectangle (6,1.4);
+			
+			\draw[dashed] (-.5,.7) -- (6.5,.7);
+			
+			\draw (0,1) node[right]{$21 \unit{\degree}$} .. controls (1,.2) and (5,.2) .. (6,.7) node[right]{$21 \unit{\degree}$};
+			
+			\draw[|-|] (-.5,1) -- (-.5,.7) node[left,midway]{$\dfrac{h}{6}$};
+			
+			\draw[|-|] (3,.38) -- (3,.7) node[midway,right]{$0,6 ~\unit{m}$};
+			
+			\draw (8,0) rectangle (8.6,1.4);
+			\draw[|-|] (7.7,0) -- (7.7,1.4) node[midway,left]{140};
+			\draw[|-|] (8,-.3) -- (8.6,-.3) node[midway,below]{60};
+			
+		\end{tikzpicture}
+	
+		
+
+	\end{center}
+
+
+
+
+	
+	\section{Évaluation des charges}
+	
+	\[ q = 200 \cdot 10^{3} ~\unit{kg\per m} = 2000 ~\unit{kN\per m} \]
+	
+	\[ \text{Poids propre de la poutre : } g = \rho_{ba} \cdot b \cdot h = 25 \cdot 0,6 \cdot 1,4 = 21 ~\unit{kN\per m} \]
+	
+	\[ F = 2500 ~\unit{kN} \]
+
+
+
+	\section{Calcul des réactions et efforts}
+
+
+	On va calculer pour chaque chargement séparément
+	
+	\subsection{Calcul avec le poids propre}
+	
+	\subsubsection{Réactions}
+	
+	\[ R_{H}^{A} = 0 \]
+	
+	{\centering par symétrie on aura : \par }
+	
+	\[ R_{V}^{A} = R_{V}^{B} = \dfrac{g \cdot l}{2} = \dfrac{21 \cdot 30}{2} = 315 ~\unit{kN} \]
+	
+	
+	\subsubsection{Efforts tranchants}
+	
+	Poutre continue et uniformément charger donc on aura les efforts tranchants au appuie égale au réactions.
+	
+	\[ T_{g}(x = 0) =  - 315 ~\unit{kN} \]
+	
+	\[ T_{g}(x = 30 ~\unit{m}) = 315 ~\unit{kN} \]
+	
+
+	\vspace{\baselineskip}
+	
+	Depuis l'équation d'équilibre qu'on a eu a partir de la méthode des sections on a : $T_{g} = 21x - 315$
+	
+	
+	\subsubsection{Moments}
+	
+	Charge uniformément répartie sur deux appuie simple, donc on aura le moment max en travée a x = 15m, les moments au appuie sont nul.
+	
+	\[ M_{g}(x = 15 ~\unit{m}) = \dfrac{g \cdot l^{2}}{8} = \dfrac{21 \cdot 30^{2}}{8} = 2362,5 ~\unit{kNm} \]
+	
+	\[ M_{g}(x = 0,x = 30 ~\unit{m}) = 0 \]
+	
+	\vspace{\baselineskip}
+	
+	L'équation : $M_{g} = 10,5x^{2} - 315x$
+	
+	\subsection{Calcul avec la surcharge}
+	
+	Chargement uniforme, donc calcul similaire que avec le poids propre.
+	
+	\subsubsection{Réactions}
+	
+	\[ R_{V}^{A} = R_{V}^{B} = \dfrac{q \cdot l}{2} = 3 \cdot 10^{4} ~\unit{kN} \]
+	
+	\subsubsection{Efforts tranchants}
+	
+	\[ T_{q}(x = 0) =  - 3 \cdot 10^{4} ~\unit{kN} \]
+	
+	\[ T_{q}(x = 30 ~\unit{m}) = 3 \cdot 10^{4} ~\unit{kN} \]
+	
+	\vspace{\baselineskip}
+	
+	L'équation : $T_{q} = 2000x - 30 \cdot 10^{4}$
+	
+	\subsubsection{Moments}
+	
+	
+	\[ M_{q}(x = 15 ~\unit{m}) = \dfrac{q \cdot l^{2}}{8} = \dfrac{2000 \cdot 30^{2}}{8} = 225 \cdot 10^{3} ~\unit{kNm} \]
+	
+	\[ M_{q}(x = 0,x = 30 ~\unit{m}) = 0 \]
+	
+	\vspace{\baselineskip}
+	
+	L'équation : $M_{g} =  - 1000x^{2} + 3 \cdot 10^{4}x$
+
+
+
+
+
+
+	
+	
+	
+	
+\end{document}
