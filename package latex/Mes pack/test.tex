@@ -1,0 +1,257 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+\usepackage{amsmath, amssymb}
+
+\usepackage{graphicx}
+\usepackage{caption}
+
+\usepackage{siunitx} % Pour les unités
+
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2.5cm, left=3cm, right=3cm}
+\setlength{\parindent}{0pt}
+
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+
+\usepackage{multicol}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{gray}}
+
+\usepackage{tcolorbox}
+
+
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+
+\newcommand{\RomanNum}[1] %pour les chiffre romain
+{\MakeUppercase{\romannumeral #1}}
+
+
+%\usepackage{myunit}
+
+
+
+
+
+
+%ommande metrique
+
+%metre
+\newcommand{\meterl}{ ~\unit{\meter}}
+\newcommand{\msq}{ ~\unit{\meter\squared}}
+\newcommand{\mcb}{ ~\unit{\meter\cubed}}
+\newcommand{\minertia}{ ~\unit{\meter^{4}}}
+
+%centimeter
+\newcommand{\cml}{ ~\unit{\centi\meter}}
+\newcommand{\cmsq}{ ~\unit{\centi\meter\squared}}
+\newcommand{\cmcb}{ ~\unit{\centi\meter\cubed}}
+\newcommand{\cmin}{ ~\unit{\centi\meter^{4}}}
+
+%milimeter
+\newcommand{\mm}{ ~\unit{\milli\meter}}
+\newcommand{\mms}{ ~\unit{\milli\meter\squared}}
+\newcommand{\mmc}{ ~\unit{\milli\meter\cubed}}
+\newcommand{\mmi}{ ~\unit{\milli\meter^{4}}}
+	
+	
+	
+	
+	
+	
+	
+	
+	%commande en Newton
+	
+	%force
+	\newcommand{\kn}{ ~\unit{\kilo\newton}}
+	\newcommand{\N}{ ~\unit{\newton}}
+	
+	
+	
+	%moments kN
+	\newcommand{\knxm}{ ~\unit{\kilo\newton\meter}}
+	\newcommand{\knxcm}{ ~\unit{\kilo\newton\centi\meter}}
+	\newcommand{\knxmm}{ ~\unit{\kilo\newton\milli\meter}}
+	%moments N
+	\newcommand{\Nxm}{ ~\unit{\newton\meter}}
+	\newcommand{\Nxcm}{ ~\unit{\newton\centi\meter}}
+	\newcommand{\Nxmm}{ ~\unit{\newton\milli\meter}}
+	
+	
+	
+	%charge repartie kN
+	\newcommand{\knm}{ ~\unit{\kilo\newton\per\meter}}
+	\newcommand{\kncm}{ ~\unit{\kilo\newton\per\centi\meter}}
+	\newcommand{\knmm}{ ~\unit{\kilo\newton\per\milli\meter}}
+	%charge repartie N
+	\newcommand{\Nm}{ ~\unit{\newton\per\meter}}
+	\newcommand{\Ncm}{ ~\unit{\newton\per\centi\meter}}
+	\newcommand{\Nmm}{ ~\unit{\newton\per\milli\meter}}
+	
+	
+	
+	%contrainte kN
+	\newcommand{\knms}{ ~\unit{\kilo\newton\per\meter\squared}}
+	\newcommand{\kncms}{ ~\unit{\kilo\newton\per\centi\meter\squared}}
+	\newcommand{\knmms}{ ~\unit{\kilo\newton\per\milli\meter\squared}}
+	%contrainte N
+	\newcommand{\Nms}{ ~\unit{\newton\per\meter\squared}}
+	\newcommand{\Ncms}{ ~\unit{\newton\per\centi\meter\squared}}
+	\newcommand{\Nmms}{ ~\unit{\newton\per\milli\meter\squared}}
+	
+	
+	
+	%poids volumique kn
+	\newcommand{\knmc}{ ~\unit{\kilo\newton\per\meter\cubed}}
+	\newcommand{\kncmc}{ ~\unit{\kilo\newton\per\centi\meter\cubed}}
+	\newcommand{\knmmc}{ ~\unit{\kilo\newton\per\milli\meter\cubed}}
+	%poids volumique N
+	\newcommand{\Nmc}{ ~\unit{\newton\per\meter\cubed}}
+	\newcommand{\Ncmc}{ ~\unit{\newton\per\centi\meter\cubed}}
+	\newcommand{\Nmmc}{ ~\unit{\newton\per\milli\meter\cubed}}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	% commande en kg
+	
+	%masse
+	\newcommand{\kg}{ ~\unit{\kg}}
+	\newcommand{\g}{ ~\unit{\gram}}
+	
+	
+	
+	%moments kg
+	\newcommand{\kgxm}{ ~\unit{\kg\meter}}
+	\newcommand{\kgxcm}{ ~\unit{\kg\centi\meter}}
+	\newcommand{\kgxmm}{ ~\unit{\kg\milli\meter}}
+	%moments g
+	\newcommand{\gxm}{ ~\unit{\gram\meter}}
+	\newcommand{\gxcm}{ ~\unit{\gram\centi\meter}}
+	\newcommand{\gxmm}{ ~\unit{\gram\milli\meter}}
+	
+	
+	
+	%masse lineaire kg
+	\newcommand{\kgm}{ ~\unit{\kg\per\meter}}
+	\newcommand{\kgcm}{ ~\unit{\kg\per\centi\meter}}
+	\newcommand{\kgmm}{ ~\unit{\kg\per\milli\meter}}
+	%masse lineaire g
+	\newcommand{\gm}{ ~\unit{\gram\per\meter}}
+	\newcommand{\gcm}{ ~\unit{\gram\per\centi\meter}}
+	\newcommand{\gmm}{ ~\unit{\gram\per\milli\meter}}
+	
+	
+	%contrainte kg
+	\newcommand{\kgms}{ ~\unit{\kg\per\meter\squared}}
+	\newcommand{\kgcms}{ ~\unit{\kg\per\centi\meter\squared}}
+	\newcommand{\kgmms}{ ~\unit{\kg\per\milli\meter\squared}}
+	%contrainte g
+	\newcommand{\gms}{ ~\unit{\gram\per\meter\squared}}
+	\newcommand{\gcms}{ ~\unit{\gram\per\centi\meter\squared}}
+	\newcommand{\gmms}{ ~\unit{\gram\per\milli\meter\squared}}
+	
+	
+	
+	%poids volumique kg
+	\newcommand{\kgmc}{ ~\unit{\kg\per\meter\cubed}}
+	\newcommand{\kgcmc}{ ~\unit{\kg\per\centi\meter\cubed}}
+	\newcommand{\kgmmc}{ ~\unit{\kg\per\milli\meter\cubed}}
+	%poids volumique g
+	\newcommand{\gmc}{ ~\unit{\gram\per\meter\cubed}}
+	\newcommand{\gcmc}{ ~\unit{\gram\per\centi\meter\cubed}}
+	\newcommand{\gmmc}{ ~\unit{\gram\per\milli\meter\cubed}}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	%commande en pascal
+	
+	\newcommand{\mpa}{ ~\unit{\mega\pascal}}
+	\newcommand{\Pa}{ ~\unit{\pascal}}
+	
+	
+	
+	
+	
+	%autre commande
+	
+	%degree
+	\newcommand{\degree}{\unit{\degree}}
+	
+	%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\title{|}
+\author{}
+\date{\today}
+
+\begin{document}
+	\counterwithin{section}{part} % pour que \section{} recommence de 1 aprés \part{}
+	
+	
+	\tableofcontents
+	
+	\newpage
+	
+	
+	
+\end{document}
