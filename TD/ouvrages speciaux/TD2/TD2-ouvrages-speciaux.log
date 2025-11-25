@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  24 NOV 2025 21:53
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  25 NOV 2025 21:27
  restricted system commands enabled.
 **TD2-ouvrages-speciaux.tex
 (./TD2-ouvrages-speciaux.tex
@@ -1564,19 +1564,19 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into
 your preamble.
  on input line 89.
 
-LaTeX Font Info:    Trying to load font information for TU+aer on input line 93
+LaTeX Font Info:    Trying to load font information for TU+aer on input line 94
 .
-LaTeX Font Info:    No file TUaer.fd. on input line 93.
+LaTeX Font Info:    No file TUaer.fd. on input line 94.
 
 LaTeX Font Warning: Font shape `TU/aer/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 93.
+(Font)              using `TU/lmr/m/n' instead on input line 94.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
 
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
@@ -1589,49 +1589,59 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 {C:/Users/amalo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<figures/rappel-trapeze.png, id=141, 334.24875pt x 323.70938pt>
+<figures/rappel-trapeze.png, id=171, 334.24875pt x 323.70938pt>
 File: figures/rappel-trapeze.png Graphic file (type png)
 <use figures/rappel-trapeze.png>
-Package luatex.def Info: figures/rappel-trapeze.png  used on input line 125.
+Package luatex.def Info: figures/rappel-trapeze.png  used on input line 126.
 (luatex.def)             Requested size: 170.77238pt x 165.3909pt.
 
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 181.
+(hyperref)                than one, level fixed on input line 182.
 
 LaTeX Font Info:    Trying to load font information for TS1+aer on input line 1
-84.
-LaTeX Font Info:    No file TS1aer.fd. on input line 184.
+85.
+LaTeX Font Info:    No file TS1aer.fd. on input line 185.
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 184.
+(Font)              for symbol `textbullet' on input line 185.
 
-<figures/poutre-te.png, id=142, 1060.71281pt x 727.21687pt>
+[2<./figures/rappel-trapeze.png>]
+<figures/poutre-te.png, id=185, 1060.71281pt x 727.21687pt>
 File: figures/poutre-te.png Graphic file (type png)
 <use figures/poutre-te.png>
-Package luatex.def Info: figures/poutre-te.png  used on input line 204.
+Package luatex.def Info: figures/poutre-te.png  used on input line 205.
 (luatex.def)             Requested size: 497.92325pt x 341.3703pt.
-[2<./figures/rappel-trapeze.png>]
-<figures/poutre-te2.png, id=155, 304.88907pt x 550.30594pt>
+<figures/poutre-te2.png, id=186, 304.88907pt x 550.30594pt>
 File: figures/poutre-te2.png Graphic file (type png)
 <use figures/poutre-te2.png>
-Package luatex.def Info: figures/poutre-te2.png  used on input line 248.
+Package luatex.def Info: figures/poutre-te2.png  used on input line 249.
 (luatex.def)             Requested size: 224.06393pt x 404.43222pt.
  [3<./figures/poutre-te.png>] [4<./figures/poutre-te2.png>]
 Missing character: There is no é (U+00E9) in font cmmi6!
 Missing character: There is no é (U+00E9) in font cmmi6!
 [5] [6]
-Overfull \hbox (26.72903pt too wide) in paragraph at lines 461--462
+Overfull \hbox (26.72903pt too wide) in paragraph at lines 462--463
 [][] 
  []
 
 
-Overfull \hbox (2.61607pt too wide) in paragraph at lines 442--464
+Overfull \hbox (2.61607pt too wide) in paragraph at lines 443--465
 []$[]$ $[]$ 
  []
 
-[7] [8] [9
+[7] [8]
+Overfull \hbox (82.36867pt too wide) in paragraph at lines 627--628
+[][] 
+ []
+
+
+Overfull \hbox (2.61607pt too wide) in paragraph at lines 601--690
+[]$[]$ $[]$ 
+ []
+
+[9
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
@@ -1676,7 +1686,51 @@ Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
-] (./TD2-ouvrages-speciaux.aux)
+] [10
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+<figures/plan-ferraillage.png, id=235, 270.25969pt x 425.33907pt>
+File: figures/plan-ferraillage.png Graphic file (type png)
+<use figures/plan-ferraillage.png>
+Package luatex.def Info: figures/plan-ferraillage.png  used on input line 888.
+(luatex.def)             Requested size: 448.12788pt x 705.29033pt.
+ [11
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+] [12<./figures/plan-ferraillage.png>] (./TD2-ouvrages-speciaux.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
@@ -1686,20 +1740,20 @@ L3 programming layer <2025-10-24>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `TD2-ouvrages-speciaux.out' has not changed.
-(rerunfilecheck)             Checksum: 7C7D7D0CC96975020D2494770028B8A7;5684.
+(rerunfilecheck)             Checksum: 5F4CFF5F0762A2584E671FBD9D226337;6860.
 )
 
 Here is how much of LuaTeX's memory you used:
- 48533 strings out of 476081
+ 48671 strings out of 476081
  125105,1977958 words of node,token memory allocated
- 1126 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 23 glue, 5 kern, 1 penalty, 1 glyph, 150 attribute,
- 61 glue_spec, 77 attribute_list, 2 write nodes
-   avail lists: 1:1,2:3449,3:1097,4:143,5:483,6:112,7:4510,8:64,9:670,10:7,11:28
-7
- 69687 multiletter control sequences out of 65536+600000
+ 1332 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 31 glue, 5 kern, 1 penalty, 1 glyph, 200 attribute,
+ 61 glue_spec, 102 attribute_list, 2 write nodes
+   avail lists: 1:1,2:5177,3:1589,4:167,5:565,6:136,7:5363,8:64,9:796,10:7,11:33
+8
+ 69810 multiletter control sequences out of 65536+600000
  123 fonts using 8184655 bytes
- 98i,14n,104p,740b,1127s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,14n,104p,740b,1170s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman8-
 regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/
 lm/lmroman12-regular.otf><<C:\Users\amalo\AppData\Local\MiKTeX\fonts/pk/ljfour/j
@@ -1717,9 +1771,9 @@ onts/cm/cmr8.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmsy10.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy8.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on TD2-ouvrages-speciaux.pdf (9 pages, 265996 bytes).
+Output written on TD2-ouvrages-speciaux.pdf (12 pages, 309309 bytes).
 
-PDF statistics: 257 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 131072)
- 226 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 306 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 131072)
+ 274 words of extra memory for PDF output out of 10000 (max. 100000000)
 

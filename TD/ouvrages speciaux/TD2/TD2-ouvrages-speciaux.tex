@@ -87,6 +87,7 @@
 \date{\today}
 
 \begin{document}
+	
 	\counterwithin{section}{part} % pour que \section{} recommence de 1 aprés \part{}
 	
 	\maketitle
@@ -130,9 +131,9 @@
 	
 	
 	
+	\section{Formule d'interpolation}
 	
-	
-	
+	\[ y_{i} = y_{1} + (y_{2} - y_{1}) \cdot \dfrac{(x_{i} - x_{1})}{(x_{2} - x_{1})} \]
 	
 	
 	
@@ -542,7 +543,7 @@
 	
 	\subsubsection{Armature transversale}
 	
-	Les armatures transversal seront constituée par un cadre et deux epingle HA6 $\rightarrow A_{t} = 1,13 ~\unit{cm^{2}}$
+	Les armatures transversal seront constituée par un cadre et deux épingle HA6 $\rightarrow A_{t} = 1,13 ~\unit{cm^{2}}$
 	
 	Les espacement des armatures doit vérifier les conditions suivante : 
 	
@@ -576,24 +577,28 @@
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	\subsection{Armature de la dalle en console}
 	
 	\subsubsection{Évaluation du moments a l'ELS}
 	
 	Évaluation des moments renversant à une console : 
 	
-	\begin{itemize}
-		\item Garde corps (d'un seul coté) $ = 20 \cdot 0,75 = 15\kgxm$
-		\item Murette $ = 25 \cdot 0,75 = 18,75\kgxm$
-		\item Console $200 \cdot 0,375 = 75\kgxm$
-		\item Revêtement $70 \cdot 0,35 = 24,5\kgxm$
-		\item Surcharge $350 \cdot 0,35 = 122,5\kgxm$
-	\end{itemize}
-	
-	\[ M_{ELS} = 255,75\kgxm \]
 	
 	
 	
+	\begin{minipage}{0.3\textwidth}
 	
 	\begin{tikzpicture}
 		
@@ -617,10 +622,13 @@
 		
 		\notation{2}{g}{G};
 		
+		\draw (5,-1) --(5,-1) node[midway, above] {$V_{2} = \dfrac{h \cdot (B + 2b)}{3 \cdot (B + b)}$};
+		
 	\end{tikzpicture}
 	
-	
-	
+	\end{minipage}
+	\begin{minipage}{0.7\textwidth}
+	\hfill
 	\begin{tikzpicture}
 		
 		
@@ -674,12 +682,212 @@
 		
 		\draw (.2,0) rectangle (.7,1);
 		
+		\draw[dashed] (6,2) -- (6,-10);
+		
+	\end{tikzpicture}
+	
+	\end{minipage}
+	
+	
+	
+	
+	\begin{itemize}
+		\item Garde corps (d'un seul coté) $ = 20 \cdot 0,75 = 15\kgxm$
+		\item Murette $ = 25 \cdot 0,75 = 18,75\kgxm$
+		\item Console $200 \cdot 0,375 = 75\kgxm$
+		\item Revêtement $70 \cdot 0,35 = 24,5\kgxm$
+		\item Surcharge $350 \cdot 0,35 = 122,5\kgxm$
+	\end{itemize}
+	
+	\[ M_{ELS} = 255,75\kgxm \]
+	
+	
+	
+	\subsubsection{Calcul des armatures}
+	
+	\[ \mu = \dfrac{M_{ELS}}{b \cdot d^{2} \cdot \overline{\sigma}_{st}} = \dfrac{\num{255,75e3}}{100 \cdot 9^{2} \cdot \num{201,633e2}} = 0,00156 \]
+	
+	Par interpolation on aura : 
+	
+	\[ \beta = 0,9332 \quad et \quad K = 59,856 \]
+	
+	\[ \sigma_{bc} = \dfrac{\overline{\sigma}_{st}}{K} = \dfrac{201,633}{59,856} = 3,368\mpa < \overline{\sigma}_{bc} = 15\mpa \rightarrow SSA \]
+	
+	
+	\[ A_{st}^{^{ELS}} = \dfrac{M_{ELS}}{\beta \cdot d \cdot \overline{\sigma}_{st}} = \dfrac{\num{255,75e3}}{0,9332 \cdot 9 \cdot \num{201,633e2}} = 1,51\cmsq \]
+	
+	La section d'armature trouvé a l'ELS est inférieur a celle adoptée a l'ELU.
+	
+	
+	
+	\subsubsection{Armature de la poutre a l'ELS}
+	
+	\subsubsection{Évaluation des charges par ml}
+	
+	\begin{center}
+	
+	\begin{tikzpicture}
+		
+		\point{a}{0}{0};
+		\point{b}{2}{0};
+		\point{c}{2}{3};
+		\point{d}{0}{3};
+		
+		\point{e}{2}{3.5};
+		\point{f}{0}{3.5};
+		
+		\lineload{1}{f}{e};
+		
+		\notation{1}{e}{surcharge}[above right];
+		
+		\dimensioning{1}{a}{b}{-1}[$0,4\meterl$];
+		
+		\draw (a) rectangle (c) node[midway]{Poutre};
+		\draw[pattern, pattern=north west lines] (d) rectangle (e) node[midway]{\textcolor{red}{Revêtement}};
+		
+		\draw[->,thick] (-.5,1) -- (-.5,2) node[midway,left]{$R = 665\kg$};
+		\draw[->,thick] (2.5,1) -- (2.5,2) node[midway,right]{$R = 665\kg$};
+		
+		
 	\end{tikzpicture}
 	
 	
+	\end{center}
 	
 	
 	
+	\begin{itemize}
+		\item Réaction des consoles : $2 \cdot 665 = 1330\kgm$
+		\item Poids propre de la poutre : $1000\kgm$
+		\item Revêtement sur la poutre : $100 \cdot 0,4 = 40\kgm$
+		\item Surcharge sur la poutre : $500 \cdot 0,4 = 200\kgm$
+	\end{itemize}
+	
+	\[ P_{ELS} = (1330 + 1000 + 40) + 200 = 2570\kgm \]
+	
+	
+	\paragraph{Moment maximal}
+	
+	\begin{center}
+		\begin{tikzpicture}
+			
+			
+			\point{a}{0}{0};
+			\point{b}{6}{0};
+			
+			\beam{2}{a}{b};
+			
+			\support{2}{a};
+			\support{2}{b};
+			
+			\lineload{1}{a}{b};
+			
+			\notation{1}{b}{$P_{ELS}$}[above right];
+			
+			\notation{1}{a}{appui en neopréne}[below left];
+			
+			\dimensioning{1}{a}{b}{-1.2}[$10\meterl$];
+			
+			
+			
+		\end{tikzpicture}
+	\end{center}
+	
+	
+	\[ M_{\max} = \dfrac{P_{ELS} \cdot l^{2}}{8} = \dfrac{2570 \cdot 10^{2}}{8} = 32125\kgxm \]
+	
+	
+	\subsubsection{Calcul des armatures}
+	
+	\paragraph{Le moment équilibré par la table de compression}
+	
+	\[ M_{tab} = f_{bu} \cdot b \cdot h_{0} \cdot (d - \dfrac{h_{0}}{2}) \]
+	
+	{\centering Avec : $h_{0} = \dfrac{12 + 8}{2} = 10\cml$ (moyenne) \par}
+	
+	
+	
+	
+	\begin{center}
+		\begin{tikzpicture}
+			
+			
+			\point{a}{0}{0};
+			\point{b}{2}{0};
+			\point{c}{2}{2.5};
+			\point{d}{4}{4};
+			\point{e}{4}{5};
+			\point{f}{-2}{5};
+			\point{g}{-2}{4};
+			\point{h}{0}{2.5};
+			
+			\point{i}{.5}{.2};
+			\point{j}{1.5}{.2};
+			
+			\dimensioning{1}{g}{a}{-.5}[80];
+			\dimensioning{1}{a}{b}{-.5}[40];
+			\dimensioning{1}{b}{d}{-.5}[80];
+			
+			\dimensioning{2}{e}{d}{5}[8];
+			\dimensioning{2}{e}{c}{5.5}[12];
+			\dimensioning{2}{e}{j}{6}[96];
+			\dimensioning{2}{j}{b}{6}[4];
+			\dimensioning{2}{e}{b}{6.5}[100];
+			
+			\draw (a) -- (b) -- (c) -- (d) -- (e)
+					-- (f) -- (g) -- (h) -- (a);
+			
+			\draw[pattern, pattern=north west lines] (i) rectangle (1.5,.4);
+			
+			
+			
+			
+		\end{tikzpicture}
+	\end{center}
+	
+	
+	
+	
+	
+	\[ M_{tab} = \num{14,2e5} \cdot 2 \cdot 0,1 \cdot (0,96 - \dfrac{0,1}{2}) = 258440\kgxm \]	
+	
+	\vspace{3\baselineskip}
+	
+	\[ M_{ELS\max} = 32125\kgxm < M_{tab} = 258440\kgxm \]
+	
+	L'axe neutre tombe dans la table de compression, le calcul se fera en considérant une section rectangulaire (200 $\times$ 100)
+	
+	
+	\[ \mu = \dfrac{M_{ELS}}{b \cdot d^{2} \cdot \overline{\sigma}}_{st} = \dfrac{\num{32125e3}}{200 \cdot 96^{2} \cdot \num{201,633e2}} \]
+	
+	\[ \mu = 0,000864 \]
+	
+	{\centering par interpolation on aura : $\beta = 0,9492$ et $K = 83,4$}
+	
+	\[ \sigma_{bc} = \dfrac{\overline{\sigma}_{st}}{K} = \dfrac{201,633}{83,4} = 2,417\mpa \]
+	
+	\[ \sigma_{bc} = 2,417\mpa < \overline{\sigma}_{bc} = 15\mpa \rightarrow SSA \]
+	
+	\[ A_{st} = \dfrac{M_{ELS}}{\beta \cdot d \cdot \overline{\sigma}_{st}} = \dfrac{\num{32125e3}}{0,9492 \cdot 96 \cdot \num{201,633e2}} \]
+	
+	\[ \fbox{$A_{st}^{ELS} = 17,48\cmsq$} \]
+	
+	\[ A_{st}^{ELS} > A_{st}^{ELU} = 15,7\cmsq \]
+	
+	Le ferraillage longitudinale adopté : $A_{st} = 5HA25 = 19,67\cmsq$
+
+	Il s'agit d'une poutre de grande hauteur, alors il faut prévoir des armatures de peau constitués de 4HA10 par face.	
+	
+	
+	
+	
+	\section{Plan de ferraillage final}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.9\linewidth]{figures/plan-ferraillage}
+		\label{fig:plan-ferraillage}
+	\end{figure}
 	
 	
 	
