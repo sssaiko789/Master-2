@@ -1,0 +1,222 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{polyglossia}
+\setmainlanguage{french}
+
+\usepackage{amsmath, amssymb}
+
+\usepackage{graphicx}
+\usepackage{caption}
+
+\usepackage{siunitx} % Pour les unités
+\usepackage{myunit}
+
+
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2.5cm, left=3cm, right=3cm}
+\setlength{\parindent}{0pt}
+
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+
+\usepackage{multicol}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{gray}}
+
+\usepackage{tcolorbox}
+
+
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+
+\newcommand{\RomanNum}[1] %pour les chiffre romain
+{\MakeUppercase{\romannumeral #1}}
+
+
+
+\usepackage{stanli}
+
+
+
+
+
+
+
+
+
+\title{TD 2 Bâtiment}
+\author{}
+\date{\today}
+
+\begin{document}
+	\counterwithin{section}{part} % pour que \section{} recommence de 1 aprés \part{}
+	
+	\maketitle
+	
+	\tableofcontents
+	
+	\newpage
+	
+	
+	
+	\part{Mur de soutènement}
+	
+	\section{Exo}
+	
+	
+	Soit a pré dimensionner et vérifier la stabilité au renversement et au glissement du mur de soutènement suivant :
+	
+	
+	\begin{center}
+		
+		\begin{tikzpicture}
+			
+			
+			\draw (0,0) coordinate (a) -- (7,0) coordinate (b)
+			-- (7,-1) coordinate (c) -- (8,-1) coordinate (d)
+			-- (8,1) coordinate (e) -- (5,1) coordinate (f) 
+			-- (5,6) coordinate (g) -- (4,6) coordinate (h)
+			-- (3,1) coordinate (i) -- (0,1) coordinate (j) 
+			-- (a);
+			
+			\point{G}{8}{6};
+			
+			\lineload{1}{g}{G};
+			\notation{1}{G}{Q}[above left = 17mm];
+			
+			\dimensioning{2}{a}{h}{-.5}[$H = 8\meterl$];
+			
+			
+		\end{tikzpicture}
+		
+	\end{center}
+	
+	
+	
+	\begin{itemize}
+		\item Hauteur : $H = 8\meterl$
+		\item Surcharge : $Q = 5\knm$
+		\item $\varphi = \varPhi = \phi = 25\degree$
+		\item $\gamma_{sol} = 1800\kgmc = 18\knmc$
+		\item $\gamma_{ba} = 25\knmc$
+	\end{itemize}
+	
+	
+	La vérification au glissement se sera par la méthode du tiers central.
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Le calcul se fera sur 1 mètre linéaire.
+	\end{tcolorbox}
+	
+	
+	
+	
+	
+	
+	
+	\section{Pré Dimensionnement}
+	
+	\begin{center}
+		
+		\begin{tikzpicture}
+			
+			\draw (0,0) coordinate (a) -- (7,0) coordinate (b)
+			-- (7,-1) coordinate (c) -- (8,-1) coordinate (d)
+			-- (8,1) coordinate (e) -- (5,1) coordinate (f) 
+			-- (5,6) coordinate (g) -- (4,6) coordinate (h)
+			-- (3,1) coordinate (i) -- (0,1) coordinate (j) 
+			-- (a);
+			
+			\dimensioning{1}{a}{d}{-2.5}[B];
+			\dimensioning{1}{c}{d}{-1.8}[L];
+			
+			\dimensioning{1}{i}{f}{-1}[a'];
+			\dimensioning{1}{h}{g}{6.5}[a];
+			
+			\dimensioning{1}{j}{i}{1.5}[$b_{1}$];
+			\dimensioning{1}{f}{e}{1.5}[$b_{2}$];
+			
+			
+			
+			\dimensioning{2}{e}{b}{8.5}[h];
+			\dimensioning{2}{b}{d}{8.5}[h'];
+			
+			\dimensioning{2}{h}{a}{-1}[H];
+			
+			
+			
+		\end{tikzpicture}
+		
+	\end{center}
+	
+	
+	
+	\subsection{Le voile}
+	
+	\[ a \geq \dfrac{H}{24} = \dfrac{8}{24} = 0,33\meterl \]
+	
+	\[ a' \geq \dfrac{H}{12} = 0,66\meterl \]
+	
+	On prend : \fbox{$a = 35\cml$ et $a' = 70\cml$}
+	
+	
+	
+	\subsection{La semelle}
+	
+	\subsubsection{La hauteur}
+	
+	\[ h \geq \dfrac{H}{12} = 0,66\meterl \]
+	
+	\[ \fbox{$h = 70\cml$} \]
+	
+	\subsubsection{La largeur}
+	
+	\[ \dfrac{H}{2} < B \leq \dfrac{2H}{3} \]
+	
+	\[ 4\meterl < B \leq 5,33\meterl \]
+	
+	\[ \fbox{$B = 4,7\meterl$} \]
+	
+	\subsection{Le patin}
+	
+	\[ b_{1} \geq \dfrac{B}{3} = \dfrac{4,7}{3} = 1,56\meterl \]
+	
+	\[ \fbox{$b_{1} = 1,6\meterl$} \]
+	
+	\subsection{Le talon}
+	
+	\[ b_{2} = B - (b_{1} + a') = 4,7 - (1,6 + 0,7) \]
+	
+	\[ \fbox{$b_{2} = 2,4\meterl$} \]
+	
+	\subsubsection{La bêche}
+	
+	\[ \fbox{$h' = 0,7\meterl$} \]
+	\[ \fbox{$h = 0,7\meterl$} \]
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}

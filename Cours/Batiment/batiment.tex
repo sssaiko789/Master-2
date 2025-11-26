@@ -1,8 +1,7 @@
 \documentclass[12pt,a4paper]{article}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage{polyglossia}
+\setmainlanguage{french}
 
 \usepackage{amsmath, amssymb}
 \usepackage{cancel}
@@ -80,11 +79,11 @@
 	
 	\section{Calcul du chargement appliquer au fondations}
 	
-	Avant le calcul des fondations on doit d'abord avoir les données géothechnique(Capacité portante, couche d'assise(profondeur idéale), ...ect)
+	Avant le calcul des fondations on doit d'abord avoir les données géotechnique (Capacité portante, couche d'assise(profondeur idéale), ...ect)
 	
 	\vspace{\baselineskip}
 	
-	Pour calculer le chargement qui revient au fondation on commence par le haut du batiment(plancher terrasse) puis en descend (descente des charger).
+	Pour calculer le chargement qui revient au fondation on commence par le haut du bâtiment (plancher terrasse) puis en descend (descente des charger).
 	
 	Le chargement est transmit par les poteaux vers les fondations, est les poteaux reprenne le chargement comme dans la figure :
 	
@@ -92,31 +91,31 @@
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.5\linewidth]{figures/poids-reprie}
-		\caption{Poids reprie par un poteau (vue d'en haut)}
+		\caption{Poids repris par un poteau (vue d'en haut)}
 		\label{fig:poids-reprie}
 	\end{figure}
 	
 	
 	
-	Pour le plancher terrase on aura comme chargement : Le poids du corp creux, la dalle de compression, l'étanchiéter, le gravier, les poutres, la charge d'éxploitation si le plancher est accessible.
+	Pour le plancher terrasse on aura comme chargement : Le poids du corps creux, la dalle de compression, l'étanchéité, le gravier, les poutres, la charge d'exploitation si le plancher est accessible.
 	
 	\vspace{\baselineskip}
 	
-	Pour un planche courant on aura en plus le poids des revétement, la mo\c{c}onerie et aussi le poids du poteau supérieur, charge d'exploitation, ...ect.
-	L'étanchieter ne sera pas présente.
+	Pour un planche courant on aura en plus le poids des revêtement, la mo\c{c}onerie et aussi le poids du poteau supérieur, charge d'exploitation, ...ect.
+	l'étanchéité ne sera pas présente.
 	
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.5\linewidth]{figures/charge-reprie2}
-		\caption{Chargemnt reprie par le poteau dans un cas d'un plancher courant (vue de face).}
+		\caption{Chargement repris par le poteau dans un cas d'un plancher courant (vue de face).}
 		\label{fig:charge-reprie2}
 	\end{figure}
 	
 	
 	
 	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
-		Dans le calcul des chargement verticale le séisme est pris en compte car ils génére les trois efforts dans le poteau(N, T, M) et aussi un effort tranchant au niveau des noeuds mais pas en mi-travée de la poutre ou bien des dalles, donc au niveau de la poutre la combinaison des charges sera sans la charge sismique(car y'a aucun effort sismique en mi-travée de la poutre).
+		Dans le calcul des chargement verticale le séisme est pris en compte car ils génère les trois efforts dans le poteau(N, T, M) et aussi un effort tranchant au niveau des nœuds mais pas en mi-travée de la poutre ou bien des dalles, donc au niveau de la poutre la combinaison des charges sera sans la charge sismique(car y'aura aucun effort sismique en mi-travée de la poutre).
 	\end{tcolorbox}
 	
 	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
@@ -127,7 +126,7 @@
 		
 		On a trois type de joints : joint de dilatation thermique, sismique, rupture.
 		
-		Le joint de rupture est appliquer dans le cas ou on a un batiment construit dans deux sol différent (capacité portante différent) ou bien dans le cas ou notre batiment a une difference de poids par exemple du coté A on aura un R+5 et du coté B on aura R+9.
+		Le joint de rupture est appliquer dans le cas ou on a un bâtiment construit dans deux sol différent (capacité portante différent) ou bien dans le cas ou notre bâtiment a une différence de poids par exemple du coté A on aura un R+5 et du coté B on aura R+9.
 		
 		Le joint de rupture permet d'éviter le tassement différentiel.
 	\end{tcolorbox}
@@ -135,14 +134,16 @@
 	
 	
 	
-	\section{Pré-dimensionemment d'une fondation }
+	\section{Pré-dimensionnement d'une fondation }
 	
 	
 	\begin{figure}[H]
+		
 		\centering
 		\includegraphics[width=0.4\linewidth]{figures/semelle}
 		\caption{Semelle}
 		\label{fig:semelle}
+		
 	\end{figure}
 	
 	
@@ -157,12 +158,12 @@
 	
 	\[ \text{Finalement : } \fbox{$b_{1} = \sqrt{S \cdot \dfrac{b}{a}}$} \]
 	
-	\[ \text{On répetant les même étapes on aura pour : } \fbox{$a_{1} = \sqrt{S \cdot \dfrac{a}{b}}$} \]
+	\[ \text{On répétant les même étapes on aura pour : } \fbox{$a_{1} = \sqrt{S \cdot \dfrac{a}{b}}$} \]
 	
 	\[ \fbox{$A \geq a_{1} \quad;\quad B \geq b_{1}$} \quad \text{Multiple de 5} \]
 	
 	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
-		Pour avoir les fondations au bon emplacement avec un angle correct sur le chantier on utilise le théoréme de Pythagore.
+		Pour avoir les fondations au bon emplacement avec un angle correct sur le chantier on utilise le théorème de Pythagore.
 		\[ 3^{2}+4^{2} = 5^{2} \]
 		
 		\begin{figure}[H]
@@ -335,7 +336,7 @@
 	
 	\begin{itemize}
 		\item Calculer les dimensions de la semelle isolée.
-		\item Vérifier l'admissiblité de la semelle.
+		\item Vérifier l'admissibilité de la semelle.
 	\end{itemize}
 	
 	
@@ -365,7 +366,7 @@
 	finalement $h = d + 0,05 = 0,225+0,05 = 0,275~\unit{m} \rightarrow 0,3~\unit{m}$
 	
 	
-	\paragraph{Vérification de l'admissiblité de la semelle} :
+	\paragraph{Vérification de l'admissibilité de la semelle} :
 	
 	\[ G_{semelle+bp} = 25 \cdot (1,2 \cdot 0,8 \cdot 0,3) + 22 \cdot (1,2 \cdot 0,8 \cdot 0,04) = 8,04~\unit{kN} \]
 	
@@ -385,7 +386,7 @@
 	
 	\[ q_{ref} = 94,44\% \cdot \sigma_{sol} \]
 	
-	\[ \text{Conditon vérifier et semelle economique. } \surd \]
+	\[ \text{Condition vérifier et semelle économique. } \surd \]
 	
 	
 	

@@ -1,136 +1,168 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.22)  22 NOV 2025 20:15
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**"./plasticite et endommagement.tex"
-(plasticite et endommagement.tex
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  26 NOV 2025 21:35
+ restricted system commands enabled.
+**"plasticite et endommagement.tex"
+("./plasticite et endommagement.tex"
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "C:/Users/amalo/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/f
+ontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/amalo/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (C:/Users/amalo/AppData
+/Local/Programs/MiKTeX/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/base/size12.clo
 File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
-)
-\c@part=\count275
-\c@section=\count276
-\c@subsection=\count277
-\c@subsubsection=\count278
-\c@paragraph=\count279
-\c@subparagraph=\count280
-\c@figure=\count281
-\c@table=\count282
+luaotfload | db : Font names database loaded from C:/Users/amalo/AppData/Local/M
+iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count273
+\c@section=\count274
+\c@subsection=\count275
+\c@subsubsection=\count276
+\c@paragraph=\count277
+\c@subparagraph=\count278
+\c@figure=\count279
+\c@table=\count280
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen148
+\bibindent=\dimen147
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/polyglossia
+.sty
+Package: polyglossia 2025/09/22 v2.8 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count281
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
+e.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-10-24 L3 programming layer (loader) 
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
+tex.def
+File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count282
+Inserting `l3color' in `luaotfload.parse_color'.))
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec-luate
+x.sty
+Package: fontspec-luatex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count283
+\l__fontspec_language_int=\count284
+\l__fontspec_strnum_int=\count285
+\l__fontspec_tmp_int=\count286
+\l__fontspec_tmpa_int=\count287
+\l__fontspec_tmpb_int=\count288
+\l__fontspec_tmpc_int=\count289
+\l__fontspec_em_int=\count290
+\l__fontspec_emdef_int=\count291
+\l__fontspec_strong_int=\count292
+\l__fontspec_strongdef_int=\count293
+\l__fontspec_tmpa_dim=\dimen148
+\l__fontspec_tmpb_dim=\dimen149
+\l__fontspec_tmpc_dim=\dimen150
+ (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.cfg
+))) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/10/22 v25.14 The multilingual framework for LuaLaTeX, pdfLa
-TeX and XeLaTeX
-\babel@savecnt=\count283
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2050.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2052.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2054.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2055.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2056.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2058.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2083.
-\U@D=\dimen149
-\l@unhyphenated=\language79
+Lua module: polyglossia 2013/05/11 v1.3 Polyglossia
+\l_xpg_alias_keyvals_int=\count294
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count284
-
-
-Package babel Warning: Configuration files are deprecated, as
-(babel)                they can break document portability.
-(babel)                Reported on input line 4172.
-
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-latex
+.ldf
+File: gloss-latex.ldf polyglossia: module for default language
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel
--french.tex)
-Package babel Info: Importing font and identification data for french
-(babel)             from babel-fr.ini. Reported on input line 4295.
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.l
-df
-Language: french 2025-08-15 v4.0e French support from the babel system
+Package polyglossia Info: Setting LuaTeX font renderer to Harfbuzz
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french3.
-ldf
-Language: french 2025-08-15 v3.7e French support from the babel system
-\FB@stdchar=\count285
-Package babel Info: Making : an active character on input line 273.
-Package babel Info: Making ; an active character on input line 274.
-Package babel Info: Making ! an active character on input line 275.
-Package babel Info: Making ? an active character on input line 276.
-\FBguill@level=\count286
-\FBold@everypar=\toks19
-\FB@Mht=\dimen150
-\mc@charclass=\count287
-\mc@charfam=\count288
-\mc@charslot=\count289
-\std@mcc=\count290
-\dec@mcc=\count291
-\FB@pardim=\dimen151
-\listindentFB=\dimen152
-\descindentFB=\dimen153
-\labelindentFB=\dimen154
-\labelwidthFB=\dimen155
-\leftmarginFB=\dimen156
-\parindentFFN=\dimen157
-\FBfnindent=\dimen158
-)))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-frenc
+h.ldf
+File: gloss-french.ldf polyglossia: module for French
+Module polyglossia Info: Language data for french
+(polyglossia)            hyphenation	
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            loader	loadhyph-fr.tex
+(polyglossia)            patterns	hyph-fr.pat.txt
+(polyglossia)            righthyphenmin	2
+(polyglossia)            synonyms	patois,francais on input line 17
+Module polyglossia Info: Language french was not yet loaded; created with id 2 o
+n input line 17
+Lua-only attribute polyglossia_punct = 4
+Inserting `polyglossia-punct.process' in `pre_shaping_filter'.)
+
+Package polyglossia Info: Default language is french
+
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
-\ex@=\dimen159
+\@emptytoks=\toks17
+\ex@=\dimen151
 ))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen160
+\pmbraise@=\dimen152
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count292
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count293
-\leftroot@=\count294
+\inf@bad=\count295
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count296
+\leftroot@=\count297
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count295
-\DOTSCASE@=\count296
+\classnum@=\count298
+\DOTSCASE@=\count299
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -140,236 +172,224 @@ LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen161
+\big@size=\dimen153
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count297
+\macc@depth=\count300
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count298
+\c@MaxMatrixCols=\count301
 \dotsspace@=\muskip17
-\c@parentequation=\count299
-\dspbrk@lvl=\count300
-\tag@help=\toks21
-\row@=\count301
-\column@=\count302
-\maxfields@=\count303
-\andhelp@=\toks22
-\eqnshift@=\dimen162
-\alignsep@=\dimen163
-\tagshift@=\dimen164
-\tagwidth@=\dimen165
-\totwidth@=\dimen166
-\lineht@=\dimen167
-\@envbody=\toks23
+\c@parentequation=\count302
+\dspbrk@lvl=\count303
+\tag@help=\toks18
+\row@=\count304
+\column@=\count305
+\maxfields@=\count306
+\andhelp@=\toks19
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
+\@envbody=\toks20
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks24
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
+)) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.st
 y
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks25
+\KV@toks@=\toks22
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.c
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 106.
+Package graphics Info: Driver file: luatex.def on input line 106.
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.def
+File: luatex.def 2025/09/29 v1.2f Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen168
-\Gin@req@width=\dimen169
-) (C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
+) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen170
-\captionmargin=\dimen171
-\caption@leftmargin=\dimen172
-\caption@rightmargin=\dimen173
-\caption@width=\dimen174
-\caption@indent=\dimen175
-\caption@parindent=\dimen176
-\caption@hangindent=\dimen177
+\caption@tempdima=\dimen162
+\captionmargin=\dimen163
+\caption@leftmargin=\dimen164
+\caption@rightmargin=\dimen165
+\caption@width=\dimen166
+\caption@indent=\dimen167
+\caption@parindent=\dimen168
+\caption@hangindent=\dimen169
 Package caption Info: Standard document class detected.
-Package caption Info: french babel package is loaded.
 )
-\c@caption@flags=\count304
-\c@continuedfloat=\count305
+\c@caption@flags=\count307
+\c@continuedfloat=\count308
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count306
-\l__siunitx_number_exponent_fixed_int=\count307
-\l__siunitx_number_min_decimal_int=\count308
-\l__siunitx_number_min_integer_int=\count309
-\l__siunitx_number_round_precision_int=\count310
-\l__siunitx_number_lower_threshold_int=\count311
-\l__siunitx_number_upper_threshold_int=\count312
-\l__siunitx_number_group_first_int=\count313
-\l__siunitx_number_group_size_int=\count314
-\l__siunitx_number_group_minimum_int=\count315
-\l__siunitx_angle_tmp_dim=\dimen178
+\l__siunitx_number_uncert_offset_int=\count309
+\l__siunitx_number_exponent_fixed_int=\count310
+\l__siunitx_number_min_decimal_int=\count311
+\l__siunitx_number_min_integer_int=\count312
+\l__siunitx_number_round_precision_int=\count313
+\l__siunitx_number_lower_threshold_int=\count314
+\l__siunitx_number_upper_threshold_int=\count315
+\l__siunitx_number_group_first_int=\count316
+\l__siunitx_number_group_size_int=\count317
+\l__siunitx_number_group_minimum_int=\count318
+\l__siunitx_angle_tmp_dim=\dimen170
 \l__siunitx_angle_marker_box=\box55
 \l__siunitx_angle_unit_box=\box56
-\l__siunitx_compound_count_int=\count316
+\l__siunitx_compound_count_int=\count319
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/translations/translatio
 ns.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count317
-)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcmds
 .sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.s
 ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks23
 ))
 \l__siunitx_table_tmp_box=\box57
-\l__siunitx_table_tmp_dim=\dimen179
-\l__siunitx_table_column_width_dim=\dimen180
+\l__siunitx_table_tmp_dim=\dimen171
+\l__siunitx_table_column_width_dim=\dimen172
 \l__siunitx_table_integer_box=\box58
 \l__siunitx_table_decimal_box=\box59
 \l__siunitx_table_uncert_box=\box60
 \l__siunitx_table_before_box=\box61
 \l__siunitx_table_after_box=\box62
-\l__siunitx_table_before_dim=\dimen181
-\l__siunitx_table_carry_dim=\dimen182
-\l__siunitx_unit_tmp_int=\count318
-\l__siunitx_unit_position_int=\count319
-\l__siunitx_unit_total_int=\count320
- (C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+\l__siunitx_table_before_dim=\dimen173
+\l__siunitx_table_carry_dim=\dimen174
+\l__siunitx_unit_tmp_int=\count320
+\l__siunitx_unit_position_int=\count321
+\l__siunitx_unit_total_int=\count322
+ (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
-\col@sep=\dimen183
+\col@sep=\dimen175
 \ar@mcellbox=\box63
-\extrarowheight=\dimen184
-\NC@list=\toks26
+\extrarowheight=\dimen176
+\NC@list=\toks24
 \extratabsurround=\skip54
 \backup@length=\skip55
 \ar@cellbox=\box64
 ))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count321
-\Gm@cntv=\count322
-\c@Gm@tempcnt=\count323
-\Gm@bindingoffset=\dimen185
-\Gm@wd@mp=\dimen186
-\Gm@odd@mp=\dimen187
-\Gm@even@mp=\dimen188
-\Gm@layoutwidth=\dimen189
-\Gm@layoutheight=\dimen190
-\Gm@layouthoffset=\dimen191
-\Gm@layoutvoffset=\dimen192
-\Gm@dimlist=\toks27
+\Gm@cnth=\count323
+\Gm@cntv=\count324
+\c@Gm@tempcnt=\count325
+\Gm@bindingoffset=\dimen177
+\Gm@wd@mp=\dimen178
+\Gm@odd@mp=\dimen179
+\Gm@even@mp=\dimen180
+\Gm@layoutwidth=\dimen181
+\Gm@layoutheight=\dimen182
+\Gm@layouthoffset=\dimen183
+\Gm@layoutvoffset=\dimen184
+\Gm@dimlist=\toks25
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip56
-\enit@outerparindent=\dimen193
-\enit@toks=\toks28
+\enit@outerparindent=\dimen185
+\enit@toks=\toks26
 \enit@inbox=\box65
-\enit@count@id=\count324
-\enitdp@description=\count325
-)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+\enit@count@id=\count326
+\enitdp@description=\count327
+) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdefine
 keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pdfescape/pdfescape.s
 ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/gettitlestring/gettit
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count326
+\c@section@level=\count328
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.s
 ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen194
-\Hy@linkcounter=\count327
-\Hy@pagecounter=\count328
- (C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+\@linkdim=\dimen186
+\Hy@linkcounter=\count329
+\Hy@pagecounter=\count330
+ (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count329
- (C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+\Hy@SavedSpaceFactor=\count331
+ (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Hyper figures OFF on input line 4195.
 Package hyperref Info: Link nesting OFF on input line 4200.
@@ -378,26 +398,26 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count330
+\c@Hy@tempcnt=\count332
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen195
+\XeTeXLinkMargin=\dimen187
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc
 .sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count331
-\Field@Width=\dimen196
-\Fld@charsize=\dimen197
+\Fld@menulength=\count333
+\Field@Width=\dimen188
+\Fld@charsize=\dimen189
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -405,22 +425,22 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count332
-\c@Item=\count333
-\c@Hfootnote=\count334
+\Hy@abspage=\count334
+\c@Item=\count335
+\c@Hfootnote=\count336
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (autodetected): hluatex.
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count335
-\c@bookmark@seq@number=\count336
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2025-07-12 v7.01o Hyperref driver for luaTeX
+\Fld@listcount=\count337
+\c@bookmark@seq@number=\count338
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
 echeck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/uniquec
 ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
@@ -429,101 +449,101 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip57
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2025/09/09 version 6.8.0 text color boxes
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/frontendlayer/tikz.
 sty
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.st
 y
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
 -common.tex
-\pgfutil@everybye=\toks29
-\pgfutil@tempdima=\dimen198
-\pgfutil@tempdimb=\dimen199
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen190
+\pgfutil@tempdimb=\dimen191
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
 -latex.def
 \pgfutil@abb=\box66
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfrcs.
 code.tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.
 sty
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.
 sty
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 s.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks30
-\pgfkeys@temptoks=\toks31
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
 libraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks32
+\pgfkeys@tmptoks=\toks30
 ))
-\pgf@x=\dimen256
-\pgf@y=\dimen257
-\pgf@xa=\dimen258
-\pgf@ya=\dimen259
-\pgf@xb=\dimen260
-\pgf@yb=\dimen261
-\pgf@xc=\dimen262
-\pgf@yc=\dimen263
-\pgf@xd=\dimen264
-\pgf@yd=\dimen265
+\pgf@x=\dimen192
+\pgf@y=\dimen193
+\pgf@xa=\dimen194
+\pgf@ya=\dimen195
+\pgf@xb=\dimen196
+\pgf@yb=\dimen197
+\pgf@xc=\dimen198
+\pgf@yc=\dimen199
+\pgf@xd=\dimen256
+\pgf@yd=\dimen257
 \w@pgf@writea=\write3
-\r@pgf@reada=\read3
-\c@pgf@counta=\count337
-\c@pgf@countb=\count338
-\c@pgf@countc=\count339
-\c@pgf@countd=\count340
-\t@pgf@toka=\toks33
-\t@pgf@tokb=\toks34
-\t@pgf@tokc=\toks35
-\pgf@sys@id@count=\count341
+\r@pgf@reada=\read2
+\c@pgf@counta=\count339
+\c@pgf@countb=\count340
+\c@pgf@countc=\count341
+\c@pgf@countd=\count342
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count343
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf.c
 fg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Driver file for pgf: pgfsys-luatex.def
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-pdftex.def
-File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+s-luatex.def
+File: pgfsys-luatex.def 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 s-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 )))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count342
-\pgfsyssoftpath@bigbuffer@items=\count343
+\pgfsyssoftpath@smallbuffer@items=\count344
+\pgfsyssoftpath@bigbuffer@items=\count345
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 sprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 274.
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -534,234 +554,234 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 e.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code
 .tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathutil.
 code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathparse
 r.code.tex
-\pgfmath@dimen=\dimen266
-\pgfmath@count=\count344
+\pgfmath@dimen=\dimen258
+\pgfmath@count=\count346
 \pgfmath@box=\box67
-\pgfmath@toks=\toks36
-\pgfmath@stack@operand=\toks37
-\pgfmath@stack@operation=\toks38
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.basic.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.trigonometric.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.random.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.comparison.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.base.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.round.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.misc.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.integerarithmetics.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathcalc.
 code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count345
+\c@pgfmathroundto@lastzeros=\count347
 ))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.code.
 tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen267
-\pgf@picmaxx=\dimen268
-\pgf@picminy=\dimen269
-\pgf@picmaxy=\dimen270
-\pgf@pathminx=\dimen271
-\pgf@pathmaxx=\dimen272
-\pgf@pathminy=\dimen273
-\pgf@pathmaxy=\dimen274
-\pgf@xx=\dimen275
-\pgf@xy=\dimen276
-\pgf@yx=\dimen277
-\pgf@yy=\dimen278
-\pgf@zx=\dimen279
-\pgf@zy=\dimen280
+\pgf@picminx=\dimen259
+\pgf@picmaxx=\dimen260
+\pgf@picminy=\dimen261
+\pgf@picmaxy=\dimen262
+\pgf@pathminx=\dimen263
+\pgf@pathmaxx=\dimen264
+\pgf@pathminy=\dimen265
+\pgf@pathmaxy=\dimen266
+\pgf@xx=\dimen267
+\pgf@xy=\dimen268
+\pgf@yx=\dimen269
+\pgf@yy=\dimen270
+\pgf@zx=\dimen271
+\pgf@zy=\dimen272
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen281
-\pgf@path@lasty=\dimen282
+\pgf@path@lastx=\dimen273
+\pgf@path@lasty=\dimen274
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen283
-\pgf@shorten@start@additional=\dimen284
+\pgf@shorten@end@additional=\dimen275
+\pgf@shorten@start@additional=\dimen276
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 escopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box68
 \pgf@hbox=\box69
 \pgf@layerbox@main=\box70
-\pgf@picture@serial@count=\count346
+\pgf@picture@serial@count=\count348
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen285
+\pgflinewidth=\dimen277
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 etransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen286
-\pgf@pt@y=\dimen287
-\pgf@pt@temp=\dimen288
+\pgf@pt@x=\dimen278
+\pgf@pt@y=\dimen279
+\pgf@pt@temp=\dimen280
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 equick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eobjects.code.tex
 File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 earrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen289
+\pgfarrowsep=\dimen281
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen290
-\pgf@sys@shading@range@num=\count347
-\pgf@shadingcount=\count348
+\pgf@max=\dimen282
+\pgf@sys@shading@range@num=\count349
+\pgf@shadingcount=\count350
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfexternal@startupbox=\box71
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 elayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 etransparency.code.tex
 File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epatterns.code.tex
 File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 erdf.code.tex
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
 shapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfnodeparttextbox=\box72
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
 plot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
 mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen291
-\pgf@nodesepend=\dimen292
+\pgf@nodesepstart=\dimen283
+\pgf@nodesepend=\dimen284
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
 mp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 ))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgffor.st
 y
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys.s
 ty
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
 .code.tex))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/math/pgfmath.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code
 .tex))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgffor.
 code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen293
-\pgffor@skip=\dimen294
-\pgffor@stack=\toks39
-\pgffor@toks=\toks40
+\pgffor@iter=\dimen285
+\pgffor@skip=\dimen286
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
 ))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z\tikz.code.tex
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count349
-\pgfplotmarksize=\dimen295
+\pgf@plot@mark@count=\count351
+\pgfplotmarksize=\dimen287
 )
-\tikz@lastx=\dimen296
-\tikz@lasty=\dimen297
-\tikz@lastxsaved=\dimen298
-\tikz@lastysaved=\dimen299
-\tikz@lastmovetox=\dimen300
-\tikz@lastmovetoy=\dimen301
-\tikzleveldistance=\dimen302
-\tikzsiblingdistance=\dimen303
+\tikz@lastx=\dimen288
+\tikz@lasty=\dimen289
+\tikz@lastxsaved=\dimen290
+\tikz@lastysaved=\dimen291
+\tikz@lastmovetox=\dimen292
+\tikz@lastmovetoy=\dimen293
+\tikzleveldistance=\dimen294
+\tikzsiblingdistance=\dimen295
 \tikz@figbox=\box73
 \tikz@figbox@bg=\box74
 \tikz@tempbox=\box75
 \tikz@tempbox@bg=\box76
-\tikztreelevel=\count350
-\tikznumberofchildren=\count351
-\tikznumberofcurrentchild=\count352
-\tikz@fig@count=\count353
+\tikztreelevel=\count352
+\tikznumberofchildren=\count353
+\tikznumberofcurrentchild=\count354
+\tikz@fig@count=\count355
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count354
-\pgfmatrixcurrentcolumn=\count355
-\pgf@matrix@numberofcolumns=\count356
+\pgfmatrixcurrentrow=\count356
+\pgfmatrixcurrentcolumn=\count357
+\pgf@matrix@numberofcolumns=\count358
 )
-\tikz@expandcount=\count357
+\tikz@expandcount=\count359
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarytopaths.code.tex
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks41
-\verbatim@line=\toks42
-\verbatim@in@stream=\read4
+\every@verbatim=\toks39
+\verbatim@line=\toks40
+\verbatim@in@stream=\read3
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.s
 ty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
@@ -769,36 +789,36 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box78
 \tcb@lowerbox=\box79
 \tcb@phantombox=\box80
-\c@tcbbreakpart=\count358
-\c@tcblayer=\count359
-\c@tcolorbox@number=\count360
+\c@tcbbreakpart=\count360
+\c@tcblayer=\count361
+\c@tcolorbox@number=\count362
 \l__tcobox_tmpa_box=\box81
-\l__tcobox_tmpa_dim=\dimen304
+\l__tcobox_tmpa_dim=\dimen296
 \tcb@temp=\box82
 \tcb@temp=\box83
 \tcb@temp=\box84
 \tcb@temp=\box85
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count361
+\c@tracingmulticols=\count363
 \mult@box=\box86
-\multicol@leftmargin=\dimen305
-\c@unbalance=\count362
-\c@collectmore=\count363
-\doublecol@number=\count364
-\multicoltolerance=\count365
-\multicolpretolerance=\count366
-\full@width=\dimen306
-\page@free=\dimen307
-\premulticols=\dimen308
-\postmulticols=\dimen309
+\multicol@leftmargin=\dimen297
+\c@unbalance=\count364
+\c@collectmore=\count365
+\doublecol@number=\count366
+\multicoltolerance=\count367
+\multicolpretolerance=\count368
+\full@width=\dimen298
+\page@free=\dimen299
+\premulticols=\dimen300
+\postmulticols=\dimen301
 \multicolsep=\skip58
 \multicolbaselineskip=\skip59
 \partial@page=\box87
 \last@line=\box88
 \mc@boxedresult=\box89
-\maxbalancingoverflow=\dimen310
+\maxbalancingoverflow=\dimen302
 \mult@rightbox=\box90
 \mult@grightbox=\box91
 \mult@firstbox=\box92
@@ -839,398 +859,335 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box127
 \@tempa=\box128
 \@tempa=\box129
-\c@minrows=\count367
-\c@columnbadness=\count368
-\c@finalcolumnbadness=\count369
-\last@try=\dimen311
-\multicolovershoot=\dimen312
-\multicolundershoot=\dimen313
+\c@minrows=\count369
+\c@columnbadness=\count370
+\c@finalcolumnbadness=\count371
+\last@try=\dimen303
+\multicolovershoot=\dimen304
+\multicolundershoot=\dimen305
 \mult@nat@firstbox=\box130
 \colbreak@box=\box131
-\mc@col@check@num=\count370
-\g__mc_curr_col_int=\count371
+\mc@col@check@num=\count372
+\g__mc_curr_col_int=\count373
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/xifthen\xifthen.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/xifthen/xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count372
-\calc@Bcount=\count373
-\calc@Adimen=\dimen314
-\calc@Bdimen=\dimen315
+\calc@Acount=\count374
+\calc@Bcount=\count375
+\calc@Adimen=\dimen306
+\calc@Bdimen=\dimen307
 \calc@Askip=\skip60
 \calc@Bskip=\skip61
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count374
+\calc@Ccount=\count376
 \calc@Cskip=\skip62
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/ifmtarg\ifmtarg.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 ))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen316
-\ESO@tempdimb=\dimen317
+\ESO@tempdima=\dimen308
+\ESO@tempdimb=\dimen309
 )
-\AM@pagewidth=\dimen318
-\AM@pageheight=\dimen319
-\AM@fboxrule=\dimen320
+\AM@pagewidth=\dimen310
+\AM@pageheight=\dimen311
+\AM@fboxrule=\dimen312
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
-File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pdfpages/ppluatex.def
+File: ppluatex.def 2025/07/23 v0.6g Pdfpages driver for LuaTeX (AM)
 )
-\pdfpages@includegraphics@status=\count375
+\pdfpages@includegraphics@status=\count377
 \AM@pagebox=\box132
-\AM@global@opts=\toks43
-\AM@pagecnt=\count376
-\AM@toc@title=\toks44
-\AM@lof@heading=\toks45
-\c@AM@survey=\count377
+\AM@global@opts=\toks41
+\AM@pagecnt=\count378
+\AM@toc@title=\toks42
+\AM@lof@heading=\toks43
+\c@AM@survey=\count379
 \AM@templatesizebox=\box133
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/transparent/transparent
 .sty
 Package: transparent 2025-06-23 v1.6 Transparency with color stacks
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/transparent/transparent
 -nometadata.sty
 Package: transparent-nometadata 2025-06-23 v1.6 Transparency via pdfTeX's color
  stack (HO)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count378
-\float@exts=\toks46
+\c@float@type=\count380
+\float@exts=\toks44
 \float@box=\box134
-\@float@everytoks=\toks47
+\@float@everytoks=\toks45
 \@floatcapt=\box135
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcntr.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgfplots/pgfplots.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.rev
 ision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.cod
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.cod
 e.tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotscore
 .code.tex
-\t@pgfplots@toka=\toks48
-\t@pgfplots@tokb=\toks49
-\t@pgfplots@tokc=\toks50
-\pgfplots@tmpa=\dimen321
-\c@pgfplots@coordindex=\count379
-\c@pgfplots@scanlineindex=\count380
+Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
+\pgfplots@luabackend@table=\catcodetable14
+\t@pgfplots@toka=\toks46
+\t@pgfplots@tokb=\toks47
+\t@pgfplots@tokc=\toks48
+\pgfplots@tmpa=\dimen313
+\c@pgfplots@coordindex=\count381
+\c@pgfplots@scanlineindex=\count382
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgfplots
 sysgeneric.code.tex))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplot
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgfplot
 slibrary.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
-ib\pgfplotsoldpgfsupp_loader.code.tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfcompat
+ib/pgfplotsoldpgfsupp_loader.code.tex
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
 aryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks51
-\t@pgf@tokb=\toks52
-\t@pgf@tokc=\toks53
+\t@pgf@toka=\toks49
+\t@pgf@tokb=\toks50
+\t@pgf@tokc=\toks51
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
-ib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/oldpgfcompat
+ib/pgfplotsoldpgfsupp_pgfutil-common-lists.tex)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/luamath
+/pgflibraryluamath.code.tex)
+Package pgfplots info on input line 290: luamath library shipped with pgf 3.1.1
+1a is up-to-date
+)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
 sutil.code.tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsliststructure.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsliststructureext.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count381
-)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsmatrix.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
-plotstableshared.code.tex
-\c@pgfplotstable@counta=\count382
-\t@pgfplotstable@a=\toks54
-)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsdeque.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sbinary.code.tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sbinary.data.code.tex))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sutil.verb.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
-arypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count383
+Package pgfplots info on input line 82: Found new luatex: initializing lua comm
+ands instead of write18 (shell-escape)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
-rypgfplots.surfshading.pgfsys-pdftex.def)))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsliststructure.code.tex)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsliststructureext.code.tex)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count383
+)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsmatrix.code.tex)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/numtable/pgf
+plotstableshared.code.tex
+\c@pgfplotstable@counta=\count384
+\t@pgfplotstable@a=\toks52
+)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
+e/pgfplotsdeque.code.tex)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sbinary.code.tex
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sbinary.data.code.tex))
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
+sutil.verb.code.tex)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgflibr
+arypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count385
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgflibra
+rypgfplots.surfshading.pgfsys-luatex.def)))
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
 scolormap.code.tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/util/pgfplot
 scolor.code.tex))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstac
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsstac
 kedplots.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplot
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsplot
 handlers.code.tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsmesh
 plothandler.code.tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotsmesh
 plotimage.code.tex)))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sca
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.sca
 ling.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotscoor
 dprocessing.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.err
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.err
 orbars.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.mar
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.mar
 kers.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstick
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplotstick
 s.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pat
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/pgfplots.pat
 hs.code.tex)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.code.tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.code.tex
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
 decorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen322
-\pgfdecoratedremainingdistance=\dimen323
-\pgfdecoratedinputsegmentcompleteddistance=\dimen324
-\pgfdecoratedinputsegmentremainingdistance=\dimen325
-\pgf@decorate@distancetomove=\dimen326
-\pgf@decorate@repeatstate=\count384
-\pgfdecorationsegmentamplitude=\dimen327
-\pgfdecorationsegmentlength=\dimen328
+\pgfdecoratedcompleteddistance=\dimen314
+\pgfdecoratedremainingdistance=\dimen315
+\pgfdecoratedinputsegmentcompleteddistance=\dimen316
+\pgfdecoratedinputsegmentremainingdistance=\dimen317
+\pgf@decorate@distancetomove=\dimen318
+\pgf@decorate@repeatstate=\count386
+\pgfdecorationsegmentamplitude=\dimen319
+\pgfdecorationsegmentlength=\dimen320
 )
 \tikz@lib@dec@box=\box136
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
-ions\pgflibrarydecorations.pathmorphing.code.tex))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
-ions\pgflibrarydecorations.pathreplacing.code.tex))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.pathmorphing.code.tex
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decorat
+ions/pgflibrarydecorations.pathmorphing.code.tex))
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.pathreplacing.code.tex
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decorat
+ions/pgflibrarydecorations.pathreplacing.code.tex))
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/tikzlib
 rarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count385
-\pgfplots@xmin@reg=\dimen329
-\pgfplots@xmax@reg=\dimen330
-\pgfplots@ymin@reg=\dimen331
-\pgfplots@ymax@reg=\dimen332
-\pgfplots@zmin@reg=\dimen333
-\pgfplots@zmax@reg=\dimen334
+\pgfplots@numplots=\count387
+\pgfplots@xmin@reg=\dimen321
+\pgfplots@xmax@reg=\dimen322
+\pgfplots@ymin@reg=\dimen323
+\pgfplots@ymax@reg=\dimen324
+\pgfplots@zmin@reg=\dimen325
+\pgfplots@zmax@reg=\dimen326
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryplotmarks.code.tex
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
 aryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (structuralanalysis.sty
-Package: structuralanalysis 
-
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/xargs\xargs.sty
-Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
-
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
-Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
-
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks55
-\XKV@tempa@toks=\toks56
-)
-\XKV@depth=\count386
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-\xargs@max=\count387
-\xargs@toksa=\toks57
-\xargs@toksb=\toks58
-)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryshapes.code.tex
-File: tikzlibraryshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryshapes.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
-pgflibraryshapes.geometric.code.tex
-File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryshapes.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
-pgflibraryshapes.misc.code.tex
-File: pgflibraryshapes.misc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryshapes.symbols.code.tex
-File: tikzlibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
-pgflibraryshapes.symbols.code.tex
-File: pgflibraryshapes.symbols.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryshapes.arrows.code.tex
-File: tikzlibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
-pgflibraryshapes.arrows.code.tex
-File: pgflibraryshapes.arrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryshapes.callouts.code.tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
-pgflibraryshapes.callouts.code.tex))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryshapes.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
-pgflibraryshapes.multipart.code.tex
-File: pgflibraryshapes.multipart.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodepartlowerbox=\box137
-\pgfnodeparttwobox=\box138
-\pgfnodepartthreebox=\box139
-\pgfnodepartfourbox=\box140
-\pgfnodeparttwentybox=\box141
-\pgfnodepartnineteenbox=\box142
-\pgfnodeparteighteenbox=\box143
-\pgfnodepartseventeenbox=\box144
-\pgfnodepartsixteenbox=\box145
-\pgfnodepartfifteenbox=\box146
-\pgfnodepartfourteenbox=\box147
-\pgfnodepartthirteenbox=\box148
-\pgfnodeparttwelvebox=\box149
-\pgfnodepartelevenbox=\box150
-\pgfnodeparttenbox=\box151
-\pgfnodepartninebox=\box152
-\pgfnodeparteightbox=\box153
-\pgfnodepartsevenbox=\box154
-\pgfnodepartsixbox=\box155
-\pgfnodepartfivebox=\box156
 )))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarydecorations.shapes.code.tex
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/decorat
+ions/pgflibrarydecorations.shapes.code.tex)) ("./plasticite et endommagement.au
+x")
+\openout1 = plasticite et endommagement.aux
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryarrows.code.tex
-File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\arrowsize=\dimen335
-))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarypositioning.code.tex
-File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryautomata.code.tex
-File: tikzlibraryautomata.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarypatterns.code.tex
-File: tikzlibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-arypatterns.code.tex
-File: pgflibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)))
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.shapes.code.tex
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
-ions\pgflibrarydecorations.shapes.code.tex))
-Package french3.ldf Info: Setting StandardItemizeEnv=true for
-(french3.ldf)             compatibility with enumitem package,
-(french3.ldf)             reported on input line 84.
-Package french3.ldf Info: Setting StandardEnumerateEnv=true for
-(french3.ldf)             compatibility with enumitem package,
-(french3.ldf)             reported on input line 84.
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count388
-) (plasticite et endommagement.aux
-Package babel Info: 'french' activates 'french' shorthands.
-(babel)             Reported on input line 12.
-)
-\openout1 = `"plasticite et endommagement.aux"'.
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 82.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 82.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 82.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 82.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 82.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 82.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 82.
+LaTeX Font Info:    Redeclaring math accent \check on input line 82.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 82.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 82.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 82.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 82.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 82.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 82.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 82.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 82.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 82.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 82.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 82.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Info: Redefining \degres on input line 84.
-
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count389
-\scratchdimen=\dimen336
-\scratchbox=\box157
-\nofMPsegments=\count390
-\nofMParguments=\count391
-\everyMPshowfont=\toks59
-\MPscratchCnt=\count392
-\MPscratchDim=\dimen337
-\MPnumerator=\count393
-\makeMPintoPDFobject=\count394
-\everyMPtoPDFconversion=\toks60
+\scratchcounter=\count388
+\scratchdimen=\dimen327
+\scratchbox=\box137
+\nofMPsegments=\count389
+\nofMParguments=\count390
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count391
+\MPscratchDim=\dimen328
+\MPnumerator=\count392
+\makeMPintoPDFobject=\count393
+\everyMPtoPDFconversion=\toks54
 )
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.c
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -1239,18 +1196,10 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
-slations-basic-dictionary-french.trsl
-File: translations-basic-dictionary-french.trsl (french translation file `trans
-lations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 84.
-
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: luatex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1281,21 +1230,21 @@ or `french'. on input line 84.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 84.
-(plasticite et endommagement.out) (plasticite et endommagement.out)
+Package hyperref Info: Link coloring OFF on input line 82.
+("./plasticite et endommagement.out") ("./plasticite et endommagement.out")
 \@outlinefile=\write4
-\openout4 = `"plasticite et endommagement.out"'.
 
+\openout4 = plasticite et endommagement.out
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape-nom
 etadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
 F (HO)
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -1304,240 +1253,252 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 84.
+ on input line 82.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
 
 
-(C:\Users\amalo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(plasticite et endommagement.toc
-Overfull \hbox (3.30475pt too wide) detected at line 20
-\T1/cmr/bx/n/12 II.1 
+("./plasticite et endommagement.toc"
+Overfull \hbox (2.93999pt too wide) detected at line 20
+\TU/lmr/bx/n/12 II.1 
  []
 
 
-Overfull \hbox (3.30475pt too wide) detected at line 21
-\T1/cmr/bx/n/12 II.2 
+Overfull \hbox (2.93999pt too wide) detected at line 21
+\TU/lmr/bx/n/12 II.2 
  []
 
 
-Overfull \hbox (3.30475pt too wide) detected at line 22
-\T1/cmr/bx/n/12 II.3 
+Overfull \hbox (2.93999pt too wide) detected at line 22
+\TU/lmr/bx/n/12 II.3 
  []
 
 [1
 
 {C:/Users/amalo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (3.30475pt too wide) detected at line 28
-\T1/cmr/bx/n/12 II.4 
+Overfull \hbox (2.93999pt too wide) detected at line 28
+\TU/lmr/bx/n/12 II.4 
  []
 
 
-Overfull \hbox (8.7062pt too wide) detected at line 34
-\T1/cmr/bx/n/12 III.1 
+Overfull \hbox (8.33998pt too wide) detected at line 34
+\TU/lmr/bx/n/12 III.1 
  []
 
 
-Overfull \hbox (8.7062pt too wide) detected at line 35
-\T1/cmr/bx/n/12 III.2 
+Overfull \hbox (8.33998pt too wide) detected at line 35
+\TU/lmr/bx/n/12 III.2 
  []
 
 
-Overfull \hbox (4.62096pt too wide) detected at line 36
-\T1/cmr/m/n/12 III.2.1 
+Overfull \hbox (4.04398pt too wide) detected at line 36
+\TU/lmr/m/n/12 III.2.1 
  []
 
 
-Overfull \hbox (4.62096pt too wide) detected at line 37
-\T1/cmr/m/n/12 III.2.2 
+Overfull \hbox (4.04398pt too wide) detected at line 37
+\TU/lmr/m/n/12 III.2.2 
  []
 
 
-Overfull \hbox (3.18526pt too wide) detected at line 38
-\T1/cmr/m/n/12 III.2.2.1 
+Overfull \hbox (2.38806pt too wide) detected at line 38
+\TU/lmr/m/n/12 III.2.2.1 
+ []
+
+
+Overfull \hbox (4.04398pt too wide) detected at line 41
+\TU/lmr/m/n/12 III.2.3 
+ []
+
+
+Overfull \hbox (2.38806pt too wide) detected at line 42
+\TU/lmr/m/n/12 III.2.3.1 
+ []
+
+
+Overfull \hbox (8.33998pt too wide) detected at line 45
+\TU/lmr/bx/n/12 III.3 
  []
 
 )
 \tf@toc=\write5
-\openout5 = `"plasticite et endommagement.toc"'.
 
+\openout5 = plasticite et endommagement.toc
  [2]
-<figures/chapitre 1/courbe-exemple.png, id=205, 325.215pt x 261.22594pt>
+<figures/chapitre 1/courbe-exemple.png, id=219, 325.215pt x 261.22594pt>
 File: figures/chapitre 1/courbe-exemple.png Graphic file (type png)
 <use figures/chapitre 1/courbe-exemple.png>
-Package pdftex.def Info: figures/chapitre 1/courbe-exemple.png  used on input l
-ine 137.
-(pdftex.def)             Requested size: 199.16626pt x 159.98134pt.
+Package luatex.def Info: figures/chapitre 1/courbe-exemple.png  used on input l
+ine 135.
+(luatex.def)             Requested size: 199.16626pt x 159.98134pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 143.
+(hyperref)                removing `math shift' on input line 141.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 143.
+(hyperref)                removing `math shift' on input line 141.
 
-[3 <./figures/chapitre 1/courbe-exemple.png>]
-<figures/chapitre 1/endommagement-isotrope.png, id=216, 539.01375pt x 257.46187
+[3<./figures/chapitre 1/courbe-exemple.png>]
+<figures/chapitre 1/endommagement-isotrope.png, id=228, 539.01375pt x 257.46187
 pt>
 File: figures/chapitre 1/endommagement-isotrope.png Graphic file (type png)
 <use figures/chapitre 1/endommagement-isotrope.png>
-Package pdftex.def Info: figures/chapitre 1/endommagement-isotrope.png  used on
- input line 194.
-(pdftex.def)             Requested size: 348.54475pt x 166.48393pt.
+Package luatex.def Info: figures/chapitre 1/endommagement-isotrope.png  used on
+ input line 192.
+(luatex.def)             Requested size: 348.54475pt x 166.48393pt.
  [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 200.
+(hyperref)                removing `math shift' on input line 198.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 200.
+(hyperref)                removing `\sigma' on input line 198.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 200.
+(hyperref)                removing `subscript' on input line 198.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 200.
+(hyperref)                removing `math shift' on input line 198.
 
-[5 <./figures/chapitre 1/endommagement-isotrope.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 278.
-
+[5<./figures/chapitre 1/endommagement-isotrope.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 278.
+(hyperref)                removing `math shift' on input line 276.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 278.
+(hyperref)                removing `subscript' on input line 276.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 276.
 
 [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 288.
+(hyperref)                removing `math shift' on input line 286.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 288.
+(hyperref)                removing `subscript' on input line 286.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 288.
+(hyperref)                removing `math shift' on input line 286.
 
 [7] [8] [9] [10]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 547.
+(hyperref)                removing `math shift' on input line 545.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\varepsilon' on input line 547.
+(hyperref)                removing `\varepsilon' on input line 545.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 547.
+(hyperref)                removing `subscript' on input line 545.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 547.
+(hyperref)                removing `subscript' on input line 545.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 547.
+(hyperref)                removing `math shift' on input line 545.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 555.
+(hyperref)                removing `math shift' on input line 553.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\varepsilon' on input line 555.
+(hyperref)                removing `\varepsilon' on input line 553.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 555.
+(hyperref)                removing `subscript' on input line 553.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 555.
+(hyperref)                removing `math shift' on input line 553.
 
 [11] [12]
-<figures/chapitre-2/contrainte-deformation.png, id=265, 299.61937pt x 215.30438
+<figures/chapitre-2/contrainte-deformation.png, id=276, 299.61937pt x 215.30438
 pt>
 File: figures/chapitre-2/contrainte-deformation.png Graphic file (type png)
 <use figures/chapitre-2/contrainte-deformation.png>
-Package pdftex.def Info: figures/chapitre-2/contrainte-deformation.png  used on
- input line 634.
-(pdftex.def)             Requested size: 199.16626pt x 143.12305pt.
-<figures/chapitre-2/contrainte-deformation2.png, id=266, 212.29312pt x 182.1806
+Package luatex.def Info: figures/chapitre-2/contrainte-deformation.png  used on
+ input line 632.
+(luatex.def)             Requested size: 199.16626pt x 143.12305pt.
+<figures/chapitre-2/contrainte-deformation2.png, id=277, 212.29312pt x 182.1806
 2pt>
 File: figures/chapitre-2/contrainte-deformation2.png Graphic file (type png)
 <use figures/chapitre-2/contrainte-deformation2.png>
-Package pdftex.def Info: figures/chapitre-2/contrainte-deformation2.png  used o
-n input line 650.
-(pdftex.def)             Requested size: 199.16626pt x 170.92455pt.
- [13 <./figures/chapitre-2/contrainte-deformation.png> <./figures/chapitre-2/co
-ntrainte-deformation2.png>] [14]
-
-LaTeX Warning: Command \' invalid in math mode on input line 761.
-
-Missing character: There is no é in font cmr12!
-[15] [16] (plasticite et endommagement.aux)
+Package luatex.def Info: figures/chapitre-2/contrainte-deformation2.png  used o
+n input line 648.
+(luatex.def)             Requested size: 199.16626pt x 170.92455pt.
+ [13<./figures/chapitre-2/contrainte-deformation.png><./figures/chapitre-2/contr
+ainte-deformation2.png>] [14]
+Missing character: There is no Ã© (U+00E9) in font cmmi12!
+[15] [16] [17] [18] ("./plasticite et endommagement.aux")
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `"plasticite et endommagement".out' has not c
 hanged.
-(rerunfilecheck)             Checksum: 5E3F3EC774D664854C4833D34A85F3B1;6822.
- ) 
-Here is how much of TeX's memory you used:
- 44962 strings out of 467871
- 1089280 string characters out of 5418375
- 1568369 words of memory out of 5000000
- 73096 multiletter control sequences out of 15000+600000
- 646307 words of font info for 90 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 98i,11n,118p,758b,1281s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\amalo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
-2488.pk> <C:\Users\amalo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecrm0800.pk> <C:\Users\amalo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\eccc1200.pk> <C:\Users\amalo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx2488.pk> <C:\Users\amalo\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\amalo\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\amalo\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\amalo\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\amalo\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\amalo\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/amalo/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/User
-s/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mmi12.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmmi6.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/amalo/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/amalo/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/amalo/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/amal
-o/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Us
-ers/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msa
-m10.pfb>
-Output written on "plasticite et endommagement.pdf" (16 pages, 365966 bytes).
-PDF statistics:
- 704 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 321 words of extra memory for PDF output out of 10000 (max. 10000000)
+(rerunfilecheck)             Checksum: <no file>.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 43458 strings out of 476081
+ 125105,1648299 words of node,token memory allocated
+ 2189 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 86 glue, 16 kern, 1 penalty, 1 glyph, 342 attribute
+, 61 glue_spec, 173 attribute_list, 2 write nodes
+   avail lists: 1:2,2:1144,3:413,4:81,5:387,6:108,7:4094,8:52,9:686,10:10,11:354
+
+ 64874 multiletter control sequences out of 65536+600000
+ 77 fonts using 5543351 bytes
+ 98i,12n,113p,816b,1110s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman6-
+regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/
+lm/lmroman8-regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/open
+type/public/lm/lmromancaps10-regular.otf><c:/users/amalo/appdata/local/programs/
+miktex/fonts/opentype/public/lm/lmroman12-bold.otf><c:/users/amalo/appdata/local
+/programs/miktex/fonts/opentype/public/lm/lmroman12-regular.otf><c:/users/amalo/
+appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman17-regular.otf><C:
+/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10
+.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi6.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/amalo/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/amalo/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/amalo/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/amalo/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/a
+malo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
+Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/ms
+am10.pfb>
+Output written on plasticite et endommagement.pdf (18 pages, 273036 bytes).
+
+PDF statistics: 393 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 131072)
+ 328 words of extra memory for PDF output out of 10000 (max. 100000000)
 

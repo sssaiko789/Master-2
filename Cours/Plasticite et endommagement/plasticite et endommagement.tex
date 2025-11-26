@@ -1,8 +1,7 @@
 \documentclass[12pt,a4paper]{article}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage{polyglossia}
+\setmainlanguage{french}
 
 \usepackage{amsmath, amssymb}
 
@@ -55,7 +54,6 @@
 
 
 \usepackage{pgfplots}
-\usepackage{structuralanalysis}
 \usetikzlibrary { decorations.pathmorphing, decorations.pathreplacing, decorations.shapes, }
 
 
@@ -166,17 +164,17 @@
 	
 	et $D_{\vec{n}}$ qui est la proportion des vides (pourcentage).
 	
-	\[ \text{Quand } D_{\vec{n}} \overset{\text{approche ou egale }}{\rightarrow} 1 \Rightarrow S_{p} \rightarrow S \Rightarrow \text{ Matériau trés endommager} \]
+	\[ \text{Quand } D_{\vec{n}} \overset{\text{approche ou égale }}{\rightarrow} 1 \Rightarrow S_{p} \rightarrow S \Rightarrow \text{ Matériau très endommager} \]
 	
-	\[ D_{\vec{n}} \rightarrow 0 \Rightarrow S_{p} \rightarrow 0 \Rightarrow \text{ Matériau non ou trés peu endommager} \]
+	\[ D_{\vec{n}} \rightarrow 0 \Rightarrow S_{p} \rightarrow 0 \Rightarrow \text{ Matériau non ou très peu endommager} \]
 	
 	\[ D_{\vec{n}} \neq 0 \text{ Matériau endommager} \]
 	
-	En générale quand $D_{\vec{n}} \leq 0.5$ on peut dire que la structue est récupérable ou bien non endommager.
+	En générale quand $D_{\vec{n}} \leq 0.5$ on peut dire que la structure est récupérable ou bien non endommager.
 	
 	d'un point de vue physique la variable d'endommagement  est donc l'aire relative des vides coupé par la normale $\vec{n}$.
 	
-	\section{Hyphothése d'isotropie d'endommagement}
+	\section{Hypothèse d'isotropie d'endommagement}
 	
 	\subsection{Définition d'isotropie}
 	
@@ -256,7 +254,7 @@
 	
 	\section{Hypothèse d'équilibre en déformation}
 	
-	En suppose que le comportement a la déformation d'un matériau  $\overset{\text{ne pas \^{e}tre}}{\text{n'est affécter par}}$ l'endommagement que sous la seul forme de la contrainte effective.
+	En suppose que le comportement a la déformation d'un matériau  $\overset{\text{ne pas \^{e}tre}}{\text{n'est affecter par}}$ l'endommagement que sous la seul forme de la contrainte effective.
 	
 	\vspace{\baselineskip}
 	
@@ -321,7 +319,7 @@
 		$D_{c}$ varie de 0,5 a 0,9
 		
 		\vspace{\baselineskip}
-		$D_{c}$ ne peut pas \^{e}tre égale a 1 parce qu'a la rupture les contrainte n'éxiste plus et le matériau est peut étre totalement séparer donc on peut plus parler de dommage ou de rupture.
+		$D_{c}$ ne peut pas \^{e}tre égale a 1 parce qu'a la rupture les contrainte n'existe plus et le matériau est peut être totalement séparer donc on peut plus parler de dommage ou de rupture.
 	\end{tcolorbox}
 	
 	\vspace{\baselineskip}
@@ -363,7 +361,7 @@
 	
 	\[ D_{c} = 1 - \dfrac{\sigma_{u}}{\sigma_{u \: eff}} = 1 - \dfrac{20}{25} = 0,2 \]
 	
-	En conclusion on peut dire que notre matériau est légérment endommager et ca résistance est faible car $D_{c} = 0,2$
+	En conclusion on peut dire que notre matériau est légèrement endommager et ca résistance est faible car $D_{c} = 0,2$
 	
 	{\hspace{0.45\textwidth} \Huge ????}
 	
@@ -384,9 +382,9 @@
 	
 	\section{Définition}
 	
-	Le modèle de comportement de Mazards est un modèle (simple) réputé robuste basée sur la mécanique de l'endommagement qui permet de décrire la dimunition de la rigidité d'un matériau sous l'effetde la création de fissure ou de cavité.
+	Le modèle de comportement de Mazards est un modèle (simple) réputé robuste basée sur la mécanique de l'endommagement qui permet de décrire la diminution de la rigidité d'un matériau sous l'effet de la création de fissure ou de cavité.
 	
-	Il s'appuie sur une seule variable \textbf{"D"} (Varibale d'endommagement) est d'écrivant d'une maniére \underline{isotrope} l'endommagement de l'élément.
+	Il s'appuie sur une seule variable \textbf{"D"} (Variable d'endommagement) est s'écrivant d'une manière \underline{isotrope} l'endommagement de l'élément.
 	
 	\vspace{\baselineskip}
 	
@@ -831,6 +829,131 @@
 		
 		De ce fait un chargement hydrostatique reste indéterminé pour le critère de Tresca.
 	\end{tcolorbox}
+	
+	
+	
+	
+	
+	
+	
+	\subsection{Critère de Von Mises}
+	
+	C'est un critère énergétique, si un solide élastique linéaire occupant un volume "V" a un champ de déplacement $\vec{u}$, un tenseur de contrainte $[\sigma] = \sigma_{ij}$ et un tenseur de déformation $[\varepsilon] = \varepsilon_{ij}$, alors l'énergie emmagasinée par  par ce solide peut s'écrire de la manière suivante :
+	
+	\[ W = \dfrac{1}{2} \cdot \int^{V} \sigma_{ij} \cdot \varepsilon_{ij} \, dV \]
+	
+	En d'autre termes, la densité volumique de l'énergie est :
+	
+	\[ W = \dfrac{1}{2} \cdot \sigma_{ij} \cdot \varepsilon_{ij} \]
+	
+	Sachant que :
+	
+	\[ W = W_{c} + W_{d} \]
+	
+	Avec : 
+	
+	$W_{c}$ : Énergie de cisaillement.
+	
+	$W_{d}$ : Énergie de dilatation.
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Sachant que la dilatation ou compression isotrope n'est pas susceptible de provoquer ou engendrée un écoulement plastique (déformation), le critère de plasticité ne peut être engendrée que par l'énergie de cisaillement "$W_{c}$"
+	\end{tcolorbox}
+	
+	
+	\vspace{\baselineskip}
+	
+	Le critère de Von Mises s'écrit alors : 
+	
+	\[ \underset{(\sigma_{1},\sigma_{2},\sigma_{3})}{\sigma} = \dfrac{1}{\sqrt{2}} \cdot \sqrt{ (\sigma_{1} - \sigma_{2})^{2} + (\sigma_{1} - \sigma_{3})^{2} + (\sigma_{2} - \sigma_{3})^{2} } \quad<\quad \sigma_{y} \]
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Lorsque on étudie un matériau seul un des deux critère peut être appliquer.
+	\end{tcolorbox}
+	
+	
+	
+	\subsubsection{Application}
+	
+	\paragraph{Chargement hydrostatique}
+	
+	\[ \begin{pmatrix}
+		\sigma_{1}&0&0\\
+		0&\sigma_{2}&0\\
+		0&0&\sigma_{3}
+	\end{pmatrix} \quad \text{avec : } \sigma_{1} = \sigma_{2} = \sigma_{3} = \sigma \]
+	
+	On applique Von Mises : 
+	
+	\[ \underset{(\sigma_{1},\sigma_{2},\sigma_{3})}{\sigma_{eq}} = \dfrac{1}{\sqrt{2}} \cdot \sqrt{ (\sigma_{1} - \sigma_{2})^{2} + (\sigma_{1} - \sigma_{3})^{2} + (\sigma_{2} - \sigma_{3})^{2} } \]
+	
+	\[ \downarrow \]
+	
+	\[ \underset{(\sigma_{1},\sigma_{2},\sigma_{3})}{\sigma_{eq}} = \dfrac{1}{\sqrt{2}} \cdot \sqrt{ (\sigma - \sigma)^{2} + (\sigma - \sigma)^{2} + (\sigma - \sigma)^{2} } \]
+	
+	\[ \downarrow \]
+	
+	\[ \sigma_{eq} = 0 < \sigma_{y} \]
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		On remarque que le critère de Von Mises le matériau ne rentre jamais dans le domine plastique quelque soit la valeur de la pression hydrostatique, ce qui est abérant.
+		
+		Cela veut dire que le critère de Von Mises ne s'applique pas dans le cas d'un chargement hydrostatique.
+	\end{tcolorbox}
+	
+	\vspace{\baselineskip}
+	
+	\paragraph{Chargement uni-axiale}
+	
+	\[ \begin{pmatrix}
+		\sigma_{1}&0&0\\
+		0&0&0\\
+		0&0&0
+	\end{pmatrix} \]
+	
+	\[ \sigma_{eq} = \dfrac{1}{\sqrt{2}} \cdot \sqrt{\sigma_{1}^{2} + \sigma_{1}^{2}} = \dfrac{\sqrt{2}}{\sqrt{2}} \cdot \sqrt{\sigma_{1}^{2}} = \sigma_{1} = \sigma \]
+	
+	
+	\[ \sigma_{eq} = \sigma \rightarrow \begin{cases}
+		\text{Si $\sigma < \sigma_{y} \rightarrow$ Domaine élastique.} \\
+		\text{Si $\sigma = \sigma_{y} \rightarrow$ Apparition de plasticité.} \\
+		\text{Si $\sigma \geq \sigma_{y} \rightarrow$ Domaine plastique.}
+	\end{cases} \]
+	
+	
+	
+	
+	\section{Analyse limite}
+	
+	La plupart des problèmes traité dans la RDM sont relatifs au comportement élastique linéaire qui n'est pas toujours valable dans la plupart des cas.
+	
+	\vspace{\baselineskip}
+	
+	Nous avons vues précédemment des critères qui permettes de déterminer si localement l'état plastique est atteint.
+	
+	Lors des sollicitations exceptionnelles accidentelles, des contraintes supérieurs au limite élastique ou bien au limite d'écoulement (déformation) du matériau, peuvent se produire en entrainant des déformations permanentes alors que la structure doit résisté sans s'effondrer.
+	
+	\vspace{\baselineskip}
+	
+	Il est donc important de prévoir lors des calculs et de dimensionnent ces situations anormale.
+	
+	L'étude des notions essentielles de la capacité portante d'une structure en matériaux ductile soumis a un chargement statique entrainant l'écoulement ou la plasticité d'un matériau s'appelle analyse limite.
+	
+	\vspace{\baselineskip}
+	
+	En RDM ou bien en MMC (Mécanique des Milieux Continue) et plus particulièrement en MMC, l'analyse limite est associer au calcul de la rupture qui permet de prévoir des estimation par excès ou par défaut des capacité portante d'une structure.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

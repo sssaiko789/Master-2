@@ -1,560 +1,1388 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.3)  23 OCT 2025 23:08
-entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**./batiment.tex
-(batiment.tex
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
-)
-\c@part=\count196
-\c@section=\count197
-\c@subsection=\count198
-\c@subsubsection=\count199
-\c@paragraph=\count266
-\c@subparagraph=\count267
-\c@figure=\count268
-\c@table=\count269
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  26 NOV 2025 21:42
+ restricted system commands enabled.
+**batiment.tex
+(./batiment.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "C:/Users/amalo/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/f
+ontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/amalo/AppData/Local/MiKTeX
+/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (C:/Users/amalo/AppData
+/Local/Programs/MiKTeX/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/base/size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/amalo/AppData/Local/M
+iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\c@part=\count273
+\c@section=\count274
+\c@subsection=\count275
+\c@subsubsection=\count276
+\c@paragraph=\count277
+\c@subparagraph=\count278
+\c@figure=\count279
+\c@table=\count280
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
-\bibindent=\dimen141
+\bibindent=\dimen147
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
-)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/03/27 v25.6 The multilingual framework for pdfLaTeX, LuaLaT
-eX and XeLaTeX
-\babel@savecnt=\count270
-\U@D=\dimen142
-\l@unhyphenated=\language79
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/polyglossia
+.sty
+Package: polyglossia 2025/09/22 v2.8 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
-\bbl@readstream=\read2
-\bbl@dirlevel=\count271
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count281
+)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
+e.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-10-24 L3 programming layer (loader) 
 
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
- babel
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
+tex.def
+File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count282
+Inserting `l3color' in `luaotfload.parse_color'.))
+Package: xparse 2025-10-09 L3 Experimental document command parser
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.l
-df
-Language: french 2024-07-25 v3.6c French support from the babel system
-Package babel Info: Hyphen rules for 'acadian' set to \l@french
-(babel)             (\language22). Reported on input line 91.
-Package babel Info: Hyphen rules for 'canadien' set to \l@french
-(babel)             (\language22). Reported on input line 92.
-\FB@stdchar=\count272
-Package babel Info: Making : an active character on input line 421.
-Package babel Info: Making ; an active character on input line 422.
-Package babel Info: Making ! an active character on input line 423.
-Package babel Info: Making ? an active character on input line 424.
-\FBguill@level=\count273
-\FBold@everypar=\toks19
-\FB@Mht=\dimen143
-\mc@charclass=\count274
-\mc@charfam=\count275
-\mc@charslot=\count276
-\std@mcc=\count277
-\dec@mcc=\count278
-\FB@parskip=\dimen144
-\listindentFB=\dimen145
-\descindentFB=\dimen146
-\labelindentFB=\dimen147
-\labelwidthFB=\dimen148
-\leftmarginFB=\dimen149
-\parindentFFN=\dimen150
-\FBfnindent=\dimen151
-))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel
--french.tex
-Package babel Info: Importing font and identification data for french
-(babel)             from babel-fr.ini. Reported on input line 11.
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec-luate
+x.sty
+Package: fontspec-luatex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaT
+eX
+\l__fontspec_script_int=\count283
+\l__fontspec_language_int=\count284
+\l__fontspec_strnum_int=\count285
+\l__fontspec_tmp_int=\count286
+\l__fontspec_tmpa_int=\count287
+\l__fontspec_tmpb_int=\count288
+\l__fontspec_tmpc_int=\count289
+\l__fontspec_em_int=\count290
+\l__fontspec_emdef_int=\count291
+\l__fontspec_strong_int=\count292
+\l__fontspec_strongdef_int=\count293
+\l__fontspec_tmpa_dim=\dimen148
+\l__fontspec_tmpb_dim=\dimen149
+\l__fontspec_tmpc_dim=\dimen150
+ (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.cfg
+))) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2024/11/05 v2.17t AMS math features
+Lua module: polyglossia 2013/05/11 v1.3 Polyglossia
+\l_xpg_alias_keyvals_int=\count294
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-latex
+.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+)
+
+Package polyglossia Info: Setting LuaTeX font renderer to Harfbuzz
+
+)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-frenc
+h.ldf
+File: gloss-french.ldf polyglossia: module for French
+Module polyglossia Info: Language data for french
+(polyglossia)            hyphenation	
+(polyglossia)            lefthyphenmin	2
+(polyglossia)            loader	loadhyph-fr.tex
+(polyglossia)            patterns	hyph-fr.pat.txt
+(polyglossia)            righthyphenmin	2
+(polyglossia)            synonyms	patois,francais on input line 17
+Module polyglossia Info: Language french was not yet loaded; created with id 2 o
+n input line 17
+Lua-only attribute polyglossia_punct = 4
+Inserting `polyglossia-punct.process' in `pre_shaping_filter'.)
+
+Package polyglossia Info: Default language is french
+
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
-\ex@=\dimen152
+\@emptytoks=\toks17
+\ex@=\dimen151
 ))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen153
+\pmbraise@=\dimen152
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count279
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count280
-\leftroot@=\count281
+\inf@bad=\count295
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count296
+\leftroot@=\count297
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count282
-\DOTSCASE@=\count283
+\classnum@=\count298
+\DOTSCASE@=\count299
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
+\Mathstrutbox@=\box53
+\strutbox@=\box54
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen154
+\big@size=\dimen153
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count284
+\macc@depth=\count300
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count285
+\c@MaxMatrixCols=\count301
 \dotsspace@=\muskip17
-\c@parentequation=\count286
-\dspbrk@lvl=\count287
-\tag@help=\toks21
-\row@=\count288
-\column@=\count289
-\maxfields@=\count290
-\andhelp@=\toks22
-\eqnshift@=\dimen155
-\alignsep@=\dimen156
-\tagshift@=\dimen157
-\tagwidth@=\dimen158
-\totwidth@=\dimen159
-\lineht@=\dimen160
-\@envbody=\toks23
+\c@parentequation=\count302
+\dspbrk@lvl=\count303
+\tag@help=\toks18
+\row@=\count304
+\column@=\count305
+\maxfields@=\count306
+\andhelp@=\toks19
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
+\@envbody=\toks20
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/cancel\cancel.sty
+)) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks25
+\KV@toks@=\toks22
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/graphics.c
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 106.
+Package graphics Info: Driver file: luatex.def on input line 106.
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics-def/luatex.def
+File: luatex.def 2025/09/29 v1.2f Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen161
-\Gin@req@width=\dimen162
-) (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
+) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen163
-\captionmargin=\dimen164
-\caption@leftmargin=\dimen165
-\caption@rightmargin=\dimen166
-\caption@width=\dimen167
-\caption@indent=\dimen168
-\caption@parindent=\dimen169
-\caption@hangindent=\dimen170
+\caption@tempdima=\dimen162
+\captionmargin=\dimen163
+\caption@leftmargin=\dimen164
+\caption@rightmargin=\dimen165
+\caption@width=\dimen166
+\caption@indent=\dimen167
+\caption@parindent=\dimen168
+\caption@hangindent=\dimen169
 Package caption Info: Standard document class detected.
-Package caption Info: french babel package is loaded.
 )
-\c@caption@flags=\count291
-\c@continuedfloat=\count292
+\c@caption@flags=\count307
+\c@continuedfloat=\count308
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
-Package: siunitx 2025-03-26 v3.4.8 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count293
-\l__siunitx_number_exponent_fixed_int=\count294
-\l__siunitx_number_min_decimal_int=\count295
-\l__siunitx_number_min_integer_int=\count296
-\l__siunitx_number_round_precision_int=\count297
-\l__siunitx_number_lower_threshold_int=\count298
-\l__siunitx_number_upper_threshold_int=\count299
-\l__siunitx_number_group_first_int=\count300
-\l__siunitx_number_group_size_int=\count301
-\l__siunitx_number_group_minimum_int=\count302
-\l__siunitx_angle_tmp_dim=\dimen171
-\l__siunitx_angle_marker_box=\box54
-\l__siunitx_angle_unit_box=\box55
-\l__siunitx_compound_count_int=\count303
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count309
+\l__siunitx_number_exponent_fixed_int=\count310
+\l__siunitx_number_min_decimal_int=\count311
+\l__siunitx_number_min_integer_int=\count312
+\l__siunitx_number_round_precision_int=\count313
+\l__siunitx_number_lower_threshold_int=\count314
+\l__siunitx_number_upper_threshold_int=\count315
+\l__siunitx_number_group_first_int=\count316
+\l__siunitx_number_group_size_int=\count317
+\l__siunitx_number_group_minimum_int=\count318
+\l__siunitx_angle_tmp_dim=\dimen170
+\l__siunitx_angle_marker_box=\box55
+\l__siunitx_angle_unit_box=\box56
+\l__siunitx_compound_count_int=\count319
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/translations/translatio
 ns.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count304
-)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pdftexcmds/pdftexcmds
 .sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/infwarerr/infwarerr.s
 ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks23
 ))
-\l__siunitx_table_tmp_box=\box56
-\l__siunitx_table_tmp_dim=\dimen172
-\l__siunitx_table_column_width_dim=\dimen173
-\l__siunitx_table_integer_box=\box57
-\l__siunitx_table_decimal_box=\box58
-\l__siunitx_table_uncert_box=\box59
-\l__siunitx_table_before_box=\box60
-\l__siunitx_table_after_box=\box61
-\l__siunitx_table_before_dim=\dimen174
-\l__siunitx_table_carry_dim=\dimen175
-\l__siunitx_unit_tmp_int=\count305
-\l__siunitx_unit_position_int=\count306
-\l__siunitx_unit_total_int=\count307
- (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen176
-\ar@mcellbox=\box62
-\extrarowheight=\dimen177
-\NC@list=\toks26
+\l__siunitx_table_tmp_box=\box57
+\l__siunitx_table_tmp_dim=\dimen171
+\l__siunitx_table_column_width_dim=\dimen172
+\l__siunitx_table_integer_box=\box58
+\l__siunitx_table_decimal_box=\box59
+\l__siunitx_table_uncert_box=\box60
+\l__siunitx_table_before_box=\box61
+\l__siunitx_table_after_box=\box62
+\l__siunitx_table_before_dim=\dimen173
+\l__siunitx_table_carry_dim=\dimen174
+\l__siunitx_unit_tmp_int=\count320
+\l__siunitx_unit_position_int=\count321
+\l__siunitx_unit_total_int=\count322
+ (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen175
+\ar@mcellbox=\box63
+\extrarowheight=\dimen176
+\NC@list=\toks24
 \extratabsurround=\skip54
 \backup@length=\skip55
-\ar@cellbox=\box63
+\ar@cellbox=\box64
 ))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count308
-\Gm@cntv=\count309
-\c@Gm@tempcnt=\count310
-\Gm@bindingoffset=\dimen178
-\Gm@wd@mp=\dimen179
-\Gm@odd@mp=\dimen180
-\Gm@even@mp=\dimen181
-\Gm@layoutwidth=\dimen182
-\Gm@layoutheight=\dimen183
-\Gm@layouthoffset=\dimen184
-\Gm@layoutvoffset=\dimen185
-\Gm@dimlist=\toks27
+\Gm@cnth=\count323
+\Gm@cntv=\count324
+\c@Gm@tempcnt=\count325
+\Gm@bindingoffset=\dimen177
+\Gm@wd@mp=\dimen178
+\Gm@odd@mp=\dimen179
+\Gm@even@mp=\dimen180
+\Gm@layoutwidth=\dimen181
+\Gm@layoutheight=\dimen182
+\Gm@layouthoffset=\dimen183
+\Gm@layoutvoffset=\dimen184
+\Gm@dimlist=\toks25
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/roboto\roboto.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/roboto/roboto.sty
 Package: roboto 2022/09/10 (Bob Tennent) Supports Roboto fonts for all LaTeX en
 gines.
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks28
-\XKV@tempa@toks=\toks29
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkeyval.tex
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
 )
-\XKV@depth=\count311
+\XKV@depth=\count326
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+)) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/base/textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Roboto(0)' created for font 'Roboto' with
+(fontspec)             options [Ligatures = TeX,Scale = 1,Extension =
+(fontspec)             .otf,Ligatures=TeX,Numbers =
+(fontspec)             {Proportional,Lining},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Regular.otf]:mode=node;script=latn;lang
+uage=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Regular.otf]:mode=node;script=latn;lang
+uage=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Bold.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Bold.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Italic.otf]:mode=node;script=latn;langu
+age=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Italic.otf]:mode=node;script=latn;langu
+age=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-BoldItalic.otf]:mode=node;script=latn;l
+anguage=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-BoldItalic.otf]:mode=node;script=latn;l
+anguage=dflt;+tlig;+pnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Roboto(1)' created for font 'Roboto' with
+(fontspec)             options [Ligatures = TeX,Scale = 1,Extension =
+(fontspec)             .otf,Numbers = {Proportional,Lining},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Regular.otf]:mode=node;script=latn;lang
+uage=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Regular.otf]:mode=node;script=latn;lang
+uage=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Bold.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Bold.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Italic.otf]:mode=node;script=latn;langu
+age=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Italic.otf]:mode=node;script=latn;langu
+age=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-BoldItalic.otf]:mode=node;script=latn;l
+anguage=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-BoldItalic.otf]:mode=node;script=latn;l
+anguage=dflt;+tlig;+pnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'RobotoCondensed(0)' created for font
+(fontspec)             'RobotoCondensed' with options [Ligatures = TeX,Scale =
+(fontspec)             1,Extension = .otf,Numbers =
+(fontspec)             {Proportional,Lining},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-Regular.otf]:mode=node;script=
+latn;language=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-Regular.otf]:mode=node;script=
+latn;language=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-Bold.otf]:mode=node;script=lat
+n;language=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-Bold.otf]:mode=node;script=lat
+n;language=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-Italic.otf]:mode=node;script=l
+atn;language=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-Italic.otf]:mode=node;script=l
+atn;language=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-BoldItalic.otf]:mode=node;scri
+pt=latn;language=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-BoldItalic.otf]:mode=node;scri
+pt=latn;language=dflt;+tlig;+pnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoCondensed-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'RobotoCondensed(1)' created for font
+(fontspec)             'RobotoCondensed' with options [Ligatures = TeX,Scale =
+(fontspec)             1,Extension = .otf,Numbers =
+(fontspec)             {Proportional,Lining},UprightFont = *-Bold,ItalicFont =
+(fontspec)             *-BoldItalic,BoldFont = *-Bold,BoldItalicFont =
+(fontspec)             *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-Bold.otf]:mode=node;script=lat
+n;language=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-Bold.otf]:mode=node;script=lat
+n;language=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-Bold.otf]:mode=node;script=lat
+n;language=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-Bold.otf]:mode=node;script=lat
+n;language=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-BoldItalic.otf]:mode=node;scri
+pt=latn;language=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-BoldItalic.otf]:mode=node;scri
+pt=latn;language=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-BoldItalic.otf]:mode=node;scri
+pt=latn;language=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoCondensed-BoldItalic.otf]:mode=node;scri
+pt=latn;language=dflt;+tlig;+pnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             RobotoSlab-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoSlab-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoSlab-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoSlab-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             RobotoSlab-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'RobotoSlab(0)' created for font
+(fontspec)             'RobotoSlab' with options [Ligatures = TeX,Scale =
+(fontspec)             1,Extension = .otf,UprightFont = *-Regular,BoldFont =
+(fontspec)             *-Bold].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoSlab-Regular.otf]:mode=node;script=DFLT;
+language=dflt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoSlab-Regular.otf]:mode=node;script=DFLT;
+language=dflt;+tlig;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoSlab-Bold.otf]:mode=node;script=DFLT;lan
+guage=dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[RobotoSlab-Bold.otf]:mode=node;script=DFLT;lan
+guage=dflt;+tlig;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Roboto(2)' created for font 'Roboto' with
+(fontspec)             options [Ligatures = TeX,Scale = 1,Extension =
+(fontspec)             .otf,Numbers = {Proportional,Lining},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Regular.otf]:mode=node;script=latn;lang
+uage=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Regular.otf]:mode=node;script=latn;lang
+uage=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Italic.otf]:mode=node;script=latn;langu
+age=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Italic.otf]:mode=node;script=latn;langu
+age=dflt;+tlig;+pnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Medium scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Medium scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Medium scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-MediumItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-MediumItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Roboto(3)' created for font 'Roboto' with
+(fontspec)             options [Ligatures = TeX,Scale = 1,Extension =
+(fontspec)             .otf,Numbers = {Proportional,Lining},UprightFont =
+(fontspec)             *-Medium,ItalicFont = *-MediumItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Medium.otf]:mode=node;script=latn;langu
+age=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Medium.otf]:mode=node;script=latn;langu
+age=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-MediumItalic.otf]:mode=node;script=latn
+;language=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-MediumItalic.otf]:mode=node;script=latn
+;language=dflt;+tlig;+pnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Thin scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Thin scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Thin scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-ThinItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-ThinItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Roboto(4)' created for font 'Roboto' with
+(fontspec)             options [Ligatures = TeX,Scale = 1,Extension =
+(fontspec)             .otf,Numbers = {Proportional,Lining},UprightFont =
+(fontspec)             *-Thin,ItalicFont = *-ThinItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Thin.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Thin.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-ThinItalic.otf]:mode=node;script=latn;l
+anguage=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-ThinItalic.otf]:mode=node;script=latn;l
+anguage=dflt;+tlig;+pnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Light scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Light scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Light scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-LightItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-LightItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Roboto(5)' created for font 'Roboto' with
+(fontspec)             options [Ligatures = TeX,Scale = 1,Extension =
+(fontspec)             .otf,Numbers = {Proportional,Lining},UprightFont =
+(fontspec)             *-Light,ItalicFont = *-LightItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Light.otf]:mode=node;script=latn;langua
+ge=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Light.otf]:mode=node;script=latn;langua
+ge=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-LightItalic.otf]:mode=node;script=latn;
+language=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-LightItalic.otf]:mode=node;script=latn;
+language=dflt;+tlig;+pnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Roboto(6)' created for font 'Roboto' with
+(fontspec)             options [Ligatures = TeX,Scale = 1,Extension =
+(fontspec)             .otf,Numbers = {Proportional,Lining},UprightFont =
+(fontspec)             *-Bold,ItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Bold.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Bold.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-BoldItalic.otf]:mode=node;script=latn;l
+anguage=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-BoldItalic.otf]:mode=node;script=latn;l
+anguage=dflt;+tlig;+pnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Black scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Black scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Black scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-BlackItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-BlackItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Roboto(7)' created for font 'Roboto' with
+(fontspec)             options [Ligatures = TeX,Scale = 1,Extension =
+(fontspec)             .otf,Numbers = {Proportional,Lining},UprightFont =
+(fontspec)             *-Black,ItalicFont = *-BlackItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Black.otf]:mode=node;script=latn;langua
+ge=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Black.otf]:mode=node;script=latn;langua
+ge=dflt;+tlig;+pnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-BlackItalic.otf]:mode=node;script=latn;
+language=dflt;+tlig;+pnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-BlackItalic.otf]:mode=node;script=latn;
+language=dflt;+tlig;+pnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Roboto(8)' created for font 'Roboto' with
+(fontspec)             options [Ligatures = TeX,Scale = 1,Extension =
+(fontspec)             .otf,Numbers = {Proportional,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Regular.otf]:mode=node;script=latn;lang
+uage=dflt;+tlig;+pnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Regular.otf]:mode=node;script=latn;lang
+uage=dflt;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Bold.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Bold.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Italic.otf]:mode=node;script=latn;langu
+age=dflt;+tlig;+pnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Italic.otf]:mode=node;script=latn;langu
+age=dflt;+tlig;+pnum;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-BoldItalic.otf]:mode=node;script=latn;l
+anguage=dflt;+tlig;+pnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-BoldItalic.otf]:mode=node;script=latn;l
+anguage=dflt;+tlig;+pnum;+onum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Roboto(9)' created for font 'Roboto' with
+(fontspec)             options [Ligatures = TeX,Scale = 1,Extension =
+(fontspec)             .otf,Numbers = {Monospaced,Lining},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Regular.otf]:mode=node;script=latn;lang
+uage=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Regular.otf]:mode=node;script=latn;lang
+uage=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Bold.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Bold.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Italic.otf]:mode=node;script=latn;langu
+age=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Italic.otf]:mode=node;script=latn;langu
+age=dflt;+tlig;+tnum;+lnum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-BoldItalic.otf]:mode=node;script=latn;l
+anguage=dflt;+tlig;+tnum;+lnum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-BoldItalic.otf]:mode=node;script=latn;l
+anguage=dflt;+tlig;+tnum;+lnum;+smcp;"
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Roboto-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Roboto(10)' created for font 'Roboto' with
+(fontspec)             options [Ligatures = TeX,Scale = 1,Extension =
+(fontspec)             .otf,Numbers = {Monospaced,OldStyle},UprightFont =
+(fontspec)             *-Regular,ItalicFont = *-Italic,BoldFont =
+(fontspec)             *-Bold,BoldItalicFont = *-BoldItalic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Regular.otf]:mode=node;script=latn;lang
+uage=dflt;+tlig;+tnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Regular.otf]:mode=node;script=latn;lang
+uage=dflt;+tlig;+tnum;+onum;+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Bold.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;+tnum;+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Bold.otf]:mode=node;script=latn;languag
+e=dflt;+tlig;+tnum;+onum;+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Italic.otf]:mode=node;script=latn;langu
+age=dflt;+tlig;+tnum;+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-Italic.otf]:mode=node;script=latn;langu
+age=dflt;+tlig;+tnum;+onum;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-BoldItalic.otf]:mode=node;script=latn;l
+anguage=dflt;+tlig;+tnum;+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[Roboto-BoldItalic.otf]:mode=node;script=latn;l
+anguage=dflt;+tlig;+tnum;+onum;+smcp;"
+
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
-Package: fontaxes 2020/07/21 v1.0e Font selection axes
-LaTeX Info: Redefining \upshape on input line 29.
-LaTeX Info: Redefining \itshape on input line 31.
-LaTeX Info: Redefining \slshape on input line 33.
-LaTeX Info: Redefining \swshape on input line 35.
-LaTeX Info: Redefining \scshape on input line 37.
-LaTeX Info: Redefining \sscshape on input line 39.
-LaTeX Info: Redefining \ulcshape on input line 41.
-LaTeX Info: Redefining \textsw on input line 47.
-LaTeX Info: Redefining \textssc on input line 48.
-LaTeX Info: Redefining \textulc on input line 49.
-)) (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.st
-y
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip56
-\enit@outerparindent=\dimen186
-\enit@toks=\toks30
-\enit@inbox=\box64
-\enit@count@id=\count312
-\enitdp@description=\count313
-) (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+\enit@outerparindent=\dimen185
+\enit@toks=\toks28
+\enit@inbox=\box65
+\enit@count@id=\count327
+\enitdp@description=\count328
+)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinekeys/kvdefine
 keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pdfescape/pdfescape.s
 ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/gettitlestring/gettit
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count314
+\c@section@level=\count329
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.s
 ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen187
-\Hy@linkcounter=\count315
-\Hy@pagecounter=\count316
- (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+\@linkdim=\dimen186
+\Hy@linkcounter=\count330
+\Hy@pagecounter=\count331
+ (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count317
- (C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
+\Hy@SavedSpaceFactor=\count332
+ (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4157.
-Package hyperref Info: Link nesting OFF on input line 4162.
-Package hyperref Info: Hyper index ON on input line 4165.
-Package hyperref Info: Plain pages OFF on input line 4172.
-Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count318
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count333
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen188
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen187
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc
 .sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count319
-\Field@Width=\dimen189
-\Fld@charsize=\dimen190
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
-
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
+\Fld@menulength=\count334
+\Field@Width=\dimen188
+\Fld@charsize=\dimen189
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count335
+\c@Item=\count336
+\c@Hfootnote=\count337
 )
-\Hy@abspage=\count320
-\c@Item=\count321
-\c@Hfootnote=\count322
-)
-Package hyperref Info: Driver (autodetected): hpdftex.
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+Package hyperref Info: Driver (autodetected): hluatex.
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
-with kernel methods
-)
-\Fld@listcount=\count323
-\c@bookmark@seq@number=\count324
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
+File: hluatex.def 2025-07-12 v7.01o Hyperref driver for luaTeX
+\Fld@listcount=\count338
+\c@bookmark@seq@number=\count339
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
 echeck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/uniquecounter/uniquec
 ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-85.
+84.
 )
 \Hy@SectionHShift=\skip57
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
-Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2025/09/09 version 6.8.0 text color boxes
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/frontendlayer/tikz.
 sty
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfrcs.st
 y
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
 -common.tex
-\pgfutil@everybye=\toks31
-\pgfutil@tempdima=\dimen191
-\pgfutil@tempdimb=\dimen192
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen190
+\pgfutil@tempdimb=\dimen191
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfutil
 -latex.def
-\pgfutil@abb=\box65
+\pgfutil@abb=\box66
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfrcs.
 code.tex
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
-Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.
 sty
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/systemlayer/pgfsys.
 sty
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 s.code.tex
-Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
 .code.tex
-\pgfkeys@pathtoks=\toks32
-\pgfkeys@temptoks=\toks33
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
 libraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks34
+\pgfkeys@tmptoks=\toks32
 ))
-\pgf@x=\dimen193
-\pgf@y=\dimen194
-\pgf@xa=\dimen195
-\pgf@ya=\dimen196
-\pgf@xb=\dimen197
-\pgf@yb=\dimen198
-\pgf@xc=\dimen199
-\pgf@yc=\dimen256
-\pgf@xd=\dimen257
-\pgf@yd=\dimen258
+\pgf@x=\dimen192
+\pgf@y=\dimen193
+\pgf@xa=\dimen194
+\pgf@ya=\dimen195
+\pgf@xb=\dimen196
+\pgf@yb=\dimen197
+\pgf@xc=\dimen198
+\pgf@yc=\dimen199
+\pgf@xd=\dimen256
+\pgf@yd=\dimen257
 \w@pgf@writea=\write3
-\r@pgf@reada=\read3
-\c@pgf@counta=\count325
-\c@pgf@countb=\count326
-\c@pgf@countc=\count327
-\c@pgf@countd=\count328
-\t@pgf@toka=\toks35
-\t@pgf@tokb=\toks36
-\t@pgf@tokc=\toks37
-\pgf@sys@id@count=\count329
+\r@pgf@reada=\read2
+\c@pgf@counta=\count340
+\c@pgf@countb=\count341
+\c@pgf@countc=\count342
+\c@pgf@countd=\count343
+\t@pgf@toka=\toks33
+\t@pgf@tokb=\toks34
+\t@pgf@tokc=\toks35
+\pgf@sys@id@count=\count344
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf.c
 fg
-File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Driver file for pgf: pgfsys-luatex.def
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
+s-luatex.def
+File: pgfsys-luatex.def 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 s-common-pdf.def
-File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 )))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 ssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count330
-\pgfsyssoftpath@bigbuffer@items=\count331
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count345
+\pgfsyssoftpath@bigbuffer@items=\count346
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 sprotocol.code.tex
-File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 274.
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -565,276 +1393,275 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 e.code.tex
-Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code
 .tex
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathutil.
 code.tex)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathparse
 r.code.tex
-\pgfmath@dimen=\dimen259
-\pgfmath@count=\count332
-\pgfmath@box=\box66
-\pgfmath@toks=\toks38
-\pgfmath@stack@operand=\toks39
-\pgfmath@stack@operation=\toks40
+\pgfmath@dimen=\dimen258
+\pgfmath@count=\count347
+\pgfmath@box=\box67
+\pgfmath@toks=\toks36
+\pgfmath@stack@operand=\toks37
+\pgfmath@stack@operation=\toks38
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.code.tex)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.basic.code.tex)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.trigonometric.code.tex)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.random.code.tex)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.comparison.code.tex)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.base.code.tex)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.round.code.tex)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.misc.code.tex)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfunct
 ions.integerarithmetics.code.tex)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathcalc.
 code.tex)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count333
+\c@pgfmathroundto@lastzeros=\count348
 ))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.code.
 tex)
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epoints.code.tex
-File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen260
-\pgf@picmaxx=\dimen261
-\pgf@picminy=\dimen262
-\pgf@picmaxy=\dimen263
-\pgf@pathminx=\dimen264
-\pgf@pathmaxx=\dimen265
-\pgf@pathminy=\dimen266
-\pgf@pathmaxy=\dimen267
-\pgf@xx=\dimen268
-\pgf@xy=\dimen269
-\pgf@yx=\dimen270
-\pgf@yy=\dimen271
-\pgf@zx=\dimen272
-\pgf@zy=\dimen273
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen259
+\pgf@picmaxx=\dimen260
+\pgf@picminy=\dimen261
+\pgf@picmaxy=\dimen262
+\pgf@pathminx=\dimen263
+\pgf@pathmaxx=\dimen264
+\pgf@pathminy=\dimen265
+\pgf@pathmaxy=\dimen266
+\pgf@xx=\dimen267
+\pgf@xy=\dimen268
+\pgf@yx=\dimen269
+\pgf@yy=\dimen270
+\pgf@zx=\dimen271
+\pgf@zy=\dimen272
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen274
-\pgf@path@lasty=\dimen275
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen273
+\pgf@path@lasty=\dimen274
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epathusage.code.tex
-File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen276
-\pgf@shorten@start@additional=\dimen277
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen275
+\pgf@shorten@start@additional=\dimen276
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 escopes.code.tex
-File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box67
-\pgf@hbox=\box68
-\pgf@layerbox@main=\box69
-\pgf@picture@serial@count=\count334
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box68
+\pgf@hbox=\box69
+\pgf@layerbox@main=\box70
+\pgf@picture@serial@count=\count349
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 egraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen278
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen277
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 etransformations.code.tex
-File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen279
-\pgf@pt@y=\dimen280
-\pgf@pt@temp=\dimen281
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen278
+\pgf@pt@y=\dimen279
+\pgf@pt@temp=\dimen280
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 equick.code.tex
-File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eobjects.code.tex
-File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 earrows.code.tex
-File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen282
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen281
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eshade.code.tex
-File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen283
-\pgf@sys@shading@range@num=\count335
-\pgf@shadingcount=\count336
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen282
+\pgf@sys@shading@range@num=\count350
+\pgf@shadingcount=\count351
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eimage.code.tex
-File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eexternal.code.tex
-File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box70
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box71
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 elayers.code.tex
-File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 etransparency.code.tex
-File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 epatterns.code.tex
-File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 erdf.code.tex
-File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
 shapes.code.tex
-File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box71
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box72
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
 plot.code.tex
-File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
 mp-version-0-65.sty
-Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen284
-\pgf@nodesepend=\dimen285
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen283
+\pgf@nodesepend=\dimen284
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfco
 mp-version-1-18.sty
-Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 ))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgffor.st
 y
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/utilities/pgfkeys.s
 ty
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgfkeys
 .code.tex))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pgf/math/pgfmath.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmath.code
 .tex))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/utilities/pgffor.
 code.tex
-Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen286
-\pgffor@skip=\dimen287
-\pgffor@stack=\toks41
-\pgffor@toks=\toks42
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen285
+\pgffor@skip=\dimen286
+\pgffor@stack=\toks39
+\pgffor@toks=\toks40
 ))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z\tikz.code.tex
-Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
 aryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count337
-\pgfplotmarksize=\dimen288
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count352
+\pgfplotmarksize=\dimen287
 )
-\tikz@lastx=\dimen289
-\tikz@lasty=\dimen290
-\tikz@lastxsaved=\dimen291
-\tikz@lastysaved=\dimen292
-\tikz@lastmovetox=\dimen293
-\tikz@lastmovetoy=\dimen294
-\tikzleveldistance=\dimen295
-\tikzsiblingdistance=\dimen296
-\tikz@figbox=\box72
-\tikz@figbox@bg=\box73
-\tikz@tempbox=\box74
-\tikz@tempbox@bg=\box75
-\tikztreelevel=\count338
-\tikznumberofchildren=\count339
-\tikznumberofcurrentchild=\count340
-\tikz@fig@count=\count341
+\tikz@lastx=\dimen288
+\tikz@lasty=\dimen289
+\tikz@lastxsaved=\dimen290
+\tikz@lastysaved=\dimen291
+\tikz@lastmovetox=\dimen292
+\tikz@lastmovetoy=\dimen293
+\tikzleveldistance=\dimen294
+\tikzsiblingdistance=\dimen295
+\tikz@figbox=\box73
+\tikz@figbox@bg=\box74
+\tikz@tempbox=\box75
+\tikz@tempbox@bg=\box76
+\tikztreelevel=\count353
+\tikznumberofchildren=\count354
+\tikznumberofcurrentchild=\count355
+\tikz@fig@count=\count356
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
 matrix.code.tex
-File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count342
-\pgfmatrixcurrentcolumn=\count343
-\pgf@matrix@numberofcolumns=\count344
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count357
+\pgfmatrixcurrentcolumn=\count358
+\pgf@matrix@numberofcolumns=\count359
 )
-\tikz@expandcount=\count345
+\tikz@expandcount=\count360
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
+z/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks43
-\verbatim@line=\toks44
-\verbatim@in@stream=\read4
+\every@verbatim=\toks41
+\verbatim@line=\toks42
+\verbatim@in@stream=\read3
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.s
 ty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box76
-\tcb@upperbox=\box77
-\tcb@lowerbox=\box78
-\tcb@phantombox=\box79
-\c@tcbbreakpart=\count346
-\c@tcblayer=\count347
-\c@tcolorbox@number=\count348
-\l__tcobox_tmpa_box=\box80
-\l__tcobox_tmpa_dim=\dimen297
-\tcb@temp=\box81
+\tcb@titlebox=\box77
+\tcb@upperbox=\box78
+\tcb@lowerbox=\box79
+\tcb@phantombox=\box80
+\c@tcbbreakpart=\count361
+\c@tcblayer=\count362
+\c@tcolorbox@number=\count363
+\l__tcobox_tmpa_box=\box81
+\l__tcobox_tmpa_dim=\dimen296
 \tcb@temp=\box82
 \tcb@temp=\box83
 \tcb@temp=\box84
+\tcb@temp=\box85
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
-Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
-\c@tracingmulticols=\count349
-\mult@box=\box85
-\multicol@leftmargin=\dimen298
-\c@unbalance=\count350
-\c@collectmore=\count351
-\doublecol@number=\count352
-\multicoltolerance=\count353
-\multicolpretolerance=\count354
-\full@width=\dimen299
-\page@free=\dimen300
-\premulticols=\dimen301
-\postmulticols=\dimen302
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty
+Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
+\c@tracingmulticols=\count364
+\mult@box=\box86
+\multicol@leftmargin=\dimen297
+\c@unbalance=\count365
+\c@collectmore=\count366
+\doublecol@number=\count367
+\multicoltolerance=\count368
+\multicolpretolerance=\count369
+\full@width=\dimen298
+\page@free=\dimen299
+\premulticols=\dimen300
+\postmulticols=\dimen301
 \multicolsep=\skip58
 \multicolbaselineskip=\skip59
-\partial@page=\box86
-\last@line=\box87
-\mc@boxedresult=\box88
-\maxbalancingoverflow=\dimen303
-\mult@rightbox=\box89
-\mult@grightbox=\box90
-\mult@firstbox=\box91
-\mult@gfirstbox=\box92
-\@tempa=\box93
+\partial@page=\box87
+\last@line=\box88
+\mc@boxedresult=\box89
+\maxbalancingoverflow=\dimen302
+\mult@rightbox=\box90
+\mult@grightbox=\box91
+\mult@firstbox=\box92
+\mult@gfirstbox=\box93
 \@tempa=\box94
 \@tempa=\box95
 \@tempa=\box96
@@ -870,156 +1697,193 @@ Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
 \@tempa=\box126
 \@tempa=\box127
 \@tempa=\box128
-\c@minrows=\count355
-\c@columnbadness=\count356
-\c@finalcolumnbadness=\count357
-\last@try=\dimen304
-\multicolovershoot=\dimen305
-\multicolundershoot=\dimen306
-\mult@nat@firstbox=\box129
-\colbreak@box=\box130
-\mc@col@check@num=\count358
+\@tempa=\box129
+\c@minrows=\count370
+\c@columnbadness=\count371
+\c@finalcolumnbadness=\count372
+\last@try=\dimen303
+\multicolovershoot=\dimen304
+\multicolundershoot=\dimen305
+\mult@nat@firstbox=\box130
+\colbreak@box=\box131
+\mc@col@check@num=\count373
+\g__mc_curr_col_int=\count374
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/xifthen\xifthen.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/xifthen/xifthen.sty
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count359
-\calc@Bcount=\count360
-\calc@Adimen=\dimen307
-\calc@Bdimen=\dimen308
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count375
+\calc@Bcount=\count376
+\calc@Adimen=\dimen306
+\calc@Bdimen=\dimen307
 \calc@Askip=\skip60
 \calc@Bskip=\skip61
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count361
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count377
 \calc@Cskip=\skip62
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/ifmtarg\ifmtarg.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/ifmtarg/ifmtarg.sty
 Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 ))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
-Package: pdfpages 2025/03/12 v0.6f Insert pages of external PDF documents (AM)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen309
-\ESO@tempdimb=\dimen310
+\ESO@tempdima=\dimen308
+\ESO@tempdimb=\dimen309
 )
-\AM@pagewidth=\dimen311
-\AM@pageheight=\dimen312
-\AM@fboxrule=\dimen313
+\AM@pagewidth=\dimen310
+\AM@pageheight=\dimen311
+\AM@fboxrule=\dimen312
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
-File: pppdftex.def 2025/03/12 v0.6f Pdfpages driver for pdfTeX (AM)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pdfpages/ppluatex.def
+File: ppluatex.def 2025/07/23 v0.6g Pdfpages driver for LuaTeX (AM)
 )
-\pdfpages@includegraphics@status=\count362
-\AM@pagebox=\box131
-\AM@global@opts=\toks45
-\AM@pagecnt=\count363
-\AM@toc@title=\toks46
-\AM@lof@heading=\toks47
-\c@AM@survey=\count364
-\AM@templatesizebox=\box132
+\pdfpages@includegraphics@status=\count378
+\AM@pagebox=\box132
+\AM@global@opts=\toks43
+\AM@pagecnt=\count379
+\AM@toc@title=\toks44
+\AM@lof@heading=\toks45
+\c@AM@survey=\count380
+\AM@templatesizebox=\box133
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/transparent/transparent
 .sty
-Package: transparent 2022-10-27 v1.5 Transparency with color stacks
+Package: transparent 2025-06-23 v1.6 Transparency with color stacks
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/transparent/transparent
 -nometadata.sty
-Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
+Package: transparent-nometadata 2025-06-23 v1.6 Transparency via pdfTeX's color
  stack (HO)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )))
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count365
-\float@exts=\toks48
-\float@box=\box133
-\@float@everytoks=\toks49
-\@floatcapt=\box134
+\c@float@type=\count381
+\float@exts=\toks46
+\float@box=\box134
+\@float@everytoks=\toks47
+\@floatcapt=\box135
 )
-LaTeX Font Info:    Trying to load font information for T1+Roboto-LF on input l
-ine 57.
+LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 56.
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/roboto\t1roboto-lf.fd
-File: T1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for T1/Roboto-LF.
-)
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 57.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 57.
+(./batiment.aux)
+\openout1 = batiment.aux
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count366
-\l__pdf_internal_box=\box135
-) (batiment.aux
-Package babel Info: 'french' activates 'french' shorthands.
-(babel)             Reported  on input line 12.
-)
-\openout1 = `batiment.aux'.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Info: Redefining \degres on input line 57.
-Package french.ldf Info: Setting StandardItemizeEnv=true for
-(french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 57.
-Package french.ldf Info: Setting StandardEnumerateEnv=true for
-(french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 57.
-LaTeX Info: Redefining \up on input line 57.
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 56.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 56.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 56.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 56.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 56.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 56.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 56.
+LaTeX Font Info:    Redeclaring math accent \check on input line 56.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 56.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 56.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 56.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 56.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 56.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 56.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 56.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 56.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 56.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 56.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 56.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/Roboto(0)/m/n on input line 56.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 56.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 56.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 56.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/Roboto(0)/b/n on input line 56.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 56.
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count367
-\scratchdimen=\dimen314
+\scratchcounter=\count382
+\scratchdimen=\dimen313
 \scratchbox=\box136
-\nofMPsegments=\count368
-\nofMParguments=\count369
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count370
-\MPscratchDim=\dimen315
-\MPnumerator=\count371
-\makeMPintoPDFobject=\count372
-\everyMPtoPDFconversion=\toks51
+\nofMPsegments=\count383
+\nofMParguments=\count384
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count385
+\MPscratchDim=\dimen314
+\MPnumerator=\count386
+\makeMPintoPDFobject=\count387
+\everyMPtoPDFconversion=\toks49
 )
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.c
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -1028,18 +1892,10 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
-slations-basic-dictionary-french.trsl
-File: translations-basic-dictionary-french.trsl (french translation file `trans
-lations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `french'. on input line 57.
-
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: luatex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1070,219 +1926,172 @@ or `french'. on input line 57.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count373
-\c@mv@boldtabular=\count374
-Package hyperref Info: Link coloring OFF on input line 57.
-(batiment.out) (batiment.out)
+Package hyperref Info: Link coloring OFF on input line 56.
+(./batiment.out) (./batiment.out)
 \@outlinefile=\write4
-\openout4 = `batiment.out'.
 
+\openout4 = batiment.out
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape-nom
 etadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
 F (HO)
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 60.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 60.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 60.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 60.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
+LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
+(Font)              scaled to size 20.74pt on input line 59.
+LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
 
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
 
 
-(C:\Users\jamal\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 60.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 60.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 60.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 17.28pt on input line 60.
+LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 59.
+LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
+(Font)              scaled to size 17.28pt on input line 59.
 
-(batiment.toc
-LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 2.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+(./batiment.toc
+LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
 (Font)              scaled to size 14.4pt on input line 2.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 4.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
+LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
 (Font)              scaled to size 12.0pt on input line 4.
 )
 \tf@toc=\write5
-\openout5 = `batiment.toc'.
 
+\openout5 = batiment.toc
+ [1
 
-
-[1
-
-{C:/Users/jamal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/jama
-l/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/roboto/rbto_b5rac7.enc}]
+{C:/Users/amalo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 65.
+(hyperref)                removing `math shift' on input line 64.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 65.
+(hyperref)                removing `math shift' on input line 64.
 
-LaTeX Font Info:    Font shape `T1/Roboto-LF/b/n' aliased to
-(Font)              `T1/Roboto-LF/bold/n' on input line 65.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/bold/n' will be
-(Font)              scaled to size 24.88pt on input line 65.
+LaTeX Font Info:    Font shape `TU/Roboto(0)/b/n' will be
+(Font)              scaled to size 24.88pt on input line 64.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 67.
+(hyperref)                removing `math shift' on input line 66.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 67.
+(hyperref)                removing `math shift' on input line 66.
 
-
-Overfull \hbox (33.24844pt too wide) in paragraph at lines 83--84
-[]\T1/Roboto-LF/regular/n/12 Avant le cal-cul des fon-da-tions on doit d'abord 
-avoir les don-nées géo-thech-nique(Capacité
- []
-
-<figures/poids-reprie.png, id=55, 398.99063pt x 327.47343pt>
+<figures/poids-reprie.png, id=56, 398.99063pt x 327.47343pt>
 File: figures/poids-reprie.png Graphic file (type png)
 <use figures/poids-reprie.png>
-Package pdftex.def Info: figures/poids-reprie.png  used on input line 94.
-(pdftex.def)             Requested size: 213.39568pt x 175.14409pt.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/sc' aliased to
-(Font)              `T1/Roboto-LF/regular/sc' on input line 95.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/sc' will be
-(Font)              scaled to size 12.0pt on input line 95.
+Package luatex.def Info: figures/poids-reprie.png  used on input line 93.
+(luatex.def)             Requested size: 213.39568pt x 175.14409pt.
+LaTeX Font Info:    Font shape `TU/Roboto(0)/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 94.
 <figures/charge-reprie2.png, id=57, 352.31625pt x 391.4625pt>
 File: figures/charge-reprie2.png Graphic file (type png)
 <use figures/charge-reprie2.png>
-Package pdftex.def Info: figures/charge-reprie2.png  used on input line 111.
-(pdftex.def)             Requested size: 213.39568pt x 237.10732pt.
-
-
-[2{C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/roboto/rbto_shb
-yjm.enc} <./figures/poids-reprie.png>]
-<figures/semelle.png, id=65, 416.30531pt x 724.20563pt>
+Package luatex.def Info: figures/charge-reprie2.png  used on input line 110.
+(luatex.def)             Requested size: 213.39568pt x 237.10732pt.
+[2<./figures/poids-reprie.png>]
+<figures/semelle.png, id=64, 416.30531pt x 724.20563pt>
 File: figures/semelle.png Graphic file (type png)
 <use figures/semelle.png>
-Package pdftex.def Info: figures/semelle.png  used on input line 143.
-(pdftex.def)             Requested size: 170.71393pt x 296.97043pt.
-
-
-[3 <./figures/charge-reprie2.png>]
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 158.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 158.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
-(Font)              `T1/Roboto-LF/regular/n' on input line 158.
-LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 158.
-<figures/pythagore.png, id=72, 295.85532pt x 362.10281pt>
+Package luatex.def Info: figures/semelle.png  used on input line 143.
+(luatex.def)             Requested size: 170.71393pt x 296.97043pt.
+ [3<./figures/charge-reprie2.png>]
+LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 159.
+LaTeX Font Info:    Font shape `TU/Roboto(0)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 159.
+<figures/pythagore.png, id=71, 295.85532pt x 362.10281pt>
 File: figures/pythagore.png Graphic file (type png)
 <use figures/pythagore.png>
-Package pdftex.def Info: figures/pythagore.png  used on input line 170.
-(pdftex.def)             Requested size: 118.64922pt x 145.21426pt.
-
-
-[4 <./figures/semelle.png>]
-<figures/exercice.png, id=85, 540.51938pt x 328.22626pt>
+Package luatex.def Info: figures/pythagore.png  used on input line 171.
+(luatex.def)             Requested size: 118.64922pt x 145.21426pt.
+ [4<./figures/semelle.png>]
+<figures/exercice.png, id=84, 540.51938pt x 328.22626pt>
 File: figures/exercice.png Graphic file (type png)
 <use figures/exercice.png>
-Package pdftex.def Info: figures/exercice.png  used on input line 196.
-(pdftex.def)             Requested size: 298.75264pt x 181.41647pt.
-
-
-[5 <./figures/pythagore.png> <./figures/exercice.png>]
+Package luatex.def Info: figures/exercice.png  used on input line 197.
+(luatex.def)             Requested size: 298.75264pt x 181.41647pt.
+ [5<./figures/pythagore.png><./figures/exercice.png>]
 <figures/poids-propre-du-sol.png, id=94, 206.27063pt x 191.21437pt>
 File: figures/poids-propre-du-sol.png Graphic file (type png)
 <use figures/poids-propre-du-sol.png>
-Package pdftex.def Info: figures/poids-propre-du-sol.png  used on input line 24
-2.
-(pdftex.def)             Requested size: 104.19783pt x 96.59312pt.
+Package luatex.def Info: figures/poids-propre-du-sol.png  used on input line 24
+3.
+(luatex.def)             Requested size: 104.19783pt x 96.59312pt.
 
-Overfull \hbox (12.70863pt too wide) detected at line 246
-\OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 18 \OMS/cmsy/m/n/12 ^^A []\OT1/cmr/m/n/1
-2 (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 0
-\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 25 + 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 04)
+Overfull \hbox (12.70863pt too wide) detected at line 247
+\OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 18 \OMS/cmsy/m/n/12  []\OT1/cmr/m/n/12 
 (0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 0\O
-ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2) \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 1[]
+ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 25 + 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 04)(0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2) \OMS/cmsy/m/n/12  \OT1/cmr/m/n/12 1[]
  []
 
 
-Overfull \hbox (45.40926pt too wide) detected at line 251
+Overfull \hbox (45.41129pt too wide) detected at line 252
 \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 3 \O
-MS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 10[] + 3\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 1
-25 + 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 44 + 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/
-12 134 = 304\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 699 []
+MS/cmsy/m/n/12  \OT1/cmr/m/n/12 10[] + 3\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 125 + 0\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 44 + 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 134 = 304\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 699 []
  []
 
-
-
-[6 <./figures/poids-propre-du-sol.png>]
+[6<./figures/poids-propre-du-sol.png>]
 <figures/devoir-maison.png, id=101, 379.4175pt x 370.38374pt>
 File: figures/devoir-maison.png Graphic file (type png)
 <use figures/devoir-maison.png>
-Package pdftex.def Info: figures/devoir-maison.png  used on input line 317.
-(pdftex.def)             Requested size: 213.39568pt x 208.31773pt.
-
-
-[7 <./figures/devoir-maison.png>]
-
-[8]
-
-[9] (batiment.aux)
+Package luatex.def Info: figures/devoir-maison.png  used on input line 318.
+(luatex.def)             Requested size: 213.39568pt x 208.31773pt.
+ [7<./figures/devoir-maison.png>]
+[8] [9] (./batiment.aux)
  ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `batiment.out' has not changed.
-(rerunfilecheck)             Checksum: 6096FB4CB09AD313CCB0F8B41F4BA28B;1371.
- ) 
-Here is how much of TeX's memory you used:
- 32632 strings out of 473523
- 676223 string characters out of 5714631
- 1002851 words of memory out of 5000000
- 55336 multiletter control sequences out of 15000+600000
- 625027 words of font info for 103 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 98i,15n,105p,444b,1174s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/google/roboto/Robot
-o-Bold.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/google/rob
-oto/Roboto-Regular.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmex10.pfb><C:/Users/jamal/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jamal/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jamal/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jamal/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jamal
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Us
-ers/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pf
-b><C:/Users/jamal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/lat
-xfont/line10.pfb>
-Output written on batiment.pdf (9 pages, 271289 bytes).
-PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 112 words of extra memory for PDF output out of 10000 (max. 10000000)
+(rerunfilecheck)             Checksum: F6C2B1951D619AEB995671174A6EBD92;1371.
+)
+
+Here is how much of LuaTeX's memory you used:
+ 33677 strings out of 476081
+ 125105,1144653 words of node,token memory allocated
+ 1253 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 33 glue, 5 kern, 1 penalty, 1 glyph, 166 attribute,
+ 61 glue_spec, 85 attribute_list, 2 write nodes
+   avail lists: 1:1,2:743,3:293,4:58,5:257,6:62,7:2847,8:63,9:650,10:8,11:218
+ 55350 multiletter control sequences out of 65536+600000
+ 124 fonts using 14422423 bytes
+ 98i,17n,113p,469b,1047s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12
+-regular.otf><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/opentype/google
+/roboto/Roboto-Bold.otf><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/open
+type/google/roboto/Roboto-Regular.otf><C:/Users/amalo/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/amalo/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/amalo/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/amalo/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/am
+alo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Us
+ers/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+msy8.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/latxfont/line10.pfb>
+Output written on batiment.pdf (9 pages, 235384 bytes).
+
+PDF statistics: 165 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 131072)
+ 80 words of extra memory for PDF output out of 10000 (max. 100000000)
 
