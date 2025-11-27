@@ -48,9 +48,10 @@
 
 \usepackage{stanli}
 
+\usepackage{pdflscape}
 
-
-
+\usepackage{multirow}
+\usepackage{makecell}
 
 
 
@@ -205,18 +206,274 @@
 	\subsubsection{La bêche}
 	
 	\[ \fbox{$h' = 0,7\meterl$} \]
-	\[ \fbox{$h = 0,7\meterl$} \]
+	\[ \fbox{$L = 0,7\meterl$} \]
 	
 	
 	
+		\begin{center}
+		
+		\begin{tikzpicture}[scale=.8]
+			
+			\draw (0,0) coordinate (a) -- (7,0) coordinate (b)
+			-- (7,-1) coordinate (c) -- (8,-1) coordinate (d)
+			-- (8,1) coordinate (e) -- (5,1) coordinate (f) 
+			-- (5,6) coordinate (g) -- (4,6) coordinate (h)
+			-- (3,1) coordinate (i) -- (0,1) coordinate (j) 
+			-- (a);
+			
+			\dimensioning{1}{a}{d}{-2.5}[4,7];
+			\dimensioning{1}{c}{d}{-1.8}[0,7];
+			
+			\dimensioning{1}{i}{f}{-1}[0,7];
+			\dimensioning{1}{h}{g}{6.5}[0,35];
+			
+			\dimensioning{1}{j}{i}{1.5}[1,6];
+			\dimensioning{1}{f}{e}{1.5}[2,4];
+			
+			
+			
+			\dimensioning{2}{e}{b}{8.5}[0,7];
+			\dimensioning{2}{b}{d}{8.5}[0,7];
+			
+			\dimensioning{2}{h}{a}{-1}[8];
+			
+			\node at (a) [circle,draw=red!50,fill=red!80] {C};
+			
+		\end{tikzpicture}
+		
+	\end{center}
+	
+	
+	\section{Évaluations des charges}
+	
+	\newpage
+		
+		
+	\begin{landscape}
+	
+		\begin{table}[h!]
+			\begin{center}
+				\begin{tabular}{l|l|l|l|l}
+					
+					Types de charges & partie & Force & Distance vers c & Moment/c ($G \cdot X$) \\ \hline
+					
+					
+					
+					
+					\multirow{5}{*}{Charges verticales} &
+					
+						\begin{tikzpicture}[scale=.3]
+							
+							\draw (0,0) -- (3,0) -- (3,6) -- (2,6) -- (0,0);
+							
+							\draw[<-,very thick] (2,2) coordinate(a) -- (2,4) node[above]{$G_{voile}$};
+							
+							\point{b}{-1.5}{0};
+							
+							\node at (b) [circle,draw=red!50,fill=red!80,] {C};
+							\dimensioning{1}{a}{b}{-.5}[\small X];
+							
+						
+						\end{tikzpicture} & $G_{voile} = 25 \cdot 0,35 \cdot 0,7 \cdot 1 = 95,81\kn $ & $X_{voile} = 2,03\meterl $ & $M_{voile} = 194,5\knxm$ \\ \cline{2-5}
+						
+						
+						
+						
+						
+						& \begin{tikzpicture}[scale=.3]
+							
+							\draw (0,0) coordinate(a) node[circle,draw=red!50,fill=red!80,] {C} -- (7,0) -- (7,1) -- (0,1) -- (0,0);
+							
+							\draw[<-,very thick] (3.5,.5) coordinate(b) -- (3.5,2) node[above]{$G_{semelle}$};
+							
+							\dimensioning{1}{a}{b}{-.5}[X];
+							
+							
+						\end{tikzpicture} & $G_{semelle} = 25 \cdot 4,7 \cdot 0,7 \cdot 1 = 82,25\kn$ & $X_{semelle} = \dfrac{4,7}{2} = 2,35\meterl$ & $M_{semelle} = 193,28\knxm$ \\ \cline{2-5}
+						
+						
+						
+						
+						
+						
+						& \begin{tikzpicture}[scale=.5]
+							
+							\draw(0,0) rectangle (1,1);
+							
+							\draw[<-,very thick] (.5,.5) -- (.5,1.5) node[above]{$G_{beche}$} coordinate (a);
+							
+							\point{b}{-2}{0};
+							\node at (b) [circle,draw=red!50,fill=red!80,below] {C};
+							\dimensioning{1}{a}{b}{-.5}[X];
+							
+							
+						\end{tikzpicture}& $G_{beche} = 25 \cdot 0,7 \cdot 0,7 \cdot 1 = 12,25\kn$ & $X_{beche} = 4,7 - \dfrac{0,7}{2} = 4,35\meterl$ & $M_{beche} = 53,28\knxm$ \\ \cline{2-5}
+						
+						
+						
+						
+						
+						
+						& \begin{tikzpicture}[scale=.3]
+							\draw (0,0) coordinate (a) -- (7,0) coordinate (b)
+							-- (7,-1) coordinate (c) -- (8,-1) coordinate (d)
+							-- (8,1) coordinate (e) -- (5,1) coordinate (f) 
+							-- (5,6) coordinate (g) -- (4,6) coordinate (h)
+							-- (3,1) coordinate (i) -- (0,1) coordinate (j) 
+							-- (a);
+							
+							\draw[brown,very thick] (f) rectangle (8,6);
+							\draw[<-,very thick] (6.5,3) -- (6.5,6) coordinate(F) node[above]{$G_{sol}$};
+							
+							\dimensioning{1}{a}{F}{-1}[X];
+							
+						\end{tikzpicture} & $G_{sol} = 18 \cdot 2,4 \cdot 7,3 \cdot 1 = 315,36\kn$ & $X_{sol} = 4,7 - \dfrac{2,4}{2} = 3,5\meterl$ & $M_{sol} = 1103,76\knxm$ \\ \cline{2-5}
+						
+						
+						
+						
+						
+						
+						& \begin{tikzpicture}
+							
+							\point{a}{0}{0};
+							\point{b}{2}{0};
+							
+							\point{c}{-1}{0};
+							
+							\lineload{1}{a}{b};
+							
+							\draw[<-,very thick] (1,0) coordinate(F) -- (1,2) node[above]{$G_{surcharge}$};
+							
+							\node at (c) [circle,draw=red!50,fill=red!80,below] {C};
+							
+							\dimensioning{1}{F}{c}{-.5}[X];
+						\end{tikzpicture} & $G_{surcharge} = 5 \cdot 2,4 = 12\kn$ & $X_{surcharge} = X_{sol} = 3,5\meterl$ & $M_{surcharge} = 42\knxm$ \\ \hline
+						
+						
+						
+						
+						
+						Charges horizontales & \makecell{Poussée du sol \\ et de la surcharge} \\
+						& \begin{tikzpicture}[scale=.3]
+								\draw (0,0) coordinate (a) -- (5,0) coordinate (F) -- (7,0) coordinate (b)
+							-- (7,-1) coordinate (c) -- (8,-1) coordinate (d)
+							-- (8,1) coordinate (e) -- (5,1) coordinate (f) 
+							-- (5,6) coordinate (g) -- (4,6) coordinate (h)
+							-- (3,1) coordinate (i) -- (0,1) coordinate (j) 
+							-- (a);
+							
+							\lineload{1}{g}{F}[2][4];
+							
+							\draw[<-,very thick,red] (5,2) -- (11,2) coordinate (A) node[above,right]{$F_{p}$};
+							
+							\dimensioning{2}{A}{a}{11.5}[Y];
+							
+						\end{tikzpicture} & \makecell{$F_{p} = 250,52\kn$ \\ voir la page suivante pour les détails} & $Y = 2,75\meterl$ & $M_{r} = 688,93\knxm$
+						
+						
+						
+					
+					
+					
+					
+				\end{tabular}
+			\end{center}
+		\end{table}
+		
+		
+	\end{landscape}		
 	
 	
 	
+	\newpage
+	
+	\subsection{Charges horizontales}
+	
+	Nous avons la poussée du sol + surcharge : 
+	
+	\[ \sigma_{h} = K \cdot \sigma_{v} = K \cdot (\gamma_{sol} \cdot x \cdot 1ml + Q) \]
+	
+	\[ K = \tan^{2}(\dfrac{\pi}{4} - \dfrac{\varphi}{2}) = \tan^{2}(\dfrac{180}{4} - \dfrac{25}{2}) = 0,406 \]
 	
 	
+	\[ \sigma_{h} = 0,406 \cdot (18 \cdot x + 5) \rightarrow \begin{cases}
+		x = 0 \rightarrow \sigma_{h} = 0,406 \cdot 5 = 2,03\knms \\ \\
+		x = 8\meterl \rightarrow \sigma_{h} = 0,406 \cdot (18 \cdot 8 + 5) = 60,5\knms
+	\end{cases} \]
 	
 	
+	\begin{center}
+		\begin{tikzpicture}
+			\draw (0,0) coordinate (a) -- (5,0) coordinate (F) node[below]{$60,5\knms$} -- (7,0) coordinate (b)
+			-- (7,-1) coordinate (c) -- (8,-1) coordinate (d)
+			-- (8,1) coordinate (e) -- (5,1) coordinate (f) 
+			-- (5,6) coordinate (g) node[above]{2,03\knms} -- (4,6) coordinate (h)
+			-- (3,1) coordinate (i) -- (0,1) coordinate (j) 
+			-- (a);
+			
+			\lineload{1}{g}{F}[2][4];
+			
+			\draw[<-,very thick,red] (5,2) -- (11,2) coordinate (A) node[above,right]{$F_{p}$};
+			
+			\dimensioning{2}{A}{a}{12}[Y];
+			\dimensioning{2}{a}{h}{-.2}[8m];
+			
+		\end{tikzpicture}
+	\end{center}
 	
+	
+	\[ F_{p} = \text{Surface du trapéze} = \dfrac{(2,03 + 60,5) \cdot 8}{2} = 250,12\kn \]
+	
+	\[ Y = \dfrac{2,03 \cdot 8 \cdot 4 + \dfrac{8 \cdot 58,47}{2} \cdot \dfrac{8}{3}}{250,12} = 2,75\meterl \]
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		On peut calculer la poussée du sol seul et celle de la surcharge seul.
+	\end{tcolorbox}
+	
+	
+	\section{Vérification de la stabilité}
+	
+	\[ \dfrac{\sum M_{s}}{\sum M_{r}} \geq 1,5 \]
+	
+	\[ \sum M_{s} = 194,5 + 193,28 + 53,28 + 1103,76 + 42  =  1586,82\knxm \]
+	
+	\[ \sum M_{r} = 688,93\knxm \]
+	
+	\[ \dfrac{1586,82}{688,93} = 2,3 > 1,5 \] 
+	
+	{\centering Condition vérifier le mur est stable vis a vis au renversement \par}
+	
+	\section{Vérification au glissement avec Tiers central}
+	
+	\paragraph{Force verticale} $\sum G = 517,67\kn = R_{v}$
+	
+	\begin{center}
+		\begin{tikzpicture}
+			\draw (0,0) coordinate (a) -- (7,0) coordinate (b)
+			-- (7,-1) coordinate (c) -- (8,-1) coordinate (d)
+			-- (8,1) coordinate (e) -- (5,1) coordinate (f) 
+			-- (5,6) coordinate (g) -- (4,6) coordinate (h)
+			-- (3,1) coordinate (i) -- (0,1) coordinate (j) 
+			-- (a);
+			
+			\draw[<-,very thick,red] (6.5,3) -- (6.5,6) coordinate(F) node[above]{$R_{v}$};
+			
+			\dimensioning{1}{a}{F}{-1}[X];
+			
+		\end{tikzpicture}
+	\end{center}
+	
+	La condition est la suivante : 
+	\[ X \in [\dfrac{B}{2}\,;\,\dfrac{2B}{3}] \]
+	
+	Nous avons : moments stabilisateurs : $\sum M_{s} = R_{v} \cdot x$
+	
+	Donc : \[ X = \dfrac{\sum M_{s}}{R_{v}} = \dfrac{1586,82}{517,67} = 3,06\meterl \]
+	
+	\[ X = 3,06\meterl \in [2,35 \quad 3,13] \]
+	
+	{\centering Condition vérifier, le mur est stable vis a vis au glissement \par}
 	
 	
 \end{document}

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  26 NOV 2025 23:08
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  27 NOV 2025 23:18
  restricted system commands enabled.
 **TD2-batiment.tex
 (./TD2-batiment.tex
@@ -1083,29 +1083,56 @@ File: tikzlibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
 arypatterns.code.tex
 File: pgflibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (./TD2-batiment.aux)
+)))
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape-nom
+etadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip63
+\multirow@cntb=\count384
+\multirow@dima=\skip64
+\bigstrutjot=\dimen321
+)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen322
+\c@nlinenum=\count385
+\TeXr@lab=\toks50
+)
+(./TD2-batiment.aux)
 \openout1 = TD2-batiment.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1113,71 +1140,71 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 63.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 63.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 63.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 63.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 63.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 63.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 63.
-LaTeX Font Info:    Redeclaring math accent \check on input line 63.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 63.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 63.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 63.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 63.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 64.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 64.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 64.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 64.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 64.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 64.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 64.
+LaTeX Font Info:    Redeclaring math accent \check on input line 64.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 64.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 64.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 64.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 64.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 63.
+(Font)              `operators' in the math version `normal' on input line 64.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 63.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 64.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 63.
+(Font)              `operators' in the math version `bold' on input line 64.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 63.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 64.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 63.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 63.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 63.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 63.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 63.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 64.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 63.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 63.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 63.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 63.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 64.
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count384
-\scratchdimen=\dimen321
+\scratchcounter=\count386
+\scratchdimen=\dimen323
 \scratchbox=\box157
-\nofMPsegments=\count385
-\nofMParguments=\count386
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count387
-\MPscratchDim=\dimen322
-\MPnumerator=\count388
-\makeMPintoPDFobject=\count389
-\everyMPtoPDFconversion=\toks51
+\nofMPsegments=\count387
+\nofMParguments=\count388
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count389
+\MPscratchDim=\dimen324
+\MPnumerator=\count390
+\makeMPintoPDFobject=\count391
+\everyMPtoPDFconversion=\toks52
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
 ase.sty
@@ -1228,32 +1255,18 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 63.
+Package hyperref Info: Link coloring OFF on input line 64.
 (./TD2-batiment.out) (./TD2-batiment.out)
 \@outlinefile=\write4
 
 \openout4 = TD2-batiment.out
-
-(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape.sty
-Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
-
-(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape-nom
-etadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
-F (HO)
-
-(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/graphics/lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
 
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
 
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
@@ -1280,38 +1293,86 @@ Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
-] [4] (./TD2-batiment.aux)
+] [4
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+Overfull \hbox (32.37555pt too wide) in paragraph at lines 256--381
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 94.34312pt on input line 382.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+] [6
+
+
+
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+] [7
+Missing character: There is no ; (U+003B) in font nullfont!
+] (./TD2-batiment.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `TD2-batiment.out' has not changed.
-(rerunfilecheck)             Checksum: 5A161B33D4FFB4633B252CB80AAB4E61;1162.
+(rerunfilecheck)             Checksum: 8893F1060C18165963CC9D6BE1B0FCDF;2005.
 )
 
 Here is how much of LuaTeX's memory you used:
- 37050 strings out of 476081
+ 37356 strings out of 476081
  125105,1373583 words of node,token memory allocated
- 693 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 7 glue, 5 kern, 1 penalty, 1 glyph, 46 attribute, 6
-1 glue_spec, 25 attribute_list, 2 write nodes
-   avail lists: 1:1,2:3557,3:946,4:65,5:199,6:52,7:1818,8:24,9:561,10:3,11:72
- 58579 multiletter control sequences out of 65536+600000
- 62 fonts using 4405039 bytes
- 98i,6n,104p,473b,1143s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12
--bold.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm
-/lmroman12-regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opent
-ype/public/lm/lmroman17-regular.otf><C:/Users/amalo/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/amalo/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/amalo/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/amalo/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/amalo/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
-s/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on TD2-batiment.pdf (4 pages, 83600 bytes).
+ 824 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 12 glue, 5 kern, 1 penalty, 1 glyph, 78 attribute, 
+61 glue_spec, 41 attribute_list, 2 write nodes
+   avail lists: 1:2,2:4606,3:1611,4:71,5:257,6:68,7:3128,8:51,9:916,10:10,11:112
 
-PDF statistics: 124 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 131072)
- 96 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 58866 multiletter control sequences out of 65536+600000
+ 63 fonts using 4536727 bytes
+ 98i,17n,104p,473b,1143s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10
+-regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public
+/lm/lmroman12-bold.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opent
+ype/public/lm/lmroman12-regular.otf><c:/users/amalo/appdata/local/programs/mikte
+x/fonts/opentype/public/lm/lmroman17-regular.otf><C:/Users/amalo/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/amalo/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/amalo
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/User
+s/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb>
+Output written on TD2-batiment.pdf (7 pages, 120166 bytes).
+
+PDF statistics: 169 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 131072)
+ 128 words of extra memory for PDF output out of 10000 (max. 100000000)
 

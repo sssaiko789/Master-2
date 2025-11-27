@@ -2,9 +2,23 @@ Ce ChangeLog resume tout ce qui a été fait.
 
 ###### -----------------------------------------------------------------------
 
+# **27.11.2025**
 
 
 
+
+
+* Suite TD 2 bâtiment : mur de soutènement : j'ai terminer la saisie j'ai corriger des erreurs fait pendant le cour.
+
+
+
+* plusieurs figures dessiner et aucune ajouter.
+
+
+
+
+
+###### -----------------------------------------------------------------------
 
 # **26.11.2025**
 
@@ -32,24 +46,3 @@ Ce ChangeLog resume tout ce qui a été fait.
 
 * Figure dessiner avec tikz.
 * Aucune figure n'as été ajouter.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
