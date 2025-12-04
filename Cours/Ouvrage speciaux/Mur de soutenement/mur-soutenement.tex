@@ -48,6 +48,29 @@
 
 
 
+%fonction pour sigma
+\newcommand{\sgma}[1]{\sigma_{#1}}
+\newcommand{\sigmax}{\sigma_{\max}}
+\newcommand{\sigmin}{\sigma_{\min}}
+
+\newcommand{\sigmabar}[1]{\overline{\sigma}_{#1}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -236,7 +259,7 @@
 					
 					\path (f) -- (g) coordinate[pos=0.3] (l);
 					
-					\draw[thick] (a) -- (b) -- (c) -- (d) -- (e)
+					\draw[thick,black!50] (a) -- (b) -- (c) -- (d) -- (e)
 					-- (f) -- (g) -- (h) -- (a);
 					
 					\lineload{1}{e}{d}[0][5];
@@ -290,7 +313,7 @@
 			
 			\path (f) -- (g) coordinate[pos=0.3] (l);
 			
-			\draw[thick] (a) -- (b) -- (c) -- (d) -- (e)
+			\draw[thick,black!40] (a) -- (b) -- (c) -- (d) -- (e)
 			-- (f) -- (g) -- (h) -- (a);
 			
 			\coordinate (A) at (5,0);
@@ -322,6 +345,230 @@
 	
 	
 	
+	\part{Vérifications}
+	
+	
+	\section{Vérification a la stabilité}
+	
+	\subsection{Bilan des forces}
+	
+	Cas d'un remblai à terre pleine horizontale.
+	
+	\subsubsection{Forces horizontales}
+	
+	Par unité de longueur du mur.
+	
+	\begin{itemize}
+		\item P : poussée des terres.
+		\item Q : poussée due à la surcharge verticale "q"
+	\end{itemize} 
+	
+	
+	\subsubsection{Forces verticales}
+	
+	\begin{itemize}
+		\item W : Poids des éléments constitutifs du mur.
+		\item $W_{t1}$ : Poids du remblai sur le talon de la semelle.
+		\item $W_{t2}$ : Poids du remblai sur le patin de la semelle.
+	\end{itemize}
+	
+	\subsubsection{Désignations}
+	
+	Dans ce cas qui suit, on désigne pour chaque combinaison d'action, par :
+	
+	\begin{itemize}
+		\item $F_{h}$ : La résultante des forces horizontales.
+		\item $F_{v}$ : La résultante des forces verticales.
+		\item $M_{h/A}$ : Le moment résultant en A des forces horizontales.
+		\item $M_{v/A}$ : Le moment résultant en A des forces verticales.
+		\item $M_{/A}$ : La somme algébrique $M_{h/A} + M_{v/A}$.
+	\end{itemize}
+	
+	
+	
+	\section{Stabilité au poinçonnement}
+	
+	Calcul de l'excentricité et des contraintes max et min.
+	
+	\begin{multicols}{2}
+		
+		\[ e = \dfrac{B}{2} - d \]
+		
+		avec
+		
+		\columnbreak
+		
+		\begin{center}
+			\begin{tikzpicture}[scale=.6]
+				
+				\draw[|-|] (0,0) node[left,below]{A} coordinate(A) -- (8,0) coordinate(B);
+				\draw[|-] (4,0) node[left,below]{a} coordinate(a) -- (4.01,0);
+				\draw[<-,thick] (2.5,0) coordinate(F) -- (2.5,2) node[left,above]{$F_{v}$};
+				
+				\dimensioning{1}{A}{F}{-2}[d];
+				\dimensioning{1}{F}{a}{-2}[c];
+				\dimensioning{1}{a}{B}{-2}[B/2];
+				\dimensioning{1}{A}{B}{-3.5}[B];
+				
+			\end{tikzpicture}
+		\end{center}
+		
+	\end{multicols}
+	
+	
+	\[ \sum M_{/A} = 0 \Rightarrow M_{v/A} - M_{h/A} - F_{v} \cdot d = 0  \]
+	
+	\[ d = \dfrac{M_{v/A - M_{h/A}}}{F_{v}} \]
+	
+	\begin{minipage}{.7\textwidth}
+		\[ 
+		\begin{cases}
+			\sigma_{\max} = \dfrac{F_{v}}{B} + \dfrac{M \cdot V}{I} \\ \\
+			\sigma_{\min} = \dfrac{F_{v}}{B} - \dfrac{M \cdot V}{I}
+		\end{cases}
+		\Longrightarrow
+		\begin{cases}
+			\sigma_{\max} = \dfrac{F_{v}}{B} + \dfrac{6e \cdot F_{v}}{B^{2}} \\ \\
+			\sigma_{\min} = \dfrac{F_{v}}{B} - \dfrac{6e \cdot F_{v}}{B^{2}}
+		\end{cases}
+		\]
+	\end{minipage}\hfill
+	\begin{minipage}{.3\textwidth}
+		\begin{center}
+			\begin{tikzpicture}[scale=.8]
+				
+				\point{a}{0}{0};
+				\point{b}{6}{0};
+				
+				\dimensioning{1}{a}{b}{1}[B];
+				
+				\lineload{1}{a}{b}[-3][-1];
+				
+				\node at (a) [below=2.5] {$\sigma_{\max}$};
+				\node at (b) [below=1] {$\sigma_{\min}$};
+				
+			\end{tikzpicture}
+		\end{center}
+	\end{minipage}
+	
+	
+	\vspace{\baselineskip}
+	
+	\subsubsection{Si $\, e \leq \dfrac{B}{6}$}
+	
+	La résultante est dans ce cas dans le tier central.
+	
+	\begin{multicols}{2}	
+		\[ \sigma_{ref} = \dfrac{3\sigmax + \sigmin}{4} \]
+		
+		\[ \sigma_{ref} = \sigma_{0} \cdot (1 + \dfrac{3 \cdot e}{B}) \leq \sigmabar{service(sol)} \]
+	
+		Avec : $\sgma{0} = \dfrac{F_{v}}{B}$
+		
+		\vspace{\baselineskip}
+		
+		\begin{center}
+			\begin{tikzpicture}
+				
+				\draw (0,0) coordinate(a) -- (2,0) coordinate(b) -- (4,0) coordinate(c) -- (6,0) coordinate(d);
+				
+				\draw[<-,thick] (b) -- ++(0,2) node[above]{$F_{v}$};
+				
+				\dimensioning{1}{a}{b}{-1}[B/3];
+				\dimensioning{1}{b}{c}{-1}[B/3];
+				\dimensioning{1}{c}{d}{-1}[B/3];
+				
+			\end{tikzpicture}
+		\end{center}
+		
+	\end{multicols}
+	
+	
+	\vspace{\baselineskip}
+	
+	
+	\subsubsection{Si $\, e = \dfrac{B}{6}$}
+	
+	La résultante est dans la frontière du tier central.
+	
+	\begin{multicols}{2}
+		
+		\[ \sgma{ref} = \dfrac{3 \cdot \sigmax}{4} \]
+		
+		\[ \sgma{ref} = \frac{3}{2}\sgma{0} \leq \sigmabar{ser(sol)} \]
+		
+		\columnbreak
+		
+		\begin{center}
+			\begin{tikzpicture}[scale=.8]
+				
+				\point{a}{0}{0};
+				\point{b}{6}{0};
+				\point{f}{2}{0};
+				\point{e}{3}{0};
+				
+				\dimensioning{1}{a}{b}{1}[B];
+				\dimensioning{1}{f}{e}{2}[e];
+				
+				\lineload{1}{a}{b}[-3][0];
+				
+				\load{1}{f}[90][2];
+				
+				\node at (a) [below=2.5] {$\sigmax$};
+				\node at (b) [below] {$\sigmin = 0$};
+				\node at (f) [above=2] {$F_{v}$};
+				
+			\end{tikzpicture}
+		\end{center}
+		
+	\end{multicols}
+	
+	\vspace{\baselineskip}
+	
+	\subsubsection{Si $\, \dfrac{B}{6} \leq e \leq \dfrac{B}{2}$}
+	
+	La résultante est en dehors du tier central.
+	
+	\begin{multicols}{2}
+		
+		\[ \sgma{ref} = \dfrac{3 \cdot \sigmax}{4} \]
+		
+		\[ \sgma{ref} = \sgma{0} \cdot \left( \dfrac{1}{1 - \dfrac{2 \cdot e}{B}} \right) \leq \sigmabar{ser} \]
+		
+		\columnbreak
+		
+		\begin{center}
+			\begin{tikzpicture}[scale=.8]
+				
+				\point{a}{0}{0};
+				\point{b}{6}{0};
+				\point{f}{2}{0};
+				\point{e}{3.6}{0};
+				
+				\dimensioning{1}{a}{b}{3.5}[B];
+				\dimensioning{1}{f}{e}{2}[e];
+				
+				\lineload{1}{a}{b}[-3][2];
+				
+				\load{1}{f}[90][2];
+				
+				\node at (a) [below=2.5] {$\sigmax$};
+				\node at (b) [above=2] {$\sigmin$};
+				\node at (f) [above=2] {$F_{v}$};
+				
+			\end{tikzpicture}
+		\end{center}
+		
+	\end{multicols}
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		\begin{itemize}
+			\item Dans le dimensionnement d'un mur, il faut s'efforcer de faire passer la résultante dans le tier central.
+			\item Pour les sols médiocres, il faut s'orienter vers une résultante centrale.
+			\item Pour les sols rocheux, excentricité pouvant allé jusqu'à B/4. 
+		\end{itemize}
+	\end{tcolorbox}
 	
 	
 	
@@ -331,14 +578,160 @@
 	
 	
 	
+
+
+	\section{Stabilité au renversement}
+	
+		\begin{tikzpicture}[scale=1]
+		
+		%--- Point de rotation (pied du mur) ---
+		\coordinate (O) at (0,0);
+		
+		%--- Mur initial (en plein) ---
+		\draw[thick]
+		(O) -- ++(2.5,0) -- ++(0,.5) -- ++(-1,0) -- ++(0,2) -- ++(-.5,0) -- ++(0,-2) -- ++(-1,0) -- cycle;
+		
+		%--- Mur en renversement (en tirets) ---
+		\begin{scope}[rotate around={30:(O)}] % angle = 30°, pivot = O
+			\draw[thick,dashed]
+			(O) -- ++(2.5,0) -- ++(0,.5) -- ++(-1,0) -- ++(0,2) -- ++(-.5,0) -- ++(0,-2) -- ++(-1,0) -- cycle;
+		\end{scope}
+		
+		%--- Optionnel : marquer le point de rotation ---
+		\fill[red] (O) circle (3pt) node[below]{A};
+		
+	\end{tikzpicture}
+	
+	
+	
+	\[ \dfrac{M_{stablisant}}{M_{renversant}} \geq 1,5 \]
+	
+	\[ \dfrac{M_{v/A}}{M_{h/A}} \geq 1,5 \]
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Le poids des terres sur le patin avant est négligée.
+	\end{tcolorbox}
 	
 	
 	
 	
+	\section{Stabilité au glissement}
+	
+	
+	\begin{tikzpicture}[scale=1]
+		
+		\coordinate (O) at (0,0);
+		
+		\draw[thick]
+		(O) -- ++(2.5,0) -- ++(0,.5) -- ++(-1,0) -- ++(0,2) -- ++(-.5,0) -- ++(0,-2) -- ++(-1,0) -- cycle;
+		
+		\begin{scope}[shift={(-1,0)}]
+			\draw[thick,dashed] 
+			(0,0) -- ++(2.5,0) -- ++(0,.5) -- ++(-1,0) -- ++(0,2) -- ++(-.5,0) -- ++(0,-2) -- ++(-1,0) -- (O);
+		\end{scope}
+		
+		
+	\end{tikzpicture}
+	
+	\vspace{\baselineskip}
+	
+	Pour simplifier, on admets que la cohésion du sol d'assise est nulle (sens de sécurité) 
+	
+	\[ \dfrac{F_{v} \cdot \tan(\varphi')}{F_{h}} \geq 0,6 \]
+	
+	Avec : $\varphi' = 2/3 \cdot \varphi$
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Si cette condition n'est pas satisfaite on peut ajouter une bêche ancrée placée a l'arrière de la semelle pour mobiliser un effort de butée supplémentaire.
+		
+		\begin{tikzpicture}[scale=1]
+			
+			\coordinate (O) at (0,0);
+			
+			\draw[thick]
+			(O) -- ++(2.5,0) -- ++(0,.5) -- ++(-1,0) -- ++(0,2) -- ++(-.5,0) -- ++(0,-2) -- ++(-1,0) -- cycle;
+			\draw[thick] (2,0) rectangle (2.5,-.5) node[below]{bêche};
+			
+			\begin{scope}[shift={(-1,0)}]
+				\draw[thick,dashed] 
+				(0,0) -- ++(2.5,0) -- ++(0,.5) -- ++(-1,0) -- ++(0,2) -- ++(-.5,0) -- ++(0,-2) -- ++(-1,0) -- (O);
+			\end{scope}
+			
+			
+		\end{tikzpicture}
+		
+	\end{tcolorbox}
 	
 	
 	
+	\part{Détermination des armatures}
 	
+	\section{Calcul du voile}
+	
+	Le voile est calculé comme une console encastrée sur la semelle et soumise à une charge trapézoïdale les armatures et leur arrêtes se détermine à partir des diagrammes du moment de flexion et de l'effort tranchant.
+	
+	\section{Calcul du patin et du talon}
+	
+	Les armatures sont déterminer en considérant le patin et le talon comme des consoles encastrées sur le voile soumises au contrainte agissantes :
+	
+	\[ \sgma{1} = \sigmax - \sgma{0\, patin} \]
+	
+	\[ \sgma{2} = \sigmin - \sgma{0\, talon} \]
+	
+	\[ \sgma{3} = \left[ \left(\dfrac{\sigmax - \sigmin}{B}\right) \cdot (B - e_{patin}) + \sigmin \right] \cdot \sgma{0\, patin} \]
+	
+	\[ \sgma{4} = \left[ \left(\dfrac{\sigmax - \sigmin}{B}\right) \cdot e_{talon} + \sigmin \right] \cdot \sgma{0\, talon} \]
+	
+	
+	\begin{center}
+		\begin{tikzpicture}
+			
+			
+			\point{a}{0}{0};
+			\point{b}{1.5}{0};
+			\point{c}{3.5}{0};
+			\point{d}{5}{0};
+			
+			
+			\point{A}{0}{-1};
+			\point{B}{1.5}{-1};
+			\point{C}{3.5}{-1};
+			\point{D}{5}{-1};
+			
+			\point{a1}{0}{-4};
+			\point{b1}{1.5}{-4};
+			\point{c1}{3.5}{-4};
+			\point{d1}{5}{-4};
+			
+			\dimensioning{1}{a}{d}{3}[B];
+			\dimensioning{1}{a}{b}{2}[$e_{patin}$];
+			\dimensioning{1}{c}{d}{2}[$e_{talon}$];
+			
+			\lineload{1}{a}{b}[1][1];
+			\lineload{1}{c}{d}[1][1];
+			
+			
+			
+			
+			\lineload{1}{A}{D}[-2][-1];
+			
+			
+			
+			\lineload{1}{a1}{b1}[-2][-1.5];
+			\lineload{1}{c1}{d1}[-1.3][-.8];
+			
+			\node at (A) [below=2] {$\sigmax$};
+			\node at (d) [below=2] {$\sigmin$};
+			
+			\node at (a1) [below=2] {$\sgma{1}$};
+			\node at (b1) [below=1.5] {$\sgma{3}$};
+			\node at (c1) [below=1.5] {$\sgma{4}$};
+			\node at (d1) [below=1] {$\sgma{2}$};
+			
+			
+		\end{tikzpicture}
+	\end{center}
 	
 	
 	

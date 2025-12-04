@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  3 DEC 2025 21:34
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  4 DEC 2025 22:54
  restricted system commands enabled.
 **mur-soutenement.tex
 (./mur-soutenement.tex
@@ -1085,26 +1085,26 @@ File: pgflibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (./mur-soutenement.aux)
 \openout1 = mur-soutenement.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1112,56 +1112,56 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 59.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 59.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 59.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 59.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 59.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 59.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 59.
-LaTeX Font Info:    Redeclaring math accent \check on input line 59.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 59.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 59.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 59.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 59.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 59.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 82.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 82.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 82.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 82.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 82.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 82.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 82.
+LaTeX Font Info:    Redeclaring math accent \check on input line 82.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 82.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 82.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 82.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 82.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 59.
+(Font)              `operators' in the math version `normal' on input line 82.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 59.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 82.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 59.
+(Font)              `operators' in the math version `bold' on input line 82.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 59.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 82.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 59.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 59.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 59.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 59.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 59.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 82.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 59.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 59.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 59.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 82.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 59.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 82.
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
@@ -1227,7 +1227,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 59.
+Package hyperref Info: Link coloring OFF on input line 82.
 (./mur-soutenement.out) (./mur-soutenement.out)
 \@outlinefile=\write4
 
@@ -1266,55 +1266,125 @@ Overfull \hbox (8.33998pt too wide) detected at line 13
 \TU/lmr/bx/n/12 III.2 
  []
 
+
+Overfull \hbox (8.33998pt too wide) detected at line 14
+\TU/lmr/bx/n/12 III.3 
+ []
+
+
+Overfull \hbox (7.73999pt too wide) detected at line 16
+\TU/lmr/bx/n/12 IV.1 
+ []
+
+
+Overfull \hbox (3.73198pt too wide) detected at line 17
+\TU/lmr/m/n/12 IV.1.1 
+ []
+
+
+Overfull \hbox (2.07607pt too wide) detected at line 18
+\TU/lmr/m/n/12 IV.1.1.1 
+ []
+
+
+Overfull \hbox (2.07607pt too wide) detected at line 19
+\TU/lmr/m/n/12 IV.1.1.2 
+ []
+
+
+Overfull \hbox (2.07607pt too wide) detected at line 20
+\TU/lmr/m/n/12 IV.1.1.3 
+ []
+
+
+Overfull \hbox (7.73999pt too wide) detected at line 21
+\TU/lmr/bx/n/12 IV.2 
+ []
+
+
+Overfull \hbox (2.07607pt too wide) detected at line 22
+\TU/lmr/m/n/12 IV.2.0.1 
+ []
+
+
+Overfull \hbox (2.07607pt too wide) detected at line 23
+\TU/lmr/m/n/12 IV.2.0.2 
+ []
+
+
+Overfull \hbox (2.07607pt too wide) detected at line 24
+\TU/lmr/m/n/12 IV.2.0.3 
+ []
+
+
+Overfull \hbox (7.73999pt too wide) detected at line 25
+\TU/lmr/bx/n/12 IV.3 
+ []
+
+
+Overfull \hbox (7.73999pt too wide) detected at line 26
+\TU/lmr/bx/n/12 IV.4 
+ []
+
+
+Overfull \hbox (2.71199pt too wide) detected at line 28
+\TU/lmr/bx/n/12 V.1 
+ []
+
+
+Overfull \hbox (2.71199pt too wide) detected at line 29
+\TU/lmr/bx/n/12 V.2 
+ []
+
 )
 \tf@toc=\write5
 
 \openout5 = mur-soutenement.toc
  [1
 
-{C:/Users/amalo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/amalo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 72.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\gamma' on input line 72.
+(hyperref)                removing `math shift' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 72.
+(hyperref)                removing `\gamma' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 103.
+(hyperref)                removing `math shift' on input line 95.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\varphi' on input line 103.
+(hyperref)                removing `math shift' on input line 126.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 103.
+(hyperref)                removing `\varphi' on input line 126.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 113.
+(hyperref)                removing `math shift' on input line 126.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\varphi' on input line 113.
+(hyperref)                removing `math shift' on input line 136.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 113.
+(hyperref)                removing `\varphi' on input line 136.
 
 
-Overfull \hbox (32.96236pt too wide) in paragraph at lines 187--188
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 136.
+
+
+Overfull \hbox (32.96236pt too wide) in paragraph at lines 210--211
  [] 
  []
 
-[2] [3
+[3] [4
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
@@ -1325,47 +1395,263 @@ Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
-] [4
+] [5
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+Overfull \hbox (72.8523pt too wide) in paragraph at lines 450--451
+ [] 
+ []
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 457.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 457.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 457.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00043pt
+(hyperref)                removed on input line 457.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leq' on input line 457.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\displaystyle' on input line 457.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Ustack' on input line 457.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 457.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endgroup' on input line 457.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@@over' on input line 457.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 457.
+
+[6
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 490.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 490.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00043pt
+(hyperref)                removed on input line 490.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\displaystyle' on input line 490.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Ustack' on input line 490.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 490.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endgroup' on input line 490.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@@over' on input line 490.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 490.
+
+
+Overfull \hbox (3.33546pt too wide) in paragraph at lines 521--522
+ [] 
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leavevmode@ifvmode' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                \kern 2.00043pt
+(hyperref)                removed on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\displaystyle' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Ustack' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endgroup' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@@over' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leq' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leq' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\displaystyle' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Ustack' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\begingroup' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endgroup' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@@over' on input line 528.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 528.
+
+
+Overfull \vbox (25.73616pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (25.73616pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (25.73616pt too high) has occurred while \output is active []
+
+
+[7
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+] [8] [9] [10
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 ] (./mur-soutenement.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
-
-
-Package rerunfilecheck Warning: File `mur-soutenement.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `mur-soutenement.out':
-(rerunfilecheck)             Before: 60DD428BAFBF741BA834DE64A9C5746B;1902
-(rerunfilecheck)             After:  AD193CEDEF5E746B023AD2F633E384AE;2090.
+Package rerunfilecheck Info: File `mur-soutenement.out' has not changed.
+(rerunfilecheck)             Checksum: 1B9B70BFF4D77D2DDDD18AE3A46DA006;4520.
 )
 
 Here is how much of LuaTeX's memory you used:
- 37098 strings out of 476081
+ 37262 strings out of 476081
  125105,1373583 words of node,token memory allocated
- 711 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 10 glue, 5 kern, 1 penalty, 1 glyph, 42 attribute, 
-61 glue_spec, 23 attribute_list, 2 write nodes
-   avail lists: 1:3,2:3371,3:1149,4:41,5:210,6:51,7:2998,8:20,9:662,10:12,11:122
-
- 58622 multiletter control sequences out of 65536+600000
+ 995 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 24 glue, 5 kern, 1 penalty, 1 glyph, 104 attribute,
+ 61 glue_spec, 54 attribute_list, 2 write nodes
+   avail lists: 1:2,2:4406,3:1704,4:83,5:425,6:113,7:3436,8:49,9:1023,10:12,11:2
+32
+ 58765 multiletter control sequences out of 65536+600000
  67 fonts using 4645535 bytes
- 98i,11n,104p,476b,1190s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12
--regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public
-/lm/lmroman12-bold.otf><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmmi12.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/amalo/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/amalo/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/amalo/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/amalo/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on mur-soutenement.pdf (4 pages, 86898 bytes).
+ 98i,12n,104p,476b,1190s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman8-
+regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/
+lm/lmroman12-regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/ope
+ntype/public/lm/lmroman12-bold.otf><C:/Users/amalo/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/amalo/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/amalo/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/amalo/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/amalo
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/User
+s/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C
+:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.
+pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb>
+Output written on mur-soutenement.pdf (10 pages, 151901 bytes).
 
-PDF statistics: 130 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 131072)
- 112 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 255 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 131072)
+ 240 words of extra memory for PDF output out of 10000 (max. 100000000)
 

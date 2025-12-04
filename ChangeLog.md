@@ -2,13 +2,23 @@ Ce ChangeLog resume tout ce qui a été fait.
 
 ###### -----------------------------------------------------------------------
 
-# 
+# **04.12.2025**
+
+
+
+* **Cours Ouvrage spéciaux : mur de soutènement (suite) avec figures dessiner avec tikz (fin).**
+
+
+
+
+
+###### -----------------------------------------------------------------------
 
 # **03.12.2025**
 
 
 
-* **Cours Ouvrage spéciaux : mur de soutènement (debut) avec figures dessiner avec tikz** 
+* **Cours Ouvrage spéciaux : mur de soutènement (debut) avec figures dessiner avec tikz**
 
 
 
