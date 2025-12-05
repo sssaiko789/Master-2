@@ -1,8 +1,7 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[12pt,a4paper]{report}
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage[french]{babel}
+\usepackage{polyglossia}
+\setmainlanguage{french}
 
 \usepackage{amsmath, amssymb}
 
@@ -12,7 +11,7 @@
 \usepackage{siunitx} % Pour les unités
 
 \usepackage{geometry}
-\geometry{top=2cm, bottom=2.5cm, left=3cm, right=3cm}
+\geometry{top=2.5cm, bottom=2.5cm, left=3cm, right=2.5cm}
 \setlength{\parindent}{0pt}
 
 \usepackage{enumitem}
@@ -22,7 +21,7 @@
 \usepackage{xcolor}
 
 \usepackage{multicol}
-\setlength{\columnseprule}{1pt}
+\setlength{\columnseprule}{0pt}
 \def\columnseprulecolor{\color{gray}}
 
 \usepackage{tcolorbox}
@@ -54,21 +53,70 @@
 
 
 
+
+\usepackage{myunit}
+\usepackage{stanli}
+
+
+
+
+%fonction pour sigma
+\newcommand{\sgma}[1]{\sigma_{#1}}
+\newcommand{\sigmax}{\sigma_{\max}}
+\newcommand{\sigmin}{\sigma_{\min}}
+
+\newcommand{\sigmabar}[1]{\overline{\sigma}_{#1}}
+
+
+
+
+
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\fancyhf{} % vide d'abord les headers et footers
+\fancyhead[L]{\leftmark} % chapitre à gauche
+%\fancyhead[R]{\rightmark} % section à droite
+\fancyfoot[C]{\thepage} % numéro de page au centre du footer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \title{Mon projet structure en BA V2}
 \author{}
 \date{\today}
 
 \begin{document}
-	\counterwithin{section}{part} % pour que \section{} recommence de 1 aprés \part{}
 	
+	
+	\counterwithin{section}{chapter} % pour que \section{} recommence de 1 aprés \chapter{}
+	
+	
+	\maketitle
 	
 	\tableofcontents
+	
 	
 	\newpage
 	
 	
 	
-	\part{Présentation et généralités}
+	
+	\chapter{Présentation et généralités}
 	
 	\section{Introduction}
 	\section{rst}
@@ -79,12 +127,12 @@
 	
 	
 	
-	\part{Prédimensionnement des éléments}
+	\chapter{Pré-dimensionnement des éléments}
 	
 	
 	\section{Introduction}
 	
-	Dans ce chapitre les éléments prédimensionné sont :
+	Dans ce chapitre les éléments pré-dimensionné sont :
 	
 	\begin{itemize}
 		\item Poteaux, poutres.
@@ -96,7 +144,13 @@
 	\end{itemize}
 	
 	
-	\section{Prédimensionnement du plancher}
+	\section{Pré-dimensionnement du plancher}
+	
+	
+	\subsection{Introduction}
+	
+	\subsection{Pré-dimensionnement}
+	
 	
 	Il existe deux type de plancher en corps creux un 16(corps creux)+4(dalle de compression) et un 20+5.
 	
@@ -106,7 +160,7 @@
 	
 	$H_{p}$ : la hauteur du plancher.
 	
-	$L_{\max}$ : La plus grande travée (plus grande distance entre nue d'appuies).
+	$L_{\max}$ : La plus grande travée (plus grande distance entre nu d'appuis).
 	
 	
 	
@@ -122,13 +176,17 @@
 	Donc un plancher de 16+4=20 cm.
 	
 	
-	\section{Prédimensionnment des poutres}
+	\section{Pré-dimensionnement des poutres}
+	
+	\subsection{Introduction}
+	
+	\subsection{Pré-dimensionnement}
 	
 	Comme le plancher est en corps creux donc on aura deux type de poutre, des poutres principale, d'autre secondaire.
 	
 	\vspace{\baselineskip}
 	
-	Ce que impose le réglement parassismique algérien (RPA 99 version 2003).
+	Ce que impose le règlement paras-sismique algérien (RPA 99 version 2003).
 	
 	Dans l'article 7.5.1 on a pour le coffrage : 
 	
@@ -192,7 +250,14 @@
 	
 	
 	
-	\subsection{Prédimensionnement des voiles}
+	\section{Pré-dimensionnement des voiles}
+	
+	
+	\subsection{Introduction}
+	
+	\subsection{Pré-dimensionnement}
+	
+	
 	
 	Depuis le RPA (article 7.7.1) l'épaisseur du voile est déterminée selon la hauteur libre d'étage, et des conditions de rigidité.
 	
@@ -205,7 +270,7 @@
 	\[ e = \dfrac{300}{20} = 15 ~\unit{cm} \] 
 	
 	
-	Et aussi dans l'article 7.7.1 l'épaisseur minimale est de $e_{\min} = 15 ~\unit{cm}  = e$ donc condtions vérifiée.
+	Et aussi dans l'article 7.7.1 l'épaisseur minimale est de $e_{\min} = 15 ~\unit{cm}  = e$ donc la condition est vérifiée.
 	
 	
 	
@@ -222,9 +287,15 @@
 	
 	
 	
-	\subsection{Prédimensionnement des poteaux}
+	\section{Pré-dimensionnement des poteaux}
 	
-	Pour pouvoir prédimensionner les poteaux on doit connaitre la charge revenant au poteau, et chaque poteau reprend la moitié des charges des poutres, la poutre reprend la moitié du plancher et ses charges reposant sur cette dernière.
+	
+	\subsection{Introduction}
+	
+	\subsection{Pré-dimensionnement}
+	
+	
+	Pour pouvoir pré-dimensionner les poteaux on doit connaitre la charge revenant au poteau, et chaque poteau reprend la moitié des charges des poutres, la poutre reprend la moitié du plancher et ses charges reposant sur cette dernière.
 	
 	\vspace{\baselineskip}
 		
@@ -235,7 +306,7 @@
 	
 	
 	
-	Une fois que les charges F revenant au poteau sont connues, on prédimensionne de cette sorte : 
+	Une fois que les charges F revenant au poteau sont connues, on pré-dimensionne de cette sorte : 
 	
 	\[ \sigma=\dfrac{F}{S} \quad\leq\quad \overline{\sigma}_{b}=0,Ê\cdot f_{c28} \]
 	
@@ -248,6 +319,7 @@
 	
 	
 	\subsubsection{Calcul de la descente des charges}
+	\label{subsubsec:descente-des-charges}
 	
 	
 	Pour résumer, on aura : La charge d'exploitation + Poids du plancher + Poids propre des poutres + Poids propre du poteau.
@@ -282,18 +354,18 @@
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.2\linewidth]{figures/Chapitre-1/elements-plancher}
-		\caption{Éléments d'un plancher terrase innaccesible}
+		\caption{Éléments d'un plancher terrasse inaccessible}
 		\label{fig:elements-plancher}
 	\end{figure}
 	
 	
 	\begin{itemize}
-		\item Enduit platre = $0,2~\unit{kN\per m^{2}}$
-		\item Hourdis + Dalle de copression = $2,8~\unit{kN\per m^{2}}$
+		\item Enduit plâtre = $0,2~\unit{kN\per m^{2}}$
+		\item Hourdis + Dalle de compression = $2,8~\unit{kN\per m^{2}}$
 		\item Isolation thermique = $0,16~\unit{kN\per m^{2}}$
 		\item Feuille de polyne = $0,01~\unit{kN\per m^{2}}$
 		\item Forme de pente en béton = $1,54~\unit{kN\per m^{2}}$
-		\item Feuille de pax (étanchiéter multi couche) = $0,12~\unit{kN\per m^{2}}$
+		\item Feuille de pax (étanche multi-couche) = $0,12~\unit{kN\per m^{2}}$
 		\item Couche de gravier = $0,85~\unit{kN\per m^{2}}$
 	\end{itemize}
 	
@@ -305,11 +377,11 @@
 	
 	\subparagraph{Plancher courant} :
 	
-	Pour le placher courant on aura le sable pour revétement, l'isolation phonique et le carlage.
+	Pour le plancher courant on aura le sable pour revêtement, l'isolation phonique et le carrelage.
 	
 	\begin{itemize}
 		\item Enduit = $0,4~\unit{kN\per m^{2}}$
-		\item Hourdis + Dalle de copression = $2,8~\unit{kN\per m^{2}}$
+		\item Hourdis + Dalle de compression = $2,8~\unit{kN\per m^{2}}$
 		\item Cloison en brique = $0,9~\unit{kN\per m^{2}}$
 		\item Isolation phonique = $0,1~\unit{kN\per m^{2}}$
 		\item Couche de sable = $0,36~\unit{kN\per m^{2}}$
@@ -349,7 +421,7 @@
 	\paragraph{La charge F}:
 	
 	
-	\subparagraph{Plancher terasse incassesible}:
+	\subparagraph{Plancher terrasse inaccessible}:
 	
 	
 	\begin{minipage}{0.3\textwidth}
@@ -431,9 +503,9 @@
 	\[ 25 \cdot 25 = 625 ~\unit{cm^{2}} \quad > \quad 432 ~\unit{cm^{2}} \quad \text{Condition vérifier} \]
 	
 	
-	\section{Conclusion du prédimensionnement}
+	\section{Conclusion du pré-dimensionnement}
 	
-	Au premier lieu, le plancher et les poutres ont été dimenesionner pour avoir les détails, ainsi pouvoir calculer la descente des charges avec plus de précision, avec quoi on prédimensionne le poteau le plus sollicitée.
+	Au premier lieu, le plancher et les poutres ont été dimensionner pour avoir les détails, ainsi pouvoir calculer la descente des charges avec plus de précision, avec quoi on pré-dimensionne le poteau le plus sollicitée.
 	
 	
 	Les dimensions retenue de chaque éléments sont : 
@@ -471,7 +543,7 @@
 	
 	
 	
-	\part{Calcul des éléments secondaires}
+	\chapter{Calcul des éléments secondaires}
 	
 	
 	
@@ -480,7 +552,13 @@
 	
 	\section{Calcul de l'acrotère}
 	
-	L'acrotère sera calculer a l'ELU et vérifier a l'ELS, mais dans le cadre de ce projet on va omettre la vérification à l'ELS car l'acrotère n'est pas un éléments a trés grande importance structurale.
+	\subsection{Introduction}
+	
+	
+	
+	
+	
+	L'acrotère sera calculer a l'ELU et vérifier a l'ELS, mais dans le cadre de ce projet on va omettre la vérification à l'ELS car l'acrotère n'est pas un éléments a très grande importance structurale.
 	
 	\vspace{\baselineskip}
 	
@@ -488,7 +566,7 @@
 	
 	\subsection{Dimensions de l'acrotère}
 	
-	On va prendre des dimensions empirique pour l’acrotère.
+	On va prendre des dimensions empiriques pour l’acrotère.
 	
 	\begin{figure}[H]
 		\centering
@@ -502,7 +580,7 @@
 	
 	\subsection{Charge et surcharge d'exploitation}
 	
-	L'acrotère reprend uniqument son poids propre comme charge permanente, et la surcharge d'exploitation peut être une échelle des pompiers ou autre.
+	L'acrotère reprend uniquement son poids propre comme charge permanente, et la surcharge d'exploitation peut être une échelle des pompiers ou autre.
 	
 	Les charges seront appliquer comme montrer dans la figure \ref{fig:charge-acrotere}.
 	
@@ -567,7 +645,7 @@
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{figures/chapitre-2/acrotere/section-acro}
-		\caption{Section de l'acrotère et systéme equivalent}
+		\caption{Section de l'acrotère et système équivalent}
 		\label{fig:section-acro}
 	\end{figure}
 	
@@ -619,7 +697,7 @@
 	
 	\subsubsection{Calcul des armatures réelles}
 	
-	\[\fbox{$ A_{sc} = A_{scf} = 0 \text{ (armtures de montage)} $}\]
+	\[\fbox{$ A_{sc} = A_{scf} = 0 \text{ (armatures de montage)} $}\]
 	
 	\[ A_{st} = A_{stf} - \dfrac{N_{u}}{\sigma_{s}} = 0,37 - \dfrac{2,36}{34,8} \]
 	
@@ -654,7 +732,7 @@
 		4 ~\unit{MPa}
 	\end{cases} \right\} = 2,5 ~\unit{MPa} \]
 	
-	\[ \text{Condition vérifiée, on a pas besoin d'armtures transversale.} \]
+	\[ \text{Condition vérifiée, on a pas besoin d'armatures transversale.} \]
 	
 	
 		
@@ -668,6 +746,224 @@
 		\label{fig:ferraillage-acro}
 	\end{figure}
 	
+	
+	
+	
+	
+	
+	
+	\section{Calcul des poutrelles}
+	
+	\subsection{Introduction}
+	
+	\subsection{Direction des poutrelles}
+	
+	\subsection{Dimensions des poutrelles}
+	
+	Les dimensions des poutrelles seront choisie selon celle disponible sur le marché et selon notre plancher comme montrer dans la figure \ref{fig:poutrelle-et-hourdis-sans-dim}.
+	
+
+		
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			
+			\draw[thick] (0,0) coordinate(a) -- (6,0) coordinate(b) -- 	++(0,-.5) coordinate(c)
+			-- ++(-2.5,0) -- ++(0,-2) coordinate(d) -- ++(-1,0) 	coordinate(e)
+			-- ++(0,2) -- ++(-2.5,0) -- cycle;
+			
+			
+			
+			\draw[thick] (3.5,-1.5) -- ++(.5,1) -- ++(4,0)
+			-- ++(.5,-1) -- ++(0,-.5) -- ++(-.5,-.5)
+			-- ++(-4,0) -- ++(-.5,.5) -- cycle;
+			
+			\draw[thick] (4.5,-2) rectangle ++(1,1);
+			\draw[thick] (6.5,-2) rectangle ++(1,1);
+			
+			\begin{scope}[shift={(-6,0)}]
+				\draw[thick] (3.5,-1.5) -- ++(.5,1) -- ++(4,0)
+				-- ++(.5,-1) -- ++(0,-.5) -- ++(-.5,-.5)
+				-- ++(-4,0) -- ++(-.5,.5) -- cycle;
+				
+				\draw[thick] (4.5,-2) rectangle ++(1,1);
+				\draw[thick] (6.5,-2) rectangle ++(1,1);
+			\end{scope}
+			
+			
+			
+			\draw[very thick,<-] (3,-1.5) -- ++(-.5,-2) node[below] 	{Poutrelle};
+			\draw[very thick,<-] (1.5,-.25) -- ++(-2,1) node[left] {Table 	de compression};
+			\draw[very thick,<-] (6,-1.5) -- ++(1.5,-2) node[below] 	{Hourdis (corps creux)};
+			
+			
+		\end{tikzpicture}
+		\caption{Poutrelle avec hourdis (corps creux).}
+		\label{fig:poutrelle-et-hourdis-sans-dim}
+	\end{figure}
+	
+	
+	\vspace{2\baselineskip}	
+	
+		
+		
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			
+			\draw[thick] (0,0) coordinate(a) -- (6,0) coordinate(b) -- 	++(0,-.5) coordinate(c)
+			-- ++(-2.5,0) -- ++(0,-2) coordinate(d) -- ++(-1,0) 	coordinate(e)
+			-- ++(0,2) -- ++(-2.5,0) -- cycle;
+			
+			\dimensioning{1}{a}{b}{.5}[65\cml];
+			\dimensioning{1}{e}{d}{-3}[12];
+			
+			\dimensioning{2}{b}{c}{6.5}[4];
+			\dimensioning{2}{c}{d}{6.5}[16];
+			\dimensioning{2}{b}{d}{7.2}[20\cml];
+			
+		\end{tikzpicture}
+		\caption{Dimensions des poutrelles}
+		\label{fig:dim-poutrelles}
+	\end{figure}
+		
+
+	
+	\subsection{Calcul des charges revenant au poutrelles}
+	
+	Les poutrelles reprennes la moitié des charges qui sur le corps creux à gauche et une autre moitié à droite comme présenter dans la figure \ref{fig:poutrelle-et-hourdis-sans-dim} avec la table de compression.
+	
+	\vspace{\baselineskip}
+	
+	Donc au finale la poutrelle reprend $65\cml$ du poids plancher au totale, et au chapitre \ref{subsubsec:descente-des-charges} les charges pour différent plancher on été calculer, nous avons :
+	
+	\[ \begin{cases}
+		\text{Pour un plancher terrasse : }\, G = 5,68\knms \, \text{ et }\, Q = 1\knms \\
+		\text{Pour un plancher courant : }\, G = 5,4\knms \, \text{ et }\, Q = 1,5\knms
+	\end{cases} \]
+	
+	On retiendra uniquement le cas le plus défavorable, donc le plancher courant. 
+	
+	Comme c'est un calcul a l'ELU on aura :
+	
+	\[ (1,35 \cdot G + 1,5 \cdot Q) \cdot 0,65 = (1,35 \cdot 5,4 + 1,5 \cdot 1,5) \cdot 0,65 = 9,54\knm \]
+	
+	
+	\begin{figure}[H]
+		\centering
+		
+		\begin{tikzpicture}
+			
+			\point{a}{0}{0};
+			\point{b}{3.8}{0};
+			\point{c}{7.8}{0};
+			\point{d}{9.9}{0};
+			\point{e}{13.3}{0};
+			\point{E}{11.6}{0};
+			
+			\beam{2}{a}{b};
+			\beam{2}{b}{c};
+			\beam{2}{c}{d};
+			\beam{2}{d}{e};
+			
+			\support{3}{a}[-90];
+			\support{1}{b};
+			\support{1}{c};
+			\support{1}{d};
+			\support{1}{e};
+			
+			\lineload{1}{a}{e};
+			
+			\dimensioning{1}{a}{b}{-2}[3,8\meterl];
+			\dimensioning{1}{b}{c}{-2}[4\meterl];
+			\dimensioning{1}{c}{d}{-2}[2,1\meterl];
+			\dimensioning{1}{d}{e}{-2}[3,4\meterl];
+			\dimensioning{1}{d}{E}{-3}[1,7\meterl];
+			
+			\notation{1}{a}{A}[below=1];
+			\notation{1}{b}{B}[below=1];
+			\notation{1}{c}{C}[below=1];
+			\notation{1}{d}{D}[below=1];
+			\notation{1}{e}{E}[below=1];
+			
+			\node at (5,1.6) {$9,54\knm$};
+			
+			\draw[very thick,dashed] (11.6,-3) -- (11.6,3) node[above] {Symétrie};
+			
+			
+		\end{tikzpicture}
+		\caption{Le schéma statique de la poutrelle}
+		\label{fig:schema-poutrelle}
+	\end{figure}
+	
+	
+	
+	\subsection{Calcul des efforts internes}
+	
+	
+	\subsection{Calcul du ferraillage}
+	
+	
+	\subsection{Plan de ferraillage}
+	
+	
+	
+	\section{Calcul des escaliers et des poutres palières}
+	
+	
+	\subsection{Escaliers}
+	
+	\subsubsection{Introduction}
+	
+	\subsubsection{Dimensionnement des escaliers}
+	
+	\subsubsection{Calcul des charges}
+	
+	\subsubsection{Schéma statique}
+	
+	\subsubsection{Calcul des efforts internes}
+	
+	\subsubsection{Calcul du ferraillage}
+	
+	\subsubsection{Plan de ferraillage}
+	
+	
+	
+	\subsection{Poutres palières}
+	
+	\subsubsection{Introduction}
+	
+	\subsubsection{Calcul des charges}
+	
+	\subsubsection{Schéma statique}
+	
+	\subsubsection{Calcul des efforts internes}
+	
+	\subsubsection{Calcul du ferraillage}
+	
+	\subsubsection{Plan de ferraillage}
+	
+	
+	\section{Calcul des balcons}
+	
+	\subsection{Introduction}
+	
+	\subsection{Calcul des charges}
+	
+	\subsection{Schéma statique}
+	
+	\subsection{Calcul des efforts internes}
+	
+	\subsection{Calcul du ferraillage}
+	
+	\subsection{Plan de ferraillage}
+	
+	
+	\section{Conclusion}
+	
+	
+	\chapter{Conclusion générale}
 	
 	
 	

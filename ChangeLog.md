@@ -6,6 +6,19 @@ Ce ChangeLog resume tout ce qui a été fait.
 
 
 
+* **Projet structure en BA : suite de mon projet (calcul des poutrelles) pas encore terminer.**
+* **Dessin de figures avec tikz.**
+
+
+
+
+
+###### -----------------------------------------------------------------------
+
+# **04.12.2025**
+
+
+
 * **Cours Ouvrage spéciaux : mur de soutènement (suite) avec figures dessiner avec tikz (fin).**
 
 
