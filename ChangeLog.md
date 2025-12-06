@@ -2,6 +2,19 @@ Ce ChangeLog resume tout ce qui a été fait.
 
 ###### -----------------------------------------------------------------------
 
+# **06.12.2025**
+
+
+
+* **Projet structure en BA : suite de mon projet (chapitre 1) pas encore terminer.**
+* **Dessin de figures avec tikz.**
+
+
+
+
+
+###### -----------------------------------------------------------------------
+
 # **04.12.2025**
 
 

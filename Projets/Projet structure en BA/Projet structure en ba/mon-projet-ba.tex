@@ -12,7 +12,9 @@
 
 \usepackage{geometry}
 \geometry{top=2.5cm, bottom=2.5cm, left=3cm, right=2.5cm}
-\setlength{\parindent}{0pt}
+
+
+\setlength{\parindent}{0pt}%pas d'espace en debut d'une phrase
 
 \usepackage{enumitem}
 
@@ -68,6 +70,15 @@
 \newcommand{\sigmabar}[1]{\overline{\sigma}_{#1}}
 
 
+%fonction pour tau
+\newcommand{\taubar}[1]{\overline{\tau}_{#1}}
+
+
+
+
+\usepackage{booktabs}
+
+
 
 
 
@@ -116,13 +127,487 @@
 	
 	
 	
+	
+	
+	
+	
+	\chapter*{Introduction générale}
+	\addcontentsline{toc}{chapter}{Introduction générale}
+	
+	La conception d’une structure en béton armé constitue une étape essentielle dans tout projet de construction, qu’il s’agisse de bâtiments, de ponts ou d’ouvrages d’infrastructure. Avant d’engager des analyses détaillées et des optimisations complexes, il est indispensable de réaliser un prédimensionnement fiable, permettant d’estimer les dimensions initiales des éléments structuraux et de vérifier leur aptitude à reprendre les sollicitations principales. Cette phase préliminaire assure une première cohérence technique du projet, oriente les choix architecturaux et structurels, et fournit une base solide pour les études ultérieures.
+	
+	\vspace{.7\baselineskip}
+	
+	Dans le cadre du présent projet, nous nous concentrerons exclusivement sur le prédimensionnement de la structure et sur le calcul des éléments secondaires. Les éléments principaux, tels que les poteaux, poutres maîtresses et voiles porteurs, seront dimensionnés de manière approximative mais conforme aux règles usuelles de conception. Les éléments secondaires (poutrelles, acrotère, et autres composants complémentaires) feront l’objet d’un calcul plus détaillé, afin d’assurer leur résistance, leur stabilité et leur compatibilité avec les charges qu’ils doivent supporter.
+	
+	\vspace{.7\baselineskip}
+	
+	Cette démarche s’inscrit dans une logique pédagogique et pratique : elle permet de comprendre les principes fondamentaux du dimensionnement en béton armé, d’appliquer les règles de calcul du BAEL/Règlement parasismique Algérien, et de développer une méthode rationnelle de conception structurale. À travers ce travail, nous établirons les hypothèses de base, déterminerons les charges, vérifierons les contraintes et proposerons des dimensions cohérentes pour garantir la sécurité et la fonctionnalité de l’ouvrage.
+	
+	\section*{Le plan du mémoire}
+	
+	\paragraph{Le chapitre \RomanNum{1}} constitue des généralités et définitions de présentation descriptive de l’ouvrage avec les dimensions en plan et en élévation et les caractéristiques des matériaux utilisés.
+
+	
+	\paragraph{Le chapitre \RomanNum{2}} qui est le prédimensionnement des éléments de la structure (poteaux, poutres,
+	planchers voiles), il se fait en première étape afin d'entamer d'autres études.
+	
+	
+	\paragraph{Le chapitre \RomanNum{3}} nous nous intéressons à l’étude des éléments secondaires que comporte notre bâtiment. Acrotère, balcon, l’escalier, planchers.
+	
+	\vspace{0.4cm}
+	
+	Enfin nous terminons notre travail par une conclusion générale dans laquelle nous
+	discutons nos résultats.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	\chapter{Présentation et généralités}
 	
+	
+	
+	
+	
 	\section{Introduction}
-	\section{rst}
+	
+	
+	Le Génie civil représente l'ensemble des techniques concernant les constructions civiles. Les ingénieurs civils ou ingénieurs en génie civil s’occupent de la conception, de la réalisation, de l’exploitation et de la réhabilitation d’ouvrages de construction et d’infrastructures dont ils
+	assurent la gestion afin de répondre aux besoins de la société, tout en assurant la sécurité du public et la protection de l’environnement. Très variées, leurs réalisations se répartissent principalement dans cinq grands domaines d’intervention : structures, géotechnique, hydraulique, transport, et environnement.
+	
+	\vspace{\baselineskip}
+	
+	Le domaine d'application du génie civil est très vaste. Il englobe les travaux publics et le
+	bâtiment et comprend notamment :
+	
+	\begin{itemize}
+		\item Les gros œuvres en général, quel que soit le type de construction ou de bâtiment, comme les gratte-ciels, etc.
+		
+		\item Les constructions industrielles : usines, entrepôts, réservoirs, etc.
+		
+		\item Les infrastructures de transport : routes, voies ferrées, ouvrages D'art, canaux, ports,
+		tunnels, etc.
+		
+		\item Les constructions hydrauliques : barrages, digues, jetées, etc.
+		
+		\item Les infrastructures urbaines : aqueducs, égouts, etc.
+	\end{itemize}
+	
+	Un projet de génie civil peut être scindé en plusieurs phases, souvent confiées à des
+	organismes différents :
+	
+	
+	\subsection*{La planification}
+	
+	Elle consiste à intégrer le projet dans un ensemble de plans directeurs.
+	
+	\subsection*{La conception}
+	
+	Elle est inclut la réalisation des études détaillées d'avant-projet, le dimensionnement, qui consiste à déterminer les dimensions des éléments constitutifs de la future réalisation, l'appel d'offres qui permet de planifier la réalisation, notamment le coût de celle-ci, et de choisir
+	l'entreprise qui en aura la charge, l'exécution de la construction, qui inclut l'élaboration du projet définitif. Différents corps de métiers interviennent ans la réalisation d'un ouvrage.
+	
+	\subsection*{Les études techniques}
+	
+	Les techniques de génie civil entrent dans le détail de la phase de dimensionnement et
+	établissent les plans de construction. Ensuite, interviennent les méthodes qui valident la
+	faisabilité des plans de construction et définissent le mode et les outils de construction.
+	
+	\subsection*{Le département de production}
+	
+	\begin{itemize}
+		\item Fondation (construction), terrassements, gros œuvres, corps d'états secondaires, corps d'états techniques, corps d'états architecturaux, équipements.
+		
+		\item Réceptions provisoire et finale de l'ouvrage.
+		
+		\item L’exploitation et l'entretien de l'ouvrage.
+	\end{itemize}
+	
+	\subsection*{Intervenants}
+	
+	Un projet de génie civil est réparti entre plusieurs intervenants :
+	
+	\subsubsection*{Le maître d'ouvrage}
+	
+	Le maitre d’ouvrage est celui (personne ou organisme) qui déclenche une entreprise de construction et sera celui qui réceptionnera l'ouvrage. En premier lieu c'est celui qui paie l'entreprise, le maitre d'œuvre et le bureau de contrôle.
+	
+	
+	\subsubsection*{Le maître d'œuvre}
+	
+	C’est celui qui élabore le projet à la demande du maître d'ouvrage. Le bureau de contrôle est chargé par le maître d'ouvrage de donner un avis sur l'œuvre ainsi que les travaux.
+	
+	
+
+
+
 	\section{Présentation de l'ouvrage}
 	
+	
+	L’ouvrage qui nous a été confié est un bâtiment R+4 à usage d’habitation implanté à GUELMA, qui est une ville classée selon le RPA99 version 2003 (Règlement parasismique Algérien) comme étant une zone de sismicité moyenne (\RomanNum{2}a), ce projet est constitué d’un RDC et des étages courants. Il est à usage d’habitation.
+	
+	
+	\subsection{Caractéristiques géométriques de l’ouvrage}
+	
+	Les dimensions de cet ouvrage sont :
+	
+	\begin{itemize}
+		\item Longueur totale : $L = 23,3\meterl$
+		
+		\item Largeur totale : $l = 19,7\meterl$
+		
+		\item Hauteur totale sans acrotère : $H = 16\meterl$
+		
+		\item Hauteur de R.D.C : $H_{RDC} = 3,2\meterl$
+		
+		\item Hauteur d’étage : $H_{EC} = 3,2\meterl$
+	\end{itemize}
+	
+	
+	
+	\subsection{Données sismiques de la structure}
+	
+	Le sol d’assise de cette construction est un sol meuble (S3) d’après le rapport du laboratoire d’étude des sols :
+	
+	\begin{itemize}
+		\item Le bâtiment est implanté dans une zone de sismicité moyenne (\RomanNum{2}a).
+		
+		\item L’ouvrage appartient au groupe d’usage : 2 (RPA99 version 2003).
+		
+		\item La contrainte admissible du sol : $\sgma{sol} = 2 ~\unit{bars}$
+	\end{itemize}
+	
+	
+	
+	\subsection{Différents plans du bâtiment}
+	
+	
+	\subsubsection{Vue en plan}
+	
+	\subsubsection{Vue en élévation}
+	
+	\subsubsection{Vue en façade}
+	
+	
+	
+	\subsection{Les éléments de l’ouvrage}
+	
+	\subsubsection{L’ossature}
+	
+	Conformément aux règles parasismiques algériennes, nous prévoyons de concevoir le bâtiment par un système de contreventement mixte (portiques, voiles) destiné à reprendre conjointement les charges verticales et horizontales pour objectif d’améliorer la stabilité et la rigidité de cette
+	structure.
+	
+	\subsubsection{Les planchers}
+	
+	Pour des raisons d'économie, on va essayer d'opter pour tous les niveaux des planchers en corps creux dont la terrasse est inaccessible.
+	
+	\subsubsection{Les poteaux et les poutres}
+	
+	Ces éléments seront en béton armé d'une section qu'on va adopter dans les étapes suivantes.
+	
+	\subsubsection{Les voiles}
+	
+	Tous les voiles seront réalisés en béton armé.
+	
+	\subsubsection{Les balcons}
+	
+	Les balcons sont réalisés en dalles pleines.
+	
+	\subsubsection{Les escaliers}
+	
+	Notre projet est muni d’une cage d’escalier en béton armé à 2 volées.
+	
+	\subsubsection{Les murs}
+	
+	Les murs périphériques ainsi que les cloisons de répartition sont en maçonnerie :
+	
+	\begin{itemize}
+		\item Double cloisons en briques creuses de 15 et 10 cm avec une lame d'air de 5 cm pour les murs périphériques (murs extérieurs).
+		
+		\item Briques creuses de 10 cm pour les cloisons intérieurs.
+	\end{itemize}
+	
+	
+	\subsubsection{Les revêtements}
+	
+	\begin{itemize}
+		\item \textbf{Ciment :} de 2 cm d’épaisseur pour les murs extérieurs et le voile périphérique.
+		
+		\item \textbf{plâtre :} de 2 cm d’épaisseur pour les murs intérieurs ainsi que 3 cm d’épaisseur de l’enduit en plâtre pour les plafonds.
+		
+		\item \textbf{Carrelage :} pour les planchers.
+	\end{itemize}
+	
+	
+	
 	\section{Caractéristique des matériaux}
+	
+	\subsection{Introduction}
+	
+	La connaissance des propriétés des matériaux constitue une étape fondamentale dans toute étude de conception d’un ouvrage en béton armé. Les performances mécaniques et physiques des matériaux influencent directement la résistance, la stabilité et la durabilité de la structure. Avant toute démarche de prédimensionnement ou de calcul, il est donc essentiel de définir précisément les caractéristiques des matériaux utilisés, afin d’établir les bases techniques sur lesquelles reposera l’ensemble du projet.
+	
+	\vspace{\baselineskip}
+	
+	Dans cette partie, nous présenterons les principales caractéristiques du béton et de l’acier d’armature, conformément aux normes en vigueur. Nous détaillerons notamment les résistances mécaniques, les modules d’élasticité, les coefficients ainsi que les paramètres nécessaires au dimensionnement des éléments structuraux. L’objectif est de disposer d’un ensemble cohérent de données permettant de garantir la sécurité et la fiabilité des calculs qui suivront.
+	
+	\subsection{Le béton}
+	
+	\subsubsection{Les ingrédient}
+	
+	Le béton utilisé dans la construction de l'ouvrage doit être conforme aux règles techniques d'étude et de conception des ouvrages en béton armé (BAEL91), ainsi qu'aux règlements appliqués en Algérie.
+	
+	Le béton est un mélange composé de :
+	
+	\begin{itemize}
+		\item \textbf{Ciment :}
+		
+		\begin{itemize}
+			\item  Le ciment est un liant hydraulique composé essentiellement de clinker (mélange calciné de calcaire et d'argile) associé à d’autres constituants secondaires.
+			
+			\item Il existe plusieurs types de ciments, chacun est employé pour un travail bien déterminé :
+			
+			\subsubitem Selon la classe de résistance et on distingué 3 classes de résistance : 
+			
+			\subsubitem $\qquad32,5\mpa$ (la résistance min à la compression à 28j).
+			
+			\subsubitem $\qquad42,5\mpa$ (la résistance min à la compression à 28j).
+			
+			\subsubitem $\qquad52,5\mpa$ (la résistance min à la compression à 28j).
+			
+			
+			\item Selon la composition : il existe cinq types de ciment suivant la norme NFP15-301, A chaque type correspond une désignation particulière, ainsi l'appellation « CPA CEM 32,5 » à un ciment portland artificiel dont la résistance à la compression est comprise entre 32,5 et 52,5 MPa (CEM est la dénomination européenne du ciment),
+			on distingue :
+			
+			\subitem Le ciment portland artificiel : \hspace{1cm} CEMI (95\% de clinker +5\% gypse).
+			
+			\subitem Le ciment portland composé : \hspace{1cm} CEMII (CPJ).
+			
+			\subitem Le ciment de haut-fourneau : \hspace{1cm} CEMIII (CHF).
+			
+			\subitem Le ciment pouzzolanique : \hspace{1cm} CEMIV (CPZ).
+			
+			\subitem Le ciment composé « laitier + cendres » : \hspace{1cm} CEMV (CLC).
+			
+		\end{itemize}
+		
+		
+		\item \textbf{Les granulats :} 
+		
+		\subitem On appelle « granulats» les matériaux internes constitués par sables gravillons ou cailloux,
+		qui entrent dans la composition des bétons. C'est l'ensemble des grains compris entre 0 et 125
+		mm dont l'origine peut-être naturelle, artificielle ou provenant de recyclage. Ils constituent le
+		squelette solide du béton, ils sont classés en trois catégories :
+		
+		\begin{table}[H]
+			\centering
+			\caption{Les classes des granulats.}
+			\begin{tabular}{lccc}
+				\toprule
+				Types \hspace{0.5cm} & Sable (mm) & Gravillons (mm) & Cailloux (mm) \\
+				\midrule
+				Fins & 0.08 à 0.315 & 5 à 8 & 20 à 31.5 \\
+				\midrule
+				Moyen & 0.315 à 1.25 & 8 à 12.5 & 31.5 à 50 \\
+				\midrule
+				Gros & 1.25 à 5& 12.5 à 20 & 50 à 80 \\
+				\bottomrule
+			\end{tabular}
+			\label{table:classes-granulats}
+		\end{table}
+		
+		\item \textbf{L'eau de gâchage :}
+		
+		\subitem L'eau utilisée en construction sert à l’hydratation du liant, le mouillage des granulats et pour permettre le malaxage et faciliter la mise en œuvre. La résistance finale d'un béton dépend essentiellement du rapport E/C (masse d'eau / masse de ciment) du mélange.
+		
+		\vspace{\baselineskip}
+		
+		\item \textbf{Les adjuvants :}
+		
+		\subitem Un adjuvant est un produit chimique ajouté aux bétons, mortiers et coulis au moment de leur
+		confection pour modifier leurs caractéristiques et améliorer certaines propriétés telles que la
+		rhéologie, la cinétique d’hydratation et quelques performances mécaniques selon le besoin.
+		
+		
+	\end{itemize}
+	
+	
+	
+	\subsubsection{Les dosages du béton}
+	
+	Dans un mètre cube de béton($1\mcb$), on a les proportions suivantes :
+	
+	\begin{itemize}
+		\item \textbf{Granulats :}
+		
+		\subitem Sable (0/5) $\rightarrow 800 ~\unit{\liter}$
+		
+		\subitem Graviers (5/25) $\rightarrow 400  ~\unit{\liter}$
+		
+		\item \textbf{Ciment : }
+		
+		\subitem CPA (32,5) $\rightarrow 350\kgmc$
+		
+		\item \textbf{Eau de gâchage : } $\rightarrow 175 ~\unit{\liter}$
+		
+		\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+			Le béton obtenu aura une masse volumique qui varie entre $2200\kgmc$ et $2500\kgmc$ ($22\knmc$ et $25\knmc$)
+		\end{tcolorbox}
+		
+	\end{itemize}
+	
+	
+	\vspace{\baselineskip}
+	
+	\subsubsection{Les caractéristiques du béton}
+		
+		
+		
+	\begin{itemize}
+		
+		\item \textbf{La résistance à la compression $f_{cj}$} Un béton est défini par sa valeur de résistance à la compression à l’âge de 28 jours. Cette résistance est évaluée sur des éprouvettes cylindriques (16×32) cm, écrasées en compression centrée.
+		
+		\item \textbf{La résistance à la traction $f_{tj}$}
+		
+		\subitem La résistance à la traction est donnée par :
+		
+		\subitem $f_{tj} = 0,6 + 0,06 \cdot f_{cj} \qquad $ (BAEL 91, art A.2.1.12)
+		
+		\item \textbf{Déformation longitudinale} il existe deux modules de déformation longitudinale :
+		
+		\subitem Module de déformation longitudinale instantanée $E_{ij}$ : Sous l’effet des contraintes normales d’une durée inférieure à 24heures, on admet à défaut de mesures, qu’à l’âge de (j) jours, le module de déformation longitudinale instantané du béton Eij est égal à :
+		
+		\subsubitem $E_{ij} = 11000\sqrt[3]{f_{cj}} \qquad $ (BAEL 91, Art A.2.1.21)
+		
+		
+		\subitem Module de déformation longitudinale différée $E_{vj}$ : Pour les charges de longue durée d’application, le module de déformation longitudinale différée Evj est égal à :
+		
+		\subsubitem $E_{vj} = 3700\sqrt[3]{f_{cj}} \qquad$ (BAEL 91, Art A.2.1.22)
+		
+		\item \textbf{Déformation transversale}
+		
+		\subitem Module de déformation transversale : Le module de déformation transversale noté « G » est donné par la formule suivante :
+		
+		\subsubitem $G = \dfrac{E}{2 \cdot (1 + v)} \quad$ avec $E$ étant le module de Young et $v$ coefficient de poisson.
+		
+		
+		
+	\end{itemize}	
+	
+	
+	
+	\subsubsection{Modèles de calcul}
+	
+	Nous avons à l'ELU :
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			
+			
+			\draw[->,very thick] (0,0) -- (0,3.5) node[above] {$\sgma{bc}\mpa$};
+			\draw[->,very thick] (0,0) -- (5,0) node[right] {$\varepsilon$ ‰};
+			
+			\draw (0,0) arc [start angle=0, end angle = -90, radius=-2];
+			
+			\draw (2,2) -- ++(2,0);
+			
+			\draw[dashed,thin] (0,2) node[left] {$\sgma{bc} = f_{bu}$} -- (2,2) -- (2,0) node[below] {$2 ‰$} ;
+			\draw[dashed,thin] (4,2) -- (4,0) node[below] {$3,5 ‰$};
+			
+		\end{tikzpicture}
+		\caption{Diagramme Contrainte-déformation du béton a l'ELU.}
+		\label{fig:diagramme-ELU-beton}
+	\end{figure}
+	
+	
+	$\sgma{bc} = f_{bu}$ étant la contrainte ultime du béton en compression, elle est donnée par la formule suivante
+	exigée par le (BAEL 91, art A.4.3.41) :
+	
+	\[ \sgma{bc} = f_{bu} = \dfrac{0,85 \cdot f_{cj}}{\theta \cdot \gamma_{b}} \]
+	
+	
+	Avec :
+	
+	$\gamma_{b}$ Coefficient de sécurité du béton : 
+	
+	$\gamma_{b} = \begin{cases}
+		1 \qquad \text{Situation durable} \\
+		1,15 \qquad \text{Situation accidentelle}
+	\end{cases}$
+	
+	\vspace{\baselineskip}
+	
+	$\theta$ Coefficient qui dépend de la durée d'application du chargement :
+	
+	$\theta = \begin{cases}
+		1 \qquad \text{ t > 24h} \\
+		0,9 \qquad \text{ 1h < t < 24h} \\
+		0,8 \qquad \text{ t < 24h}
+	\end{cases}$
+	
+	
+	À l'ELS :
+	
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			
+			
+			\draw[->,very thick] (0,0) -- (0,3.5) node[above] {$\sgma{bc}\mpa$};
+			\draw[->,very thick] (0,0) -- (5,0) node[right] {$\varepsilon$ ‰};
+			
+			\draw (0,0) --(2,2);
+			
+			
+			\draw[dashed,thin] (0,2) node[left] {$\sigmabar{bc}$} -- (2,2) -- (2,0) node[below] {$\varepsilon_{bc} = \varepsilon_{s}$} ;
+			
+		\end{tikzpicture}
+		\caption{Diagramme déformation-contrainte du béton à l'ELS.}
+		\label{fig:diagramme-ELS-beton}
+	\end{figure}
+	
+	
+	La valeur de la contrainte admissible de la compression du béton est prise égale à (BAEL 91, art A.4.5, 2) :
+	
+	\[ \sigmabar{bc} = 0,6 \cdot f_{cj} \]
+	
+	\textbf{La contrainte de cisaillement du béton (BAEL 91, Art A.5.1.21) :}
+	
+	Fissuration peu préjudiciable :
+	
+	\[ \taubar{u} = \min \begin{cases}
+		0,2 \cdot \dfrac{f_{cj}}{\gamma_{b}} \\
+		5\mpa
+	\end{cases} \]
+	
+	Fissuration préjudiciable ou très préjudiciable :
+	
+	\[ \taubar{u} = \min \begin{cases}
+		0,15 \cdot \dfrac{f_{cj}}{\gamma_{b}} \\
+		4\mpa
+	\end{cases} \]
+	
+	
+	
+	
+	\subsection{Les aciers}
+	
+	L'acier est un mélange de fer et de carbone en faible pourcentage, c'est un matériau caractérisé par sa bonne résistance aussi bien à la traction qu'a la compression. Le rôle des aciers est de reprendre les efforts de traction qui ne peuvent pas être repris par le béton.
+	
+	Les aciers sont caractérisés par leurs limites élastiques et leurs modules d'élasticité, On distingue : Les treillis soudés, Les ronds lisses, Les barres de haute adhérence
+	
+	
+	Selon le RPA99/2003, les armatures longitudinales pour béton armé sont des éléments principaux qui doivent être à haute adhérence (HA) avec $f_{e} \leq 500\mpa$.
+	
+	
+	
 	
 	
 	
@@ -231,7 +716,7 @@
 	
 	\[ \dfrac{h}{b} = \dfrac{35}{20} = 1,75 < 4 \] 
 	
-	{\centering Donc aucun risque de deversement. \par}
+	{\centering Donc aucun risque de déversement. \par}
 	
 	\[ b_{\max} \leq 1,5 \cdot 35 + 20 = 72,5 ~\unit{cm} \]
 	
@@ -308,7 +793,7 @@
 	
 	Une fois que les charges F revenant au poteau sont connues, on pré-dimensionne de cette sorte : 
 	
-	\[ \sigma=\dfrac{F}{S} \quad\leq\quad \overline{\sigma}_{b}=0,Ê\cdot f_{c28} \]
+	\[ \sigma=\dfrac{F}{S} \quad\leq\quad \overline{\sigma}_{b}=0,6\cdot f_{c28} \]
 	
 	Avec : $F=G+Q$, et $S=a\cdot b$ étant la surface du poteau.
 	
