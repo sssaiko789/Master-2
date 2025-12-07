@@ -2,6 +2,21 @@ Ce ChangeLog resume tout ce qui a été fait.
 
 ###### -----------------------------------------------------------------------
 
+# **07.12.2025**
+
+
+
+* **TD Béton précontraint : suite de l'exo 01 (examen de rattrapage) fini.**
+* **Dessin de figures avec tikz.**
+
+
+
+
+
+###### -----------------------------------------------------------------------
+
+
+
 # **06.12.2025**
 
 

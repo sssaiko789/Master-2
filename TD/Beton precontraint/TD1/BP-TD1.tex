@@ -1,8 +1,9 @@
 \documentclass[12pt,a4paper]{article}
 
-\usepackage[utf8]{inputenc}
 
-\usepackage{stanli}
+
+\usepackage{polyglossia}
+\setmainlanguage{french}
 
 %\usepackage[T1]{fontenc}
 %\usepackage[french]{babel}
@@ -54,23 +55,31 @@
 
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta}
+\usetikzlibrary{calc, angles, quotes, intersections}
 
 
 
 
 
-\usepackage{polyglossia}
-\setmainlanguage{french}
+\usepackage{cancel}
+
+
+\usepackage{myunit}
+
+\usepackage{stanli}
 
 
 
 
+%commandes pour sigma
+\newcommand{\sgma}[1]{\sigma_{#1}}
+\newcommand{\sigmax}{\sigma_{\max}}
+\newcommand{\sigmin}{\sigma_{\min}}
 
+\newcommand{\sigmabar}[1]{\overline{\sigma}_{#1}}
 
-
-
-
-
+%fonction pour tau
+\newcommand{\taubar}[1]{\overline{\tau}_{#1}}
 
 
 
@@ -140,7 +149,14 @@
 			
 			\draw[dashed] (-.5,.7) -- (6.5,.7);
 			
-			\draw (0,1) node[right]{$21 \unit{\degree}$} .. controls (1,.2) and (5,.2) .. (6,.7) node[right]{$21 \unit{\degree}$};
+			
+			\draw[dashed,thin] (0,1) -- ++(0.5,0);
+			\draw[dashed,thin] (6,.7) -- ++(.4,.3);
+			
+			\draw[thin] (0.4,.8) arc [start angle=-30, end angle=0, radius=5mm] node[right]{$22 \unit{\degree}$};
+			\draw[thin] (6.3,.7) arc [start angle=-30, end angle=0, radius=5mm] node[right]{$21 \unit{\degree}$} ;
+			
+			\draw (0,1)  .. controls (1,.2) and (5,.2) .. (6,.7) ;
 			
 			\draw[|-|] (-.5,1) -- (-.5,.7) node[left,midway]{$\dfrac{h}{6}$};
 			
@@ -242,10 +258,411 @@
 	L'équation : $M_{g} =  - 1000x^{2} + 3 \cdot 10^{4}x$
 
 
+	\subsection{Calcul avec la force}
+	
+
+	\subsubsection{Réactions}
+
+	
+	\[ R_{v}^{A} = R_{v}^{B} = \dfrac{F}{2} = \dfrac{2500}{2} = 1250\kn \]
+
+	
+	\subsubsection{Effort tranchant}
+	
+	\begin{center}
+		\begin{tikzpicture}
+			
+			\point{a}{0}{0};
+			\point{0}{3}{0};
+			
+			\point{t}{3.7}{-.5};
+			\point{m}{3.7}{.5};
+			
+			\beam{2}{a}{0};
+			
+			\support{1}{a};
+			
+			\load{1}{a}[-90];
+			\load{1}{t}[90];
+			\load{3}{m}[0][180];
+			
+			\dimensioning{1}{a}{0}{-2}[x];
+			
+			\node at (a) [below=1] {$R_{v}^{A}$};
+			\node at (0) [right] {0};
+			\node at (t) [below,right] {T};
+			\node at (m) [above=.3] {M};
+			
+			\draw[dashed,thin] (3,-.5) -- (3,.5);
+			
+		\end{tikzpicture}
+	\end{center}
 
 
 
 
+	\[ \sum F/yy' = 0 \rightarrow R_{v}^{A} - T = 0 \]
+	
+	\[ T = 1250\kn \]
+	
+	\subsubsection{Moments}
+	
+	\[ \sum M/0 = 0 \rightarrow  - M + R_{v}^{A} \cdot x = 0 \]
+
+	\[ M = R_{v}^{A} \cdot x = 1250 \cdot x = \begin{cases}
+		(x = 0)  = 0 \\
+		(x = L/2 = 15\meterl) = 18750\knxm
+	\end{cases} \]
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Par symétrie on aura la même chose de l'autre cote mais l'effort tranchant sera de signe inverse ($T =  - 1250\kn$)
+	\end{tcolorbox}
+
+
+	
+	
+	\subsection{La somme}
+	
+	\subsubsection{Réactions}
+	
+	\[ R_{v}^{A} = R_{vpoids}^{A} + R_{vsurcharge}^{A} + R_{vF}^{A} = 315+\num{3e4}+1250 \]
+	
+	\[ \fbox{$R_{v}^{A} = R_{v}^{B} \text{ (par symétrie) } = 31565\kn$} \]
+
+
+	\subsubsection{Moments}
+	
+	
+	\paragraph{Au point x = 0 et x = 30m (par symétrie)}
+
+	\[ \fbox{$M = 0$} \]
+	
+	\paragraph{Au point x = 15m}
+	
+	\[ M = 2362,5 + \num{225e3} + 18750 \]
+
+	\[ \fbox{$M' = 246112,5\knxm$} \]
+
+
+
+
+	\section{Calcul de la précontrainte}
+	
+	
+	Section : $S = 0,6 \cdot 1,4 = 0,84\msq$
+	
+	Inertie : $I = \dfrac{bh^{3}}{12} = \dfrac{0,6 \cdot 1,4^{3}}{12} = 0,1372\minertia$
+	
+	
+	\subsection{Au point x = 0}
+	
+	
+	\begin{center}
+		\begin{tikzpicture}
+			
+			\draw[very thick] (0,0) -- (0,2) coordinate (cdg) -- (0,4) coordinate (p) -- (0,6);
+			
+			\draw[dash pattern=on 15pt off 5pt on 5pt off 5pt] (-3,2) -- (3,2) node[right] {C.D.G};
+			\draw[dashed] (-3,4) coordinate (o) -- (3,4) ;
+			
+			\draw (0,4) .. controls (1,1) .. (4,0) node[right] {Câble de précontrainte};
+			
+			\draw (.3,4) arc [start angle=0 ,end angle=-80, radius=3mm] node[right] { $22\degree$};
+			
+			\draw[very thick, <-, green] (p) -- ++(120:1.5) coordinate (pp) node[above] {P};
+			
+			\draw[very thick,<-,green!50] (p) -- ++(0,1) node[right] {$P_{v}$};
+			\draw[very thick,<-,green!50] (p) -- ++(-1,0) node[left] {$P_{h}$};
+			
+			
+			\path[name path = P] (p) -- (pp);
+			\path[name path = O] (p) -- (o);
+			\path[name intersections = {of = P and O, by = I}];
+			
+			\pic [draw, "$22\degree$", angle eccentricity=1.5, angle radius=1cm]
+			{angle = pp--I--o};
+			
+			\coordinate (O) at (0,2);
+			\dimensioning{2}{O}{p}{-2.5}[$e = \dfrac{h}{6}$];
+			
+		\end{tikzpicture}
+	\end{center}
+
+
+	$P_{v}$ et $P_{h}$ sont la décomposition de P.
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Pour pouvoir calculer les contrainte on doit avoir toutes les forces appliquer au CDG.
+		
+		Donc on doit déplacer la force $P_{h}$ vers le CDG et créer un moment qui n'est d'autre que $M_{P_{h}} = P_{h} \cdot e$
+		
+		
+			\begin{center}
+				\begin{tikzpicture}[scale=.6]
+					
+					\draw[very thick] (0,0) -- (0,2) coordinate (cdg) -- (0,4) coordinate (p) -- (0,6);
+					
+					\draw[dash pattern=on 15pt off 5pt on 5pt off 5pt] (-3,2) -- (3,2) node[right] {C.D.G};
+					\draw[dashed] (-3,4) coordinate (o) -- (3,4) ;
+					
+					\draw (0,4) .. controls (1,1) .. (4,0) node[right] {Câble de précontrainte};
+					
+					\draw (.3,4) arc [start angle=0 ,end angle=-80, radius=3mm] node[right] { $22\degree$};
+					
+					\draw[very thick, <-, green] (p) -- ++(120:1.5) coordinate (pp) node[above] {P};
+					
+					\draw[very thick,<-,green!50] (p) -- ++(0,1.5) node[right] {$P_{v}$};
+					\draw[very thick,<-,red!80] (cdg) -- ++(-1.5,0) node[left,below] {$P_{h}$};
+					
+					
+					\path[name path = P] (p) -- (pp);
+					\path[name path = O] (p) -- (o);
+					\path[name intersections = {of = P and O, by = I}];
+					
+					\pic [draw, "$22\degree$", angle eccentricity=1.5, angle radius=1cm]
+					{angle = pp--I--o};
+					
+					\coordinate (moment) at (-2,2);
+					\node[above] at (moment) {$M_{P_{h}}$};
+					\load{2}{moment};
+					
+					
+					
+				\end{tikzpicture}
+			\end{center}
+		
+	\end{tcolorbox}
+
+
+
+	\subsubsection{Calcul de P}
+	
+	\[ \sigmabar{P0} = \min \begin{cases}
+		0,9 \cdot f_{peg} = 0,9 \cdot 1623 = 1460\mpa \\ \\
+		0,8 \cdot f_{prg} = 0,8 \cdot 1814 = 1451\mpa
+	\end{cases} \]
+	
+	\[ \sigmabar{P0} = 1451\mpa \]
+	
+	\[ \sigmabar{P0} = \dfrac{P}{S_{cable}} \Longrightarrow P = \sigmabar{P0} \cdot S_{cable} = 1451 \cdot 903 = 1310253\N \]
+	
+	\[ P = 1310\kn \]
+
+	\subsubsection{Calcul des contraintes}
+	
+	\[ P_{h} = P \cdot \cos(22\degree) = 1310 \cdot \cos22\degree = 1214\kn \]
+	
+	\[ \sigma = \dfrac{N}{S} + \dfrac{M \cdot V}{I} \]
+	
+	\paragraph{Calcul de N} :
+	
+	\vspace{\baselineskip}
+	
+	Comme on a aucune force horizontale a part $P_{h}$ alors $N = P_{h} = 1214$
+	 
+	\paragraph{Calcul de M} :
+	
+	Calcul de $M_{P_{h}}$ moment due a la charge $P_{h}$ : 
+	
+	\[ M_{P_{h}} = P_{h} \cdot e = 1214 \cdot \dfrac{h}{6} = 1214 \cdot \dfrac{1,4}{6} = 283\knxm \]
+	
+	\vspace{\baselineskip}
+	
+	\[ M = M' + M_{P_{h}} = 0 + 283 = 283\knxm \]
+
+	$M' = 0$ car les moments a x = 0 sont nul.
+	
+	\vspace{\baselineskip}
+	
+	\paragraph{Calcul des contraintes} :
+	
+	\[ \sgma{sup} = \dfrac{P_{h}}{S} + \dfrac{M \cdot \dfrac{h}{2}}{I} \]
+
+	\[ \dfrac{h}{2} = 0,7\meterl \]
+
+	\[ \sgma{sup} = \dfrac{1214}{0,84} + \dfrac{283 \cdot 0,7}{0,1372} = 2889,11\knms = 2,8\mpa \]
+	
+	\[ \sgma{inf} = \dfrac{1214}{0,84} + \dfrac{283 \times -(0,7)}{0,1372} = 1,36\knms = \num{1,36e-3}\mpa \]
+
+	
+	\subsubsection{Vérifications des contraintes}
+	
+	\[ \sigmabar{bt} = -\dfrac{f_{c28}}{11} \leq \sigma \leq \sigmabar{bc} = \dfrac{f_{c28}}{2} \]
+
+	\[ -3,63\mpa \leq \sigma \leq 20\mpa \]
+
+	Cette condition est vérifier pour $\sgma{sup}$ et $\sgma{inf}$.
+	
+	
+	
+	\subsection{Au point x = L/2 = 15m}
+	
+	
+	Section : $S = 0,6 \cdot 1,4 = 0,84\msq$
+	
+	Inertie : $I = \dfrac{bh^{3}}{12} = \dfrac{0,6 \cdot 1,4^{3}}{12} = 0,1372\minertia$
+	
+	\[ P_{h} = P = 1310\kn \]
+	
+	\vspace{\baselineskip}
+	
+	\begin{center}
+		\begin{tikzpicture}
+			
+			\draw (0,0) -- (7,0);
+			\draw (0,3) -- (7,3);
+			
+			\draw[dash pattern=on 15pt off 5pt on 5pt off 5pt] (-3,1.5) -- (10,1.5) node[right] {C.D.G};
+			
+			\coordinate (cdg) at (3.5,1.5);
+			
+			\draw (-2,2) .. controls (-1,1) .. (1,.7) -- (6,.7) .. controls (8,1) .. (9,2);
+			
+			\coordinate (p) at (3.5,.7);
+			
+			\draw[very thick, red, <-] (p) -- ++(180:1.5) node[left,above] {P};
+			
+			\dimensioning{2}{cdg}{p}{4}[$e = 0,6$];
+			
+			
+		\end{tikzpicture}
+	\end{center}
+
+	\vspace{\baselineskip}
+	\[ \downarrow \text{On déplace la force P vers le CDG : } \]
+	\vspace{\baselineskip}
+	
+	\begin{center}
+		\begin{tikzpicture}
+			
+			\draw (0,0) -- (7,0);
+			\draw (0,3) -- (7,3);
+			
+			\draw[dash pattern=on 15pt off 5pt on 5pt off 5pt] (-3,1.5) -- (10,1.5) node[right] {C.D.G};
+			
+			\coordinate (cdg) at (3.5,1.5);
+			
+			\draw (-2,2) .. controls (-1,1) .. (1,.7) -- (6,.7) .. controls (8,1) .. (9,2);
+			
+			\coordinate (p) at (3.5,.7);
+			
+			\draw[very thick, red, <-] (cdg) -- ++(180:1.5) node[left,above] {P};
+			
+			\load{3}{cdg};
+			
+			\node[below= .5 ] at (cdg) {$M_{P} = P \times e$};
+			
+			
+		\end{tikzpicture}
+	\end{center}
+
+	
+	
+	
+	\subsubsection{Calcul des contraintes}
+	
+	\[ \sigma = \dfrac{N}{S} + \dfrac{M \times V}{I} \]
+	
+	Avec :
+	
+	$N = P = 1310\kn$
+
+	$M = M_{p} + M' = P \times e + 246112 = 1310 \times 0,6 + 246112 = 246898\knxm$
+	
+	\[ \sgma{sup}  = \dfrac{1310}{0,84} + \dfrac{246898 \times \dfrac{1,4}{2}}{0,1372} = 1261243\knms = 1261\mpa \]
+	
+	\[ \sgma{inf}  = \dfrac{1310}{0,84} + \dfrac{246898 \times -\dfrac{1,4}{2}}{0,1372} = -1258124\knms = -1258\mpa \]
+	
+	\subsubsection{Vérification des contraintes}
+	
+	\[ -3,63\mpa \leq \sigma \leq 20\mpa \]
+	
+	Les conditions ne sont pas vérifier il faut augmenter l'excentricité au max et si s'est toujours pas satisfait alors on augmente le nombre de câbles.
+	
+	
+	
+	
+	
+	\subsection{Au point x = 30m}
+	
+	Section : $S = 0,6 \cdot 1,4 = 0,84\msq$
+	
+	Inertie : $I = \dfrac{bh^{3}}{12} = \dfrac{0,6 \cdot 1,4^{3}}{12} = 0,1372\minertia$
+	
+	$P = 1310\kn$
+	
+	\vspace{\baselineskip}
+	
+	
+	\begin{center}
+		\begin{tikzpicture}[cm={-1,0,0,1,(0,0)}]
+			
+			\draw[very thick] (0,0) -- (0,2) coordinate (cdg) -- (0,4) coordinate (p) -- (0,6);
+			
+			\draw[dash pattern=on 15pt off 5pt on 5pt off 5pt] (-3,4) coordinate (o) -- (3,4)  node[right] {C.D.G};
+			
+			\draw (0,4) .. controls (1,1) .. (4,0) node[right] {Câble de précontrainte};
+			
+			\draw (.3,4) arc [start angle=0 ,end angle=-80, radius=3mm] node[right] { $21\degree$};
+			
+			\draw[very thick, <-, green] (p) -- ++(120:1.5) coordinate (pp) node[above] {P};
+			
+			\draw[very thick,<-,green!50] (p) -- ++(0,1) node[right] {$P_{v}$};
+			\draw[very thick,<-,green!50] (p) -- ++(-1,0) node[left] {$P_{h}$};
+			
+			
+			\path[name path = P] (p) -- (pp);
+			\path[name path = O] (p) -- (o);
+			\path[name intersections = {of = P and O, by = I}];
+			
+			\pic [draw, "$21\degree$", angle eccentricity=1.5, angle radius=1cm]
+			{angle = o--I--pp};
+			
+			
+		\end{tikzpicture}
+
+	\end{center}
+	
+	
+	
+	\subsubsection{Calcul des contraintes}
+	
+	\[ \sigma = \dfrac{N}{S} + \dfrac{M \times V}{I} \]
+	
+	Avec :
+	
+	$N = P_{h} = P \times \cos21\degree = 1310 \times \cos21\degree = 1222\kn $
+	
+	$M = M' + M_{P_{h}} = 0 + 0$ car a x = 0 les moments sont nul et toutes les forces sont appliquer au CDG.
+	
+	
+	\[ \sigma = \dfrac{N}{S} + \cancelto{0}{\dfrac{M \times V}{I}} \]
+	
+	
+	\[ \sgma{sup} = \sgma{inf} = \dfrac{1222}{0,84} = 1454\knms = 1,4\mpa \]
+	
+	\subsubsection{Vérification des contraintes}
+	
+	\[ -3,63\mpa \leq \sigma \leq 20\mpa \]
+	
+	Conditions vérifier pour $\sgma{sup}$ et $\sgma{inf}$.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
 	
 	
 	

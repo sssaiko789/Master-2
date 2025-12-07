@@ -10,3 +10,26 @@
 \contentsline {subsubsection}{\numberline {I.2.2.1}Réactions}{3}{subsubsection.1.2.2.1}%
 \contentsline {subsubsection}{\numberline {I.2.2.2}Efforts tranchants}{3}{subsubsection.1.2.2.2}%
 \contentsline {subsubsection}{\numberline {I.2.2.3}Moments}{4}{subsubsection.1.2.2.3}%
+\contentsline {subsection}{\numberline {I.2.3}Calcul avec la force}{4}{subsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {I.2.3.1}Réactions}{4}{subsubsection.1.2.3.1}%
+\contentsline {subsubsection}{\numberline {I.2.3.2}Effort tranchant}{4}{subsubsection.1.2.3.2}%
+\contentsline {subsubsection}{\numberline {I.2.3.3}Moments}{4}{subsubsection.1.2.3.3}%
+\contentsline {subsection}{\numberline {I.2.4}La somme}{5}{subsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {I.2.4.1}Réactions}{5}{subsubsection.1.2.4.1}%
+\contentsline {subsubsection}{\numberline {I.2.4.2}Moments}{5}{subsubsection.1.2.4.2}%
+\contentsline {paragraph}{Au point x = 0 et x = 30m (par symétrie)}{5}{section*.2}%
+\contentsline {paragraph}{Au point x = 15m}{5}{section*.3}%
+\contentsline {section}{\numberline {I.3}Calcul de la précontrainte}{5}{section.1.3}%
+\contentsline {subsection}{\numberline {I.3.1}Au point x = 0}{5}{subsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {I.3.1.1}Calcul de P}{6}{subsubsection.1.3.1.1}%
+\contentsline {subsubsection}{\numberline {I.3.1.2}Calcul des contraintes}{6}{subsubsection.1.3.1.2}%
+\contentsline {paragraph}{Calcul de N}{6}{section*.4}%
+\contentsline {paragraph}{Calcul de M}{6}{section*.5}%
+\contentsline {paragraph}{Calcul des contraintes}{7}{section*.6}%
+\contentsline {subsubsection}{\numberline {I.3.1.3}Vérifications des contraintes}{7}{subsubsection.1.3.1.3}%
+\contentsline {subsection}{\numberline {I.3.2}Au point x = L/2 = 15m}{7}{subsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {I.3.2.1}Calcul des contraintes}{8}{subsubsection.1.3.2.1}%
+\contentsline {subsubsection}{\numberline {I.3.2.2}Vérification des contraintes}{8}{subsubsection.1.3.2.2}%
+\contentsline {subsection}{\numberline {I.3.3}Au point x = 30m}{8}{subsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {I.3.3.1}Calcul des contraintes}{9}{subsubsection.1.3.3.1}%
+\contentsline {subsubsection}{\numberline {I.3.3.2}Vérification des contraintes}{9}{subsubsection.1.3.3.2}%
