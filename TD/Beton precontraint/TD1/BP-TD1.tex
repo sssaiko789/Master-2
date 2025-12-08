@@ -26,7 +26,7 @@
 \usepackage{xcolor}
 
 \usepackage{multicol}
-\setlength{\columnseprule}{1pt}
+\setlength{\columnseprule}{0pt}
 \def\columnseprulecolor{\color{gray}}
 
 \usepackage{tcolorbox}
@@ -372,8 +372,8 @@
 			
 			\draw[very thick, <-, green] (p) -- ++(120:1.5) coordinate (pp) node[above] {P};
 			
-			\draw[very thick,<-,green!50] (p) -- ++(0,1) node[right] {$P_{v}$};
-			\draw[very thick,<-,green!50] (p) -- ++(-1,0) node[left] {$P_{h}$};
+			\draw[very thick,<-,green!80] (p) -- ++(0,1) node[right] {$P_{v}$};
+			\draw[very thick,<-,green!80] (p) -- ++(-1,0) node[left] {$P_{h}$};
 			
 			
 			\path[name path = P] (p) -- (pp);
@@ -412,7 +412,7 @@
 					
 					\draw[very thick, <-, green] (p) -- ++(120:1.5) coordinate (pp) node[above] {P};
 					
-					\draw[very thick,<-,green!50] (p) -- ++(0,1.5) node[right] {$P_{v}$};
+					\draw[very thick,<-,green!80] (p) -- ++(0,1.5) node[right] {$P_{v}$};
 					\draw[very thick,<-,red!80] (cdg) -- ++(-1.5,0) node[left,below] {$P_{h}$};
 					
 					
@@ -505,7 +505,9 @@
 	
 	\[ P_{h} = P = 1310\kn \]
 	
-	\vspace{\baselineskip}
+	\vspace{15\baselineskip}
+	
+
 	
 	\begin{center}
 		\begin{tikzpicture}
@@ -568,11 +570,11 @@
 	
 	$N = P = 1310\kn$
 
-	$M = M_{p} + M' = P \times e + 246112 = 1310 \times 0,6 + 246112 = 246898\knxm$
+	$M = M' - M_{P} = 246112 - P \times e = 246112 - 1310 \times 0,6 = 245326\knxm$
 	
-	\[ \sgma{sup}  = \dfrac{1310}{0,84} + \dfrac{246898 \times \dfrac{1,4}{2}}{0,1372} = 1261243\knms = 1261\mpa \]
+	\[ \sgma{sup}  = \dfrac{1310}{0,84} + \dfrac{245326 \times \dfrac{1,4}{2}}{0,1372} = 1253222\knms = 1253\mpa \]
 	
-	\[ \sgma{inf}  = \dfrac{1310}{0,84} + \dfrac{246898 \times -\dfrac{1,4}{2}}{0,1372} = -1258124\knms = -1258\mpa \]
+	\[ \sgma{inf}  = \dfrac{1310}{0,84} + \dfrac{245326 \times -\dfrac{1,4}{2}}{0,1372} = -1250103\knms = -1250\mpa \]
 	
 	\subsubsection{Vérification des contraintes}
 	
@@ -600,16 +602,16 @@
 			
 			\draw[very thick] (0,0) -- (0,2) coordinate (cdg) -- (0,4) coordinate (p) -- (0,6);
 			
-			\draw[dash pattern=on 15pt off 5pt on 5pt off 5pt] (-3,4) coordinate (o) -- (3,4)  node[right] {C.D.G};
+			\draw[dash pattern=on 15pt off 5pt on 5pt off 5pt] (-3,4) coordinate (o) -- (3,4)  node[left] {C.D.G};
 			
-			\draw (0,4) .. controls (1,1) .. (4,0) node[right] {Câble de précontrainte};
+			\draw (0,4) .. controls (1,1) .. (4,0) node[left] {Câble de précontrainte};
 			
 			\draw (.3,4) arc [start angle=0 ,end angle=-80, radius=3mm] node[right] { $21\degree$};
 			
 			\draw[very thick, <-, green] (p) -- ++(120:1.5) coordinate (pp) node[above] {P};
 			
-			\draw[very thick,<-,green!50] (p) -- ++(0,1) node[right] {$P_{v}$};
-			\draw[very thick,<-,green!50] (p) -- ++(-1,0) node[left] {$P_{h}$};
+			\draw[very thick,<-,green!80] (p) -- ++(0,1) node[left] {$P_{v}$};
+			\draw[very thick,<-,green!80] (p) -- ++(-1,0) node[right] {$P_{h}$};
 			
 			
 			\path[name path = P] (p) -- (pp);
@@ -650,17 +652,515 @@
 	
 	
 	
+	\newpage
+	
+	
+	\part{Examen}
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
+	\begin{center}
 		
+		
+		\begin{tikzpicture}
+			
+			\point{A}{0}{0};
+			\point{B}{6}{0};
+			\point{C}{3}{0};
+			\beam{2}{A}{B};
+			
+			\dimensioning{1}{A}{B}{-1.5}[40m];
+			
+			\notation{1}{A}{A}[left];
+			\notation{1}{B}{B}[right];
+			
+			\support{1}{A};
+			\support{2oo}{B};
+			
+			\load{1}{C}[90][2];
+			
+			
+			
+			
+			\draw (3,2.1) node[above]{\large F};
+			
+		\end{tikzpicture}
+		
+		
+	\end{center}
+	
+	\begin{center}
+		
+		
+		\begin{tikzpicture}
+			
+			\draw (0,0) rectangle (6,1.4);
+			
+			\draw[dashed] (-.5,.7) -- (6.5,.7);
+			
+			
+			\draw[dashed,thin] (0,1) -- ++(0.5,0);
+			\draw[dashed,thin,name path =AN] (6,1) -- ++(-.4,0) coordinate(an);
+			
+			\draw[thin] (0.4,.8) arc [start angle=-30, end angle=0, radius=5mm] node[right]{$17 \unit{\degree}$};
+			
+			
+			\coordinate (ca) at (5.8,.9);
+			
+			\draw[name path =CA] (0,1)  .. controls (1,.2) and (5,.2) .. (6,1);
+			
+			\path[name intersections = {of = AN and CA, by = I}];
+			
+			\pic [draw, "$23\degree$", angle eccentricity=2, angle radius=.3cm] {angle = an--I--ca};
+			
+			\draw[|-|] (-.5,1) -- (-.5,.7) node[left,midway]{$\dfrac{h}{6}$};
+			
+			\draw[|-|] (3,.38) -- (3,.7) node[midway,right]{$0,25 ~\unit{m}$};
+			
+			\draw (8,0) rectangle (8.6,1.4);
+			\draw[|-|] (7.7,0) -- (7.7,1.4) node[midway,left]{120};
+			\draw[|-|] (8,-.3) -- (8.6,-.3) node[midway,below]{60};
+			
+		\end{tikzpicture}
+		
+		
+		
+	\end{center}
+	
+	\[ F = 3000\kn \]
+	
+	\[ G = \rho_{ba} \times b \times h = 25 \times 0,6 \times 1,2 = 18\knms \]
+	
+	\section{Calcul des efforts internes}
+	
+	\subsection{Calcul des réactions}
+	
+	\[ \sum F/H = 0 \Rightarrow Rh_{A} = 0 \]
+	
+	\[ \sum F/V = 0 \Rightarrow Rv_{A} + Rv_{B} = 3000 + 18 \times 40 = 3720\kn \]
+	
+	\[ \begin{aligned}
+		\sum M/A = 0 \Rightarrow -&40Rv_{B} + 20F + G \times 40 \times 20 = 0 \\
+		-&40Rv_{B} = -60000 - 14400 \\
+		&Rv_{B} = 1860\kn \\
+		&Rv_{A} = 1860\kn
+	\end{aligned} \]
+	
+	
+	
+	\subsection{Calcul de M et de T}
+	
+	\hfill
+	\begin{tikzpicture}
+		
+		\draw[very thick,->] (0,0) -- (2,0) node[right]{x};
+		\draw[very thick,->] (0,0) -- (0,2) node[above]{y};
+		
+		\draw[very thick,->] (.2,1.8) to[bend left=45] (1.8,.2) node[above=1] {Z};
+		
+		\node[circle] at (.8,.8) {\textbf{+}};
+		
+	\end{tikzpicture}
+	
+	\subsubsection{Pour $0 \leq x \leq 20\meterl$}
+	
+	
+	\begin{center}
+		\begin{tikzpicture}
+			
+			\coordinate (a) at (0,0);
+			\coordinate (o) at (4,0);
+			
+			\coordinate (m) at (5,1);
+			\coordinate (t) at (5,0);
+			\coordinate (n) at (6,0);
+			
+			\draw (a) -- (o) node[right] {O};
+			\draw[dashed] (o) -- ++(0,1) (o) -- ++(0,-1);
+			
+			\draw[very thick, <-] (a) -- ++(90:-1.5) node[below left] {$Rv_{A} = 1860\kn$};
+			
+			\draw[very thick, <-] (t) -- ++(90:-1.5) node[below] {$T_{y}$};
+			\draw[very thick, <-] (n) -- ++(0:1.5) node[right] {$N_{x}$};
+			
+			\draw[very thick, ->] (m) to[bend right=45] ++(-1,1) node[above] {$M_{z}$};
+			
+			
+			\lineload{1}{a}{o}[1][1];
+			
+			\dimensioning{1}{a}{o}{-2}[x];
+			
+			
+			
+		\end{tikzpicture}
+	\end{center}
+	
+	\[ \sum F/xx' = 0 \Rightarrow Rh_{A} = N_{x} = 0 \]
+	
+	\vspace{\baselineskip}
+	
+	\[ \begin{aligned}
+		\sum F/yy' = 0 \Rightarrow Rv_{A} + &T_{y} - 18x = 0 \\
+		&T_{y} = 18x - 1860 = \begin{cases}
+			(x = 0) = -1860\kn \\ \\
+			(x = 20\meterl) = -1500\kn
+		\end{cases}
+	\end{aligned} \]
+	
+	\vspace{\baselineskip}
+	
+	\[ \begin{aligned}
+		\sum M/O = 0 \rightarrow -&M_{z} - 18 \times \dfrac{x^{2}}{2} + Rv_{A} \times x = 0 \\
+		&M_{z} = -18\dfrac{x^{2}}{2} + 1860x = \begin{cases}
+			(x = 0) = 0\knxm \\ \\
+			(x = 20) = 33600\knxm
+		\end{cases}
+	\end{aligned} \]
+	
+	
+	\subsubsection{Pour $0 \leq x \leq 20m$ (depuis B)}
+	
+	Par symétrie on aura les même résultats avec l'effort tranchant qui change de signe.
+	
+	$T_{y} = \begin{cases}
+		(x = 0) = 1860\kn \\ \\
+		(x = 20\meterl) = 1500\kn
+	\end{cases}$
+	
+	
+	
+	
+	
+	
+	
+	\section{Calcul de la précontrainte}
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Toute les force doivent être appliquer au CDG.
+	\end{tcolorbox}
+	
+	
+	\subsection{Calcul de \textbf{P}}
+	
+	\[ \sigmabar{P0} \leq \min\begin{cases}
+		0,9 \times f_{peg} = 0,9 \times 1623 = 1460\mpa \\
+		0,8 \times f_{prg} = 0,8 \times 1814 = 1451\mpa
+	\end{cases} \]
+	
+	\[ \sigmabar{P0} = 1451\mpa \]
+	
+	\[ \sigmabar{P0} = \dfrac{P}{A_{P}} \]
+	
+	$A_{P} = 903\mms$
+	
+	\[ P = \sigmabar{P0} \times A_{P} = 1451 \times 903 = 1310253 = 1310\kn \]
+	
+	\[ \fbox{$P = 1310\kn$} \]
+	
+	\vspace{4\baselineskip}
+	
+	\subsection{Calcul au point x = 0m}
+	
+	\vspace{\baselineskip}
+	
+	\begin{multicols}{2}
+		
+		
+		\begin{tikzpicture}
+			
+			\draw (0,0) -- (0,1) node[below left] {G} coordinate(g) -- (0,2) coordinate(p) -- (0,3);
+			
+			\draw[dashed, thin, name path=pathp] (p) -- ++(-2.5,0)coordinate (anglepp) (p) -- ++(2.5,0) coordinate (anglep);
+			
+			\draw[dash pattern=on 15pt off 5pt on 5pt off 5pt,thin] (g) -- ++(2.5,0) (g) --  ++(-2.5,0) node[left] {CDG};
+			
+			\draw[name path=cable] (p) .. controls (.2,1) and (.8,.3) .. (2,0);
+			
+			
+			\coordinate (anglec) at (.3,1);
+			
+			\draw[name path=pointp, very thick, orange, <-] (p) -- ++(110:1.5) coordinate(PP) node[above] {P};
+			
+			\draw[very thick, <-,orange] (p) -- ++(0,1.5) node[above] {$P_{v}$} (p) -- ++(180:1) node[left] {$P_{h}$};
+			
+			\path[name intersections={of = pointp and pathp, by = I}];
+			
+						
+			\pic [draw, "$17\degree = \alpha$", angle eccentricity=2, angle radius=0.5cm]
+			{angle = anglec--I--anglep};
+			
+			\pic [draw, "$17\degree$", angle eccentricity=1.7, angle radius=0.5cm]
+			{angle = PP--I--anglepp};
+			
+			\dimensioning{2}{g}{p}{-2}[$ \dfrac{h}{6}$];
+			
+		\end{tikzpicture}
+		
+		\columnbreak
+		
+		\[ \sin\alpha = \dfrac{P_{v}}{P} \Rightarrow P_{v} = P\sin\alpha \]
+		
+		\[ \cos\alpha = \dfrac{P_{h}}{P} \Rightarrow P_{h} = p\cos\alpha \]
+		
+		
+	\end{multicols}
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		La force $P_{h}$ doit être ramener au CDG et cela va engendrer un moment $M_{P_{h}} = P_{h} \times e = P_{h} \times \dfrac{h}{6}$
+		
+		\begin{tikzpicture}
+			
+			\draw (0,0) -- (0,1) node[below left] {G} coordinate(g) -- (0,2) coordinate(p) -- (0,3);
+			
+			\draw[dashed, thin, name path=pathp] (p) -- ++(-2.5,0)coordinate (anglepp) (p) -- ++(2.5,0) coordinate (anglep);
+			
+			\draw[dash pattern=on 15pt off 5pt on 5pt off 5pt,thin] (g) -- ++(2.5,0) (g) --  ++(-2.5,0) node[left] {CDG};
+			
+			\draw[name path=cable] (p) .. controls (.2,1) and (.8,.3) .. (2,0);
+			
+			
+			\coordinate (anglec) at (.3,1);
+			
+			\draw[name path=pointp, very thick, orange, <-] (p) -- ++(110:1.5) coordinate(PP) node[above] {P};
+			
+			\draw[very thick, <-,orange] (p) -- ++(0,1.5) node[above] {$P_{v}$} (g) -- ++(180:1) node[left] {$P_{h}$};
+			
+			\draw[very thick, ->,orange] (-1.8,.3) node[below] {$M_{P_{h}}$} to[bend left=45] (-1.8,1.5);
+			
+			\path[name intersections={of = pointp and pathp, by = I}];
+			
+			
+			\pic [draw, "$17\degree = \alpha$", angle eccentricity=2, angle radius=0.5cm]
+			{angle = anglec--I--anglep};
+			
+			\pic [draw, "$17\degree$", angle eccentricity=1.7, angle radius=0.5cm]
+			{angle = PP--I--anglepp};
+			
+			
+		\end{tikzpicture}
+	\end{tcolorbox}
+	
+	
+	\[ M_{P_{h}} = P \times \cos17 \times h/6 \]
+	
+	\vspace{\baselineskip}
+	
+	\[ \fbox{$P_{h} = 1310 \times \cos17\degree = 1252\kn$} \]
+	
+	\[ \fbox{$M_{P_{h}} = 1252 \times \dfrac{1,2}{6} = 250\knxm$} \]
+	
+	
+	
+	\subsection{Calcul au point x = 40m}
+	
+	\begin{multicols}{2}	
+		\begin{tikzpicture}[cm={-1,0,0,1,(0,0)}]
+			
+			\draw (0,0) -- (0,1) node[below left] {G} coordinate(g) -- (0,2) 	coordinate(p) -- (0,3);
+			
+			\draw[dashed, thin, name path=pathp] (p) -- ++(-2.5,0)coordinate (anglepp) 	(p) -- ++(2.5,0) coordinate (anglep);
+			
+			\draw[dash pattern=on 15pt off 5pt on 5pt off 5pt,thin] (g) -- ++(2.5,0) 	(g) --  ++(-2.5,0) node[right] {CDG};
+			
+			\draw[name path=cable] (p) .. controls (.2,1) and (.8,.3) .. (2,0);
+			
+			
+			\coordinate (anglec) at (.3,1);
+			
+			\draw[name path=pointp, very thick, orange, <-] (p) -- ++(110:1.5) 	coordinate(PP) node[above] {P};
+			
+			\draw[very thick, <-,orange] (p) -- ++(0,1.5) node[above] {$P_{v}$} (p) -- 	++(180:1) node[right] {$P_{h}$};
+			
+			\path[name intersections={of = pointp and pathp, by = I}];
+			
+			
+			
+			\pic [draw, "$23\degree$", angle eccentricity=1.7, angle radius=0.5cm]
+			{angle = anglepp--I--PP};
+			
+			\dimensioning{2}{p}{g}{-2}[$ \dfrac{h}{6}$];
+			
+		\end{tikzpicture}
+		
+		\columnbreak
+		
+		\begin{tikzpicture}[cm={-1,0,0,1,(0,0)}]
+			
+			\draw (0,0) -- (0,1) node[below left] {G} coordinate(g) -- (0,2) coordinate(p) -- (0,3);
+			
+			\draw[dashed, thin, name path=pathp] (p) -- ++(-2.5,0)coordinate (anglepp) (p) -- ++(2.5,0) coordinate (anglep);
+			
+			\draw[dash pattern=on 15pt off 5pt on 5pt off 5pt,thin] (g) -- ++(2.5,0) (g) --  ++(-2.5,0) node[right] {CDG};
+			
+			\draw[name path=cable] (p) .. controls (.2,1) and (.8,.3) .. (2,0);
+			
+			
+			\coordinate (anglec) at (.3,1);
+			
+			\draw[name path=pointp, very thick, orange, <-] (p) -- ++(110:1.5) coordinate(PP) node[above] {P};
+			
+			\draw[very thick, <-,orange] (p) -- ++(0,1.5) node[above] {$P_{v}$} (g) -- ++(180:1) node[right] {$P_{h}$};
+			
+			\draw[very thick, ->,orange] (-1.8,.3) node[below] {$M_{P_{h}}$} to[bend left=45] (-1.8,1.5);
+			
+			\path[name intersections={of = pointp and pathp, by = I}];
+			
+			
+			
+			\pic [draw, "$23\degree$", angle eccentricity=1.7, angle radius=0.5cm]
+			{angle = anglepp--I--PP};
+			
+			
+		\end{tikzpicture}
+		
+	\end{multicols}
+	
+	
+	
+	
+	\[ P_{v} = P\sin23 \]
+	
+	\[P_{h} = P\cos23 \]
+	
+	\[ M_{P_{h}} = P \times \dfrac{h}{6} \times \cos23\degree \]
+	
+	\vspace{\baselineskip}
+	
+	\[ \fbox{$P_{h} = 1310 \times \cos23\degree = 1205\kn$} \]
+	
+	\[ \fbox{$M_{P_{h}} = 1205 \times \dfrac{1,2}{6} = 241\knxm$} \]
+	
+	
+	\subsubsection{Calcul au point x = 20m}
+	
+	\vspace{\baselineskip}
+	
+	\begin{center}
+		\begin{tikzpicture}
+			
+			\draw (0,0) -- (7,0);
+			\draw (0,3) -- (7,3);
+			
+			\draw[dash pattern=on 15pt off 5pt on 5pt off 5pt] (-3,1.5) -- (10,1.5) node[right] {C.D.G};
+			
+			\coordinate (cdg) at (3.5,1.5);
+			
+			\draw (-2,2) .. controls (-1,1) .. (1,.7) -- (6,.7) .. controls (8,1) .. (9,2);
+			
+			\coordinate (p) at (3.5,.7);
+			
+			\draw[very thick, orange, <-] (p) -- ++(180:1.5) node[left,above] {P};
+			
+			\dimensioning{2}{cdg}{p}{4}[$e = 0,25$];
+			
+			
+		\end{tikzpicture}
+	\end{center}
+	
+	\vspace{\baselineskip}
+	\[ \downarrow \text{On déplace la force P vers le CDG : } \]
+	\vspace{\baselineskip}
+	
+	\begin{center}
+		\begin{tikzpicture}
+			
+			\draw (0,0) -- (7,0);
+			\draw (0,3) -- (7,3);
+			
+			\draw[dash pattern=on 15pt off 5pt on 5pt off 5pt] (-3,1.5) -- (10,1.5) node[right] {C.D.G};
+			
+			\coordinate (cdg) at (3.5,1.5);
+			
+			\draw (-2,2) .. controls (-1,1) .. (1,.7) -- (6,.7) .. controls (8,1) .. (9,2);
+			
+			\coordinate (p) at (3.5,.7);
+			
+			\draw[very thick, orange, <-] (cdg) -- ++(180:1.5) node[left,above] {P};
+			
+			\draw[orange,->,very thick] (3.5,2) to[bend left=60] (3.5,1) node[above=1] {$M_{P} = P \times e$};
+			
+			
+		\end{tikzpicture}
+	\end{center}
+	
+	
+	\[ P_{h} = P \]
+	
+	\[ M_{P} = P \times e = -0,25 \times P \]
+	
+	\[ \fbox{$P = 1310\kn$} \]
+	
+	\[ \fbox{$M_{P} = -0,25 \times 1310 = -327\knxm$} \]
+
+	
+	
+	\section{Calcul des contrainte}
+	
+	\[ \sigma = \dfrac{N}{S} + \dfrac{M \times V}{I} \]
+	
+	$S = 1,2 \times ,6 = 0,72\msq$
+	
+	\vspace{\baselineskip}
+	
+	$I = \dfrac{0,6 \times 1,2^{3}}{12} = 0,0864\minertia$
+	
+	\vspace{\baselineskip}
+	
+	$V = \pm\dfrac{h}{2} = \pm0,6\meterl$
+	
+	\subsection{Au point x = 0m}
+	
+	\[ N = P_{h} = 1252\kn \]
+	
+	\[ M = M' + M_{P_{h}} = 0 + 250 = 250\knxm \]
+	
+	\[ \begin{aligned}
+		\sgma{sup} &= \dfrac{1252}{0,72} + \dfrac{250 \times 0,6}{0,0864} = 3475\knms = 3,47\mpa \\ \\
+		\sgma{inf} &= \dfrac{1252}{0,72} + \dfrac{250 \times -0,6}{0,0864} = 2,77\knms = \num{2,77e-3}\mpa
+	\end{aligned} \]	
+	
+	
+	\subsection{Au point x = 20m}
+	
+	\[ N = P = 1310\kn \]
+	
+	\[ M = M' + M_{P} = 33600 - 327 = 33273\knxm \]
+	
+	\[ \begin{aligned}
+		\sgma{sup} &= \dfrac{1310}{0,72} + \dfrac{33273 \times 0,6}{0,0864} = 232881\knms = 232\mpa \\ \\
+		\sgma{inf} &= \dfrac{1310}{0,72} + \dfrac{33273 \times -0,6}{0,0864} = -229243\knms = -229\mpa
+	\end{aligned} \]
+	
+	
+	\subsection{Au point x = 40m}
+	
+	\[ N = P_{h} = 1205\kn \]
+	
+	\[ M = M' + M_{P_{h}} = 0 + 241 = 241\knxm \]
+	
+	\[ \begin{aligned}
+		\sgma{sup} &= \dfrac{1205}{0,72} + \dfrac{241 \times 0,6}{0,0864} = 3347\knms = 3,34\mpa \\ \\
+		\sgma{inf} &= \dfrac{1205}{0,72} + \dfrac{241 \times -0,6}{0,0864} = 0\mpa
+	\end{aligned} \]
+	
+	
+	
+	\section{Vérifications des contraintes}
+	
+	\[ \begin{aligned}
+		\sigmabar{t} = -\dfrac{40}{11} \leq\quad &\sigma \quad\leq \sigmabar{c} = \dfrac{40}{2} \\
+		 - 3,63\mpa \leq\quad &\sigma \quad\leq 20\mpa
+	\end{aligned} \]
+	
+	Au point x = 0 et 40m cette condition est vérifier, mais au point x = 20m la condition n'est pas vérifier. Donc il faut prévoir d'augmenter l'excentricité sinon ajouter d'autre câbles d'armatures.
+	
+	
+	
+	
+	
+	
 	
 	
 	

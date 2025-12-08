@@ -2,6 +2,22 @@ Ce ChangeLog resume tout ce qui a été fait.
 
 ###### -----------------------------------------------------------------------
 
+# **08.12.2025**
+
+
+
+* **TD Béton précontraint : suite de l'exo 02 (examen) fini.**
+* **Suite cours Plasticité et endommagement.**
+* **Dessin de figures avec tikz.**
+
+
+
+
+
+###### -----------------------------------------------------------------------
+
+
+
 # **07.12.2025**
 
 

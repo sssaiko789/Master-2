@@ -43,3 +43,5 @@
 \contentsline {paragraph}{Chargement hydrostatique}{17}{section*.9}%
 \contentsline {paragraph}{Chargement uni-axiale}{17}{section*.10}%
 \contentsline {section}{\numberline {III.3}Analyse limite}{18}{section.3.3}%
+\contentsline {subsection}{\numberline {III.3.1}Les modèles de comportement des matériaux}{18}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {III.3.2}Application}{19}{subsection.3.3.2}%

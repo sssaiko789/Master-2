@@ -1,35 +1,51 @@
 \xpg@aux {}{french}
-\contentsline {part}{I\hspace {1em}Examen de rattrapage}{2}{part.1}%
-\contentsline {section}{\numberline {I.1}Évaluation des charges}{2}{section.1.1}%
-\contentsline {section}{\numberline {I.2}Calcul des réactions et efforts}{2}{section.1.2}%
-\contentsline {subsection}{\numberline {I.2.1}Calcul avec le poids propre}{2}{subsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {I.2.1.1}Réactions}{2}{subsubsection.1.2.1.1}%
-\contentsline {subsubsection}{\numberline {I.2.1.2}Efforts tranchants}{3}{subsubsection.1.2.1.2}%
-\contentsline {subsubsection}{\numberline {I.2.1.3}Moments}{3}{subsubsection.1.2.1.3}%
-\contentsline {subsection}{\numberline {I.2.2}Calcul avec la surcharge}{3}{subsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {I.2.2.1}Réactions}{3}{subsubsection.1.2.2.1}%
-\contentsline {subsubsection}{\numberline {I.2.2.2}Efforts tranchants}{3}{subsubsection.1.2.2.2}%
-\contentsline {subsubsection}{\numberline {I.2.2.3}Moments}{4}{subsubsection.1.2.2.3}%
-\contentsline {subsection}{\numberline {I.2.3}Calcul avec la force}{4}{subsection.1.2.3}%
-\contentsline {subsubsection}{\numberline {I.2.3.1}Réactions}{4}{subsubsection.1.2.3.1}%
-\contentsline {subsubsection}{\numberline {I.2.3.2}Effort tranchant}{4}{subsubsection.1.2.3.2}%
-\contentsline {subsubsection}{\numberline {I.2.3.3}Moments}{4}{subsubsection.1.2.3.3}%
-\contentsline {subsection}{\numberline {I.2.4}La somme}{5}{subsection.1.2.4}%
-\contentsline {subsubsection}{\numberline {I.2.4.1}Réactions}{5}{subsubsection.1.2.4.1}%
-\contentsline {subsubsection}{\numberline {I.2.4.2}Moments}{5}{subsubsection.1.2.4.2}%
-\contentsline {paragraph}{Au point x = 0 et x = 30m (par symétrie)}{5}{section*.2}%
-\contentsline {paragraph}{Au point x = 15m}{5}{section*.3}%
-\contentsline {section}{\numberline {I.3}Calcul de la précontrainte}{5}{section.1.3}%
-\contentsline {subsection}{\numberline {I.3.1}Au point x = 0}{5}{subsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {I.3.1.1}Calcul de P}{6}{subsubsection.1.3.1.1}%
-\contentsline {subsubsection}{\numberline {I.3.1.2}Calcul des contraintes}{6}{subsubsection.1.3.1.2}%
-\contentsline {paragraph}{Calcul de N}{6}{section*.4}%
-\contentsline {paragraph}{Calcul de M}{6}{section*.5}%
-\contentsline {paragraph}{Calcul des contraintes}{7}{section*.6}%
-\contentsline {subsubsection}{\numberline {I.3.1.3}Vérifications des contraintes}{7}{subsubsection.1.3.1.3}%
-\contentsline {subsection}{\numberline {I.3.2}Au point x = L/2 = 15m}{7}{subsection.1.3.2}%
-\contentsline {subsubsection}{\numberline {I.3.2.1}Calcul des contraintes}{8}{subsubsection.1.3.2.1}%
-\contentsline {subsubsection}{\numberline {I.3.2.2}Vérification des contraintes}{8}{subsubsection.1.3.2.2}%
-\contentsline {subsection}{\numberline {I.3.3}Au point x = 30m}{8}{subsection.1.3.3}%
-\contentsline {subsubsection}{\numberline {I.3.3.1}Calcul des contraintes}{9}{subsubsection.1.3.3.1}%
-\contentsline {subsubsection}{\numberline {I.3.3.2}Vérification des contraintes}{9}{subsubsection.1.3.3.2}%
+\contentsline {part}{I\hspace {1em}Examen de rattrapage}{3}{part.1}%
+\contentsline {section}{\numberline {I.1}Évaluation des charges}{3}{section.1.1}%
+\contentsline {section}{\numberline {I.2}Calcul des réactions et efforts}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {I.2.1}Calcul avec le poids propre}{3}{subsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {I.2.1.1}Réactions}{3}{subsubsection.1.2.1.1}%
+\contentsline {subsubsection}{\numberline {I.2.1.2}Efforts tranchants}{4}{subsubsection.1.2.1.2}%
+\contentsline {subsubsection}{\numberline {I.2.1.3}Moments}{4}{subsubsection.1.2.1.3}%
+\contentsline {subsection}{\numberline {I.2.2}Calcul avec la surcharge}{4}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {I.2.2.1}Réactions}{4}{subsubsection.1.2.2.1}%
+\contentsline {subsubsection}{\numberline {I.2.2.2}Efforts tranchants}{4}{subsubsection.1.2.2.2}%
+\contentsline {subsubsection}{\numberline {I.2.2.3}Moments}{5}{subsubsection.1.2.2.3}%
+\contentsline {subsection}{\numberline {I.2.3}Calcul avec la force}{5}{subsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {I.2.3.1}Réactions}{5}{subsubsection.1.2.3.1}%
+\contentsline {subsubsection}{\numberline {I.2.3.2}Effort tranchant}{5}{subsubsection.1.2.3.2}%
+\contentsline {subsubsection}{\numberline {I.2.3.3}Moments}{5}{subsubsection.1.2.3.3}%
+\contentsline {subsection}{\numberline {I.2.4}La somme}{6}{subsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {I.2.4.1}Réactions}{6}{subsubsection.1.2.4.1}%
+\contentsline {subsubsection}{\numberline {I.2.4.2}Moments}{6}{subsubsection.1.2.4.2}%
+\contentsline {paragraph}{Au point x = 0 et x = 30m (par symétrie)}{6}{section*.2}%
+\contentsline {paragraph}{Au point x = 15m}{6}{section*.3}%
+\contentsline {section}{\numberline {I.3}Calcul de la précontrainte}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {I.3.1}Au point x = 0}{6}{subsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {I.3.1.1}Calcul de P}{7}{subsubsection.1.3.1.1}%
+\contentsline {subsubsection}{\numberline {I.3.1.2}Calcul des contraintes}{7}{subsubsection.1.3.1.2}%
+\contentsline {paragraph}{Calcul de N}{7}{section*.4}%
+\contentsline {paragraph}{Calcul de M}{7}{section*.5}%
+\contentsline {paragraph}{Calcul des contraintes}{8}{section*.6}%
+\contentsline {subsubsection}{\numberline {I.3.1.3}Vérifications des contraintes}{8}{subsubsection.1.3.1.3}%
+\contentsline {subsection}{\numberline {I.3.2}Au point x = L/2 = 15m}{8}{subsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {I.3.2.1}Calcul des contraintes}{9}{subsubsection.1.3.2.1}%
+\contentsline {subsubsection}{\numberline {I.3.2.2}Vérification des contraintes}{9}{subsubsection.1.3.2.2}%
+\contentsline {subsection}{\numberline {I.3.3}Au point x = 30m}{9}{subsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {I.3.3.1}Calcul des contraintes}{10}{subsubsection.1.3.3.1}%
+\contentsline {subsubsection}{\numberline {I.3.3.2}Vérification des contraintes}{10}{subsubsection.1.3.3.2}%
+\contentsline {part}{II\hspace {1em}Examen}{11}{part.2}%
+\contentsline {section}{\numberline {II.1}Calcul des efforts internes}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {II.1.1}Calcul des réactions}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {II.1.2}Calcul de M et de T}{11}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {II.1.2.1}Pour $0 \leq x \leq 20 ~\unit {\meter }$}{12}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {II.1.2.2}Pour $0 \leq x \leq 20m$ (depuis B)}{12}{subsubsection.2.1.2.2}%
+\contentsline {section}{\numberline {II.2}Calcul de la précontrainte}{12}{section.2.2}%
+\contentsline {subsection}{\numberline {II.2.1}Calcul de \textbf {P}}{12}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {II.2.2}Calcul au point x = 0m}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {II.2.3}Calcul au point x = 40m}{14}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {II.2.3.1}Calcul au point x = 20m}{14}{subsubsection.2.2.3.1}%
+\contentsline {section}{\numberline {II.3}Calcul des contrainte}{15}{section.2.3}%
+\contentsline {subsection}{\numberline {II.3.1}Au point x = 0m}{15}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {II.3.2}Au point x = 20m}{16}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {II.3.3}Au point x = 40m}{16}{subsection.2.3.3}%
+\contentsline {section}{\numberline {II.4}Vérifications des contraintes}{16}{section.2.4}%

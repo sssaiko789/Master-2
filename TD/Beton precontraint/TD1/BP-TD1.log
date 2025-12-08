@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  7 DEC 2025 23:21
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  8 DEC 2025 22:40
  restricted system commands enabled.
 **BP-TD1.tex
 (./BP-TD1.tex
@@ -1285,13 +1285,33 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 100
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(./BP-TD1.toc)
+(./BP-TD1.toc
+Overfull \hbox (2.93999pt too wide) detected at line 37
+\TU/lmr/bx/n/12 II.1 
+ []
+
+[1
+
+{C:/Users/amalo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (2.93999pt too wide) detected at line 42
+\TU/lmr/bx/n/12 II.2 
+ []
+
+
+Overfull \hbox (2.93999pt too wide) detected at line 47
+\TU/lmr/bx/n/12 II.3 
+ []
+
+
+Overfull \hbox (2.93999pt too wide) detected at line 51
+\TU/lmr/bx/n/12 II.4 
+ []
+
+)
 \tf@toc=\write5
 
 \openout5 = BP-TD1.toc
- [1
-
-{C:/Users/amalo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
+ [2] [3
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
@@ -1301,7 +1321,7 @@ Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
-] [3] [4
+] [4] [5
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
@@ -1311,35 +1331,87 @@ Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-] [5
 Missing character: There is no ; (U+003B) in font nullfont!
 ] [6
 Missing character: There is no ; (U+003B) in font nullfont!
 ] [7
 Missing character: There is no ; (U+003B) in font nullfont!
-] [8
+] [8] [9
 Missing character: There is no ; (U+003B) in font nullfont!
-] [9] (./BP-TD1.aux)
+Missing character: There is no ; (U+003B) in font nullfont!
+] [10]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 765.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leq' on input line 765.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leq' on input line 765.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 765.
+
+[11
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 821.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leq' on input line 821.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\leq' on input line 821.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 821.
+
+[12
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+] [13
+Missing character: There is no ; (U+003B) in font nullfont!
+] [14
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+] [15] [16] (./BP-TD1.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `BP-TD1.out' has not changed.
-(rerunfilecheck)             Checksum: 8F0F5B7251D3CF6234333B361FD0EC05;4660.
+(rerunfilecheck)             Checksum: F26C4DD8D25A9040B9675B94A3FFE5E3;7377.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38282 strings out of 476081
+ 38538 strings out of 476081
  125105,1373583 words of node,token memory allocated
- 1176 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 28 glue, 5 kern, 1 penalty, 1 glyph, 158 attribute,
- 61 glue_spec, 81 attribute_list, 2 write nodes
-   avail lists: 1:2,2:2857,3:1158,4:173,5:541,6:128,7:3890,8:66,9:776,10:3,11:16
-9
- 59731 multiletter control sequences out of 65536+600000
+ 1495 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 32 glue, 5 kern, 1 penalty, 1 glyph, 252 attribute,
+ 61 glue_spec, 128 attribute_list, 2 write nodes
+   avail lists: 1:2,2:4229,3:1343,4:173,5:560,6:135,7:3998,8:66,9:793,10:3,11:17
+5
+ 59964 multiletter control sequences out of 65536+600000
  62 fonts using 4405039 bytes
- 98i,11n,104p,467b,1695s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,13n,341p,467b,1695s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12
 -bold.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm
 /lmroman12-regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opent
@@ -1354,9 +1426,9 @@ C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
 10.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmsy8.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/latxfont/line10.pfb>
-Output written on BP-TD1.pdf (9 pages, 147529 bytes).
+Output written on BP-TD1.pdf (16 pages, 183858 bytes).
 
-PDF statistics: 258 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 131072)
- 248 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 370 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 131072)
+ 376 words of extra memory for PDF output out of 10000 (max. 100000000)
 

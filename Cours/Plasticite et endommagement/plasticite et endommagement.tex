@@ -23,7 +23,7 @@
 \usepackage{xcolor}
 
 \usepackage{multicol}
-\setlength{\columnseprule}{1pt}
+\setlength{\columnseprule}{0pt}
 \def\columnseprulecolor{\color{gray}}
 
 
@@ -51,18 +51,26 @@
 \renewcommand{\leq}{\leqslant}
 \renewcommand{\geq}{\geqslant}
 
-
+\usepackage{tikz}
 
 \usepackage{pgfplots}
 \usetikzlibrary { decorations.pathmorphing, decorations.pathreplacing, decorations.shapes, }
+\usetikzlibrary{patterns}
 
 
 
+%commandes pour sigma
+\newcommand{\sgma}[1]{\sigma_{#1}}
+\newcommand{\sigmax}{\sigma_{\max}}
+\newcommand{\sigmin}{\sigma_{\min}}
+
+\newcommand{\sigmabar}[1]{\overline{\sigma}_{#1}}
+
+%fonction pour tau
+\newcommand{\taubar}[1]{\overline{\tau}_{#1}}
 
 
-
-
-
+\usepackage{stanli}
 
 
 
@@ -946,6 +954,72 @@
 	En RDM ou bien en MMC (Mécanique des Milieux Continue) et plus particulièrement en MMC, l'analyse limite est associer au calcul de la rupture qui permet de prévoir des estimation par excès ou par défaut des capacité portante d'une structure.
 	
 	
+	\subsection{Les modèles de comportement des matériaux}
+	
+	
+	
+	
+	
+	
+	\begin{multicols}{3}
+		
+		\begin{figure}[H]
+			\begin{tikzpicture}
+				
+				\draw[<->] (0,3.5) node[above] {$\sgma{y}$} -- (0,0) -- (4,0) node[right] 	{$\varepsilon$};
+				
+				
+				\draw (0,0) -- (1,1.5) coordinate (y) -- (2.5,1.5) coordinate (duc) arc [start angle=180, end angle=0,radius=1];
+				
+				\draw[dashed,thin] (y) -- ++(-1,0) node[left] {$\sgma{y}$} (y) -- ++(0,-1.5) node[below] {$\varepsilon_{y}$};
+				
+				\dimensioning{1}{y}{duc}{2.5}[ductilité];
+				
+			\end{tikzpicture}
+			\caption{Matériaux ductile}
+			\label{diag:a}
+		\end{figure}
+		
+		\columnbreak
+		
+		\begin{figure}[H]
+			\begin{tikzpicture}
+				
+				\draw[<->] (0,3.5) node[above] {$\sgma{y}$} -- (0,0) -- (4,0) node[right] 	{$\varepsilon$};
+				
+				
+				\draw (0,0) -- (1,1.5) coordinate (y) -- (4,1.5) coordinate (duc);
+				
+				\draw[dashed,thin] (y) -- ++(-1,0) node[left] {$\sgma{y}$} (y) -- ++(0,-1.5) node[below] {$\varepsilon_{y}$};
+				
+				
+				
+			\end{tikzpicture}
+			\caption{Matériaux parfaitement plastique}
+			\label{diag:b}
+		\end{figure}
+		
+		\columnbreak
+		
+		\begin{figure}[H]
+			\begin{tikzpicture}
+				
+				\draw[<->] (0,3.5) node[above] {$\sgma{y}$} -- (0,0) -- (4,0) node[right] 	{$\varepsilon$};
+				
+				
+				\draw (0,1.5) node[left] {$\sgma{y}$} coordinate (y) -- (4,1.5);
+				
+				
+				
+				
+				
+			\end{tikzpicture}
+			\caption{Matériaux rigide parfaitement plastique}
+			\label{diag:c}
+		\end{figure}
+		
+		
+	\end{multicols}
 	
 	
 	
@@ -955,6 +1029,147 @@
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	En analyse limite, la limite élastique voisine de la limite "$\sgma{y}$" constitue la caractéristique essentiel.
+	
+	
+	Le modèle de base utilisé dans le diagramme \ref{diag:a} représente la base essentiel dans l'analyse limite.
+	
+	\[ \sigma = \varPhi_{E}(\varepsilon) \]
+	
+	\begin{equation}
+		\varPhi_{E} = \begin{cases}
+			\varepsilon \times E \quad&\text{si}\quad \varepsilon\in[0;\varepsilon_{y}] \\ \\
+			\sgma{y} \quad&\text{si}\quad \varepsilon > \varepsilon_{y}
+		\end{cases}
+		\label{eq:1}
+	\end{equation}
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		E : Module de Young (Module de déformations longitudinales)
+		
+		G : Module de déformations transversale.
+		
+		\[ E \equiv G \]
+	\end{tcolorbox}
+	
+	
+	En analyse limite on néglige le comportement élastique du matériau qui n'as aucune influence sur l'évaluation de la capacité portante d'une structure ou d'un élément d'une structure.
+	
+	\vspace{\baselineskip}
+	
+	Pour simplifier on utilise le diagramme \ref{diag:c} pour étudier l'analyse limite, pour cette courbe on aura : 
+	
+	\begin{equation}
+		\sigma = \varPhi(\varepsilon) = \begin{cases}
+			\text{Non déterminer pour } \varepsilon = 0 \\ \\
+			\sgma{y} \text{ Pour } \varepsilon \neq 0
+		\end{cases}
+		\label{eq:2}
+	\end{equation}
+	
+	
+	
+	
+	Pour déterminer la capacité portante d'une structure, deux types d'approche peuvent être envisagé :
+	
+	\begin{itemize}
+		\item On étudie la structure chargée progressivement et détermine l'apparition de la plasticité on utilisant la courbe \ref{diag:b} et la relation \ref{eq:1}.
+		
+		\item Soit on étudie la structure on supposant que la plasticité est déjà atteinte, ou bien immédiatement atteinte, dans ce cas on utilise la courbe du diagramme \ref{diag:c} et la loi du comportement \ref{eq:2}.
+	\end{itemize}
+	
+	
+	
+	
+	\subsection{Application}
+	
+	Soit un système de 3 barres de même section (S), de même module d'élasticité (E), articulée a leur bases, et soumise à une force axiale F.
+	
+	
+	\begin{multicols}{2}
+		
+		\begin{center}
+			\begin{tikzpicture}
+				
+				\draw[pattern, pattern=north west lines, draw=none] (0,0) rectangle (4,.3);
+				\draw (0,0) coordinate (B) -- (2,0) coordinate (C)
+				-- (4,0) coordinate (D);
+				
+				\draw (B) circle (.2) (C) circle (.2) (D) circle (.2);
+				
+				\coordinate (A) at (2,-2);
+				
+				\draw (B) -- (A) node[midway,left] {1} circle (.2) -- (D) node[midway,right] {1};
+				
+				\draw[red] (A) -- (C) node[midway,left] {2};
+				
+				\node[below left] at (A) {A};
+				\node[above=.3cm] at (B) {B};
+				\node[above=.3cm] at (C) {C};
+				\node[above=.3cm] at (D) {D};
+				
+				\draw[very thick,->,green] (A) -- ++(-90:1.5) node[below] {F};
+				
+				\dimensioning{1}{C}{D}{1}[L];
+				\dimensioning{2}{D}{A}{4.5}[L];
+				
+			\end{tikzpicture}
+		\end{center}
+		
+		\columnbreak
+		
+		\begin{center}
+			\begin{tikzpicture}
+				
+				\draw[pattern, pattern=north west lines, draw=none] (0,0) rectangle (4,.3);
+				\draw (0,0) coordinate (B) -- (2,0) coordinate (C)
+				-- (4,0) coordinate (D);
+				
+				\draw (B) circle (.2) (C) circle (.2) (D) circle (.2);
+				
+				\coordinate (delta) at (2,-2);
+				\coordinate (A) at (2,-3.5);
+				
+				\draw (B) -- (A) node[midway,left] {1} circle (.2) -- (D) node[midway,right] {1};
+				
+				\draw[red] (A) -- (C) node[midway,left] {2};
+				
+				\node[below left] at (A) {A};
+				\node[above=.3cm] at (B) {B};
+				\node[above=.3cm] at (C) {C};
+				\node[above=.3cm] at (D) {D};
+				
+				\draw[very thick,->,green] (A) -- ++(-90:1.5) node[below] {F};
+				
+				\draw[dashed,black!70] (B) -- (delta) -- (C) (delta) -- (D);
+				
+				\dimensioning{2}{delta}{A}{4}[$\delta$];
+				
+				
+			\end{tikzpicture}
+		\end{center}
+	\end{multicols}
+	
+	
+	\[ \varepsilon = \dfrac{\delta}{L} \]
+	
+	Soit "$\delta$" le déplacement du point "A" ou la force F est appliquer.
+	
+	\vspace{\baselineskip}
+	
+	Soit "$N_{1}$" et "$N_{2}$" les efforts dans les barres 1 et 2.
 	
 	
 	
