@@ -99,6 +99,46 @@
 
 
 
+\usepackage{multirow}
+
+
+\usepackage[hang,flushmargin,bottom,splitrule]{footmisc}%pour les footnote
+
+
+\usepackage{ragged2e}
+
+\renewcommand{\footnoterule}{%
+	\vspace{1ex}       % espace avant la ligne
+	\hrule width \textwidth height 0.4pt % ligne pleine largeur
+	\vspace{1ex}       % espace après la ligne
+}
+
+
+
+
+
+
+
+\usepackage[backend=biber,style=numeric]{biblatex}
+
+\addbibresource{biblio.bib}
+
+\renewcommand{\thechapter}{\Roman{chapter}}
+
+
+\usepackage{comment}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -276,13 +316,14 @@
 	Le sol d’assise de cette construction est un sol meuble (S3) d’après le rapport du laboratoire d’étude des sols :
 	
 	\begin{itemize}
-		\item Le bâtiment est implanté dans une zone de sismicité moyenne (\RomanNum{2}a).
+		\item Le bâtiment est implanté dans une zone de sismicité moyenne (\RomanNum{2}a)\footnotemark[1].
 		
-		\item L’ouvrage appartient au groupe d’usage : 2 (RPA99 version 2003).
+		\item L’ouvrage appartient au groupe d’usage : 2 (RPA99 version 2003)\footnotemark[1].
 		
 		\item La contrainte admissible du sol : $\sgma{sol} = 2 ~\unit{bars}$
 	\end{itemize}
 	
+	\footnotetext[1]{Règlement parasismique Algérien 1999 version 2003}
 	
 	
 	\subsection{Différents plans du bâtiment}
@@ -406,7 +447,7 @@
 		
 		\begin{table}[H]
 			\centering
-			\caption{Les classes des granulats.}
+			\caption{Les classes des granulats.\protect\footnotemark[3]}
 			\begin{tabular}{lccc}
 				\toprule
 				Types \hspace{0.5cm} & Sable (mm) & Gravillons (mm) & Cailloux (mm) \\
@@ -418,8 +459,10 @@
 				Gros & 1.25 à 5& 12.5 à 20 & 50 à 80 \\
 				\bottomrule
 			\end{tabular}
-			\label{table:classes-granulats}
+			\label{tab:classes-granulats}
 		\end{table}
+		
+		\footnotetext[3]{Mémoire fin d'étude de MAIZI Khalid}
 		
 		\item \textbf{L'eau de gâchage :}
 		
@@ -476,18 +519,30 @@
 		
 		\subitem La résistance à la traction est donnée par :
 		
-		\subitem $f_{tj} = 0,6 + 0,06 \cdot f_{cj} \qquad $ (BAEL 91, art A.2.1.12)
+		\subitem \begin{equation}
+			f_{tj} = 0,6 + 0,06 \cdot f_{cj} \qquad \footnotemark[2]
+			\label{eq:ft28}
+		\end{equation}
+		
+		\footnotetext[2]{BAEL 91, art A.2.1.12, Art A.2.1.21}
 		
 		\item \textbf{Déformation longitudinale} il existe deux modules de déformation longitudinale :
 		
 		\subitem Module de déformation longitudinale instantanée $E_{ij}$ : Sous l’effet des contraintes normales d’une durée inférieure à 24heures, on admet à défaut de mesures, qu’à l’âge de (j) jours, le module de déformation longitudinale instantané du béton Eij est égal à :
 		
-		\subsubitem $E_{ij} = 11000\sqrt[3]{f_{cj}} \qquad $ (BAEL 91, Art A.2.1.21)
+		\subsubitem \begin{equation}
+			E_{ij} = 11000\sqrt[3]{f_{cj}} \qquad  \footnotemark[2] 
+		\end{equation}
 		
 		
 		\subitem Module de déformation longitudinale différée $E_{vj}$ : Pour les charges de longue durée d’application, le module de déformation longitudinale différée Evj est égal à :
 		
-		\subsubitem $E_{vj} = 3700\sqrt[3]{f_{cj}} \qquad$ (BAEL 91, Art A.2.1.22)
+		\subsubitem \begin{equation}
+			E_{vj} = 3700\sqrt[3]{f_{cj}} \qquad \footnotemark[2]
+			\label{eq:module-young-dif}
+		\end{equation}
+		
+		
 		
 		\item \textbf{Déformation transversale}
 		
@@ -521,15 +576,17 @@
 			\draw[dashed,thin] (4,2) -- (4,0) node[below] {$3,5 ‰$};
 			
 		\end{tikzpicture}
-		\caption{Diagramme Contrainte-déformation du béton a l'ELU.}
+		\caption{Diagramme Contrainte-déformation du béton a l'ELU.\protect\footnotemark[2]}
 		\label{fig:diagramme-ELU-beton}
 	\end{figure}
 	
 	
-	$\sgma{bc} = f_{bu}$ étant la contrainte ultime du béton en compression, elle est donnée par la formule suivante
-	exigée par le (BAEL 91, art A.4.3.41) :
+	$\sgma{bc} = f_{bu}$ étant la contrainte ultime du béton en compression, elle est donnée par la formule suivante :
 	
-	\[ \sgma{bc} = f_{bu} = \dfrac{0,85 \cdot f_{cj}}{\theta \cdot \gamma_{b}} \]
+	\begin{equation}
+		\sgma{bc} = f_{bu} = \dfrac{0,85 \cdot f_{cj}}{\theta \cdot \gamma_{b}} \qquad \footnotemark[2]
+		\label{eq:fbu}
+	\end{equation}
 	
 	
 	Avec :
@@ -551,6 +608,9 @@
 		0,8 \qquad \text{ t < 24h}
 	\end{cases}$
 	
+	\footnotetext[2]{BAEL 91, Art A.2.1.22\eqref{eq:module-young-dif}, art A.4.3.41\eqref{eq:fbu}}
+	
+	\vspace{3\baselineskip}
 	
 	À l'ELS :
 	
@@ -569,33 +629,45 @@
 			\draw[dashed,thin] (0,2) node[left] {$\sigmabar{bc}$} -- (2,2) -- (2,0) node[below] {$\varepsilon_{bc} = \varepsilon_{s}$} ;
 			
 		\end{tikzpicture}
-		\caption{Diagramme déformation-contrainte du béton à l'ELS.}
+		\caption{Diagramme déformation-contrainte du béton à l'ELS. \protect\footnotemark[2]}
 		\label{fig:diagramme-ELS-beton}
 	\end{figure}
 	
 	
 	La valeur de la contrainte admissible de la compression du béton est prise égale à (BAEL 91, art A.4.5, 2) :
 	
-	\[ \sigmabar{bc} = 0,6 \cdot f_{cj} \]
+	\begin{equation}
+		\sigmabar{bc} = 0,6 \cdot f_{cj}
+		\label{eq:sigmabar-bc}
+	\end{equation}
 	
-	\textbf{La contrainte de cisaillement du béton (BAEL 91, Art A.5.1.21) :}
-	
-	Fissuration peu préjudiciable :
-	
-	\[ \taubar{u} = \min \begin{cases}
-		0,2 \cdot \dfrac{f_{cj}}{\gamma_{b}} \\
-		5\mpa
-	\end{cases} \]
-	
-	Fissuration préjudiciable ou très préjudiciable :
-	
-	\[ \taubar{u} = \min \begin{cases}
-		0,15 \cdot \dfrac{f_{cj}}{\gamma_{b}} \\
-		4\mpa
-	\end{cases} \]
+	\textbf{La contrainte de cisaillement du béton :}
 	
 	
 	
+	
+	\begin{equation}
+		\begin{aligned}
+			&\text{Fissuration peu préjudiciable :}\\
+			&\taubar{u} = \min \begin{cases}
+				0,2 \cdot \dfrac{f_{cj}}{\gamma_{b}} \\
+				5\mpa
+			\end{cases}
+			\\
+			&\text{Fissuration préjudiciable ou très préjudiciable :} \qquad \footnotemark[2] \\
+			&\taubar{u} = \min \begin{cases}
+				0,15 \cdot \dfrac{f_{cj}}{\gamma_{b}} \\
+				4\mpa
+			\end{cases}
+		\end{aligned}
+		\label{eq:cisaillement-beton}
+	\end{equation}
+	
+	
+	
+	
+	
+	\footnotetext[2]{BAEL 91, Art A.5.1.21\eqref{eq:cisaillement-beton}}
 	
 	\subsection{Les aciers}
 	
@@ -603,21 +675,316 @@
 	
 	Les aciers sont caractérisés par leurs limites élastiques et leurs modules d'élasticité, On distingue : Les treillis soudés, Les ronds lisses, Les barres de haute adhérence
 	
+	\vspace{\baselineskip}
 	
-	Selon le RPA99/2003, les armatures longitudinales pour béton armé sont des éléments principaux qui doivent être à haute adhérence (HA) avec $f_{e} \leq 500\mpa$.
+	Les armatures longitudinales pour béton armé sont des éléments principaux qui doivent être à haute adhérence (HA) avec $f_{e} \leq 500\mpa.\quad$\footnotemark[1]
 	
-	
-	
-	
-	
+	\footnotetext[1]{RPA99 v2003}
 	
 	
-	\chapter{Pré-dimensionnement des éléments}
+	\begin{table}[H]
+		\centering
+		\caption{Les types d'aciers.\protect\footnotemark[3]}
+		
+		\label{tab:types-aciers}
+		\begin{tabular}{p{3.5cm} l >{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{3cm}}
+			Type & Nuance & limite élastique $f_{e}\mpa$ & Limite de rupture $\mpa$ & Allongement à la rupture \\ \toprule
+			
+			\multirow{2}{3cm}{Haute adhérence (HA)} & FeE400 & 400 & 310 - 490 & 22 \\
+			& FeE500 & 500 & 390 - 490 & 25 \\ \midrule
+			
+			\multirow{2}{3cm}{Ronds lisse (RL)} & FeE235 & 235 & 550 & 12 \\
+			& FeE215 & 215 & 480 & 14 \\ \midrule
+			
+			Treillis soudés (TS) & FeE500 & 500 & 550 & 12 \\ \bottomrule
+			
+		\end{tabular}
+	\end{table}
+	
+	\textbf{Dans notre ouvrage} on utilisera : Des aciers de haute adhérence de FeE400 et des treillis soudés FeE400.
+	
+	\subsubsection{Module d'élasticité longitudinale de l'acier}
+	
+	$E_{s} = \num{2e5}\mpa$ : Module d’élasticité longitudinal de l’acier
+	
+	\vspace{\baselineskip}
+	
+	Et la déformation maximale est limitée à 10‰.
+	
+	
+	\subsubsection{La contrainte de l'acier}
+	
+	
+	\begin{equation}
+		\sgma{s} = \begin{cases}
+			\dfrac{f_{e}}{\gamma_{s}} \quad\text{pour}\quad \varepsilon_{se} \leq \varepsilon_{s} \leq 10‰ \\
+			E_{s} \times \varepsilon \quad\text{pour}\quad \varepsilon_{s} \leq \varepsilon_{se}
+		\end{cases}
+		\label{eq:contrainte-acier-elu}
+	\end{equation}
+	
+	Avec :
+	
+	$\gamma_{s} = \begin{cases}
+		1,15 \quad \text{Situation durable.} \\
+		1 \quad \text{Situation accidentelle.}
+	\end{cases}$
+	\vspace{.3\baselineskip}
+	$\varepsilon_{s}$ : Allongement relatif.
+	
+	
+	\begin{equation}
+		\varepsilon_{s} = \dfrac{f_{e}}{\gamma_{s} \times E_{s}} \qquad\footnotemark[2]
+		\label{eq:defromation-acier}
+	\end{equation}
+	
+	\vspace{\baselineskip}
+	
+	
+	
+	\footnotetext[3]{Mémoire fin d'étude de MAIZI Khalid}
+	\footnotetext[2]{BAEL 91, art A.2.2.2\eqref{eq:defromation-acier}}
+	
+	\subsubsection{L'état limite de service ELS}
+	
+	Afin de réduire les risques d'ouvertures des fissures dans le béton et selon l'application de la fissuration, le BAEL a limité les contraintes des armatures tendues comme suit :
+
+	\begin{equation}
+		\sigmabar{s} = \begin{cases}
+			\text{Fissuration peu préjudiciable :}\quad f_{e} \\
+			\text{Fissuration préjudiciable :}\quad \min\left\{ 2/3f_{e} ;\quad 110\sqrt{n \times f_{t28}} \right\} \qquad\footnotemark[2] \\
+			\text{Fissuration très préjudiciable :}\quad \min\left\{ 1/2f_{e} ;\quad 90\sqrt{n \times f_{t28}} \right\}
+		\end{cases}
+		\label{eq:contrainte-acier-els}
+	\end{equation}
+
+	
+	
+	Avec :
+	
+	n :  Coefficient de fissuration :
+	
+	n = 1,6 pour les aciers a haut adhérences (HA) de diamètre ≥ 6mm.
+	
+	n = 1, 3 pour les aciers à haut adhérences (HA) de diamètre ≤ 6mm.
+	
+	n = 1 pour les aciers ronds lisses.
+	
+	
+	\subsubsection{Protection des armatures}
+
+	Dans le but d’avoir un bétonnage correct et prémunir les armatures des effets
+	intempéries et des agents agressifs. On doit contrôler à ce que l’enrobage (C) des
+	armatures soit conforme aux prescriptions suivantes :
+	
+	\begin{itemize}
+		\item  C ≥ 5 cm : Pour les éléments exposés à la mer ou aux brouillards salins ainsi que
+		pour les éléments exposés aux atmosphères très agressives.
+		
+		\item  C ≥ 3 cm : Pour les éléments situés au contact d’un liquide (réservoir, tuyaux,
+		canalisations).
+		
+		\item  C ≥ 1 cm : Pour les parois situées dans des locaux non exposés aux condensations.
+	\end{itemize}
+
+	
+	
+	
+	\subsection{Les contrainte de calcul}
+	
+	Durant l’étude de ce projet, les calculs seront conduits avec les caractéristiques mécaniques
+	suivantes :
+	
+	\vspace{\baselineskip}
+	
+	\textbf{Béton :}
+	
+	\vspace{\baselineskip}
+	
+	Avec l'équation \eqref{eq:fbu} et $f_{c28} = 25\mpa$ on aura :
+	
+	$f_{bu} = 14,2\mpa$ Situation durable.
+	
+	$f_{bu} = 21,74\mpa$ Situation accidentelle.
+	
+	\vspace{\baselineskip}
+	
+	Et avec \eqref{eq:ft28} on a : $f_{t28} = 2,1\mpa$
+	
+	\vspace{\baselineskip}
+	
+	$\sigmabar{bc} = 15\mpa$ \eqref{eq:sigmabar-bc}
+	
+	\vspace{\baselineskip}
+	
+	Contrainte ultime de cisaillement :
+	
+	\begin{itemize}
+		\item Pour la fissuration peu nuisible :
+		
+		\subitem $\taubar{u} = 3,33\mpa$ Situation durable.
+		
+		\subitem $\taubar{u} = 4,35\mpa$ Situation accidentelle.
+		
+		\item Pour la fissuration préjudiciable ou très préjudiciable :
+		
+		\subitem $\taubar{u} = 2,5\mpa$ Situation durable.
+		
+		\subitem $\taubar{u} = 3,25\mpa$ Situation accidentelle.
+		
+		
+	\end{itemize}
+	
+	\vspace{\baselineskip}
+	
+	\textbf{Aciers :}
+	
+	\begin{itemize}
+		\item ELU \eqref{eq:contrainte-acier-elu}
+		
+		\subitem $\sgma{s} = \begin{cases}
+			348\mpa \quad\text{Situation durable.}\\
+			400\mpa \quad\text{Situation accidentelle.}
+		\end{cases}$
+		
+		\item ELS \eqref{eq:contrainte-acier-els}
+		
+		\subitem Fissuration peu préjudiciable $\sgma{s} = 400\mpa$
+		
+		\subitem Fissuration préjudiciable $\sgma{s} = 201,6\mpa$
+		
+		\subitem Fissuration très préjudiciable $\sgma{s} = 165\mpa$
+		
+	\end{itemize}
+	
+	
+	
+	
+	\section{Hypothèses de calcul}
+	
+	\subsection{Définition des états limites}
+	
+	C'est un ensemble d'états pour lequel il convient de justifier la sécurité d'une construction, Au delà des critères caractérisant ces états limites, la construction ou l'élément de structure considéré est jugé inapte à remplir sa fonction. On distingue des états limites ultimes et des états limite de service :
+	
+	\subsection{Etats limites ultimes (ELU)}
+	
+	Leur dépassement entraînerait la ruine de l'ouvrage. Ils correspondent à la limite :
+	
+	\begin{itemize}
+		\item De l'équilibre statique de la construction (renversement).
+		\item De la résistance de chacun des matériaux (rupture).
+		\item De la stabilité de forme (flambement).
+	\end{itemize}
+	
+	\subsubsection{Hypothèse de calcul à l'ELU}
+	
+	\begin{itemize}
+		\item Conservation des sections planes après déformation.	
+		\item Pas de déplacement relatif entre l'acier et le béton.
+		\item La résistance à la traction du béton est limitée à 3,5‰ en flexion simple et 2‰ en
+		compression simple.
+		\item Les diagrammes linéaires de déformation passent par l'un des trois pivots.
+		\item L'allongement ultime de l'acier est limité à 10‰.
+	\end{itemize}
+	
+	
+	Le dimensionnement à l'ELU est conduit en supposant que le diagramme des déformations
+	passe par l'un des trois pivots A, B ou C :
+	
+	\begin{itemize}
+		\item \textbf{Pivot A :} les pièces soumises à la flexion simple/composée ou à la traction simple.
+		\item \textbf{Pivot B :} les pièces soumises à la flexion simple ou composée.
+		\item \textbf{Pivot C :} les pièces soumises à la flexion composée ou à la compression simple.
+	\end{itemize}
+	
+	
+	\subsection{Etats limites de service (ELS)}
+
+	Ce sont des états dont le dépassement compromettrait
+	le bon fonctionnement en service de la structure, ils correspondent à :
+	
+	\begin{itemize}
+		\item la valeur limite de la compression du béton ou de traction des aciers.
+		\item la valeur limite de l'ouverture des fissures pour la sécurité de l’ouvrage.
+		\item la valeur limite des déformations acceptables des éléments de la structure.
+	\end{itemize}
+
+	
+	\subsubsection{Hypothèses de calcul à l'ELS}
+	
+	\begin{itemize}
+		\item Les sections droites restent planes et il n'y a pas de glissement relatif entre les
+		armatures et le béton en dehors du voisinage immédiat des fissures. Le béton tendu est
+		négligé.
+		\item Le béton et l'acier sont considérés comme des matériaux linéairement élastiques.
+		\item Le module d'élasticité longitudinal de l'acier est par convention 15 fois plus grand que
+		celui du béton.
+	\end{itemize}
+	
+	\subsection{Sollicitations de calcul vis-à-vis des états limites}
+	
+	Les sollicitations de calcul sont déterminées à partir de la combinaison d’action suivante :
+	
+	\subsubsection{ELU}
+	
+	\[ 1,35 \times G + 1,5 \times Q \]
+	
+	\subsubsection{ELS}
+	
+	\[ G + Q \]
+	
+	S’il y a intervention des efforts horizontaux dus au séisme, les règles parasismiques
+	algériennes ont prévu des combinaisons d’action suivantes\footnotemark[1] :
+	
+	\[ G + Q \pm E \]
+	
+	\[ G + Q \pm 1,2 \times E \]
+	
+	\[ 0,8 \times G \pm E \]
+	
+	Avec :
+	
+	G : charge permanente.
+	
+	Q : charge d’exploitation.
+	
+	E : effort de séisme.
+	
+	\footnotetext[1]{RPA99 v2003}
+	
+	
+	
+	\section{Conclusion}
+	
+	Dans ce premier chapitre, nous avons essayé de définir tous les éléments qui contiennent notre
+	structure, et les caractéristiques mécaniques et massiques des matériaux que nous allons utiliser
+	lors de la construction, en respectant les règles du BAEL91/modifiées 99, et les règles
+	parasismique Algériennes RPA 99/version 2003.
+	
+	\vspace{\baselineskip}
+	
+	Et dans le prochain le prédimensionnement des éléments principale sera traiter.
+
+
+	
+	
+	\chapter{Prédimensionnement des éléments}
 	
 	
 	\section{Introduction}
 	
-	Dans ce chapitre les éléments pré-dimensionné sont :
+	L’évaluation des différentes sections et épaisseurs des éléments de notre structure : (poutres,
+	poteaux, voile, escalier, planchers, balcon) passe impérativement par un dimensionnement
+	préliminaire, appelé prédimensionnement. Le prédimensionnement des éléments porteurs est une
+	étape très importante dans un projet de génie civil.
+	
+	Le pré dimensionnement sera fait selon des formules empiriques utilisées par les règlements,
+	notamment le « BAEL 91 », le « RPA 99 VERSION 2003 » et « CBA 93 » qui mettent au point
+	ce qui est nécessaire pour un prédimensionnement à la fois sécuritaire et économique.
+	
+	\vspace{\baselineskip}
+	
+	Dans ce chapitre les éléments prédimensionné sont :
 	
 	\begin{itemize}
 		\item Poteaux, poutres.
@@ -629,12 +996,15 @@
 	\end{itemize}
 	
 	
-	\section{Pré-dimensionnement du plancher}
+	\section{Prédimensionnement du plancher}
 	
 	
 	\subsection{Introduction}
 	
-	\subsection{Pré-dimensionnement}
+	Le plancher en corps creux se compose d’éléments creux disposés côte
+	à côte. Il supporte les charges et contribue à la stabilité de la structure.
+	
+	\subsection{Prédimensionnement}
 	
 	
 	Il existe deux type de plancher en corps creux un 16(corps creux)+4(dalle de compression) et un 20+5.
@@ -661,11 +1031,14 @@
 	Donc un plancher de 16+4=20 cm.
 	
 	
-	\section{Pré-dimensionnement des poutres}
+	\section{Prédimensionnement des poutres}
 	
 	\subsection{Introduction}
 	
-	\subsection{Pré-dimensionnement}
+	La poutre est un élément horizontal de la structure qui transmet les charges des planchers
+	ou des murs vers les poteaux ou les murs porteurs.
+	
+	\subsection{Prédimensionnement}
 	
 	Comme le plancher est en corps creux donc on aura deux type de poutre, des poutres principale, d'autre secondaire.
 	
@@ -735,12 +1108,15 @@
 	
 	
 	
-	\section{Pré-dimensionnement des voiles}
+	\section{Prédimensionnement des voiles}
 	
 	
 	\subsection{Introduction}
 	
-	\subsection{Pré-dimensionnement}
+	Le voile est un mur vertical qui contribue à la résistance du bâtiment contre les charges
+	horizontales comme le vent ou le séisme.
+	
+	\subsection{Prédimensionnement}
 	
 	
 	
@@ -772,12 +1148,15 @@
 	
 	
 	
-	\section{Pré-dimensionnement des poteaux}
+	\section{Prédimensionnement des poteaux}
 	
 	
 	\subsection{Introduction}
 	
-	\subsection{Pré-dimensionnement}
+	Le poteau est un élément vertical qui transmet les charges des planchers, poutres ou murs vers
+	les fondations.
+	
+	\subsection{Prédimensionnement}
 	
 	
 	Pour pouvoir pré-dimensionner les poteaux on doit connaitre la charge revenant au poteau, et chaque poteau reprend la moitié des charges des poutres, la poutre reprend la moitié du plancher et ses charges reposant sur cette dernière.
@@ -988,7 +1367,7 @@
 	\[ 25 \cdot 25 = 625 ~\unit{cm^{2}} \quad > \quad 432 ~\unit{cm^{2}} \quad \text{Condition vérifier} \]
 	
 	
-	\section{Conclusion du pré-dimensionnement}
+	\section{Conclusion du Prédimensionnement}
 	
 	Au premier lieu, le plancher et les poutres ont été dimensionner pour avoir les détails, ainsi pouvoir calculer la descente des charges avec plus de précision, avec quoi on pré-dimensionne le poteau le plus sollicitée.
 	
@@ -1026,7 +1405,7 @@
 	\[ \fbox{$h = b = 25 ~\unit{cm}$} \]
 
 	
-	
+\begin{comment}
 	
 	\chapter{Calcul des éléments secondaires}
 	
@@ -1039,8 +1418,11 @@
 	
 	\subsection{Introduction}
 	
+	L’acrotère est un petit mur situé au bord d’une terrasse ou d’un toit plat.
+	Il sert principalement à retenir les éléments de la toiture et à protéger les façades contre l’écoulement direct
+	de l’eau.
 	
-	
+	\vspace{\baselineskip}
 	
 	
 	L'acrotère sera calculer a l'ELU et vérifier a l'ELS, mais dans le cadre de ce projet on va omettre la vérification à l'ELS car l'acrotère n'est pas un éléments a très grande importance structurale.
@@ -1241,6 +1623,10 @@
 	
 	\subsection{Introduction}
 	
+	Les poutrelles sont de petits éléments longitudinaux, souvent préfabriquées, qui
+	supportent les planchers et transmettent les charges vers les poutres principales ou les murs porteurs.
+	Elles permettent de répartir les efforts et d’assurer la rigidité locale du plancher.
+	
 	\subsection{Direction des poutrelles}
 	
 	\subsection{Dimensions des poutrelles}
@@ -1401,6 +1787,10 @@
 	
 	\subsubsection{Introduction}
 	
+	Escalier est une structure de marches et paliers, qui relie différents niveaux d’un
+	bâtiment.Il transmet les charges générées par les utilisateurs vers les éléments porteurs comme les
+	poutres ou les murs.
+	
 	\subsubsection{Dimensionnement des escaliers}
 	
 	\subsubsection{Calcul des charges}
@@ -1453,7 +1843,7 @@
 	
 	
 	
-	
+\end{comment}
 	
 	
 	

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  6 DEC 2025 23:02
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  10 DEC 2025 01:14
  restricted system commands enabled.
 **mon-projet-ba.tex
 (./mon-projet-ba.tex
@@ -1123,29 +1123,311 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthR=\skip76
 \@temptokenb=\toks50
 )
-(./mon-projet-ba.aux)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip77
+\multirow@cntb=\count389
+\multirow@dima=\skip78
+\bigstrutjot=\dimen334
+)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2025/05/09 v7.0b a miscellany of footnote facilities
+\FN@temptoken=\toks51
+\footnotemargin=\dimen335
+Package footmisc Info: Declaring symbol style bringhurst on input line 549.
+Package footmisc Info: Declaring symbol style chicago on input line 557.
+Package footmisc Info: Declaring symbol style wiley on input line 566.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 577.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 597.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 618
+.
+)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip79
+\RaggedLeftLeftskip=\skip80
+\RaggedRightLeftskip=\skip81
+\CenteringRightskip=\skip82
+\RaggedLeftRightskip=\skip83
+\RaggedRightRightskip=\skip84
+\CenteringParfillskip=\skip85
+\RaggedLeftParfillskip=\skip86
+\RaggedRightParfillskip=\skip87
+\JustifyingParfillskip=\skip88
+\CenteringParindent=\skip89
+\RaggedLeftParindent=\skip90
+\RaggedRightParindent=\skip91
+\JustifyingParindent=\skip92
+)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count390
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count391
+\c@listtotal=\count392
+\c@listcount=\count393
+\c@liststart=\count394
+\c@liststop=\count395
+\c@citecount=\count396
+\c@citetotal=\count397
+\c@multicitecount=\count398
+\c@multicitetotal=\count399
+\c@instcount=\count400
+\c@maxnames=\count401
+\c@minnames=\count402
+\c@maxitems=\count403
+\c@minitems=\count404
+\c@citecounter=\count405
+\c@maxcitecounter=\count406
+\c@savedcitecounter=\count407
+\c@uniquelist=\count408
+\c@uniquename=\count409
+\c@refsection=\count410
+\c@refsegment=\count411
+\c@maxextratitle=\count412
+\c@maxextratitleyear=\count413
+\c@maxextraname=\count414
+\c@maxextradate=\count415
+\c@maxextraalpha=\count416
+\c@abbrvpenalty=\count417
+\c@highnamepenalty=\count418
+\c@lownamepenalty=\count419
+\c@maxparens=\count420
+\c@parenlevel=\count421
+\blx@tempcnta=\count422
+\blx@tempcntb=\count423
+\blx@tempcntc=\count424
+\c@blx@maxsection=\count425
+\blx@maxsegment@0=\count426
+\blx@notetype=\count427
+\blx@parenlevel@text=\count428
+\blx@parenlevel@foot=\count429
+\blx@sectionciteorder@0=\count430
+\blx@sectionciteorderinternal@0=\count431
+\blx@entrysetcounter=\count432
+\blx@biblioinstance=\count433
+\labelnumberwidth=\skip93
+\labelalphawidth=\skip94
+\biblabelsep=\skip95
+\bibitemsep=\skip96
+\bibnamesep=\skip97
+\bibinitsep=\skip98
+\bibparsep=\skip99
+\bibhang=\skip100
+\blx@bcfin=\read4
+\blx@bcfout=\write4
+\blx@langwohyphens=\language3
+\c@mincomprange=\count434
+\c@maxcomprange=\count435
+\c@mincompwidth=\count436
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count437
+\c@savedafterword=\count438
+\c@annotator=\count439
+\c@savedannotator=\count440
+\c@author=\count441
+\c@savedauthor=\count442
+\c@bookauthor=\count443
+\c@savedbookauthor=\count444
+\c@commentator=\count445
+\c@savedcommentator=\count446
+\c@editor=\count447
+\c@savededitor=\count448
+\c@editora=\count449
+\c@savededitora=\count450
+\c@editorb=\count451
+\c@savededitorb=\count452
+\c@editorc=\count453
+\c@savededitorc=\count454
+\c@foreword=\count455
+\c@savedforeword=\count456
+\c@holder=\count457
+\c@savedholder=\count458
+\c@introduction=\count459
+\c@savedintroduction=\count460
+\c@namea=\count461
+\c@savednamea=\count462
+\c@nameb=\count463
+\c@savednameb=\count464
+\c@namec=\count465
+\c@savednamec=\count466
+\c@translator=\count467
+\c@savedtranslator=\count468
+\c@shortauthor=\count469
+\c@savedshortauthor=\count470
+\c@shorteditor=\count471
+\c@savedshorteditor=\count472
+\c@labelname=\count473
+\c@savedlabelname=\count474
+\c@institution=\count475
+\c@savedinstitution=\count476
+\c@lista=\count477
+\c@savedlista=\count478
+\c@listb=\count479
+\c@savedlistb=\count480
+\c@listc=\count481
+\c@savedlistc=\count482
+\c@listd=\count483
+\c@savedlistd=\count484
+\c@liste=\count485
+\c@savedliste=\count486
+\c@listf=\count487
+\c@savedlistf=\count488
+\c@location=\count489
+\c@savedlocation=\count490
+\c@organization=\count491
+\c@savedorganization=\count492
+\c@origlocation=\count493
+\c@savedoriglocation=\count494
+\c@origpublisher=\count495
+\c@savedorigpublisher=\count496
+\c@publisher=\count497
+\c@savedpublisher=\count498
+\c@language=\count499
+\c@savedlanguage=\count500
+\c@origlanguage=\count501
+\c@savedoriglanguage=\count502
+\c@pageref=\count503
+\c@savedpageref=\count504
+\shorthandwidth=\skip101
+\shortjournalwidth=\skip102
+\shortserieswidth=\skip103
+\shorttitlewidth=\skip104
+\shortauthorwidth=\skip105
+\shorteditorwidth=\skip106
+\locallabelnumberwidth=\skip107
+\locallabelalphawidth=\skip108
+\localshorthandwidth=\skip109
+\localshortjournalwidth=\skip110
+\localshortserieswidth=\skip111
+\localshorttitlewidth=\skip112
+\localshortauthorwidth=\skip113
+\localshorteditorwidth=\skip114
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-unicode.de
+f)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count505
+\c@textcitetotal=\count506
+\c@textcitemaxnames=\count507
+\c@biburlbigbreakpenalty=\count508
+\c@biburlbreakpenalty=\count509
+\c@biburlnumpenalty=\count510
+\c@biburlucpenalty=\count511
+\c@biburllcpenalty=\count512
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count513
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/numeric.bb
+x
+File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/bbx/standard.b
+bx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count514
+\c@bbx:relatedtotal=\count515
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/cbx/numeric.cb
+x
+File: numeric.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2025-10-24 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/blx-case-expl3
+.sty
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+))
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/comment/comment.sty
+\CommentStream=\write5
+
+Excluding comment 'comment')
+\@quotelevel=\count516
+\@quotereset=\count517
+ (./mon-projet-ba.aux)
 \openout1 = mon-projet-ba.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1153,72 +1435,72 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 114.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 114.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 114.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 114.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 114.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 114.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 114.
-LaTeX Font Info:    Redeclaring math accent \check on input line 114.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 114.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 114.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 114.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 114.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 114.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 154.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 154.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 154.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 154.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 154.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 154.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 154.
+LaTeX Font Info:    Redeclaring math accent \check on input line 154.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 154.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 154.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 154.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 154.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 114.
+(Font)              `operators' in the math version `normal' on input line 154.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 114.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 154.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 114.
+(Font)              `operators' in the math version `bold' on input line 154.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 114.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 154.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 114.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 154.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 114.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 154.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 114.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 154.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 114.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 154.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 114.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 154.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 114.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 154.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 114.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 154.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 114.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 154.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 114.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 154.
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count389
-\scratchdimen=\dimen334
+\scratchcounter=\count518
+\scratchdimen=\dimen336
 \scratchbox=\box157
-\nofMPsegments=\count390
-\nofMParguments=\count391
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count392
-\MPscratchDim=\dimen335
-\MPnumerator=\count393
-\makeMPintoPDFobject=\count394
-\everyMPtoPDFconversion=\toks52
+\nofMPsegments=\count519
+\nofMParguments=\count520
+\everyMPshowfont=\toks52
+\MPscratchCnt=\count521
+\MPscratchDim=\dimen337
+\MPnumerator=\count522
+\makeMPintoPDFobject=\count523
+\everyMPtoPDFconversion=\toks53
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
 ase.sty
@@ -1269,11 +1551,11 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 114.
+Package hyperref Info: Link coloring OFF on input line 154.
 (./mon-projet-ba.out) (./mon-projet-ba.out)
-\@outlinefile=\write4
+\@outlinefile=\write6
 
-\openout4 = mon-projet-ba.out
+\openout6 = mon-projet-ba.out
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -1288,13 +1570,30 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 121
+Package biblatex Info: Trying to load language 'french'...
+Package biblatex Info: ... file 'french.lbx' found.
+
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/biblatex/lbx/french.lbx
+File: french.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: LuaTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+\openout4 = mon-projet-ba.bcf
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'mon-projet-ba.bbl' found.
+ (./mon-projet-ba.bbl)
+Package biblatex Info: Reference section=0 on input line 154.
+Package biblatex Info: Reference segment=0 on input line 154.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 161
 .
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 121
+LaTeX Font Info:    Trying to load font information for U+msb on input line 161
 .
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
@@ -1308,9 +1607,9 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 ])
-\tf@toc=\write5
+\tf@toc=\write7
 
-\openout5 = mon-projet-ba.toc
+\openout7 = mon-projet-ba.toc
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1322,7 +1621,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [2] [3
 
 ]
-Chapitre 1.
+Chapitre I.
 [4
 
 ]
@@ -1358,7 +1657,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [8]
-Overfull \hbox (15.9408pt too wide) in paragraph at lines 483--484
+Overfull \hbox (15.9408pt too wide) in paragraph at lines 531--532
 []| \TU/lmr/m/n/12 Mo-dule de dé-for-ma-tion lon-gi-tu-di-nale ins-tan-ta-née $\OML/cmm/m/it/12 E[]$ \TU/lmr/m/n/12 : Sous l
 ’ef-fet des contraintes
  []
@@ -1379,6 +1678,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [10]
+Overfull \hbox (12.82571pt too wide) in paragraph at lines 690--702
+ [][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1387,10 +1690,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [11]
-Chapitre 2.
-[12
-
-]
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:+tlig;!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1398,7 +1701,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[13]
+[12
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+]
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[13
+Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1407,17 +1731,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [14]
-Overfull \hbox (15.7904pt too wide) in paragraph at lines 812--813
-[]\TU/lmr/m/n/12 De-puis le do-cu-ment tech-nique ré-gle-men-taire : Charges et
- sur-charges d’ex-ploi-ta-tions(DTR),
- []
-
-<figures/Chapitre-1/elements-plancher.png, id=421, 274.02374pt x 325.215pt>
-File: figures/Chapitre-1/elements-plancher.png Graphic file (type png)
-<use figures/Chapitre-1/elements-plancher.png>
-Package luatex.def Info: figures/Chapitre-1/elements-plancher.png  used on inpu
-t line 841.
-(luatex.def)             Requested size: 88.2022pt x 104.68129pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1425,25 +1738,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[15<./figures/Chapitre-1/elements-plancher.png>]
-<figures/Chapitre-1/charges-dimension.png, id=432, 199.49532pt x 255.20343pt>
-File: figures/Chapitre-1/charges-dimension.png Graphic file (type png)
-<use figures/Chapitre-1/charges-dimension.png>
-Package luatex.def Info: figures/Chapitre-1/charges-dimension.png  used on inpu
-t line 915.
-(luatex.def)             Requested size: 92.61424pt x 118.47755pt.
-
-Overfull \hbox (58.01553pt too wide) detected at line 922
-\OML/cmm/m/it/12 G \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OM
-L/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 88\O
-ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 267 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825 + 9\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 187 = 111\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 28 []
- []
-
-
-Overfull \hbox (2.60799pt too wide) in paragraph at lines 912--928
-[]$[]$ $[]$ 
- []
-
+[15]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1452,159 +1747,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [16]
-File: figures/Chapitre-1/charges-dimension.png Graphic file (type png)
-<use figures/Chapitre-1/charges-dimension.png>
-Package luatex.def Info: figures/Chapitre-1/charges-dimension.png  used on inpu
-t line 939.
-(luatex.def)             Requested size: 92.61424pt x 118.47755pt.
+Chapitre II.
+[17
 
-Overfull \hbox (58.50969pt too wide) detected at line 945
-\OML/cmm/m/it/12 G \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OM
-L/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 83\O
-ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 916 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825 + 9\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 187 = 106\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 93 []
- []
-
-
-Overfull \hbox (2.60799pt too wide) in paragraph at lines 936--951
-[]$[]$ $[]$ 
- []
-
-<figures/chapitre-1/section-ab-rpa.png, id=442, 70.76437pt x 80.55093pt>
-File: figures/chapitre-1/section-ab-rpa.png Graphic file (type png)
-<use figures/chapitre-1/section-ab-rpa.png>
-Package luatex.def Info: figures/chapitre-1/section-ab-rpa.png  used on input l
-ine 980.
-(luatex.def)             Requested size: 66.15332pt x 75.3086pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[17<./figures/Chapitre-1/charges-dimension.png><./figures/chapitre-1/section-ab-
-rpa.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[18]
-Chapitre 3.
-<figures/chapitre-2/acrotere/dim-acrotere.png, id=459, 337.26pt x 402.00188pt>
-File: figures/chapitre-2/acrotere/dim-acrotere.png Graphic file (type png)
-<use figures/chapitre-2/acrotere/dim-acrotere.png>
-Package luatex.def Info: figures/chapitre-2/acrotere/dim-acrotere.png  used on 
-input line 1058.
-(luatex.def)             Requested size: 176.40439pt x 210.26898pt.
-[19
-
-<./figures/chapitre-2/acrotere/dim-acrotere.png>]
-<figures/chapitre-2/acrotere/charge-acrotere.png, id=467, 295.85532pt x 361.35p
-t>
-File: figures/chapitre-2/acrotere/charge-acrotere.png Graphic file (type png)
-<use figures/chapitre-2/acrotere/charge-acrotere.png>
-Package luatex.def Info: figures/chapitre-2/acrotere/charge-acrotere.png  used 
-on input line 1076.
-(luatex.def)             Requested size: 88.2022pt x 107.72765pt.
-<figures/chapitre-2/acrotere/efforts-acrotere.png, id=468, 342.5297pt x 122.708
-44pt>
-File: figures/chapitre-2/acrotere/efforts-acrotere.png Graphic file (type png)
-<use figures/chapitre-2/acrotere/efforts-acrotere.png>
-Package luatex.def Info: figures/chapitre-2/acrotere/efforts-acrotere.png  used
- on input line 1104.
-(luatex.def)             Requested size: 308.71106pt x 110.60133pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[20<./figures/chapitre-2/acrotere/charge-acrotere.png><./figures/chapitre-2/acro
-tere/efforts-acrotere.png>]
-<figures/chapitre-2/acrotere/section-acro.png, id=482, 463.7325pt x 87.32625pt>
-
-File: figures/chapitre-2/acrotere/section-acro.png Graphic file (type png)
-<use figures/chapitre-2/acrotere/section-acro.png>
-Package luatex.def Info: figures/chapitre-2/acrotere/section-acro.png  used on 
-input line 1132.
-(luatex.def)             Requested size: 308.71106pt x 58.13518pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[21<./figures/chapitre-2/acrotere/section-acro.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[22]
-<figures/chapitre-2/acrotere/ferraillage-acro.png, id=498, 511.15968pt x 243.15
-843pt>
-File: figures/chapitre-2/acrotere/ferraillage-acro.png Graphic file (type png)
-<use figures/chapitre-2/acrotere/ferraillage-acro.png>
-Package luatex.def Info: figures/chapitre-2/acrotere/ferraillage-acro.png  used
- on input line 1229.
-(luatex.def)             Requested size: 308.71106pt x 146.85344pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[23<./figures/chapitre-2/acrotere/ferraillage-acro.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[24
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
 ]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1613,48 +1758,180 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[25]
-Chapitre 4.
-[26
+[18]
 
-] (./mon-projet-ba.aux)
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[19]
+Overfull \hbox (15.7904pt too wide) in paragraph at lines 1191--1192
+[]\TU/lmr/m/n/12 De-puis le do-cu-ment tech-nique ré-gle-men-taire : Charges et
+ sur-charges d’ex-ploi-ta-tions(DTR),
+ []
+
+<figures/Chapitre-1/elements-plancher.png, id=408, 274.02374pt x 325.215pt>
+File: figures/Chapitre-1/elements-plancher.png Graphic file (type png)
+<use figures/Chapitre-1/elements-plancher.png>
+Package luatex.def Info: figures/Chapitre-1/elements-plancher.png  used on inpu
+t line 1220.
+(luatex.def)             Requested size: 88.2022pt x 104.68129pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[20]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[21<./figures/Chapitre-1/elements-plancher.png>]
+<figures/Chapitre-1/charges-dimension.png, id=425, 199.49532pt x 255.20343pt>
+File: figures/Chapitre-1/charges-dimension.png Graphic file (type png)
+<use figures/Chapitre-1/charges-dimension.png>
+Package luatex.def Info: figures/Chapitre-1/charges-dimension.png  used on inpu
+t line 1294.
+(luatex.def)             Requested size: 92.61424pt x 118.47755pt.
+
+Overfull \hbox (58.01553pt too wide) detected at line 1301
+\OML/cmm/m/it/12 G \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OM
+L/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 88\O
+ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 267 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825 + 9\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 187 = 111\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 28 []
+ []
+
+
+Overfull \hbox (2.60799pt too wide) in paragraph at lines 1291--1307
+[]$[]$ $[]$ 
+ []
+
+File: figures/Chapitre-1/charges-dimension.png Graphic file (type png)
+<use figures/Chapitre-1/charges-dimension.png>
+Package luatex.def Info: figures/Chapitre-1/charges-dimension.png  used on inpu
+t line 1318.
+(luatex.def)             Requested size: 92.61424pt x 118.47755pt.
+
+Overfull \hbox (58.50969pt too wide) detected at line 1324
+\OML/cmm/m/it/12 G \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OM
+L/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 83\O
+ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 916 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825 + 9\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 187 = 106\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 93 []
+ []
+
+
+Overfull \hbox (2.60799pt too wide) in paragraph at lines 1315--1330
+[]$[]$ $[]$ 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[22<./figures/Chapitre-1/charges-dimension.png>]
+<figures/chapitre-1/section-ab-rpa.png, id=441, 70.76437pt x 80.55093pt>
+File: figures/chapitre-1/section-ab-rpa.png Graphic file (type png)
+<use figures/chapitre-1/section-ab-rpa.png>
+Package luatex.def Info: figures/chapitre-1/section-ab-rpa.png  used on input l
+ine 1359.
+(luatex.def)             Requested size: 66.15332pt x 75.3086pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[23<./figures/chapitre-1/section-ab-rpa.png>] Excluding 'comment' comment.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[24] (./mon-projet-ba.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `mon-projet-ba.out' has not changed.
-(rerunfilecheck)             Checksum: A67B5D623287525BC8E273C4F1FED67B;10105.
+(rerunfilecheck)             Checksum: 6AECE5F10098E9FACBC71EBE42694A19;6724.
+Package logreq Info: Writing requests to 'mon-projet-ba.run.xml'.
+
+\openout1 = mon-projet-ba.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 37861 strings out of 476081
- 125097,1373583 words of node,token memory allocated
- 2481 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 123 glue, 5 kern, 1 penalty, 1 glyph, 368 attribute
-, 63 glue_spec, 186 attribute_list, 2 write nodes
-   avail lists: 1:3,2:6293,3:2045,4:136,5:418,6:110,7:5433,8:61,9:769,10:9,11:55
-2
- 59205 multiletter control sequences out of 65536+600000
- 71 fonts using 5171231 bytes
- 98i,22n,104p,711b,1234s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman8-
-regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/
-lm/lmromancaps10-regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts
-/opentype/public/lm/lmroman12-bold.otf><c:/users/amalo/appdata/local/programs/mi
-ktex/fonts/opentype/public/lm/lmroman12-regular.otf><c:/users/amalo/appdata/loca
-l/programs/miktex/fonts/opentype/public/lm/lmroman17-regular.otf><C:/Users/amalo
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Use
-rs/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr12.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmr6.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on mon-projet-ba.pdf (27 pages, 299541 bytes).
+ 44886 strings out of 476081
+ 100000,1977958 words of node,token memory allocated
+ 3209 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 173 glue, 5 kern, 1 penalty, 1 glyph, 454 attribute
+, 87 glue_spec, 229 attribute_list, 2 write nodes
+   avail lists: 1:2,2:1333,3:447,4:144,5:478,6:113,7:5383,8:59,9:963,10:9,11:552
 
-PDF statistics: 604 PDF objects out of 1000 (max. 8388607)
- 164 named destinations out of 1000 (max. 131072)
- 504 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 66165 multiletter control sequences out of 65536+600000
+ 71 fonts using 5171167 bytes
+ 98i,22n,104p,711b,2649s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.19'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.18'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.17'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.16'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.14'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.13'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.12'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.10'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.9'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.7'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.6'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.5'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.4'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.2'
+
+warning  (pdf backend): unreferenced destination with name 'Hfootnote.1'
+<c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmromanca
+ps10-regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/pu
+blic/lm/lmroman10-regular.otf><c:/users/amalo/appdata/local/programs/miktex/font
+s/opentype/public/lm/lmroman7-regular.otf><c:/users/amalo/appdata/local/programs
+/miktex/fonts/opentype/public/lm/lmroman8-regular.otf><c:/users/amalo/appdata/lo
+cal/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><c:/users/amalo/
+appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-regular.otf><c:
+/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman17-re
+gular.otf><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmi8.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/amalo/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/amalo/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/amalo/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/amalo/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on mon-projet-ba.pdf (25 pages, 247526 bytes).
+
+PDF statistics: 527 PDF objects out of 1000 (max. 8388607)
+ 144 named destinations out of 1000 (max. 131072)
+ 336 words of extra memory for PDF output out of 10000 (max. 100000000)
 
