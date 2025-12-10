@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  8 DEC 2025 23:56
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  11 DEC 2025 00:52
  restricted system commands enabled.
 **"plasticite et endommagement.tex"
 ("./plasticite et endommagement.tex"
@@ -40,20 +40,21 @@ Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
 Inserting `tracingstacklevels' in `input_level_string'. (C:/Users/amalo/AppData
-/Local/Programs/MiKTeX/tex/latex/base/article.cls
-Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+/Local/Programs/MiKTeX/tex/latex/base/report.cls
+Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/base/size12.clo
 File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from C:/Users/amalo/AppData/Local/M
 iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \c@part=\count273
-\c@section=\count274
-\c@subsection=\count275
-\c@subsubsection=\count276
-\c@paragraph=\count277
-\c@subparagraph=\count278
-\c@figure=\count279
-\c@table=\count280
+\c@chapter=\count274
+\c@section=\count275
+\c@subsection=\count276
+\c@subsubsection=\count277
+\c@paragraph=\count278
+\c@subparagraph=\count279
+\c@figure=\count280
+\c@table=\count281
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen147
@@ -65,7 +66,7 @@ eX and LuaLaTeX
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count281
+\etb@tempcnta=\count282
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/fontspec/fontspec.sty
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/xparse/xpars
@@ -76,7 +77,7 @@ Package: expl3 2025-10-24 L3 programming layer (loader)
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-lua
 tex.def
 File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count282
+\l__color_backend_stack_int=\count283
 Inserting `l3color' in `luaotfload.parse_color'.))
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
@@ -86,17 +87,17 @@ Lua module: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 x.sty
 Package: fontspec-luatex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaT
 eX
-\l__fontspec_script_int=\count283
-\l__fontspec_language_int=\count284
-\l__fontspec_strnum_int=\count285
-\l__fontspec_tmp_int=\count286
-\l__fontspec_tmpa_int=\count287
-\l__fontspec_tmpb_int=\count288
-\l__fontspec_tmpc_int=\count289
-\l__fontspec_em_int=\count290
-\l__fontspec_emdef_int=\count291
-\l__fontspec_strong_int=\count292
-\l__fontspec_strongdef_int=\count293
+\l__fontspec_script_int=\count284
+\l__fontspec_language_int=\count285
+\l__fontspec_strnum_int=\count286
+\l__fontspec_tmp_int=\count287
+\l__fontspec_tmpa_int=\count288
+\l__fontspec_tmpb_int=\count289
+\l__fontspec_tmpc_int=\count290
+\l__fontspec_em_int=\count291
+\l__fontspec_emdef_int=\count292
+\l__fontspec_strong_int=\count293
+\l__fontspec_strongdef_int=\count294
 \l__fontspec_tmpa_dim=\dimen148
 \l__fontspec_tmpb_dim=\dimen149
 \l__fontspec_tmpc_dim=\dimen150
@@ -107,7 +108,7 @@ Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 Lua module: polyglossia 2013/05/11 v1.3 Polyglossia
-\l_xpg_alias_keyvals_int=\count294
+\l_xpg_alias_keyvals_int=\count295
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/polyglossia/gloss-latex
 .ldf
@@ -155,14 +156,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count295
+\inf@bad=\count296
 LaTeX Info: Redefining \frac on input line 235.
-\uproot@=\count296
-\leftroot@=\count297
+\uproot@=\count297
+\leftroot@=\count298
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count298
-\DOTSCASE@=\count299
+\classnum@=\count299
+\DOTSCASE@=\count300
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -175,20 +176,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen153
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count300
+\macc@depth=\count301
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count301
+\c@MaxMatrixCols=\count302
 \dotsspace@=\muskip17
-\c@parentequation=\count302
-\dspbrk@lvl=\count303
+\c@parentequation=\count303
+\dspbrk@lvl=\count304
 \tag@help=\toks18
-\row@=\count304
-\column@=\count305
-\maxfields@=\count306
+\row@=\count305
+\column@=\count306
+\maxfields@=\count307
 \andhelp@=\toks19
 \eqnshift@=\dimen154
 \alignsep@=\dimen155
@@ -252,25 +253,25 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen169
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count307
-\c@continuedfloat=\count308
+\c@caption@flags=\count308
+\c@continuedfloat=\count309
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2025-07-09 v3.4.14 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count309
-\l__siunitx_number_exponent_fixed_int=\count310
-\l__siunitx_number_min_decimal_int=\count311
-\l__siunitx_number_min_integer_int=\count312
-\l__siunitx_number_round_precision_int=\count313
-\l__siunitx_number_lower_threshold_int=\count314
-\l__siunitx_number_upper_threshold_int=\count315
-\l__siunitx_number_group_first_int=\count316
-\l__siunitx_number_group_size_int=\count317
-\l__siunitx_number_group_minimum_int=\count318
+\l__siunitx_number_uncert_offset_int=\count310
+\l__siunitx_number_exponent_fixed_int=\count311
+\l__siunitx_number_min_decimal_int=\count312
+\l__siunitx_number_min_integer_int=\count313
+\l__siunitx_number_round_precision_int=\count314
+\l__siunitx_number_lower_threshold_int=\count315
+\l__siunitx_number_upper_threshold_int=\count316
+\l__siunitx_number_group_first_int=\count317
+\l__siunitx_number_group_size_int=\count318
+\l__siunitx_number_group_minimum_int=\count319
 \l__siunitx_angle_tmp_dim=\dimen170
 \l__siunitx_angle_marker_box=\box55
 \l__siunitx_angle_unit_box=\box56
-\l__siunitx_compound_count_int=\count319
+\l__siunitx_compound_count_int=\count320
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/translations/translatio
 ns.sty
@@ -304,9 +305,9 @@ Package pdftexcmds Info: \pdfdraftmode found.
 \l__siunitx_table_after_box=\box62
 \l__siunitx_table_before_dim=\dimen173
 \l__siunitx_table_carry_dim=\dimen174
-\l__siunitx_unit_tmp_int=\count320
-\l__siunitx_unit_position_int=\count321
-\l__siunitx_unit_total_int=\count322
+\l__siunitx_unit_tmp_int=\count321
+\l__siunitx_unit_position_int=\count322
+\l__siunitx_unit_total_int=\count323
  (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen175
@@ -323,9 +324,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count323
-\Gm@cntv=\count324
-\c@Gm@tempcnt=\count325
+\Gm@cnth=\count324
+\Gm@cntv=\count325
+\c@Gm@tempcnt=\count326
 \Gm@bindingoffset=\dimen177
 \Gm@wd@mp=\dimen178
 \Gm@odd@mp=\dimen179
@@ -342,8 +343,8 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@outerparindent=\dimen185
 \enit@toks=\toks26
 \enit@inbox=\box65
-\enit@count@id=\count326
-\enitdp@description=\count327
+\enit@count@id=\count327
+\enitdp@description=\count328
 ) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
 
@@ -372,7 +373,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count328
+\c@section@level=\count329
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/stringenc/stringenc.s
 ty
@@ -380,14 +381,14 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen186
-\Hy@linkcounter=\count329
-\Hy@pagecounter=\count330
+\Hy@linkcounter=\count330
+\Hy@pagecounter=\count331
  (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 ) (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count331
+\Hy@SavedSpaceFactor=\count332
  (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 )
@@ -398,7 +399,7 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count332
+\c@Hy@tempcnt=\count333
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
@@ -415,7 +416,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count333
+\Fld@menulength=\count334
 \Field@Width=\dimen188
 \Fld@charsize=\dimen189
 Package hyperref Info: Hyper figures OFF on input line 6078.
@@ -425,16 +426,16 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count334
-\c@Item=\count335
-\c@Hfootnote=\count336
+\Hy@abspage=\count335
+\c@Item=\count336
+\c@Hfootnote=\count337
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hluatex.def
 File: hluatex.def 2025-07-12 v7.01o Hyperref driver for luaTeX
-\Fld@listcount=\count337
-\c@bookmark@seq@number=\count338
+\Fld@listcount=\count338
+\c@bookmark@seq@number=\count339
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfil
 echeck.sty
@@ -503,14 +504,14 @@ libraryfiltered.code.tex
 \pgf@yd=\dimen257
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count339
-\c@pgf@countb=\count340
-\c@pgf@countc=\count341
-\c@pgf@countd=\count342
+\c@pgf@counta=\count340
+\c@pgf@countb=\count341
+\c@pgf@countc=\count342
+\c@pgf@countd=\count343
 \t@pgf@toka=\toks31
 \t@pgf@tokb=\toks32
 \t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count343
+\pgf@sys@id@count=\count344
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgf.c
 fg
@@ -529,8 +530,8 @@ File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count344
-\pgfsyssoftpath@bigbuffer@items=\count345
+\pgfsyssoftpath@smallbuffer@items=\count345
+\pgfsyssoftpath@bigbuffer@items=\count346
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/systemlayer/pgfsy
 sprotocol.code.tex
@@ -565,7 +566,7 @@ code.tex)
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen258
-\pgfmath@count=\count346
+\pgfmath@count=\count347
 \pgfmath@box=\box67
 \pgfmath@toks=\toks34
 \pgfmath@stack@operand=\toks35
@@ -593,7 +594,7 @@ ions.integerarithmetics.code.tex)
 code.tex)
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count347
+\c@pgfmathroundto@lastzeros=\count348
 ))
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/math/pgfint.code.
 tex)
@@ -633,7 +634,7 @@ File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box68
 \pgf@hbox=\box69
 \pgf@layerbox@main=\box70
-\pgf@picture@serial@count=\count348
+\pgf@picture@serial@count=\count349
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 egraphicstate.code.tex
@@ -668,8 +669,8 @@ File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 eshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen282
-\pgf@sys@shading@range@num=\count349
-\pgf@shadingcount=\count350
+\pgf@sys@shading@range@num=\count350
+\pgf@shadingcount=\count351
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/basiclayer/pgfcor
 eimage.code.tex
@@ -739,7 +740,7 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/libraries/pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count351
+\pgf@plot@mark@count=\count352
 \pgfplotmarksize=\dimen287
 )
 \tikz@lastx=\dimen288
@@ -754,19 +755,19 @@ File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \tikz@figbox@bg=\box74
 \tikz@tempbox=\box75
 \tikz@tempbox@bg=\box76
-\tikztreelevel=\count352
-\tikznumberofchildren=\count353
-\tikznumberofcurrentchild=\count354
-\tikz@fig@count=\count355
+\tikztreelevel=\count353
+\tikznumberofchildren=\count354
+\tikznumberofcurrentchild=\count355
+\tikz@fig@count=\count356
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/modules/pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count356
-\pgfmatrixcurrentcolumn=\count357
-\pgf@matrix@numberofcolumns=\count358
+\pgfmatrixcurrentrow=\count357
+\pgfmatrixcurrentcolumn=\count358
+\pgf@matrix@numberofcolumns=\count359
 )
-\tikz@expandcount=\count359
+\tikz@expandcount=\count360
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
 z/libraries/tikzlibrarytopaths.code.tex
@@ -789,9 +790,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box78
 \tcb@lowerbox=\box79
 \tcb@phantombox=\box80
-\c@tcbbreakpart=\count360
-\c@tcblayer=\count361
-\c@tcolorbox@number=\count362
+\c@tcbbreakpart=\count361
+\c@tcblayer=\count362
+\c@tcolorbox@number=\count363
 \l__tcobox_tmpa_box=\box81
 \l__tcobox_tmpa_dim=\dimen296
 \tcb@temp=\box82
@@ -801,14 +802,14 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty
 Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count363
+\c@tracingmulticols=\count364
 \mult@box=\box86
 \multicol@leftmargin=\dimen297
-\c@unbalance=\count364
-\c@collectmore=\count365
-\doublecol@number=\count366
-\multicoltolerance=\count367
-\multicolpretolerance=\count368
+\c@unbalance=\count365
+\c@collectmore=\count366
+\doublecol@number=\count367
+\multicoltolerance=\count368
+\multicolpretolerance=\count369
 \full@width=\dimen298
 \page@free=\dimen299
 \premulticols=\dimen300
@@ -859,16 +860,16 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \@tempa=\box127
 \@tempa=\box128
 \@tempa=\box129
-\c@minrows=\count369
-\c@columnbadness=\count370
-\c@finalcolumnbadness=\count371
+\c@minrows=\count370
+\c@columnbadness=\count371
+\c@finalcolumnbadness=\count372
 \last@try=\dimen303
 \multicolovershoot=\dimen304
 \multicolundershoot=\dimen305
 \mult@nat@firstbox=\box130
 \colbreak@box=\box131
-\mc@col@check@num=\count372
-\g__mc_curr_col_int=\count373
+\mc@col@check@num=\count373
+\g__mc_curr_col_int=\count374
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
@@ -878,15 +879,15 @@ Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count374
-\calc@Bcount=\count375
+\calc@Acount=\count375
+\calc@Bcount=\count376
 \calc@Adimen=\dimen306
 \calc@Bdimen=\dimen307
 \calc@Askip=\skip60
 \calc@Bskip=\skip61
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count376
+\calc@Ccount=\count377
 \calc@Cskip=\skip62
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/base/ifthen.sty
@@ -910,13 +911,13 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/pdfpages/ppluatex.def
 File: ppluatex.def 2025/07/23 v0.6g Pdfpages driver for LuaTeX (AM)
 )
-\pdfpages@includegraphics@status=\count377
+\pdfpages@includegraphics@status=\count378
 \AM@pagebox=\box132
 \AM@global@opts=\toks41
-\AM@pagecnt=\count378
+\AM@pagecnt=\count379
 \AM@toc@title=\toks42
 \AM@lof@heading=\toks43
-\c@AM@survey=\count379
+\c@AM@survey=\count380
 \AM@templatesizebox=\box133
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/transparent/transparent
@@ -933,7 +934,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )))
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count380
+\c@float@type=\count381
 \float@exts=\toks44
 \float@box=\box134
 \@float@everytoks=\toks45
@@ -959,8 +960,8 @@ Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
 \t@pgfplots@tokb=\toks47
 \t@pgfplots@tokc=\toks48
 \pgfplots@tmpa=\dimen313
-\c@pgfplots@coordindex=\count381
-\c@pgfplots@scanlineindex=\count382
+\c@pgfplots@coordindex=\count382
+\c@pgfplots@scanlineindex=\count383
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgfplots
 sysgeneric.code.tex))
@@ -993,13 +994,13 @@ e/pgfplotsliststructure.code.tex)
 e/pgfplotsliststructureext.code.tex)
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
 e/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count383
+\c@pgfplotsarray@tmp=\count384
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
 e/pgfplotsmatrix.code.tex)
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/numtable/pgf
 plotstableshared.code.tex
-\c@pgfplotstable@counta=\count384
+\c@pgfplotstable@counta=\count385
 \t@pgfplotstable@a=\toks52
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/liststructur
@@ -1012,7 +1013,7 @@ sbinary.data.code.tex))
 sutil.verb.code.tex)
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/pgflibr
 arypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count385
+\c@pgfplotslibrarysurf@no=\count386
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/sys/pgflibra
 rypgfplots.surfshading.pgfsys-luatex.def)))
@@ -1049,7 +1050,7 @@ decorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen316
 \pgfdecoratedinputsegmentremainingdistance=\dimen317
 \pgf@decorate@distancetomove=\dimen318
-\pgf@decorate@repeatstate=\count386
+\pgf@decorate@repeatstate=\count387
 \pgfdecorationsegmentamplitude=\dimen319
 \pgfdecorationsegmentlength=\dimen320
 )
@@ -1065,7 +1066,7 @@ z/libraries/tikzlibrarydecorations.pathreplacing.code.tex
 ions/pgflibrarydecorations.pathreplacing.code.tex))
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgfplots/libs/tikzlib
 rarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count387
+\pgfplots@numplots=\count388
 \pgfplots@xmin@reg=\dimen321
 \pgfplots@xmax@reg=\dimen322
 \pgfplots@ymin@reg=\dimen323
@@ -1107,10 +1108,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks53
 \XKV@tempa@toks=\toks54
 )
-\XKV@depth=\count388
+\XKV@depth=\count389
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\xargs@max=\count389
+\xargs@max=\count390
 \xargs@toksa=\toks55
 \xargs@toksb=\toks56
 )
@@ -1206,29 +1207,35 @@ File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/generic/pgf/frontendlayer/tik
 z/libraries/tikzlibrary3d.code.tex
 File: tikzlibrary3d.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)) ("./plasticite et endommagement.aux")
+)) (./myunit.sty
+Package: myunit 2025/11/24 Mes unités perso
+)
+(C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
+("./plasticite et endommagement.aux")
 \openout1 = plasticite et endommagement.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
+LaTeX Font Info:    ... okay on input line 102.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1236,70 +1243,71 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 90.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 90.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 90.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 90.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 90.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 90.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 90.
-LaTeX Font Info:    Redeclaring math accent \check on input line 90.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 90.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 90.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 90.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 90.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 90.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 90.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 90.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 90.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 90.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 90.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 90.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 90.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 90.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 90.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 90.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 90.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 102.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 102.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 102.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 102.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 102.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 102.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 102.
+LaTeX Font Info:    Redeclaring math accent \check on input line 102.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 102.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 102.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 102.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 102.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 90.
+(Font)              `operators' in the math version `normal' on input line 102.
+
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 90.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 102.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 90.
+(Font)              `operators' in the math version `bold' on input line 102.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 90.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 90.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 90.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 90.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 90.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 90.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 90.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 90.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 90.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 102.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 90.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 102.
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count390
+\scratchcounter=\count391
 \scratchdimen=\dimen328
 \scratchbox=\box157
-\nofMPsegments=\count391
-\nofMParguments=\count392
+\nofMPsegments=\count392
+\nofMParguments=\count393
 \everyMPshowfont=\toks57
-\MPscratchCnt=\count393
+\MPscratchCnt=\count394
 \MPscratchDim=\dimen329
-\MPnumerator=\count394
-\makeMPintoPDFobject=\count395
+\MPnumerator=\count395
+\makeMPintoPDFobject=\count396
 \everyMPtoPDFconversion=\toks58
 )
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
@@ -1351,7 +1359,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 90.
+Package hyperref Info: Link coloring OFF on input line 102.
 ("./plasticite et endommagement.out") ("./plasticite et endommagement.out")
 \@outlinefile=\write4
 
@@ -1374,224 +1382,158 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 90.
+ on input line 102.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 106
+.
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 106
+.
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-("./plasticite et endommagement.toc"
-Overfull \hbox (2.93999pt too wide) detected at line 20
-\TU/lmr/bx/n/12 II.1 
- []
-
-
-Overfull \hbox (2.93999pt too wide) detected at line 21
-\TU/lmr/bx/n/12 II.2 
- []
-
-
-Overfull \hbox (2.93999pt too wide) detected at line 22
-\TU/lmr/bx/n/12 II.3 
- []
-
 [1
 
 {C:/Users/amalo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (2.93999pt too wide) detected at line 28
-\TU/lmr/bx/n/12 II.4 
- []
-
-
-Overfull \hbox (8.33998pt too wide) detected at line 34
-\TU/lmr/bx/n/12 III.1 
- []
-
-
-Overfull \hbox (8.33998pt too wide) detected at line 35
-\TU/lmr/bx/n/12 III.2 
- []
-
-
-Overfull \hbox (4.04398pt too wide) detected at line 36
-\TU/lmr/m/n/12 III.2.1 
- []
-
-
-Overfull \hbox (4.04398pt too wide) detected at line 37
-\TU/lmr/m/n/12 III.2.2 
- []
-
-
-Overfull \hbox (2.38806pt too wide) detected at line 38
-\TU/lmr/m/n/12 III.2.2.1 
- []
-
-
-Overfull \hbox (4.04398pt too wide) detected at line 41
-\TU/lmr/m/n/12 III.2.3 
- []
-
-
-Overfull \hbox (2.38806pt too wide) detected at line 42
-\TU/lmr/m/n/12 III.2.3.1 
- []
-
-
-Overfull \hbox (8.33998pt too wide) detected at line 45
-\TU/lmr/bx/n/12 III.3 
- []
-
-
-Overfull \hbox (4.04398pt too wide) detected at line 46
-\TU/lmr/m/n/12 III.3.1 
- []
-
-
-Overfull \hbox (4.04398pt too wide) detected at line 47
-\TU/lmr/m/n/12 III.3.2 
- []
-
-)
+("./plasticite et endommagement.toc")
 \tf@toc=\write5
 
 \openout5 = plasticite et endommagement.toc
- [2]
-<figures/chapitre 1/courbe-exemple.png, id=229, 325.215pt x 261.22594pt>
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
+
+]
+Chapitre 1.
+<figures/chapitre 1/courbe-exemple.png, id=191, 325.215pt x 261.22594pt>
 File: figures/chapitre 1/courbe-exemple.png Graphic file (type png)
 <use figures/chapitre 1/courbe-exemple.png>
 Package luatex.def Info: figures/chapitre 1/courbe-exemple.png  used on input l
-ine 143.
+ine 155.
 (luatex.def)             Requested size: 199.16626pt x 159.98134pt.
+[2
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 149.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 149.
+(hyperref)                removing `math shift' on input line 161.
 
 [3<./figures/chapitre 1/courbe-exemple.png>]
-<figures/chapitre 1/endommagement-isotrope.png, id=238, 539.01375pt x 257.46187
+<figures/chapitre 1/endommagement-isotrope.png, id=208, 539.01375pt x 257.46187
 pt>
 File: figures/chapitre 1/endommagement-isotrope.png Graphic file (type png)
 <use figures/chapitre 1/endommagement-isotrope.png>
 Package luatex.def Info: figures/chapitre 1/endommagement-isotrope.png  used on
- input line 200.
+ input line 212.
 (luatex.def)             Requested size: 348.54475pt x 166.48393pt.
- [4]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 206.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\sigma' on input line 206.
+(hyperref)                removing `math shift' on input line 218.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 206.
+(hyperref)                removing `\sigma' on input line 218.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 206.
-
-[5<./figures/chapitre 1/endommagement-isotrope.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 284.
+(hyperref)                removing `subscript' on input line 218.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 284.
+(hyperref)                removing `math shift' on input line 218.
+
+[4<./figures/chapitre 1/endommagement-isotrope.png>] [5]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 284.
-
-[6]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 294.
+(hyperref)                removing `subscript' on input line 296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 294.
+(hyperref)                removing `math shift' on input line 296.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 294.
-
-[7] [8] [9] [10]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 553.
+(hyperref)                removing `math shift' on input line 306.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\varepsilon' on input line 553.
+(hyperref)                removing `subscript' on input line 306.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 553.
+(hyperref)                removing `math shift' on input line 306.
 
+[6] [7]
+Chapitre 2.
+[8
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 553.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 553.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 561.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\varepsilon' on input line 561.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 561.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 561.
-
-[11] [12]
-<figures/chapitre-2/contrainte-deformation.png, id=286, 299.61937pt x 215.30438
+] [9] [10] [11]
+Chapitre 3.
+<figures/chapitre-2/contrainte-deformation.png, id=254, 299.61937pt x 215.30438
 pt>
 File: figures/chapitre-2/contrainte-deformation.png Graphic file (type png)
 <use figures/chapitre-2/contrainte-deformation.png>
 Package luatex.def Info: figures/chapitre-2/contrainte-deformation.png  used on
- input line 640.
+ input line 652.
 (luatex.def)             Requested size: 199.16626pt x 143.12305pt.
-<figures/chapitre-2/contrainte-deformation2.png, id=287, 212.29312pt x 182.1806
+<figures/chapitre-2/contrainte-deformation2.png, id=255, 212.29312pt x 182.1806
 2pt>
 File: figures/chapitre-2/contrainte-deformation2.png Graphic file (type png)
 <use figures/chapitre-2/contrainte-deformation2.png>
 Package luatex.def Info: figures/chapitre-2/contrainte-deformation2.png  used o
-n input line 656.
+n input line 668.
 (luatex.def)             Requested size: 199.16626pt x 170.92455pt.
- [13<./figures/chapitre-2/contrainte-deformation.png><./figures/chapitre-2/contr
-ainte-deformation2.png>] [14]
+[12
+
+<./figures/chapitre-2/contrainte-deformation.png>] [13<./figures/chapitre-2/cont
+rainte-deformation2.png>]
 Missing character: There is no é (U+00E9) in font cmmi12!
-[15] [16] [17] [18
+[14] [15] [16]
+Overfull \vbox (68.69576pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (68.69576pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (83.19576pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (83.19576pt too high) has occurred while \output is active []
+
+
+[17
 Missing character: There is no ; (U+003B) in font nullfont!
-] [19
+] [18]
+Overfull \hbox (2.60799pt too wide) in paragraph at lines 1202--1227
+[]$[]$ $[]$ 
+ []
+
+
+Overfull \hbox (2.60799pt too wide) in paragraph at lines 1237--1263
+[]$[]$ $[]$ 
+ []
+
+[19
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
-] ("./plasticite et endommagement.aux")
+]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 1311.
+
+[20] [21] [22] [23] ("./plasticite et endommagement.aux")
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
@@ -1602,16 +1544,16 @@ hanged.
 )
 
 Here is how much of LuaTeX's memory you used:
- 47039 strings out of 476081
- 125105,1977958 words of node,token memory allocated
- 2298 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 90 glue, 16 kern, 1 penalty, 1 glyph, 366 attribute
-, 61 glue_spec, 185 attribute_list, 2 write nodes
-   avail lists: 1:2,2:2843,3:1764,4:100,5:382,6:108,7:4551,8:52,9:756,10:10,11:3
-70
- 68277 multiletter control sequences out of 65536+600000
- 77 fonts using 5543351 bytes
- 98i,12n,113p,816b,1111s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 47249 strings out of 476081
+ 125097,1977958 words of node,token memory allocated
+ 2646 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 102 glue, 16 kern, 1 penalty, 1 glyph, 454 attribut
+e, 61 glue_spec, 229 attribute_list, 2 write nodes
+   avail lists: 1:1,2:4283,3:1707,4:134,5:394,6:104,7:4723,8:52,9:1046,10:10,11:
+358
+ 68461 multiletter control sequences out of 65536+600000
+ 78 fonts using 5675039 bytes
+ 98i,22n,113p,816b,1159s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman6-
 regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/
 lm/lmroman8-regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/open
@@ -1631,11 +1573,12 @@ ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/amalo/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/amalo/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/a
 malo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
-Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/ms
-am10.pfb>
-Output written on plasticite et endommagement.pdf (19 pages, 284423 bytes).
+Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/l
+ine10.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/symbols/msam10.pfb>
+Output written on plasticite et endommagement.pdf (24 pages, 300375 bytes).
 
-PDF statistics: 421 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 131072)
- 349 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 427 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 131072)
+ 293 words of extra memory for PDF output out of 10000 (max. 100000000)
 

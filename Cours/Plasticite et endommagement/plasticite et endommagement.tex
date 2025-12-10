@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[12pt,a4paper]{report}
 
 \usepackage{polyglossia}
 \setmainlanguage{french}
@@ -74,6 +74,18 @@
 
 
 
+\usepackage{myunit}
+
+\usepackage{cancel}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -97,12 +109,12 @@
 	\newpage
 	
 	
-	\counterwithin{section}{part} % pour que \section{} recommence de 1 aprés \part{}
+	\counterwithin{section}{chapter} % pour que \section{} recommence de 1 aprés \chapter{}
 	
 	
 	
 	
-	\part{Chapitre \RomanNum{1} : modèle ROBOTNOV}
+	\chapter{Chapitre \RomanNum{1} : modèle ROBOTNOV}
 	
 	\section{Définition}
 	
@@ -383,7 +395,7 @@
 	
 	
 	
-	\part{Chapitre \RomanNum{2} : modèle MAZARDS}
+	\chapter{Chapitre \RomanNum{2} : modèle MAZARDS}
 	
 	
 	
@@ -615,7 +627,7 @@
 	
 	
 	
-	\part{Théorie de plasticité et introduction a l'analyse limite}
+	\chapter{Théorie de plasticité et introduction a l'analyse limite}
 	
 	
 	\section{Introduction}
@@ -1146,14 +1158,14 @@
 				
 				\draw[red] (A) -- (C) node[midway,left] {2};
 				
-				\node[below left] at (A) {A};
+				\node[below left] at (A) {A'};
 				\node[above=.3cm] at (B) {B};
 				\node[above=.3cm] at (C) {C};
 				\node[above=.3cm] at (D) {D};
 				
 				\draw[very thick,->,green] (A) -- ++(-90:1.5) node[below] {F};
 				
-				\draw[dashed,black!70] (B) -- (delta) -- (C) (delta) -- (D);
+				\draw[dashed,black!70] (B) -- (delta) node[below left] {A} -- (C) (delta) -- (D);
 				
 				\dimensioning{2}{delta}{A}{4}[$\delta$];
 				
@@ -1169,10 +1181,269 @@
 	
 	\vspace{\baselineskip}
 	
-	Soit "$N_{1}$" et "$N_{2}$" les efforts dans les barres 1 et 2.
+	Soit "$N_{1}$" et "\textcolor{red}{$N_{2}$}" les efforts dans les barres 1 et \textcolor{red}{2}.
+	
+	\vspace{\baselineskip}
+	
+	Avec l'équation d'équilibre on a :
+	
+	\[ \begin{aligned}
+		\sum F/v = 0 \rightarrow -&F + N_{2} + N_{1} \times \sin45\degree + N_{1} \times \sin45\degree = 0 \\
+		&F = N_{2} + \sqrt{2}N_{1}
+	\end{aligned} \]
+	
+	
+	\vspace{2\baselineskip}
+	
+	\subsubsection{Longueur des barres 1 et \textcolor{red}{2}}
+	
+	\vspace{.5\baselineskip}
+	
+	\begin{minipage}{.3\textwidth}
+		\begin{tikzpicture}
+			
+			\draw (0,0) -- (3,3);
+			
+			\node at (1.3,1.8) {$L_{1}$};
+			
+			\draw (0,0) node[below, orange] {A} -- (0,3) node[midway,left] {$L_{2}$};
+			
+			\draw (.5,.5) arc [start angle=45, end angle=90, radius=.7] node[above right] {$45\degree$};
+			
+			\draw[|-|] (0,-.7) -- (3,-.7) node[midway, below] {L};
+			\draw[|-|] (3.5,0) -- (3.5,3) node[midway,right] {L};
+			
+		\end{tikzpicture}
+	\end{minipage}
+	\begin{minipage}{.7\textwidth}
+		$\cos45\degree = \dfrac{L}{L_{1}} \Longrightarrow L_{1} = \dfrac{L}{\cos45\degree} = \dfrac{L}{\dfrac{\sqrt{2}}{2}} = \dfrac{2 \times L}{\sqrt{2}} = \sqrt{2}L$
+		
+		\fbox{$L_{1} = \sqrt{2}L$}
+		
+		\vspace{\baselineskip}
+		
+		\fbox{$L_{2} = L $}
+	\end{minipage}
 	
 	
 	
+	
+	
+	
+	
+	\subsubsection{Déplacement des barres 1 et \textcolor{red}{2}}
+	
+	
+	\begin{minipage}{.4\textwidth}
+		
+		\begin{tikzpicture}
+			
+			\draw (0,0) node[below,red] {A'} -- (0,3) node[below left,orange] {A} node[midway,left] {$\delta_{2} = \delta$} -- (0,4) ;
+			
+			\draw (0,0) -- ++(55:4.3) node[midway,right] {$\delta_{1}$} -- ++(55:.5);
+			
+			\draw (.8,.8) arc [start angle=50, end angle=90, radius=1.2] node[midway,above] {$\alpha$};
+			
+			\draw[decorate,decoration={coil,aspect=0}] (0,3)  -- ++(-1,0) (0,3) -- ++(3,0);
+			
+			\draw[|-|] (3.5,0) -- (3.5,3) node[midway, right] {$\delta$};
+			
+		\end{tikzpicture}
+		
+	\end{minipage}
+	\begin{minipage}{.6\textwidth}
+		\fbox{$\delta_{2} = \delta$}
+		
+		\vspace{\baselineskip}
+		
+		$\cos\alpha = \dfrac{\delta_{2}}{\delta_{1}} = \dfrac{\delta}{\delta_{1}} \Longrightarrow \delta_{1} = \dfrac{\delta}{\cos\alpha} = \delta \times \cos^{-1}\alpha $
+		
+		\fbox{$\delta_{1} = \delta\cos^{-1}\alpha$}
+	\end{minipage}
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		L'angle $\alpha$ dépend du déplacement $\delta$.
+		
+		\[ \alpha = f(\delta) \]
+		
+		Si $\delta$ est un allongement alors l'angle $\alpha < 45\degree$
+		
+		Et si $\delta$ est un raccourcissement alors $\alpha > 45\degree$
+		
+	\end{tcolorbox}
+	
+	
+	\subsubsection{Contraintes et déformations dans les barres 1 et \textcolor{red}{2}}
+	
+	\paragraph{Contrainte :}
+	
+	\[ \sgma{i} = \dfrac{N_{i}}{S_{i}} = \varepsilon_{i}E \]
+	
+	Avec : $S_{1} = S_{2} = S$
+	
+	\[ \fbox{$\sgma{1} = \dfrac{N_{1}}{S} \qquad \sgma{2} = \dfrac{N_{2}}{S}$} \]
+	
+	\paragraph{Déformations :}
+	
+	\[ \varepsilon_{i} = \dfrac{\delta_{i}}{L_{i}} \]
+	
+	
+	\begin{multicols}{2}
+		
+		
+		\[ \varepsilon_{1} = \dfrac{\delta_{1}}{L_{1}} = \dfrac{\delta\cos^{-1}\alpha}{\sqrt{2}L} \]
+		
+		\[ \fbox{$\varepsilon_{1} = \dfrac{\delta\cos^{-1}\alpha}{\sqrt{2}L} $} \]
+		
+		
+		\columnbreak
+		
+		\[ \varepsilon_{2} = \dfrac{\delta_{2}}{L_{2}} = \dfrac{\delta}{L} \]
+		
+		\[ \fbox{$\varepsilon_{2} = \dfrac{\delta}{L}$} \]
+		
+	\end{multicols}
+	
+	\subsubsection{La loi de comportement}
+	
+	Pour chacune Des deux barres on peut écrire la loi de comportement sous la forme suivante : 
+	
+	\[ \sgma{i} = \varPhi_{E}(\varepsilon_{i}) \qquad \small i = 1;\textcolor{red}{2} \]
+	
+	
+	\begin{itemize}
+		\item E est fini pour le domaine élastique (analyse élastique).
+		\item E est infinie pour le domaine plastique (analyse limite).
+	\end{itemize}
+	
+	\vspace{\baselineskip}
+	
+	\[
+	\begin{aligned}
+		F = N_{2} + N_{1}\sqrt{2}  &= \sgma{2} \times S + \sqrt{2}\sgma{1} \times S \\
+		&= S(\sgma{2} + \sqrt{2}\sgma{1}) \\
+		&= S \bigg[ \varPhi_{E}(\varepsilon_{2}) + \sqrt{2}\varPhi_{E}(\varepsilon_{1}) \bigg] \\
+		&= S \left[ \varPhi_{E}\left(\dfrac{\delta}{L}\right)  + \cancel{\sqrt{2}}\varPhi_{E}\left(\dfrac{\delta\cos^{-1}\alpha}{\cancel{\sqrt{2}}L}\right) \right]
+	\end{aligned}
+	\]
+	
+	\[ \fbox{$F = S \times \left[ \varPhi_{E}\left(\dfrac{\delta}{L}\right)  + \varPhi_{E}\left(\dfrac{\delta\cos^{-1}\alpha}{L}\right) \right]$} \]
+	
+	
+	\begin{itemize}
+		\item On est dans le domaine élastique si $\begin{cases}
+			\varepsilon_{1} < \varepsilon_{e} \\
+			\varepsilon_{2} < \varepsilon_{e}
+		\end{cases}$
+		
+		\item On est dans le comportement mixte si $\begin{cases}
+			\varepsilon_{1} < \varepsilon_{e} \\
+			\varepsilon_{2} > \varepsilon_{e}
+		\end{cases}$
+		
+		\item On est dans le domaine plastique si $\begin{cases}
+			\varepsilon_{1} > \varepsilon_{e} \\
+			\varepsilon_{2} > \varepsilon_{e}
+		\end{cases}$
+	\end{itemize}
+	
+	
+	\subsubsection{Analyse élastique}
+	
+	\[ \varepsilon_{y} = \dfrac{\sgma{y}}{E} \]
+	
+	\begin{multicols}{2}
+		
+		\paragraph{Barres 1 :}
+		
+		\[ \dfrac{\delta\cos^{-1}\alpha}{\sqrt{2}L} \leq \dfrac{\sgma{y}}{E} \]
+		
+		\columnbreak
+		
+		\paragraph{Barre \textcolor{red}{2} :}
+		
+		\[ \dfrac{\delta}{L} \leq \dfrac{\sgma{y}}{E} \]
+		
+	\end{multicols}
+	
+	\[ \fbox{$F(\delta) = S \times \left[ E\dfrac{\delta}{L}  + E\dfrac{\delta\cos^{-1}\alpha}{L} \right]$} \]
+	
+	
+	
+	"F" Représente la force maximale que peut supporter le système des trois barres, pour que ce dernier reste dans le domaine élastique.
+	
+	Comme la barre \textcolor{red}{2} est la première à atteindre la limite élastique donc :
+	
+	\[ \dfrac{\delta}{L} \leq \dfrac{\sgma{y}}{E} \]
+	
+	\[ \delta \leq \dfrac{L \times \sgma{y}}{E} \]
+	
+	\[ \delta \in \left[ 0\,;\, \dfrac{L\sgma{y}}{E} \right] \quad \text{On est toujours dans l'analyse élastique.} \]
+	
+	
+	\subsubsection{Comportement mixte}
+	
+	Au delà de la limite imposée par la relation suivante : $\delta \in \left[ 0\,;\, \dfrac{L\sgma{y}}{E} \right]$, la barre \textcolor{red}{2} à déjà atteint sa limite élastique et entre dans le domaine plastique, alors que la barre 1 est toujours dans le domaine élastique.
+	
+	\[ \dfrac{\delta\cos^{-1}\alpha}{\sqrt{2}L} \leq \dfrac{\sgma{y}}{E} \]
+	
+	\[ \downarrow \]
+	
+	\[ \delta \leq \dfrac{\sgma{y} \times \sqrt{2} \times L \times \cos\alpha}{E} \]
+	
+	\vspace{3\baselineskip}
+	
+	\[\dfrac{L\sgma{y}}{E} \leq \delta \leq \dfrac{\sgma{y} \times \sqrt{2} L \cos\alpha}{E} \]
+	
+
+	\[ \delta \in \left[ \dfrac{L\sgma{y}}{E} \,;\, \dfrac{\sgma{y} \sqrt{2} L \cos\alpha}{E} \right] \]
+	
+	Force maximale que peut supporter le système des trois barres pour avoir la barre \textcolor{red}{2} plastifiée et les barres 1 toujours dans le domaine élastique.
+	
+	
+	\subsubsection{Comportement plastique}
+	
+	Au delà du domaine fixé par la relation : $\delta \in \left[\dfrac{L\sgma{y}}{E} \,;\, \dfrac{L\sgma{y}\cos\alpha}{E}\right]$, les barres \textcolor{red}{2} et 1 sont toute les trois plastifiées, pour :
+	
+	\[ \fbox{$F(\delta) = S \times \left[ \sgma{y}  +\sgma{y}\cos^{-1}\alpha \right]$} \]
+	
+	
+	Ce qui équivaut a : 
+	
+	\[ \delta > \dfrac{\sgma{y}}{E} \sqrt{2} L \cos\alpha \]
+	
+	
+	\vspace{2\baselineskip}
+	
+	
+	\[ \delta_{y} = \dfrac{\sgma{y}}{E} \times L \qquad \delta_{l} = \dfrac{\sgma{y}}{E} \times \sqrt{2} L \cos\alpha \]
+	
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			
+			
+			\draw[<->,very thick] (0,4) node[above] {F} -- (0,0) -- (4,0) node[right] {$\delta$};
+			
+			\draw (0,0) -- (1,2);
+			
+			\draw (1,2) .. controls (2,2.7) .. (3,3);
+			
+			\draw[dashed] (0,2) node[left] {$F_{y}$} -- (1,2) -- ++(0,-2) node[below]{$\delta_{y}$};
+			\draw[dashed] (0,3) node[left] {$F_{l}$} -- (3,3) -- ++(0,-3) node[below] {$\delta_{l}$};
+			
+		\end{tikzpicture}
+	\end{figure}
+	
+	
+	\begin{itemize}
+		\item Si $\delta \in [0;\delta_{y}]$ les deux barres sont élastiques.
+		
+		\item Si $\delta \in [\delta_{y};\delta_{l}]$ la barre \textcolor{red}{2} est plastifiée et les barres 1 sont élastiques.
+		
+		\item Si $\delta > \delta_{l}$ Les trois barres sont plastifiées.
+	\end{itemize}
 	
 	
 	

@@ -2,6 +2,20 @@ Ce ChangeLog resume tout ce qui a été fait.
 
 ###### -----------------------------------------------------------------------
 
+# **10.12.2025**
+
+
+
+* **Plasticité et endommagement fin, j'ai corriger une erreur reste a verifier si c'est correct.**
+
+
+
+
+
+###### -----------------------------------------------------------------------
+
+
+
 # **09.12.2025**
 
 
