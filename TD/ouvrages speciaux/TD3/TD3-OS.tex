@@ -1,0 +1,681 @@
+\documentclass[12pt,a4paper]{report}
+
+\usepackage{polyglossia}
+\setmainlanguage{french}
+
+\usepackage{amsmath, amssymb}
+
+\usepackage{graphicx}
+\usepackage{caption}
+
+\usepackage{siunitx} % Pour les unités
+
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2cm, left=2cm, right=1.5cm}
+\setlength{\parindent}{0pt}
+
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+
+\usepackage{multicol}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{gray}}
+
+\usepackage{tcolorbox}
+
+
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+
+
+
+
+
+
+\usepackage{myunit}
+\usepackage{stanli}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+
+
+
+
+
+
+
+\newcommand{\RomanNum}[1] %pour les chiffre romain
+{\MakeUppercase{\romannumeral #1}}
+
+
+%commandes pour sigma
+\newcommand{\sgma}[1]{\sigma_{#1}}
+\newcommand{\sigmax}{\sigma_{\max}}
+\newcommand{\sigmin}{\sigma_{\min}}
+
+\newcommand{\sigmabar}[1]{\overline{\sigma}_{#1}}
+
+%fonction pour tau
+\newcommand{\taubar}[1]{\overline{\tau}_{#1}}
+
+
+
+
+
+%fonction unique pour ce document
+%force horizontale
+\newcommand{\fH}{F_{H}}
+\newcommand{\fht}{F_{ht_{1}}}
+\newcommand{\fhtt}{F_{ht_{2}}}
+\newcommand{\fhq}{F_{hq}}
+%moment des fh
+\newcommand{\mht}{M_{ht_{1}}}
+\newcommand{\mhtt}{M_{ht_{2}}}
+\newcommand{\mhq}{M_{hq}}
+
+
+%force verticale
+\newcommand{\fV}{F_{V}}
+\newcommand{\fvr}{F_{vr}}
+\newcommand{\fvs}{F_{vs_{1}}}
+\newcommand{\fvss}{F_{vs_{2}}}
+\newcommand{\fvt}{F_{vt_{1}}}
+\newcommand{\fvtt}{F_{vt_{2}}}
+\newcommand{\fvq}{F_{vq}}
+%moment des fv
+\newcommand{\mvr}{M_{vr}}
+\newcommand{\mvs}{M_{vs_{1}}}
+\newcommand{\mvss}{M_{vs_{2}}}
+\newcommand{\mvt}{M_{vt_{1}}}
+\newcommand{\mvtt}{M_{vt_{2}}}
+\newcommand{\mvq}{M_{vq}}
+
+
+%gamma
+\newcommand{\gammah}{\gamma_{h}}
+\newcommand{\gammab}{\gamma_{ba}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\title{Mur de Soutènement}
+\author{}
+\date{\today}
+
+\begin{document}
+	\counterwithin{section}{chapter} % pour que \section{} recommence de 1 aprés \part{}
+	
+	
+	\tableofcontents
+	
+	\newpage
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	\chapter{Vérification de stabilité pour le mur 1}
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		\begin{itemize}
+			\item Le calcul se fera pour une bande de 1m.
+			\item Le rideau sera calculer comme une console encastrée dans la semelle.
+			\item Les semelles avant et arrière seront considérés comme des consoles encastrées dans le rideau.
+		\end{itemize}
+	\end{tcolorbox}
+	
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		La poussée des terres est une action permanente, on doit donc lui affecter une coefficient de 1,35
+		
+		Tandis que la surcharge est variable donc on lui affecte 1,5.
+		
+		Toutefois ces coefficient ne sont pas à prendre en considération lorsqu'ils agissent dans un sens favorables.
+	\end{tcolorbox}
+	
+	
+	\section{Calcul des forces horizontales}
+	
+	\subsection{Force de poussée des terres}
+	
+	\subsubsection{Coefficient K}
+	
+	\begin{minipage}{.8\textwidth}
+		\[ K_{a} = \tan^{2}\left( \dfrac{\pi}{4} - \dfrac{\varphi_{1}}{2} \right)\rightarrow\text{Partie arrière(poussée)} \]
+		
+		\[ K_{p} = \tan^{2}\left( \dfrac{\pi}{4} + \dfrac{\varphi_{2}}{2} \right)\rightarrow\text{Partie avant(butée)} \]
+	\end{minipage}
+	\begin{minipage}{.2\textwidth}
+		\begin{figure}[H]
+			\begin{tikzpicture}
+				\draw (0,0) -- (2,0) -- (2,.5) -- (1.3,.5) -- (1.3,2) -- (.8,2) -- (.5,.5) -- (0,.5) -- cycle;
+				\node[left] at (.5,1) {Avant};
+				\node[right] at (1.3,1) {Arrière};
+			\end{tikzpicture}
+		\end{figure}
+	\end{minipage}
+	
+	\begin{tcolorbox}[colback=red!20, colframe=red, title=Remarque]
+		ATTENTION AU UNITÉ DE $\varphi$ ET DE $\pi$.
+		
+		C'est à dire si $\varphi$ est en degré alors $\pi$ doit aussi être en degré.
+		
+		Généralement les deux sont en degré.
+	\end{tcolorbox}
+	
+	
+	\[ K = K_{a} = K_{b} = 0,271 \]
+	
+	\vspace{\baselineskip}
+	
+	
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{Les forces}}]
+		
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\point{a}{0}{0};
+				\point{f}{0}{.6};
+				\point{b}{0}{2};
+				
+				\lineload{1}{a}{b}[2][0];
+				
+				\draw[green,<-,very thick] (f) -- ++(180:3)node[left] {$F_{ht}$};
+			\end{tikzpicture}
+		\end{figure}
+		
+		\begin{multicols}{2}
+			Terres situé à l'avant
+			
+			\[  
+			\begin{aligned}
+				F_{ht_{2}} &= K_{a} \times \dfrac{(\gamma_{h} \times h_{2}) \times h_{2}}{2} \\
+				&= 0,271 \times \dfrac{19,8 \times 1,3^{2}}{2} \\
+				&= 4,534\kn 
+			\end{aligned}
+			\]
+			
+			\columnbreak
+			Terre situé à l'arrière
+			\[
+			\begin{aligned}
+				\fht &= K \times \dfrac{(\gammah \times H) \times H}{2} \\
+				&= 0,271 \times \dfrac{19,8 \times 4,8^{2}}{2} \\
+				&= 61,814\kn
+			\end{aligned}
+			\]
+		\end{multicols}
+	\end{tcolorbox}
+	
+	
+	
+	
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{Bras de levier}}]
+		
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\draw (0,0) node[red,below] {A} -- (2,0) -- (2,.5) -- (1.3,.5) -- (1.3,2) -- (.8,2) -- (.5,.5) -- (0,.5) -- cycle;
+				\draw[red,fill] (0,0) circle (0.1);
+			\end{tikzpicture}
+		\end{figure}
+		
+		\begin{multicols}{2}
+			Avant :
+			\[ B_{L} = h_{2}/3 = 1,3/3 = 0,433\meterl \]
+			
+			\columnbreak
+			Arrière :
+			
+			\[ B_{L} = \dfrac{h_{1}}{3} = \dfrac{4,8}{3} = 1,6\meterl \]
+		\end{multicols}
+	\end{tcolorbox}
+	
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{Calcul du moment par rapport au point "A"}}]
+		\begin{multicols}{2}
+			Avant :
+			\[
+			\begin{aligned}
+				\mhtt &= \fhtt \times \dfrac{h_{2}}{3} \\
+				&= 4,534 \times 0,433 \\
+				&= 1,964\knxm
+			\end{aligned}
+			\]
+			
+			\columnbreak
+			Arrière : 
+			\[
+			\begin{aligned}
+				\mht &= \fht \times B_{L}\\
+				&= 61,814 \times 1,6 \\
+				&= 98,902\knxm 
+			\end{aligned}
+			\]
+		\end{multicols}
+	\end{tcolorbox}
+	
+	
+	\subsection{Force de poussée due à la surcharge}
+	
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{La force}}]
+		\[ \fhq = K \times q \times H = 0,271 \times (4 \times 4,8) = 4,752\kn \]
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{Bras de levier}}]
+		\[ B_{L} = \dfrac{H}{2} = \dfrac{4,8}{2} = 2,4\meterl \]e
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{Le moment/A}}]
+		\[ \mhq = \fhq \times B_{L} = 4,752 \times 2,4 = 11,405\knxm \]
+	\end{tcolorbox}
+	
+	
+	\section{Calcul des forces verticales}
+	
+	\subsection{Poids propre du rideau}
+	
+	
+	\begin{minipage}{.5\textwidth}
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\point{A}{-3}{0};
+				\point{a}{0}{0};
+				\point{b}{2}{0};
+				\point{c}{2}{2.5};
+				\point{d}{1}{2.5};
+				\point{g}{1}{1};
+				
+				\dimensioning{1}{a}{b}{-.7}[$E_{b}$];
+				\dimensioning{1}{a}{g}{-1.5}[$2/3E_{b}$];
+				\dimensioning{1}{A}{a}{-1.5}[$b_{2}$];
+				\dimensioning{1}{d}{c}{3}[$E_{h}$];
+				
+				\dimensioning{2}{a}{g}{-.5}[$V_{1}$];
+				\dimensioning{2}{g}{d}{-.5}[$V_{2}$];
+				\dimensioning{2}{c}{b}{2.5}[H];
+				
+				\draw (a) -- (b) -- (c) -- (d) -- cycle;
+				\node[circle,draw] at (g) {\tiny G};
+				\node[red,circle,draw] at (A) {A};
+			\end{tikzpicture}
+		\end{figure}
+	\end{minipage}
+	\begin{minipage}{.5\textwidth}
+		\[ S = \dfrac{(E_{h} + E_{b})}{2} \times H = 0,35\msq \]
+		
+		\[ V_{1} = \dfrac{H}{3} \times \dfrac{(2E_{b} + E_{h})}{E_{b} + E_{h}} \]
+		\[ V_{2} = \dfrac{H}{3} \times \dfrac{(E_{b} + 2E_{h})}{E_{b} + E_{h}} \]
+		
+	\end{minipage}
+	
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{La force}}]
+		\[ \begin{aligned}
+			\fvr &= \gammah \times S \times H \\
+			&= 25 \times 0,35 \times 4,8 \\
+			&= 42\kn
+		\end{aligned} \]
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{Bras de levier}}]
+		\[ B_{L} = b_{2} + \dfrac{2}{3} \times E_{b} = 1 + \dfrac{2}{3} \times 0,4 = 1,266\meterl \]
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{Le moment/A}}]
+		\[ \mvr = \fvr \times B_{L} = 42 \times 1,266 = 53,17\knxm \]
+	\end{tcolorbox}
+	
+	\subsection{Poids propre des semelles}
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{Schémas}}]
+		\begin{multicols}{2}
+			\centering
+			Semelle avant :
+			
+			\begin{tikzpicture}
+				\draw (0,0) node[red,below] {A} coordinate (a) rectangle (2.5,.5) coordinate (b);
+				\draw[very thick,green,->] (1.25,.25) -- ++(-90:1) node[below]{$\fvss$};
+				\dimensioning{1}{a}{b}{1}[$b_{2}$];
+				\dimensioning{2}{a}{b}{3}[$E_{s}$];
+			\end{tikzpicture}
+			
+			\columnbreak
+			Semelle arrière : 
+			
+			\begin{tikzpicture}
+				\draw (0,0) coordinate (a) rectangle (2.5,.5) coordinate (b);
+				\draw[very thick,green,->] (1.25,.25) -- ++(-90:1) node[below]{$\fvss$};
+				\draw[dashed,black!40] (-2,0) node[red,below] {A} rectangle (0,.5);
+				\coordinate (A) at (-2,0);
+				\coordinate (oa) at (-1,0);
+				\dimensioning{1}{a}{b}{1}[$b_{1}$];
+				\dimensioning{2}{a}{b}{3}[$E_{s}$];
+				\dimensioning{1}{A}{oa}{1}[$b_{2}$];
+				\dimensioning{1}{oa}{a}{1}[$E_{b}$];
+			\end{tikzpicture}
+		\end{multicols}
+	\end{tcolorbox}
+	
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{La force}}]
+		\begin{multicols}{2}
+			Avant : 
+			
+			\[
+			\begin{aligned}
+				\fvss &= \gammab \times b_{2} \times E_{s} \\
+				&= 25 \times 1 \times 0,4 \\
+				&= 10\kn 
+			\end{aligned}
+			\]
+			
+			\columnbreak
+			
+			\[ \begin{aligned}
+				\fvs &= \gammab \times b_{1} \times E_{s} \\
+				&= 25 \times 1,5 \times 0,4 \\
+				&= 15\kn
+			\end{aligned} \]
+			
+			
+		\end{multicols}
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{B.L}}]
+		\begin{multicols}{2}
+			\[ B_{L} = \dfrac{b_{2}}{2} = \dfrac{1}{2} = 0,5\meterl \]
+			\columnbreak
+			\[ \begin{aligned}
+				B_{L} &= b_{2} + E_{b} + \dfrac{b_{1}}{2} \\
+				&=1 + 0,4 + \dfrac{1,5}{2} \\
+				&=2,15\meterl
+			\end{aligned}\]
+		\end{multicols}
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{Moment/A}}]
+		\begin{multicols}{2}
+			\[ \begin{aligned}
+				\mvss &= \fvss \times B_{L} \\
+				&= 10 \times 0,5 \\
+				&= 5\knxm
+			\end{aligned} \]
+			
+			\columnbreak
+			
+			\[ \begin{aligned}
+				\mvs &= \fvs \times B_{L} \\
+				&= 15 \times 2,15 \\
+				&= 32,25\knxm
+			\end{aligned} \]
+			
+		\end{multicols}
+	\end{tcolorbox}
+	
+	
+	\subsection{Poids des terres}
+	
+	
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{Schéma}}]
+		\centering
+		\begin{tikzpicture}[scale=2]
+			\draw (0,0) -- (2,0) -- (2,.5) -- (1.3,.5) -- (1.3,2) -- (.8,2) -- (.5,.5) -- (0,.5) -- cycle;
+			\draw[pattern=north west lines] (0,.5) rectangle (.8,1);
+			\draw[pattern=north west lines] (1.3,.5) rectangle (2,2);
+			
+			\coordinate (ft) at ($(0,.5)!.5!(.8,1)$);
+			\coordinate (f) at ($(1.3,.5)!.5!(2,2)$);
+			\draw[very thick,green,->] (ft) -- ++(-90:1.3) node[below]{$\fvtt$};
+			\draw[very thick,green,->] (f) -- ++(-90:2) node[below]{$\fvt$};
+		\end{tikzpicture}
+	\end{tcolorbox}
+	
+	
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{La force}}]
+		\begin{multicols}{2}
+			Avant :
+			\[ \begin{aligned}
+				\fvtt &= \gammah \times b_{2} \times h_{2}' \\
+				&= \gammah \times b_{2} \times (h_{2} - E_{s}) \\
+				&= 19,8 \times 1 \times (1,3 - 0,4) \\
+				&= 17,82\kn
+			\end{aligned} \]
+			
+			\columnbreak
+			
+			Arrière : 
+			\[ \begin{aligned}
+				\fvt &= \gammah \times b_{1} \times h_{1}' \\
+				&= \gammah \times b_{1} \times (H - E_{s}) \\
+				&= 19,8 \times 1,5 \times (4,8 - 0,4) \\
+				&= 130,68\kn
+			\end{aligned} \]
+			
+		\end{multicols}
+	\end{tcolorbox}
+	
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{B.L}}]
+		Avant :
+		\begin{multicols}{2}
+			\[ \begin{aligned}
+				B_{L} = \dfrac{b_{2}}{2} = 1/2 = 0,5\meterl
+			\end{aligned} \]
+			
+			\columnbreak
+			
+			Arrière :
+			\[ \begin{aligned}
+				B_{L} = b_{2}  + E_{b} + \dfrac{b_{1}}{2} = 2,15\meterl
+			\end{aligned} \]
+		\end{multicols}
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{Moment/A}}]
+		\begin{multicols}{2}
+			Avant :
+			\[ \begin{aligned}
+				\mvtt &= \fvtt \times B_{L} \\
+				&= 17,82 \times 0,5 \\
+				&= 8,91\knxm
+			\end{aligned} \]
+			
+			\columnbreak
+			
+			Arrière :
+			\[ \begin{aligned}
+				\mvt &= \fvt \times B_{L} \\
+				&= 130,68 \times 2,15 \\
+				&= 280,962\knxm
+			\end{aligned} \]
+		\end{multicols}
+	\end{tcolorbox}
+	
+	
+	
+	\subsection{Surcharge}
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{La force}}]
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}
+				\draw (0,0) -- (2,0) -- (2,.5) -- (1.3,.5) -- (1.3,2) coordinate (e) -- (.8,2) coordinate (f) -- (.5,.5) -- (0,.5) -- cycle;
+				\draw[pattern=north east lines] (e) rectangle (2,2.5) node[midway,above=.2] {q};
+				\coordinate (f) at ($(1.3,2)!.5!(2,2)$);
+				\draw[very thick,green,->] (f) -- ++(-90:1) node[right]{$\fvq$};
+			\end{tikzpicture}
+		\end{figure}
+		
+		\[ \fvq = q \times b_{1} = 4 \times 1,5 = 6\kn \]
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{B.L}}]
+		\[ B_{L} = b_{2} + E_{b} + \dfrac{b_{1}}{2} = 2,15\meterl \]
+	\end{tcolorbox}
+	
+	\begin{tcolorbox}[colback=white, colframe=gray!50, title=\textcolor{black}{\textbf{Moment/A}}]
+		\[ \mvq = \fvq \times B_{L} = 6 \times 2,15 = 12,9\knxm \]
+	\end{tcolorbox}
+	
+	
+	
+	\section{Stabilité au glissement}
+	
+	\[ \dfrac{\sum \fH}{\sum \fV} \leq 0,6 \]
+	
+	\[ \begin{aligned}
+		\sum \fH &= 1,35 \times (\fht - \fhtt) + 1,5 \times \fhq \quad \text{(défavorable)} \\
+		&= 1,35 \times (61,814 - 4,534) + 1,5 \times 4,752 \\
+		&= 84,456\kn 
+	\end{aligned} \]
+	
+	\[ \begin{aligned}
+		\sum \fV &= \fvr + \fvs + \fvss + \fvt + \fvtt + \fvq \quad \text{(favorable)} \\
+		&= 42 + 10 + 15 + 17,82 + 130,68 + 6 \\
+		&= 221,5\kn
+	\end{aligned} \]
+	
+	
+	\[ \dfrac{\sum \fH}{\sum \fV} = \dfrac{84,456}{221,5} = 0,381 < 0,6 \]
+	
+	{\centering Pas de risque de glissement\par}
+	
+	\begin{tcolorbox}[colback=gray!20, colframe=black, title=Remarque]
+		Si cette condition ne passe pas soit on augmente les dimensions du mur ou on ajoute une bêche.
+	\end{tcolorbox}
+	
+	
+	
+	\section{Stabilité au renversement}
+	
+	\[ \dfrac{\sum M_{stabilisant}}{\sum M_{renversant}} \geq 1,5 \]
+	
+	\[ \begin{aligned}
+		\sum M_{renversant} &= 1,35 \times (\mht - \mhtt) + 1,5 \times \mhq \\
+		&= 147,975\knxm
+	\end{aligned} \]
+	
+	\[ \begin{aligned}
+		\sum M_{stabilisant} &= \mvr + \mvt + \mvtt + \mvs + \mvss + \mvq \\
+		&= 393,19\knxm 
+	\end{aligned} \]
+	
+	\[ \dfrac{\sum M_{stabilisant}}{\sum M_{renversant}} = \dfrac{393,194}{149,975} = 2,657 > 1,5 \]
+	
+	{\centering Le mur est stable vis-à-vis au renversement\par}
+	
+	\section{Stabilité au poinçonnement}
+	
+	Il faut ramener tous les efforts au CDG de \textcolor{red}{la semelle}
+	
+	\subsection{Vérification à ELS}
+	
+	\[ M_{s} = M_{s1}^{retient} - M_{s2}^{renverse} \]
+	
+	
+	\[ M_{s1} = \sum M_{stabilisant} = 393,19\knxm \quad \text{(ELS)} \]
+	
+	\[ M_{s2} = \sum M_{renversant} = 108,344\knxm \quad \text{(ELS)} \]
+	
+	
+	\[ M_{s} = 393,194 - 108,344 = 284,85\knxm \]
+	
+	\vspace{\baselineskip}
+	
+	\[ M_{g} = \sum \fV \times e \]
+	
+	\[ e = \dfrac{B}{2} - \dfrac{M_{s}}{\sum \fV} = \dfrac{2,9}{2} - \dfrac{284,85}{221,5} = 0,164\meterl \]
+	
+	\[ M_{g} = 221,5 \times 0,164 = 36,325\knxm \]
+	
+	
+	\[ \begin{cases}
+		\sgma{\max} = \dfrac{N}{S} + \dfrac{M \times V}{I} = \dfrac{\sum \fV}{B \times 1ml} + \dfrac{M_{g} \times \dfrac{B}{2}}{\dfrac{1 \times b^{3}}{12}} = 0,102\mpa \\ \\
+		\sgma{\min} = \dfrac{N}{S} - \dfrac{M \times V}{I} = \dfrac{\sum \fV}{B \times 1ml} - \dfrac{M_{g} \times \dfrac{B}{2}}{\dfrac{1 \times b^{3}}{12}} = 0,05\mpa
+	\end{cases} \]
+	
+	$B = 2,9\meterl$
+	
+	
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}[scale=2]
+			\draw (0,0) -- (2,0) -- (2,.5) -- (1.3,.5) -- (1.3,2) -- (.8,2) -- (.5,.5) -- (0,.5) -- cycle;
+			\draw[pattern=vertical lines] (0,-.2) -- (2,-.2) -- (2,-.7) node[below] {$\sgma{\min}$} -- (0,-1.2) node[below] {$\sgma{\max}$} -- cycle;
+		\end{tikzpicture}
+	\end{figure}
+	
+	
+	\[ \sgma{moy} = \dfrac{3\sgma{\max} + \sgma{\min}}{4} = 0,089\mpa \]
+	
+	\[ \sgma{moy} = 0,089 < \sgma{sol} = 0,2\mpa \]
+	
+	{\centering Condition vérifiée \par}
+	
+	\vspace{\baselineskip}
+	On refait le calcul a l'ELU mais on applique les coefficient uniquement pour les forces défavorable.
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	\vfill \hfill \Huge \LaTeX
+	
+\end{document}
