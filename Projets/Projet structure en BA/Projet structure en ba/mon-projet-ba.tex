@@ -119,20 +119,17 @@
 
 
 
-\usepackage[backend=biber,style=numeric]{biblatex}
 
+\usepackage[backend=biber,style=authoryear]{biblatex}
 \addbibresource{biblio.bib}
+
+
+
 
 \renewcommand{\thechapter}{\Roman{chapter}}
 
 
 \usepackage{comment}
-
-
-
-
-
-
 
 
 
@@ -161,6 +158,68 @@
 	
 	\tableofcontents
 	
+	\listoftables
+	
+	\listoffigures
+	
+	
+	
+	\chapter*{Liste des notations}
+	\markboth{Liste des notations}{Liste des notations}
+	
+	
+	
+	\begin{itemize}
+		\item[$E$] Module d'élasticité longitudinale.
+		\item[$E_{i}$] Module d'élasticité de l'acier.
+		\item[$Es$] Module de déformation instantanée.
+		\item[$E_{v}$] Module de déformation différé.
+		\item[$F$]  Force ou action en général.
+		\item[$G$] Action permanente ou module d'élasticité transversale.
+		\item[$Q$] Charges d'exploitations.
+		\item[$I$] Moment d'inertie.
+		\item[$K$] Coefficient.
+		\item[$L$] Longueur ou portée.
+		\item[$l$] Longueur ou portée.
+		\item[$M$]  Moment en général, moment de flexion le plus souvent.
+		\item[$M_{G}$] Moment fléchissant développé par les permanentes.
+		\item[$M_{Q}$] Moment fléchissant développé par les charges d'exploitations.
+		\item[$M_{u}$] Moment de calcul ultime.
+		\item[$M_{ELU}$] Moment de calcul à l'ELU.
+		\item[$M_{ELS}$]  Moment de calcul à l'ELS.
+		\item[$M_{a}$] Moment sur appuie.
+		\item[$M_{t}$] Moment en travée.
+		\item[$N$] Effort normal.
+		\item[$S_{t}$] Espacement des armatures transversales.
+		\item[$T$] Effort Tranchant, période.
+		\item[$V$] Effort tranchant a la base.
+		\item[$ELU$] État limite ultime.
+		\item[$ELS$] État limite service.
+		\item[$a$] Une dimension.
+		\item[$b$] Une dimension transversale (largeur ou épaisseur d'une section).
+		\item[$d$] Distance du barycentre des armatures tendues à la fibre extrême la plus comprimée.
+		\item[$c$] Distance du barycentre des armatures comprimée à la fibre extrême la plus comprimée.
+		\item[$f_{e}$] Limite d'élasticité de l'acier.
+		\item[$f_{cj}$] Résistance caractéristique à la compression du béton âge de j jours.
+		\item[$f_{tj}$] Résistance caractéristique à la traction du béton âge de j jours.
+		\item[$f_{c28} \quad f_{t28}$] Grandeurs précédentes avec j =28 jours.
+		\item[$H$] Hauteur.
+		\item[$h$] Hauteur.
+		\item[$e$] Épaisseur.
+		\item[$\gamma_{s}$] Coefficient de sécurité dans l’acier.
+		\item[$\gamma_{b}$] Coefficient de sécurité dans le béton.
+		\item[$\varepsilon_{bc}$] Raccourcissement relatif du béton comprimé.
+		\item[$\varepsilon_{s}$] Allongement relatif de l'acier tendu.
+		\item[$\rho_{ba}$] Poids volumique du béton armé.
+		\item[$\tau$] Contrainte tangente (de cisaillement).
+		\item[$\sigma$] Contrainte normale en général.
+		\item[$\sgma{bc}$] Contrainte de compression.
+		\item[$\sgma{s}$] Contrainte de traction, de compression dans l'acier.
+		\item[$\sigmabar{bc}$] Contrainte de compression admissible du béton.
+		\item[$\sigmabar{s}$] Contrainte de traction admissible de l’acier.
+		\item[$\sgma{sol}$] Contrainte du sol.
+	\end{itemize}
+
 	
 	\newpage
 	
@@ -331,9 +390,37 @@
 	
 	\subsubsection{Vue en plan}
 	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.4\linewidth]{"../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 0"}
+		\caption{Vue en plan. Source : MAIZI Khalid,2020}
+		\label{fig:vue-plan}
+	\end{figure}
+	
+	
+	
 	\subsubsection{Vue en élévation}
 	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.4\linewidth]{"../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 1"}
+		\caption{Vue en élévation.}
+		\label{fig:vue-elevation}
+	\end{figure}
+	
+	
+	
 	\subsubsection{Vue en façade}
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.4\linewidth]{"../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 2"}
+		\caption{Vue en façade.}
+		\label{fig:vue-facade}
+	\end{figure}
 	
 	
 	
@@ -445,9 +532,11 @@
 		mm dont l'origine peut-être naturelle, artificielle ou provenant de recyclage. Ils constituent le
 		squelette solide du béton, ils sont classés en trois catégories :
 		
+		
+		
 		\begin{table}[H]
 			\centering
-			\caption{Les classes des granulats.\protect\footnotemark[3]}
+			\caption{Les classes des granulats. Source : MAIZI Khalid, 2020\protect\footnotemark[3]}
 			\begin{tabular}{lccc}
 				\toprule
 				Types \hspace{0.5cm} & Sable (mm) & Gravillons (mm) & Cailloux (mm) \\
@@ -462,7 +551,7 @@
 			\label{tab:classes-granulats}
 		\end{table}
 		
-		\footnotetext[3]{Mémoire fin d'étude de MAIZI Khalid}
+		\footnotetext[3]{Mémoire fin d'étude de MAIZI Khalid, 2020}
 		
 		\item \textbf{L'eau de gâchage :}
 		
@@ -517,10 +606,10 @@
 		
 		\item \textbf{La résistance à la traction $f_{tj}$}
 		
-		\subitem La résistance à la traction est donnée par :
+		\subitem La résistance à la traction\footnotemark[2] est donnée par :
 		
 		\subitem \begin{equation}
-			f_{tj} = 0,6 + 0,06 \cdot f_{cj} \qquad \footnotemark[2]
+			f_{tj} = 0,6 + 0,06 \cdot f_{cj}
 			\label{eq:ft28}
 		\end{equation}
 		
@@ -528,17 +617,17 @@
 		
 		\item \textbf{Déformation longitudinale} il existe deux modules de déformation longitudinale :
 		
-		\subitem Module de déformation longitudinale instantanée $E_{ij}$ : Sous l’effet des contraintes normales d’une durée inférieure à 24heures, on admet à défaut de mesures, qu’à l’âge de (j) jours, le module de déformation longitudinale instantané du béton Eij est égal à :
+		\subitem Module de déformation longitudinale instantanée $E_{ij}$ : Sous l’effet des contraintes normales d’une durée inférieure à 24heures, on admet à défaut de mesures, qu’à l’âge de (j) jours, le module de déformation longitudinale instantané du béton Eij est égal à\footnotemark[2] :
 		
 		\subsubitem \begin{equation}
-			E_{ij} = 11000\sqrt[3]{f_{cj}} \qquad  \footnotemark[2] 
+			E_{ij} = 11000\sqrt[3]{f_{cj}} 
 		\end{equation}
 		
 		
-		\subitem Module de déformation longitudinale différée $E_{vj}$ : Pour les charges de longue durée d’application, le module de déformation longitudinale différée Evj est égal à :
+		\subitem Module de déformation longitudinale différée $E_{vj}$ : Pour les charges de longue durée d’application, le module de déformation longitudinale différée Evj est égal à\footnotemark[2] :
 		
 		\subsubitem \begin{equation}
-			E_{vj} = 3700\sqrt[3]{f_{cj}} \qquad \footnotemark[2]
+			E_{vj} = 3700\sqrt[3]{f_{cj}}
 			\label{eq:module-young-dif}
 		\end{equation}
 		
@@ -576,15 +665,15 @@
 			\draw[dashed,thin] (4,2) -- (4,0) node[below] {$3,5 ‰$};
 			
 		\end{tikzpicture}
-		\caption{Diagramme Contrainte-déformation du béton a l'ELU.\protect\footnotemark[2]}
+		\caption{Diagramme Contrainte-déformation du béton a l'ELU. Source : BAEL, 1991\protect\footnotemark[2]}
 		\label{fig:diagramme-ELU-beton}
 	\end{figure}
 	
 	
-	$\sgma{bc} = f_{bu}$ étant la contrainte ultime du béton en compression, elle est donnée par la formule suivante :
+	$\sgma{bc} = f_{bu}$ étant la contrainte ultime du béton en compression, elle est donnée par la formule suivante\footnotemark[2] :
 	
 	\begin{equation}
-		\sgma{bc} = f_{bu} = \dfrac{0,85 \cdot f_{cj}}{\theta \cdot \gamma_{b}} \qquad \footnotemark[2]
+		\sgma{bc} = f_{bu} = \dfrac{0,85 \cdot f_{cj}}{\theta \cdot \gamma_{b}}
 		\label{eq:fbu}
 	\end{equation}
 	
@@ -629,19 +718,19 @@
 			\draw[dashed,thin] (0,2) node[left] {$\sigmabar{bc}$} -- (2,2) -- (2,0) node[below] {$\varepsilon_{bc} = \varepsilon_{s}$} ;
 			
 		\end{tikzpicture}
-		\caption{Diagramme déformation-contrainte du béton à l'ELS. \protect\footnotemark[2]}
+		\caption{Diagramme déformation-contrainte du béton à l'ELS. Source : BAEL, 1991 \protect\footnotemark[2]}
 		\label{fig:diagramme-ELS-beton}
 	\end{figure}
 	
 	
-	La valeur de la contrainte admissible de la compression du béton est prise égale à (BAEL 91, art A.4.5, 2) :
+	La valeur de la contrainte admissible de la compression du béton est prise égale à\footnotemark[2] :
 	
 	\begin{equation}
 		\sigmabar{bc} = 0,6 \cdot f_{cj}
 		\label{eq:sigmabar-bc}
 	\end{equation}
 	
-	\textbf{La contrainte de cisaillement du béton :}
+	\textbf{La contrainte de cisaillement du béton\footnotemark[2] :}
 	
 	
 	
@@ -654,7 +743,7 @@
 				5\mpa
 			\end{cases}
 			\\
-			&\text{Fissuration préjudiciable ou très préjudiciable :} \qquad \footnotemark[2] \\
+			&\text{Fissuration préjudiciable ou très préjudiciable :} \\
 			&\taubar{u} = \min \begin{cases}
 				0,15 \cdot \dfrac{f_{cj}}{\gamma_{b}} \\
 				4\mpa
@@ -667,7 +756,7 @@
 	
 	
 	
-	\footnotetext[2]{BAEL 91, Art A.5.1.21\eqref{eq:cisaillement-beton}}
+	\footnotetext[2]{BAEL 91,art A.4.5, 2\eqref{eq:sigmabar-bc}, Art A.5.1.21\eqref{eq:cisaillement-beton}}
 	
 	\subsection{Les aciers}
 	
@@ -684,7 +773,7 @@
 	
 	\begin{table}[H]
 		\centering
-		\caption{Les types d'aciers.\protect\footnotemark[3]}
+		\caption{Les types d'aciers. Source : MAIZI Khalid, 2020\protect\footnotemark[3]}
 		
 		\label{tab:types-aciers}
 		\begin{tabular}{p{3.5cm} l >{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{3cm} >{\centering\arraybackslash}m{3cm}}
@@ -729,12 +818,14 @@
 		1,15 \quad \text{Situation durable.} \\
 		1 \quad \text{Situation accidentelle.}
 	\end{cases}$
+	
 	\vspace{.3\baselineskip}
-	$\varepsilon_{s}$ : Allongement relatif.
+	
+	$\varepsilon_{s}$ : Allongement relatif\footnotemark[2].
 	
 	
 	\begin{equation}
-		\varepsilon_{s} = \dfrac{f_{e}}{\gamma_{s} \times E_{s}} \qquad\footnotemark[2]
+		\varepsilon_{s} = \dfrac{f_{e}}{\gamma_{s} \times E_{s}}
 		\label{eq:defromation-acier}
 	\end{equation}
 	
@@ -747,12 +838,12 @@
 	
 	\subsubsection{L'état limite de service ELS}
 	
-	Afin de réduire les risques d'ouvertures des fissures dans le béton et selon l'application de la fissuration, le BAEL a limité les contraintes des armatures tendues comme suit :
+	Afin de réduire les risques d'ouvertures des fissures dans le béton et selon l'application de la fissuration, le BAEL a limité les contraintes des armatures tendues comme suit\footnotemark[2] :
 
 	\begin{equation}
 		\sigmabar{s} = \begin{cases}
 			\text{Fissuration peu préjudiciable :}\quad f_{e} \\
-			\text{Fissuration préjudiciable :}\quad \min\left\{ 2/3f_{e} ;\quad 110\sqrt{n \times f_{t28}} \right\} \qquad\footnotemark[2] \\
+			\text{Fissuration préjudiciable :}\quad \min\left\{ 2/3f_{e} ;\quad 110\sqrt{n \times f_{t28}} \right\} \\
 			\text{Fissuration très préjudiciable :}\quad \min\left\{ 1/2f_{e} ;\quad 90\sqrt{n \times f_{t28}} \right\}
 		\end{cases}
 		\label{eq:contrainte-acier-els}
@@ -866,7 +957,7 @@
 	
 	C'est un ensemble d'états pour lequel il convient de justifier la sécurité d'une construction, Au delà des critères caractérisant ces états limites, la construction ou l'élément de structure considéré est jugé inapte à remplir sa fonction. On distingue des états limites ultimes et des états limite de service :
 	
-	\subsection{Etats limites ultimes (ELU)}
+	\subsection{États limites ultimes (ELU)}
 	
 	Leur dépassement entraînerait la ruine de l'ouvrage. Ils correspondent à la limite :
 	
@@ -898,7 +989,7 @@
 	\end{itemize}
 	
 	
-	\subsection{Etats limites de service (ELS)}
+	\subsection{États limites de service (ELS)}
 
 	Ce sont des états dont le dépassement compromettrait
 	le bon fonctionnement en service de la structure, ils correspondent à :
@@ -1009,7 +1100,10 @@
 	
 	Il existe deux type de plancher en corps creux un 16(corps creux)+4(dalle de compression) et un 20+5.
 	
-	\[ H_{p} = \dfrac{L_{\max}}{22,5} \]
+	\begin{equation}
+		H_{p} = \dfrac{L_{\max}}{22,5}
+		\label{eq:dimension-plancher}
+	\end{equation}
 	
 	Avec :
 	
@@ -1044,9 +1138,7 @@
 	
 	\vspace{\baselineskip}
 	
-	Ce que impose le règlement paras-sismique algérien (RPA 99 version 2003).
-	
-	Dans l'article 7.5.1 on a pour le coffrage : 
+	Ce que impose le règlement paras-sismique algérien pour le coffrage\footnotemark[2] : 
 	
 	\begin{equation}
 		\begin{aligned}
@@ -1055,15 +1147,18 @@
 			\dfrac{h}{b}& \leq 4 \\
 			b_{max}& \leq 1,5\cdot h + b
 		\end{aligned}
-		\label{RPA coffrage des poutres}
+		\label{dtr:coffrage-poutre}
 	\end{equation}
 	
+	\footnotetext[2]{RPA 99 version 2003 Art.7.5.1\eqref{dtr:coffrage-poutre}}
 	
 	\vspace{\baselineskip}
 	
 	\subsection{Hauteur}
 	
-	\[ \dfrac{L_{\max}}{15} \leq h \leq \dfrac{L_{\max}}{10} \]
+	\begin{equation}
+		\dfrac{L_{\max}}{15} \leq h \leq \dfrac{L_{\max}}{10}
+	\end{equation}
 	
 	
 	
@@ -1079,7 +1174,9 @@
 	
 	\subsection{Largeur}
 	
-	\[ 0,4 \cdot h \leq b \leq 0,7 \cdot h \]
+	\begin{equation}
+		0,4 \cdot h \leq b \leq 0,7 \cdot h
+	\end{equation}
 	
 	\[ 14 ~\unit{cm} \leq b \leq 24,5 ~\unit{cm} \]
 	
@@ -1099,13 +1196,23 @@
 	
 	\vspace{\baselineskip}
 	
-	Dimensions retenue qui vérifie les condition du RPA \eqref{dtr:RPA prédimensionnement poutre} : 
+	Dimensions retenue qui vérifie les condition du RPA \eqref{dtr:coffrage-poutre} : 
 	
 	\[ \fbox{$h=35 ~\unit{cm} \quad ; \quad b=20 ~\unit{cm}$} \]
 	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			\draw (0,0) coordinate (A) rectangle (2,3.5) coordinate (B);
+			\dimensioning{1}{A}{B}{-.7}[$20\cml$];
+			\dimensioning{2}{B}{A}{2.7}[$35\cml$];
+		\end{tikzpicture}
+		\caption{Dimensions des poutres.}
+	\end{figure}
 	
 	
 	
+\begin{comment}
 	
 	
 	\section{Prédimensionnement des voiles}
@@ -1120,18 +1227,23 @@
 	
 	
 	
-	Depuis le RPA (article 7.7.1) l'épaisseur du voile est déterminée selon la hauteur libre d'étage, et des conditions de rigidité.
+	Depuis le RPA\footnotemark[2] l'épaisseur du voile est déterminée selon la hauteur libre d'étage, et des conditions de rigidité.
 	
 	Nos voiles sont de formes rectangulaire donc :
 	
-	\[ e = \dfrac{h_{e}}{20} \]
+	\begin{equation}
+		e = \dfrac{h_{e}}{20}
+		\label{dtr:coffrage-voile}
+	\end{equation}
+	
+	\footnotetext[2]{RPA 99 version 2003 Art.7.7.1\eqref{dtr:coffrage-voile}}
 	
 	Avec $h_{e}$ étant la hauteur libre d'étage.
 	
 	\[ e = \dfrac{300}{20} = 15 ~\unit{cm} \] 
 	
 	
-	Et aussi dans l'article 7.7.1 l'épaisseur minimale est de $e_{\min} = 15 ~\unit{cm}  = e$ donc la condition est vérifiée.
+	Et aussi l'épaisseur minimale\footnotemark[2] est de $e_{\min} = 15 ~\unit{cm}  = e$ donc la condition est vérifiée.
 	
 	
 	
@@ -1352,7 +1464,7 @@
 				\min(a, b) &\geq 25~\unit{cm} \text{  en zones 	$\RomanNum{1}$ et $\RomanNum{2}$a } \\
 				\min(a, b) &\geq 30~\unit{cm} \text{  en zones 	$\RomanNum{2}$b et $\RomanNum{3}$}
 			\end{split}
-			\label{dtr:RPA prédimensionnement poutre}
+			\label{dtr:RPA prédimensionnement poteaux}
 		\end{equation}
 	\end{minipage}\hfill
 	\begin{minipage}[b]{0.3\textwidth}
@@ -1366,46 +1478,35 @@
 	
 	\[ 25 \cdot 25 = 625 ~\unit{cm^{2}} \quad > \quad 432 ~\unit{cm^{2}} \quad \text{Condition vérifier} \]
 	
+\end{comment}
+	
 	
 	\section{Conclusion du Prédimensionnement}
 	
-	Au premier lieu, le plancher et les poutres ont été dimensionner pour avoir les détails, ainsi pouvoir calculer la descente des charges avec plus de précision, avec quoi on pré-dimensionne le poteau le plus sollicitée.
+	Le pré-dimensionnement réalisé pour les éléments structuraux du bâtiment (poteaux, poutres, voiles et plancher) a permis de déterminer les dimensions approximatives et les sections nécessaires pour pouvoir poursuivre les calculs.
 	
 	
-	Les dimensions retenue de chaque éléments sont : 
+	Les dimensions retenue de chaque éléments sont :
 	
-	\subsection{Plancher}
-	
-	\[ \fbox{$\text{Plancher en }16 + 4 = 20 ~\unit{cm} $}\]
-	
-		
-	
-	\subsection{Poutres}
-	
-	
-	Pour les poutres principales et secondaires on a :
-	
-	\[ \fbox{$\begin{aligned}
-			h &= 35 ~\unit{cm} \\
-		 b &= 20 ~\unit{cm}
-		\end{aligned}$} \]
-	
-	
-	\subsection{Voiles}
-	
-	\[ \fbox{$e = 15 ~\unit{cm}$} \]
+	\begin{table}[H]
+		\centering
+		\caption{Résumé du prédimensionnement}
+		\begin{tabular}{|c|c|c|c|c|c|c|}
+			\hline
+			\multicolumn{7}{|c|}{Éléments} \\ \hline
+			\multicolumn{2}{|c|}{Poutres} & \multicolumn{2}{c|}{Poteaux} & \multicolumn{2}{c|}{Plancher} & Voiles \\ \hline
+			h & b & h & b & Hourdis & Table.C & e \\ \hline
+			35$\cml$ & 20$\cml$ & 25$\cml$ & 25$\cml$ & 16$\cml$ & 4$\cml$ & 15$\cml$ \\ \hline
+		\end{tabular}
+	\end{table}
 	
 	
 	
-	\subsection{Poteaux}
 	
-	Tous les poteaux auront les même dimensions de :
-	
-	
-	\[ \fbox{$h = b = 25 ~\unit{cm}$} \]
 
-	
+
 \begin{comment}
+
 	
 	\chapter{Calcul des éléments secondaires}
 	
@@ -1847,6 +1948,28 @@
 	
 	
 	
+	
+	
+	\chapter*{Conclusion générale}
+	\addcontentsline{toc}{chapter}{Conclusion générale}
+	
+	Le projet présenté, structuré en deux chapitres principaux, a permis de couvrir l’ensemble des étapes préliminaires nécessaires à la conception d’un bâtiment :
+	
+	\begin{itemize}
+		\item Le premier chapitre, consacré aux généralités et caractéristiques, a permis de définir le cadre théorique du projet, les normes applicables, les propriétés des matériaux (béton, acier) et les principales charges agissant sur la structure.
+		\item Le deuxième chapitre, consacré au pré-dimensionnement, a permis d’évaluer les dimensions approximatives des éléments structuraux essentiels : poteaux, poutres, voiles et planchers, qui permettront a faire le calcul approfondis.
+	\end{itemize}
+	
+	
+	Ainsi, ce projet a permis de préparer les bases nécessaires pour le dimensionnement détaillé, qui prendra en compte les calculs précis des efforts, les armatures optimales et les vérifications selon les normes.
+	
+	\vspace{\baselineskip}
+	
+	En conclusion, ce projet constitue un travail préparatoire solide, synthétisant les connaissances théoriques et leur application pratique, et servira de référence pour la suite du dimensionnement et de l’exécution du bâtiment.
+	
+
+	\chapter*{Bibliographie}
+	\addcontentsline{toc}{chapter}{Bibliographie}
 	
 	
 \end{document}

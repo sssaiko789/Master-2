@@ -2,6 +2,20 @@ Ce Changelog resume tout ce qui a été fait.
 
 ###### -----------------------------------------------------------------------
 
+# **12.12.2025**
+
+
+
+* **Mon projet SBA (pour module redaction memoire.) presque terminer manque uniquement la biblio.**
+
+
+
+
+
+###### -----------------------------------------------------------------------
+
+
+
 # **11.12.2025**
 
 
