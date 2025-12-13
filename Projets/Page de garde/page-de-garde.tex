@@ -1,0 +1,182 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{polyglossia}
+\setmainlanguage{french}
+
+\usepackage{amsmath, amssymb}
+
+\usepackage{graphicx}
+\usepackage{caption}
+
+\usepackage{siunitx} % Pour les unités
+
+\usepackage{geometry}
+\geometry{top=1.5cm, bottom=1.5cm, left=3cm, right=3cm}
+\setlength{\parindent}{0pt}
+
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+
+\usepackage{multicol}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{gray}}
+
+\usepackage{tcolorbox}
+
+
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+
+\newcommand{\RomanNum}[1] %pour les chiffre romain
+{\MakeUppercase{\romannumeral #1}}
+
+
+
+
+
+
+
+
+
+
+
+\title{|}
+\author{}
+\date{\today}
+
+\begin{document}
+
+
+
+
+
+
+
+
+	
+	\begin{titlepage}
+		
+		
+		
+		
+		
+		\begin{tikzpicture}[remember picture, overlay]
+			\draw[line width=2pt, olive]
+			([xshift=1cm,yshift=-.5cm]current page.north west) rectangle
+			([xshift=-1cm,yshift=.5cm]current page.south east);
+		\end{tikzpicture}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		\centering
+		% 1. République Algérienne Ministère de l'Enseignement
+		{\Large République Algérienne Démocratique et Populaire\\
+			Ministère de l'Enseignement Supérieur et de la Recherche Scientifique\par}
+		\vspace{.3cm}
+		\hrule
+		\vspace{1cm}
+		
+		% 2. Nom de l'établissement
+		{\large Université Mouloud Mammeri de Tizi-Ouzou (UMMTO)\par}
+		{Faculté du génie de la construction\par}
+		{Département de génie civil}
+		\vspace{.5cm}
+		
+		% 3. Logo
+		\includegraphics[width=0.3\linewidth]{figures/ummto-289x300}\par
+		\vspace{.5cm}
+		
+		% 4. Type de document préparé
+		{\LARGE \textbf{\underline{Mémoire de fin d'étude}}\par}
+		\vspace{0.5cm}
+		
+		% 5. Diplôme préparé
+		{\large Master en Génie Civil\par}
+		\vspace{0.5cm}
+		
+		% 6. Filière
+		{\large Filière : Génie civil\par}
+		\vspace{.3cm}
+		{\large Spécialité : Structures\par}
+		\vspace{1cm}
+		
+		% 7. Titre
+		{\LARGE\bfseries Thème\par}
+		{\LARGE\bfseries Étude d’un bâtiment à usage d’habitation (RDC+4)\par}
+		\vspace{1.5cm}
+		
+		% 8. Noms des auteurs
+		{\large Par : MEZIANI Redouane et AMALOU Jugurta\par}
+		\vspace{1cm}
+		
+		% 9. Nom de l’encadrant
+		{\large Encadrant : MEHADDENE Rachid \hspace{.5cm} Professeur à l'UMMTO\par}
+		\vspace{1.5cm}
+		
+		% 10. Année scolaire
+		\vfill
+		{\large Année universitaire : 2025-2026\par}
+		
+	\end{titlepage}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+\end{document}

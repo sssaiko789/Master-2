@@ -1,0 +1,195 @@
+\documentclass[12pt,a4paper]{report}
+
+\usepackage{polyglossia}
+\setmainlanguage{french}
+
+\usepackage{amsmath, amssymb}
+
+\usepackage{graphicx}
+\usepackage{caption}
+
+\usepackage{siunitx} % Pour les unités
+
+\usepackage{geometry}
+\geometry{top=2.5cm, bottom=2.5cm, left=3cm, right=2.5cm}
+
+
+\setlength{\parindent}{0pt}%pas d'espace en debut d'une phrase
+
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+
+\usepackage{multicol}
+\setlength{\columnseprule}{0pt}
+\def\columnseprulecolor{\color{gray}}
+
+\usepackage{tcolorbox}
+
+
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+
+\newcommand{\RomanNum}[1] %pour les chiffre romain
+{\MakeUppercase{\romannumeral #1}}
+
+
+\numberwithin{equation}{section}
+
+
+
+
+\usepackage{caption}
+
+
+
+
+
+\usepackage{myunit}
+\usepackage{stanli}
+
+
+
+
+%fonction pour sigma
+\newcommand{\sgma}[1]{\sigma_{#1}}
+\newcommand{\sigmax}{\sigma_{\max}}
+\newcommand{\sigmin}{\sigma_{\min}}
+
+\newcommand{\sigmabar}[1]{\overline{\sigma}_{#1}}
+
+
+%fonction pour tau
+\newcommand{\taubar}[1]{\overline{\tau}_{#1}}
+
+
+
+
+\usepackage{booktabs}
+
+
+
+
+
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\fancyhf{} % vide d'abord les headers et footers
+\fancyhead[L]{\leftmark} % chapitre à gauche
+%\fancyhead[R]{\rightmark} % section à droite
+\fancyfoot[C]{\thepage} % numéro de page au centre du footer
+
+
+
+
+
+
+
+\usepackage{multirow}
+
+
+\usepackage[hang,flushmargin,bottom,splitrule]{footmisc}%pour les footnote
+
+
+\usepackage{ragged2e}
+
+\renewcommand{\footnoterule}{%
+	\vspace{1ex}       % espace avant la ligne
+	\hrule width \textwidth height 0.4pt % ligne pleine largeur
+	\vspace{1ex}       % espace après la ligne
+}
+
+
+
+
+
+
+
+
+\usepackage[
+backend=biber,
+style=authoryear,
+natbib=true
+]{biblatex}
+
+\addbibresource{biblio.bib}
+
+
+
+
+\renewcommand{\thechapter}{\Roman{chapter}}
+
+
+\usepackage{comment}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\title{Bibliographie}
+\author{}
+\date{\today}
+
+
+
+
+\begin{document}
+	
+	
+	
+	
+	
+	
+	\chapter{Titre}
+	
+	\cite{rpa}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{../figures/Chapitre-1/section-ab-rpa}
+		\caption[Titre pour ma figure]{texte }
+		\label{fig:section-ab-rpa}
+	\end{figure}
+	
+	
+	
+	
+	\printbibliography
+	
+	
+	
+	
+	
+	%\bibliographystyle{plain}
+	%\bibliography{bibliograph}
+	
+	
+	
+	
+	
+	
+	
+\end{document}

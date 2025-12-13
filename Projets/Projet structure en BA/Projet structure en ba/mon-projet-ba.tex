@@ -119,8 +119,12 @@
 
 
 
+\usepackage[
+backend=biber,
+style=authoryear,
+natbib=true
+]{biblatex}
 
-\usepackage[backend=biber,style=authoryear]{biblatex}
 \addbibresource{biblio.bib}
 
 
@@ -155,6 +159,25 @@
 	
 	
 	\maketitle
+	
+	\pagenumbering{roman} 
+	\setcounter{page}{1}
+	
+	\chapter*{Remerciement}
+	
+	Nous remercions avant tout \textbf{ALLAH} pour la force et la patience qu’Il nous a accordées afin de réaliser ce projet.
+	
+	\vspace{\baselineskip}
+	
+	Nous tenons également à remercier nos familles pour leur soutiens, notre encadrant \mbox{MEHADDENE Rachid} pour ses précieux conseils, son accompagnement et pour nous avoir transmis son savoir tout au long de ce travail.
+	
+	\vspace{\baselineskip}
+	
+	Je suis aussi reconnaissant au département de génie civil, pour les moyens
+	qui ont été mis à notre disposition durant toute la durée de la formation.
+	Je remercie également les membres des jurys pour l’effort qu’ils feront dans le but d’examiner ce travail.
+	
+	
 	
 	\tableofcontents
 	
@@ -241,7 +264,7 @@
 	
 	\vspace{.7\baselineskip}
 	
-	Cette démarche s’inscrit dans une logique pédagogique et pratique : elle permet de comprendre les principes fondamentaux du dimensionnement en béton armé, d’appliquer les règles de calcul du BAEL/Règlement parasismique Algérien, et de développer une méthode rationnelle de conception structurale. À travers ce travail, nous établirons les hypothèses de base, déterminerons les charges, vérifierons les contraintes et proposerons des dimensions cohérentes pour garantir la sécurité et la fonctionnalité de l’ouvrage.
+	Cette démarche s’inscrit dans une logique pédagogique et pratique : elle permet de comprendre les principes fondamentaux du dimensionnement en béton armé, d’appliquer les règles de calcul du Béton armé au états limite(BAEL)/Règlement parasismique Algérien(RPA), et de développer une méthode rationnelle de conception structurale. À travers ce travail, nous établirons les hypothèses de base, déterminerons les charges, vérifierons les contraintes et proposerons des dimensions cohérentes pour garantir la sécurité et la fonctionnalité de l’ouvrage.
 	
 	\section*{Le plan du mémoire}
 	
@@ -267,7 +290,8 @@
 	
 	
 	
-	
+	\setcounter{page}{1}
+	\pagenumbering{arabic} 
 	
 	
 	\chapter{Présentation et généralités}
@@ -398,7 +422,7 @@
 		\label{fig:vue-plan}
 	\end{figure}
 	
-	
+
 	
 	\subsubsection{Vue en élévation}
 	
@@ -1968,8 +1992,22 @@
 	En conclusion, ce projet constitue un travail préparatoire solide, synthétisant les connaissances théoriques et leur application pratique, et servira de référence pour la suite du dimensionnement et de l’exécution du bâtiment.
 	
 
-	\chapter*{Bibliographie}
+
+
+
+
+
+
+	
+	
+	\printbibliography
+	
+	\vspace{\baselineskip}
+	
 	\addcontentsline{toc}{chapter}{Bibliographie}
+	
+	Document Saisi et écrit avec \Large \LaTeX.
+	
 	
 	
 \end{document}

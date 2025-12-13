@@ -1,0 +1,178 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{BAEL}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2c3f45899c4054dd6f00a836646955a4}{%
+           family={AFNOR},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {AFNOR}%
+      }
+      \strng{namehash}{2c3f45899c4054dd6f00a836646955a4}
+      \strng{fullhash}{2c3f45899c4054dd6f00a836646955a4}
+      \strng{fullhashraw}{2c3f45899c4054dd6f00a836646955a4}
+      \strng{bibnamehash}{2c3f45899c4054dd6f00a836646955a4}
+      \strng{authorbibnamehash}{2c3f45899c4054dd6f00a836646955a4}
+      \strng{authornamehash}{2c3f45899c4054dd6f00a836646955a4}
+      \strng{authorfullhash}{2c3f45899c4054dd6f00a836646955a4}
+      \strng{authorfullhashraw}{2c3f45899c4054dd6f00a836646955a4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Norme française NF P 18-701}
+      \field{shorthand}{BAEL 91 révisé 99}
+      \field{title}{Règles techniques de conception et de calcul des ouvrages et constructions en béton armé suivant la méthode des états limites (BAEL 91 révisées 99)}
+      \field{year}{1999}
+    \endentry
+    \entry{rpa}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0e69a28a5500f35bcda9f9323acb6595}{%
+           family={{CGS}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Centre National de Recherche Appliquée en Génie Parasismique}%
+      }
+      \strng{namehash}{0e69a28a5500f35bcda9f9323acb6595}
+      \strng{fullhash}{0e69a28a5500f35bcda9f9323acb6595}
+      \strng{fullhashraw}{0e69a28a5500f35bcda9f9323acb6595}
+      \strng{bibnamehash}{0e69a28a5500f35bcda9f9323acb6595}
+      \strng{authorbibnamehash}{0e69a28a5500f35bcda9f9323acb6595}
+      \strng{authornamehash}{0e69a28a5500f35bcda9f9323acb6595}
+      \strng{authorfullhash}{0e69a28a5500f35bcda9f9323acb6595}
+      \strng{authorfullhashraw}{0e69a28a5500f35bcda9f9323acb6595}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{shorthand}{RPA 99 révisé 2003}
+      \field{title}{Règlement Parasismique Algérien RPA 1999 V2003}
+      \field{year}{2003}
+    \endentry
+    \entry{coursba}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=274dc19178fe0cf5364139be76886290}{%
+           family={Jugurta},
+           familyi={J\bibinitperiod},
+           given={AMALOU},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e60fc55591fae1a69dde59f0f3b8f630}{%
+           family={Redouane},
+           familyi={R\bibinitperiod},
+           given={MEZIANI},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{52a8819596af9079c1382697497f442a}
+      \strng{fullhash}{52a8819596af9079c1382697497f442a}
+      \strng{fullhashraw}{52a8819596af9079c1382697497f442a}
+      \strng{bibnamehash}{52a8819596af9079c1382697497f442a}
+      \strng{authorbibnamehash}{52a8819596af9079c1382697497f442a}
+      \strng{authornamehash}{52a8819596af9079c1382697497f442a}
+      \strng{authorfullhash}{52a8819596af9079c1382697497f442a}
+      \strng{authorfullhashraw}{52a8819596af9079c1382697497f442a}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Notes prise en cours}
+      \field{note}{Cours dispensé à l'Université Mouloud Mammeri de Tizi-Ouzou}
+      \field{title}{Notes de cours de Projet structure en Béton armé}
+      \field{year}{2025}
+    \endentry
+    \entry{memoire}{masterthesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8d9ab41e5427674d8fc1a6c7a11d1ff3}{%
+           family={MAIZI},
+           familyi={M\bibinitperiod},
+           given={Khaled},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Université 08 Mai 1945 Guelma}%
+      }
+      \strng{namehash}{8d9ab41e5427674d8fc1a6c7a11d1ff3}
+      \strng{fullhash}{8d9ab41e5427674d8fc1a6c7a11d1ff3}
+      \strng{fullhashraw}{8d9ab41e5427674d8fc1a6c7a11d1ff3}
+      \strng{bibnamehash}{8d9ab41e5427674d8fc1a6c7a11d1ff3}
+      \strng{authorbibnamehash}{8d9ab41e5427674d8fc1a6c7a11d1ff3}
+      \strng{authornamehash}{8d9ab41e5427674d8fc1a6c7a11d1ff3}
+      \strng{authorfullhash}{8d9ab41e5427674d8fc1a6c7a11d1ff3}
+      \strng{authorfullhashraw}{8d9ab41e5427674d8fc1a6c7a11d1ff3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Mémoire fin d'étude}
+      \field{title}{Étude d’un bâtiment à usage d’habitation (RDC+4)}
+      \field{year}{2020}
+    \endentry
+    \entry{DTRCharges}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f11ef7345f0d42d4031a7d6ae3cb756f}{%
+           family={{Ministère de l'Habitat et de l'Urbanisme}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Algérie}%
+      }
+      \list{publisher}{1}{%
+        {Direction Technique et Recherche}%
+      }
+      \strng{namehash}{f11ef7345f0d42d4031a7d6ae3cb756f}
+      \strng{fullhash}{f11ef7345f0d42d4031a7d6ae3cb756f}
+      \strng{fullhashraw}{f11ef7345f0d42d4031a7d6ae3cb756f}
+      \strng{bibnamehash}{f11ef7345f0d42d4031a7d6ae3cb756f}
+      \strng{authorbibnamehash}{f11ef7345f0d42d4031a7d6ae3cb756f}
+      \strng{authornamehash}{f11ef7345f0d42d4031a7d6ae3cb756f}
+      \strng{authorfullhash}{f11ef7345f0d42d4031a7d6ae3cb756f}
+      \strng{authorfullhashraw}{f11ef7345f0d42d4031a7d6ae3cb756f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Document technique réglementaire pour le dimensionnement des structures}
+      \field{shorthand}{DTR Charges}
+      \field{title}{DTR : Charges et surcharges d'exploitation}
+      \field{year}{2012}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

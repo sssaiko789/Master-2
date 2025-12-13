@@ -1,59 +1,59 @@
 \xpg@aux {}{french}
-\contentsline {chapter}{Introduction générale}{6}{chapter*.5}%
-\contentsline {paragraph}{Le chapitre \MakeUppercase []{i}}{6}{section*.7}%
-\contentsline {paragraph}{Le chapitre \MakeUppercase []{ii}}{6}{section*.8}%
-\contentsline {paragraph}{Le chapitre \MakeUppercase []{iii}}{6}{section*.9}%
-\contentsline {chapter}{\numberline {I}Présentation et généralités}{7}{chapter.1}%
-\contentsline {section}{\numberline {I.1}Introduction}{7}{section.1.1}%
-\contentsline {section}{\numberline {I.2}Présentation de l'ouvrage}{8}{section.1.2}%
-\contentsline {subsection}{\numberline {I.2.1}Caractéristiques géométriques de l’ouvrage}{8}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {I.2.2}Données sismiques de la structure}{9}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {I.2.3}Différents plans du bâtiment}{9}{subsection.1.2.3}%
-\contentsline {subsubsection}{Vue en plan}{9}{section*.17}%
-\contentsline {subsubsection}{Vue en élévation}{9}{section*.19}%
-\contentsline {subsubsection}{Vue en façade}{10}{section*.21}%
-\contentsline {subsection}{\numberline {I.2.4}Les éléments de l’ouvrage}{10}{subsection.1.2.4}%
-\contentsline {subsubsection}{L’ossature}{10}{section*.23}%
-\contentsline {subsubsection}{Les planchers}{10}{section*.24}%
-\contentsline {subsubsection}{Les poteaux et les poutres}{10}{section*.25}%
-\contentsline {subsubsection}{Les voiles}{10}{section*.26}%
-\contentsline {subsubsection}{Les balcons}{10}{section*.27}%
-\contentsline {subsubsection}{Les escaliers}{10}{section*.28}%
-\contentsline {subsubsection}{Les murs}{10}{section*.29}%
-\contentsline {subsubsection}{Les revêtements}{11}{section*.30}%
-\contentsline {section}{\numberline {I.3}Caractéristique des matériaux}{11}{section.1.3}%
-\contentsline {subsection}{\numberline {I.3.1}Introduction}{11}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {I.3.2}Le béton}{11}{subsection.1.3.2}%
-\contentsline {subsubsection}{Les ingrédient}{11}{section*.31}%
-\contentsline {subsubsection}{Les dosages du béton}{12}{section*.33}%
-\contentsline {subsubsection}{Les caractéristiques du béton}{13}{section*.34}%
-\contentsline {subsubsection}{Modèles de calcul}{14}{section*.35}%
-\contentsline {subsection}{\numberline {I.3.3}Les aciers}{15}{subsection.1.3.3}%
-\contentsline {subsubsection}{Module d'élasticité longitudinale de l'acier}{15}{section*.39}%
-\contentsline {subsubsection}{La contrainte de l'acier}{16}{section*.40}%
-\contentsline {subsubsection}{L'état limite de service ELS}{16}{section*.41}%
-\contentsline {subsubsection}{Protection des armatures}{16}{section*.42}%
-\contentsline {subsection}{\numberline {I.3.4}Les contrainte de calcul}{17}{subsection.1.3.4}%
-\contentsline {section}{\numberline {I.4}Hypothèses de calcul}{17}{section.1.4}%
-\contentsline {subsection}{\numberline {I.4.1}Définition des états limites}{17}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {I.4.2}États limites ultimes (ELU)}{18}{subsection.1.4.2}%
-\contentsline {subsubsection}{Hypothèse de calcul à l'ELU}{18}{section*.43}%
-\contentsline {subsection}{\numberline {I.4.3}États limites de service (ELS)}{18}{subsection.1.4.3}%
-\contentsline {subsubsection}{Hypothèses de calcul à l'ELS}{18}{section*.44}%
-\contentsline {subsection}{\numberline {I.4.4}Sollicitations de calcul vis-à-vis des états limites}{19}{subsection.1.4.4}%
-\contentsline {subsubsection}{ELU}{19}{section*.45}%
-\contentsline {subsubsection}{ELS}{19}{section*.46}%
-\contentsline {section}{\numberline {I.5}Conclusion}{19}{section.1.5}%
-\contentsline {chapter}{\numberline {II}Prédimensionnement des éléments}{20}{chapter.2}%
-\contentsline {section}{\numberline {II.1}Introduction}{20}{section.2.1}%
-\contentsline {section}{\numberline {II.2}Prédimensionnement du plancher}{20}{section.2.2}%
-\contentsline {subsection}{\numberline {II.2.1}Introduction}{20}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {II.2.2}Prédimensionnement}{20}{subsection.2.2.2}%
-\contentsline {section}{\numberline {II.3}Prédimensionnement des poutres}{21}{section.2.3}%
-\contentsline {subsection}{\numberline {II.3.1}Introduction}{21}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {II.3.2}Prédimensionnement}{21}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {II.3.3}Hauteur}{21}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {II.3.4}Largeur}{22}{subsection.2.3.4}%
-\contentsline {section}{\numberline {II.4}Conclusion du Prédimensionnement}{22}{section.2.4}%
-\contentsline {chapter}{Conclusion générale}{23}{chapter*.49}%
-\contentsline {chapter}{Bibliographie}{24}{chapter*.50}%
+\contentsline {chapter}{Introduction générale}{1}{chapter*.6}%
+\contentsline {paragraph}{Le chapitre \MakeUppercase []{i}}{1}{section*.8}%
+\contentsline {paragraph}{Le chapitre \MakeUppercase []{ii}}{1}{section*.9}%
+\contentsline {paragraph}{Le chapitre \MakeUppercase []{iii}}{1}{section*.10}%
+\contentsline {chapter}{\numberline {I}Présentation et généralités}{2}{chapter.1}%
+\contentsline {section}{\numberline {I.1}Introduction}{2}{section.1.1}%
+\contentsline {section}{\numberline {I.2}Présentation de l'ouvrage}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {I.2.1}Caractéristiques géométriques de l’ouvrage}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {I.2.2}Données sismiques de la structure}{4}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {I.2.3}Différents plans du bâtiment}{4}{subsection.1.2.3}%
+\contentsline {subsubsection}{Vue en plan}{4}{section*.18}%
+\contentsline {subsubsection}{Vue en élévation}{4}{section*.20}%
+\contentsline {subsubsection}{Vue en façade}{5}{section*.22}%
+\contentsline {subsection}{\numberline {I.2.4}Les éléments de l’ouvrage}{5}{subsection.1.2.4}%
+\contentsline {subsubsection}{L’ossature}{5}{section*.24}%
+\contentsline {subsubsection}{Les planchers}{5}{section*.25}%
+\contentsline {subsubsection}{Les poteaux et les poutres}{5}{section*.26}%
+\contentsline {subsubsection}{Les voiles}{5}{section*.27}%
+\contentsline {subsubsection}{Les balcons}{5}{section*.28}%
+\contentsline {subsubsection}{Les escaliers}{5}{section*.29}%
+\contentsline {subsubsection}{Les murs}{5}{section*.30}%
+\contentsline {subsubsection}{Les revêtements}{6}{section*.31}%
+\contentsline {section}{\numberline {I.3}Caractéristique des matériaux}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {I.3.1}Introduction}{6}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {I.3.2}Le béton}{6}{subsection.1.3.2}%
+\contentsline {subsubsection}{Les ingrédient}{6}{section*.32}%
+\contentsline {subsubsection}{Les dosages du béton}{7}{section*.34}%
+\contentsline {subsubsection}{Les caractéristiques du béton}{8}{section*.35}%
+\contentsline {subsubsection}{Modèles de calcul}{9}{section*.36}%
+\contentsline {subsection}{\numberline {I.3.3}Les aciers}{10}{subsection.1.3.3}%
+\contentsline {subsubsection}{Module d'élasticité longitudinale de l'acier}{10}{section*.40}%
+\contentsline {subsubsection}{La contrainte de l'acier}{11}{section*.41}%
+\contentsline {subsubsection}{L'état limite de service ELS}{11}{section*.42}%
+\contentsline {subsubsection}{Protection des armatures}{11}{section*.43}%
+\contentsline {subsection}{\numberline {I.3.4}Les contrainte de calcul}{12}{subsection.1.3.4}%
+\contentsline {section}{\numberline {I.4}Hypothèses de calcul}{12}{section.1.4}%
+\contentsline {subsection}{\numberline {I.4.1}Définition des états limites}{12}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {I.4.2}États limites ultimes (ELU)}{13}{subsection.1.4.2}%
+\contentsline {subsubsection}{Hypothèse de calcul à l'ELU}{13}{section*.44}%
+\contentsline {subsection}{\numberline {I.4.3}États limites de service (ELS)}{13}{subsection.1.4.3}%
+\contentsline {subsubsection}{Hypothèses de calcul à l'ELS}{13}{section*.45}%
+\contentsline {subsection}{\numberline {I.4.4}Sollicitations de calcul vis-à-vis des états limites}{14}{subsection.1.4.4}%
+\contentsline {subsubsection}{ELU}{14}{section*.46}%
+\contentsline {subsubsection}{ELS}{14}{section*.47}%
+\contentsline {section}{\numberline {I.5}Conclusion}{14}{section.1.5}%
+\contentsline {chapter}{\numberline {II}Prédimensionnement des éléments}{15}{chapter.2}%
+\contentsline {section}{\numberline {II.1}Introduction}{15}{section.2.1}%
+\contentsline {section}{\numberline {II.2}Prédimensionnement du plancher}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {II.2.1}Introduction}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {II.2.2}Prédimensionnement}{15}{subsection.2.2.2}%
+\contentsline {section}{\numberline {II.3}Prédimensionnement des poutres}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {II.3.1}Introduction}{16}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {II.3.2}Prédimensionnement}{16}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {II.3.3}Hauteur}{16}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {II.3.4}Largeur}{17}{subsection.2.3.4}%
+\contentsline {section}{\numberline {II.4}Conclusion du Prédimensionnement}{17}{section.2.4}%
+\contentsline {chapter}{Conclusion générale}{18}{chapter*.50}%
+\contentsline {chapter}{Bibliographie}{19}{chapter*.51}%
