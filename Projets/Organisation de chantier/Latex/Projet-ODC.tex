@@ -1,0 +1,217 @@
+\documentclass[12pt,a4paper]{report}
+
+\usepackage{polyglossia}
+\setmainlanguage{french}
+
+\usepackage{amsmath, amssymb}
+
+\usepackage{graphicx}
+\usepackage{caption}
+
+\usepackage{siunitx} % Pour les unités
+
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2.5cm, left=3cm, right=3cm}
+\setlength{\parindent}{0pt}
+
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+
+\usepackage{multicol}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{gray}}
+
+\usepackage{tcolorbox}
+
+
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+
+\newcommand{\RomanNum}[1] %pour les chiffre romain
+{\MakeUppercase{\romannumeral #1}}
+
+
+
+
+\usepackage{csvsimple}
+
+\usepackage{booktabs, multirow} % for borders and merged ranges
+\usepackage{soul}% for underlines
+\usepackage{xcolor,colortbl} % for cell colors
+\usepackage{changepage,threeparttable} % for wide tables
+
+
+
+
+
+\title{|}
+\author{}
+\date{\today}
+
+\begin{document}
+	\counterwithin{section}{chapter} % pour que \section{} recommence de 1 aprés \part{}
+	
+	
+	\tableofcontents
+	
+	\newpage
+	
+	
+	
+	\chapter*{Introduction}
+	\addcontentsline{toc}{chapter}{Introduction}
+	
+	
+	
+	L’organisation de chantier constitue une étape essentielle dans la réalisation de tout projet de construction. Elle permet d’anticiper les différentes phases de travaux, de planifier les ressources humaines et matérielles, et d’optimiser les délais et les coûts tout en garantissant la qualité et la sécurité des ouvrages. Dans le domaine du génie civil, une bonne organisation conditionne directement la réussite technique et économique d’un projet.
+	\vspace{\baselineskip}
+	Dans le cadre du module Organisation de Chantier, ce travail porte sur l’étude et la planification de la construction d’un hangar industriel de stockage de 1000 m². Le projet concerne un bâtiment de plain-pied, réalisé en charpente métallique avec des fondations en béton armé de type semelles isolées. Les assemblages de la structure sont principalement boulonnés, avec des soudures limitées aux travaux d’atelier et aux ajustements sur site. Les cloisons extérieures sont réalisées en panneaux sandwich assurant à la fois le bardage et l’isolation du bâtiment.
+	\vspace{\baselineskip}
+	L’objectif de ce projet est de mettre en application les connaissances acquises en organisation de chantier, notamment à travers la décomposition des tâches, l’estimation des durées, la gestion des ressources et l’élaboration d’un planning à l’aide du logiciel ProjectLibre. Ce travail vise également à analyser la logique d’enchaînement des opérations et à identifier les phases critiques du chantier.
+	\vspace{\baselineskip}
+	À travers cette étude, il s’agit de proposer une organisation réaliste et cohérente du chantier, en tenant compte des contraintes techniques, humaines et matérielles liées à la construction d’un ouvrage industriel simple. Ce projet constitue ainsi une approche pratique permettant de mieux comprendre les enjeux de la planification et de la gestion d’un chantier de construction métallique.
+	
+	
+	
+	
+	
+	\chapter{Présentation générale du projet}
+	
+	Le projet ce porte sur la construction d'un hangar industriel de stockage, ce projet et constitué d'un seul RDC d'une surface totale de $1000 ~\unit{\meter^{2}}$($20 \times 50$), comme mentionné au paravent ce hangar est à usage de stockage donc sans aménagement intérieur.
+	
+	
+	\section{Hypothèses et choix techniques}
+	
+	Le projet est volontairement simplifié afin de répondre aux exigences pédagogiques du module Organisation de Chantier.
+	
+	
+	\subsection{Structure}
+	
+	\begin{itemize}
+		\item Structure en charpente métallique.
+		
+		\item Profilés IPE et HEA préfabriqués.
+		
+		\item Assemblages majoritairement boulonnés.
+		
+		\item Soudures limitées (atelier + réparations sur site)
+	\end{itemize}
+	
+	\subsection{Fondations}
+	
+	\begin{itemize}
+		\item Fondations en béton armé.
+		
+		\item Semelles isolées.
+		
+		\item Platines et tiges d’ancrage intégrées.
+	\end{itemize}
+	
+	\subsection{Enveloppe extérieure}
+	
+	\begin{itemize}
+		\item Cloisons extérieures en panneaux sandwich.
+		
+		\item Isolation thermique intégrée.
+	\end{itemize}
+	
+	\subsection{Hors projet}
+	
+	
+	Pas d’étage, pas de dallage industriel, pas de VRD, pas d’électricité, plomberie ou finitions
+
+	
+	
+	\chapter{Organisation générale du chantier}
+	
+	\section{Données}
+	
+	\newgeometry{left=0cm,right=0cm,top=0cm,bottom=0cm}
+
+	\thispagestyle{empty}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.9\linewidth]{"Organisation de chantier M2 - Feuille 1"}
+	\end{figure}
+	
+	{\centering5\par}
+	
+	\restoregeometry
+
+	
+	\section{Ressources}
+
+	
+	\section{Plan d'installation}
+	
+	\section{Diagramme de Gantt}
+	
+	Pour réaliser le diagramme de Gantt le logiciel ProjectLibre sera utilisée.
+	
+	\subsection{ProjectLibre}
+	
+	ProjectLibre (PL) est un outil open source de planification de projet multi-projets et multi-utilisateurs. Il est le résultat d'un fork du logiciel OpenProj. ProjectLibre s'inspire de Microsoft Project ; il permet de lire et modifier des fichiers MS Project version 2003, 2007 et 2010.
+	
+	\subsection{Le diagramme}
+	
+	\subsection{Analyse du diagramme}
+	
+	Le planning du projet a été élaboré à l’aide du logiciel ProjectLibre sous forme de diagramme de Gantt. Il couvre une période allant de la mi-décembre 2025 jusqu’à la fin du mois de mars 2026, soit une durée globale d’environ 65 jours.
+	Le planning est structuré de manière cohérente, en respectant l’ordre logique des opérations de chantier : préparation, terrassement, fondations, montage de la charpente métallique et pose des panneaux sandwich.
+	
+	\vspace{\baselineskip}
+	
+	Les phases critiques du projet concernent principalement les travaux de fondations et le montage de la charpente métallique, qui mobilisent des ressources spécialisées telles que les métalliers, monteurs, soudeurs, ainsi que des moyens lourds comme la grue mobile et la nacelle. Ces tâches constituent le chemin critique du projet, toute modification de leur durée impactant directement la date de fin du chantier.
+	
+	La répartition des ressources humaines et matérielles est réaliste et progressive, avec un pic d’activité lors du montage de la structure métallique. Le recours à la préfabrication et au transport par camion plateau permet une optimisation du délai global.
+	
+	\vspace{\baselineskip}
+	
+	Le diagramme de Gantt obtenu constitue ainsi un outil pertinent de planification et de suivi du chantier, assurant une bonne coordination entre les différentes phases de travaux.
+	
+	\section{Estimation budgétaire}
+	
+	La devise utilisée est l'EURO car le logiciel ProjectLibre ne prend pas en charge la devise en dinars.
+	
+	Au préalable les budget de chaque étape à été introduite dans le logiciel PL, ce qui permet de pouvoir avoir le budget de chaque tâches et aussi le budget final.
+	
+	\section{Sécurité et organisation}
+	
+	\begin{itemize}
+		\item Port des EPI obligatoire.
+		
+		\item Sécurisation des zones de levage.
+		
+		\item Organisation des circulations.
+		
+		\item Coordination grue / montage charpente.
+	\end{itemize}
+	
+	\chapter*{Conclusion}
+	\addcontentsline{toc}{chapter}{Conclusion}
+	
+	Le projet présenté porte sur l’organisation et la planification de la construction d’un hangar industriel de stockage de 1000 m², réalisé en charpente métallique avec des fondations en béton armé et des semelles isolées. L’objectif principal de ce travail était de mettre en application les notions fondamentales du module Organisation de Chantier, notamment la planification des travaux, la gestion des ressources et l’estimation des moyens nécessaires à la réalisation de l’ouvrage.
+	\vspace{\baselineskip}
+	L’étude a permis de définir des choix techniques cohérents et adaptés à la nature du projet, en privilégiant une structure métallique préfabriquée à assemblages boulonnés, solution offrant rapidité d’exécution, précision de montage et optimisation des délais. L’utilisation de panneaux sandwich pour les cloisons extérieures assure une mise hors d’eau et hors d’air rapide du bâtiment, tout en limitant les travaux de finition.
+	\vspace{\baselineskip}
+	La décomposition du projet en phases successives, allant de l’installation de chantier jusqu’à la réception provisoire, a permis d’établir un planning réaliste à l’aide du logiciel ProjectLibre. Le diagramme de Gantt obtenu met en évidence une durée globale d’environ quatorze à quinze semaines, compatible avec les contraintes techniques et organisationnelles du chantier. L’identification du chemin critique, principalement lié aux fondations et au montage de la charpente métallique, souligne l’importance d’une coordination rigoureuse des moyens humains et matériels.
+	\vspace{\baselineskip}
+	L’analyse des ressources montre une organisation équilibrée, avec une mobilisation progressive des équipes et des engins, et un pic d’activité lors des phases de montage nécessitant des moyens lourds tels que la grue mobile et la nacelle. Cette organisation permet de limiter les temps morts et d’optimiser les coûts de location des équipements.
+	\vspace{\baselineskip}
+	En conclusion, ce projet constitue une application concrète et complète des principes d’organisation de chantier pour un ouvrage industriel simple. Il met en évidence le rôle essentiel de la planification, de l’anticipation et de la coordination dans la réussite d’un chantier de construction, tout en offrant une vision réaliste des contraintes techniques, humaines et économiques liées à ce type d’ouvrage.
+	
+	
+\end{document}
