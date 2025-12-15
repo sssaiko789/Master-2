@@ -42,6 +42,7 @@
 \newcommand{\RomanNum}[1] %pour les chiffre romain
 {\MakeUppercase{\romannumeral #1}}
 
+\usepackage[absolute,overlay]{textpos}
 
 
 
@@ -154,8 +155,78 @@
 	
 	\section{Ressources}
 
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\linewidth]{PDF/Prixparheures}
+		\caption{Tableaux des ressources}
+		\label{fig:ressources}
+	\end{figure}
+	
+	\vspace{2\baselineskip}
+	
+	Depuis le tableau \ref{fig:ressources} on peut voir qu'on a affecter à notre projet :
+
+		
+	\subsection{Ressource humaines}
+		
+	\begin{itemize}
+		\item 1 chef de chantier.
+		\item 1 topographe.
+		\item 5 ouvriers polyvalents.
+		\item 1 conducteur d'une pelle mécanique et un autre conducteur de camion
+		\item 4 maçons pour les éléments en béton armé.
+		\item 4 monteur (ceux qui place et boulonne la structure).
+		\item 1 grutier.
+		\item 2 soudeur.
+		\item 2 métallier (font l'usinage des profilées).
+		\item 1 ingénieur de contrôle.
+	\end{itemize}
+	
+	\subsection{Matériels}
+	
+	Les matériels utilisé sont mentionnés dans le tableau \ref{fig:ressources} et sont en une seule unité, pour les engins c'est de la location et leur prix mentionnée est une approximation du début jusqu'à la fin du chantier.
+	
+	\subsection{Matériaux}
+	
+	Pour les matériaux leur quantités n'est pas mentionnés car cela nécessite plus de détails et de données du projet, donc pour des raisons de clarté et de simplicité leur quantité n'est pas mentionnées, mais leur prix est déduit selon la surface du hangar (prix approximatif).
+
+
+	
+	
 	
 	\section{Plan d'installation}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{figures/plan-instalation}
+		\caption{Plan d'installation}
+		\label{fig:plan-installation}
+	\end{figure}
+	
+	Le plan d’installation du chantier et l’organisation spatiale des différentes zones fonctionnelles nécessaires au bon déroulement des travaux.
+	
+	\vspace{\baselineskip}
+	
+	Le chantier est délimité par une clôture périphérique, assurant la sécurité du site et le contrôle des accès. La zone centrale, matérialisée par le cercle rouge, correspond à la zone de grue mobile, indiquant le rayon d’action de l’engin de levage utilisé pour les opérations de manutention et de mise en place des éléments.
+	
+	\vspace{\baselineskip}
+	
+	À proximité immédiate du chantier, on distingue :
+	
+	Les cabanes de chantier, destinées à l’administration, au repos du personnel et au stockage de petits équipements ;
+	
+	Un aire de stockage, prévue pour l’entreposage des matériaux et éléments de construction avant leur mise en œuvre.
+	
+	\vspace{\baselineskip}
+	
+	L’accès au chantier est assuré par une route principale, facilitant la circulation des engins et des véhicules de transport. Un parking est également aménagé à l’extérieur du chantier afin d’éviter l’encombrement de la zone de travail. La base vie de chantier est implantée à l’écart des zones de manœuvre des engins lourds, garantissant ainsi de meilleures conditions de sécurité et de fonctionnement.
+	
+	\vspace{\baselineskip}
+	
+	L’implantation globale vise à optimiser la circulation, réduire les distances de manutention et améliorer la sécurité, tout en assurant une organisation claire et fonctionnelle du chantier.
+	
+	
 	
 	\section{Diagramme de Gantt}
 	
@@ -166,6 +237,21 @@
 	ProjectLibre (PL) est un outil open source de planification de projet multi-projets et multi-utilisateurs. Il est le résultat d'un fork du logiciel OpenProj. ProjectLibre s'inspire de Microsoft Project ; il permet de lire et modifier des fichiers MS Project version 2003, 2007 et 2010.
 	
 	\subsection{Le diagramme}
+	
+	\newgeometry{left=0cm,right=0cm,top=0cm,bottom=0cm}
+	
+	\thispagestyle{empty}
+	
+	\begin{textblock*}{30cm}(5cm,-13cm)
+		\includegraphics[width=1\linewidth]{PDF/Gantt}
+	\end{textblock*}
+	
+	
+	{\centering10\par}
+	
+	\restoregeometry
+	
+
 	
 	\subsection{Analyse du diagramme}
 	
@@ -184,7 +270,7 @@
 	
 	\section{Estimation budgétaire}
 	
-	La devise utilisée est l'EURO car le logiciel ProjectLibre ne prend pas en charge la devise en dinars.
+	La devise utilisée est l'euro car le logiciel ProjectLibre ne prend pas en charge la devise en dinars.
 	
 	Au préalable les budget de chaque étape à été introduite dans le logiciel PL, ce qui permet de pouvoir avoir le budget de chaque tâches et aussi le budget final.
 	
@@ -204,13 +290,21 @@
 	\addcontentsline{toc}{chapter}{Conclusion}
 	
 	Le projet présenté porte sur l’organisation et la planification de la construction d’un hangar industriel de stockage de 1000 m², réalisé en charpente métallique avec des fondations en béton armé et des semelles isolées. L’objectif principal de ce travail était de mettre en application les notions fondamentales du module Organisation de Chantier, notamment la planification des travaux, la gestion des ressources et l’estimation des moyens nécessaires à la réalisation de l’ouvrage.
+	
 	\vspace{\baselineskip}
+	
 	L’étude a permis de définir des choix techniques cohérents et adaptés à la nature du projet, en privilégiant une structure métallique préfabriquée à assemblages boulonnés, solution offrant rapidité d’exécution, précision de montage et optimisation des délais. L’utilisation de panneaux sandwich pour les cloisons extérieures assure une mise hors d’eau et hors d’air rapide du bâtiment, tout en limitant les travaux de finition.
+	
 	\vspace{\baselineskip}
+	
 	La décomposition du projet en phases successives, allant de l’installation de chantier jusqu’à la réception provisoire, a permis d’établir un planning réaliste à l’aide du logiciel ProjectLibre. Le diagramme de Gantt obtenu met en évidence une durée globale d’environ quatorze à quinze semaines, compatible avec les contraintes techniques et organisationnelles du chantier. L’identification du chemin critique, principalement lié aux fondations et au montage de la charpente métallique, souligne l’importance d’une coordination rigoureuse des moyens humains et matériels.
+	
 	\vspace{\baselineskip}
+	
 	L’analyse des ressources montre une organisation équilibrée, avec une mobilisation progressive des équipes et des engins, et un pic d’activité lors des phases de montage nécessitant des moyens lourds tels que la grue mobile et la nacelle. Cette organisation permet de limiter les temps morts et d’optimiser les coûts de location des équipements.
+	
 	\vspace{\baselineskip}
+	
 	En conclusion, ce projet constitue une application concrète et complète des principes d’organisation de chantier pour un ouvrage industriel simple. Il met en évidence le rôle essentiel de la planification, de l’anticipation et de la coordination dans la réussite d’un chantier de construction, tout en offrant une vision réaliste des contraintes techniques, humaines et économiques liées à ce type d’ouvrage.
 	
 	
