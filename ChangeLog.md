@@ -2,6 +2,19 @@ Ce Changelog resume tout ce qui a été fait.
 
 ###### -----------------------------------------------------------------------
 
+# **17.12.2025**
+
+
+
+* **Suite TD3 OS (presque terminer ou bien terminer a verifier).**
+* **Manque uniquement cours GP et TD3 OS et les projet non finie.**
+
+
+
+
+
+###### -----------------------------------------------------------------------
+
 # **14.12.2025**
 
 

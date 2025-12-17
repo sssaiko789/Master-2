@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.11.23)  11 DEC 2025 23:58
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.12.12)  17 DEC 2025 23:06
  restricted system commands enabled.
 **TD3-OS.tex
 (./TD3-OS.tex
@@ -1086,26 +1086,26 @@ File: pgflibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (./TD3-OS.aux)
 \openout1 = TD3-OS.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 138.
-LaTeX Font Info:    ... okay on input line 138.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1113,57 +1113,57 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 138.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 138.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 138.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 138.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 138.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 138.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 138.
-LaTeX Font Info:    Redeclaring math accent \check on input line 138.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 138.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 138.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 138.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 138.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 138.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 137.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 137.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 137.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 137.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 137.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 137.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 137.
+LaTeX Font Info:    Redeclaring math accent \check on input line 137.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 137.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 137.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 137.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 137.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 137.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 138.
+(Font)              `operators' in the math version `normal' on input line 137.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 138.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 137.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 138.
+(Font)              `operators' in the math version `bold' on input line 137.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 138.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 137.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 138.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 138.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 138.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 138.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 138.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 137.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 138.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 138.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 138.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 137.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 138.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 137.
 
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mk
 ii
@@ -1229,7 +1229,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 138.
+Package hyperref Info: Link coloring OFF on input line 137.
 (./TD3-OS.out) (./TD3-OS.out)
 \@outlinefile=\write4
 
@@ -1269,12 +1269,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/amalo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 Chapitre 1.
 
-Overfull \hbox (5.51747pt too wide) in paragraph at lines 191--192
+Overfull \hbox (5.51747pt too wide) in paragraph at lines 190--191
 [][] 
  []
 
 
-Overfull \hbox (2.60799pt too wide) in paragraph at lines 180--194
+Overfull \hbox (2.60799pt too wide) in paragraph at lines 179--193
 []$[]$ $[]$ 
  []
 
@@ -1286,7 +1286,7 @@ Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 ]
-Overfull \hbox (2.608pt too wide) in paragraph at lines 319--352
+Overfull \hbox (2.608pt too wide) in paragraph at lines 318--351
 []$[]$ $[]$ 
  []
 
@@ -1310,44 +1310,130 @@ Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
-] [5] [6] [7] [8] (./TD3-OS.aux)
+] [5] [6] [7] [8] [9]
+Chapitre 2.
+Missing character: There is no è (U+00E8) in font cmmi12!
+Missing character: There is no è (U+00E8) in font cmmi8!
+Missing character: There is no è (U+00E8) in font cmmi8!
+[10
+
+
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+Missing character: There is no é (U+00E9) in font cmmi8!
+Missing character: There is no é (U+00E9) in font cmmi8!
+[11
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+Overfull \hbox (47.25636pt too wide) in paragraph at lines 905--906
+[][] 
+ []
+
+[12
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+] [13
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+] [14] (./TD3-OS.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `TD3-OS.out' has not changed.
-(rerunfilecheck)             Checksum: 1DDF75B38F967490B11BE2DF41B7A27A;2506.
+(rerunfilecheck)             Checksum: 0681348ABDC7D3F6B383E13F9B30E489;4531.
 )
 
 Here is how much of LuaTeX's memory you used:
- 37183 strings out of 476081
+ 37294 strings out of 476081
  125097,1373583 words of node,token memory allocated
- 1040 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 16 glue, 5 kern, 1 penalty, 1 glyph, 141 attribute,
- 61 glue_spec, 72 attribute_list, 2 write nodes
-   avail lists: 1:2,2:5418,3:1872,4:190,5:280,6:56,7:2909,8:60,9:1202,10:8,11:15
-7
- 58698 multiletter control sequences out of 65536+600000
- 61 fonts using 4273351 bytes
+ 1464 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 25 glue, 7 kern, 1 penalty, 1 glyph, 255 attribute,
+ 61 glue_spec, 129 attribute_list, 2 write nodes
+   avail lists: 1:1,2:6303,3:2334,4:190,5:452,6:99,7:3548,8:70,9:1201,10:8,11:22
+9
+ 58786 multiletter control sequences out of 65536+600000
+ 62 fonts using 4405039 bytes
  98i,13n,104p,435b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman17
 -regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public
-/lm/lmroman8-regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/ope
-ntype/public/lm/lmroman6-regular.otf><c:/users/amalo/appdata/local/programs/mikt
-ex/fonts/opentype/public/lm/lmroman12-regular.otf><c:/users/amalo/appdata/local/
-programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><C:/Users/amalo/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/am
-alo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
-Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.p
-fb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr6.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr8.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on TD3-OS.pdf (8 pages, 138232 bytes).
+/lm/lmroman10-regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/op
+entype/public/lm/lmroman8-regular.otf><c:/users/amalo/appdata/local/programs/mik
+tex/fonts/opentype/public/lm/lmroman6-regular.otf><c:/users/amalo/appdata/local/
+programs/miktex/fonts/opentype/public/lm/lmroman12-regular.otf><c:/users/amalo/a
+ppdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><C:/Use
+rs/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb
+><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+mi12.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmmi6.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmmi8.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr12.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/amalo/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/amalo/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on TD3-OS.pdf (14 pages, 188636 bytes).
 
-PDF statistics: 187 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 131072)
- 135 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 287 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 131072)
+ 223 words of extra memory for PDF output out of 10000 (max. 100000000)
 

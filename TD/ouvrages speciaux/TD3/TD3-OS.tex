@@ -21,7 +21,7 @@
 \usepackage{xcolor}
 
 \usepackage{multicol}
-\setlength{\columnseprule}{1pt}
+\setlength{\columnseprule}{0pt}
 \def\columnseprulecolor{\color{gray}}
 
 \usepackage{tcolorbox}
@@ -40,7 +40,6 @@
 
 \usepackage{myunit}
 \usepackage{stanli}
-
 
 
 
@@ -563,6 +562,7 @@
 	
 	
 	
+	
 	\section{Stabilité au glissement}
 	
 	\[ \dfrac{\sum \fH}{\sum \fV} \leq 0,6 \]
@@ -632,13 +632,14 @@
 	
 	\[ M_{g} = 221,5 \times 0,164 = 36,325\knxm \]
 	
+	$B = 2,9\meterl$
 	
 	\[ \begin{cases}
-		\sgma{\max} = \dfrac{N}{S} + \dfrac{M \times V}{I} = \dfrac{\sum \fV}{B \times 1ml} + \dfrac{M_{g} \times \dfrac{B}{2}}{\dfrac{1 \times b^{3}}{12}} = 0,102\mpa \\ \\
-		\sgma{\min} = \dfrac{N}{S} - \dfrac{M \times V}{I} = \dfrac{\sum \fV}{B \times 1ml} - \dfrac{M_{g} \times \dfrac{B}{2}}{\dfrac{1 \times b^{3}}{12}} = 0,05\mpa
+		\sgma{\max} = \dfrac{N}{S} + \dfrac{M \times V}{I} = \dfrac{\sum \fV}{B \times 1ml} + \dfrac{M_{g} \times \dfrac{B}{2}}{\dfrac{1 \times B^{3}}{12}} = 0,102\mpa \\ \\
+		\sgma{\min} = \dfrac{N}{S} - \dfrac{M \times V}{I} = \dfrac{\sum \fV}{B \times 1ml} - \dfrac{M_{g} \times \dfrac{B}{2}}{\dfrac{1 \times B^{3}}{12}} = 0,05\mpa
 	\end{cases} \]
 	
-	$B = 2,9\meterl$
+	
 	
 	
 	
@@ -658,16 +659,397 @@
 	{\centering Condition vérifiée \par}
 	
 	\vspace{\baselineskip}
-	On refait le calcul a l'ELU mais on applique les coefficient uniquement pour les forces défavorable.
+	
+	
+	\subsection{Vérification à l'ELU}
 	
 	
 	
+	\[ \begin{aligned}
+		\sum M_{renversant} &= 1,35 \times (\mht - \mhtt) + 1,5 \times \mhq \\
+		&= 147,975\knxm
+	\end{aligned} \]
+	
+	\[ \begin{aligned}
+		\sum M_{stabilisant} &= 1,35( \mvr + \mvt + \mvtt + \mvs + \mvss) + 1,5 \mvq \\
+		&= 532,744\knxm 
+	\end{aligned} \]
+	
+	
+	\[ \begin{aligned}
+		M_{s} &= M_{s1}^{retient} - M_{s2}^{renverse} \\
+		&= 532,744 - 147,975 \\
+		&= 384,769\knxm
+	\end{aligned} \]
+	
+	
+	\vspace{\baselineskip}
+	
+	\[ M_{g} = \sum \fV \times e \]
+	
+	\vspace{\baselineskip}
+	
+	Avec : $\begin{aligned}
+		\sum \fV &= 1,35(\fvr + \fvs + \fvss + \fvt + \fvtt) + 1,5\fvq\\
+		&= 299,925\kn
+	\end{aligned}$
+	
+	\vspace{\baselineskip}
+	
+	\[ e = \dfrac{B}{2} - \dfrac{M_{s}}{\sum \fV} = \dfrac{2,9}{2} - \dfrac{384,769}{299,925} = 0,168\meterl \]
+	
+	\[ M_{g} = 299,925 \times 0,168 = 50,387\knxm \]
+	
+	
+	$B = 2,9\meterl$
+	
+	\[ \begin{cases}
+		\sgma{\max} = \dfrac{N}{S} + \dfrac{M \times V}{I} = \dfrac{\sum \fV}{B \times 1ml} + \dfrac{M_{g} \times \dfrac{B}{2}}{\dfrac{1 \times B^{3}}{12}} = 0,139\mpa \\ \\
+		\sgma{\min} = \dfrac{N}{S} - \dfrac{M \times V}{I} = \dfrac{\sum \fV}{B \times 1ml} - \dfrac{M_{g} \times \dfrac{B}{2}}{\dfrac{1 \times B^{3}}{12}} = 0,067\mpa
+	\end{cases} \]
+	
+	\[ \sgma{moy} = \dfrac{3\sgma{\max} + \sgma{\min}}{4} = 0,121\mpa \]
+	
+	\[ \sgma{moy} = 0,121 < \sgma{sol} = 1,5 \times 0,2 = 0,3\mpa \]
+	
+	{\centering Condition vérifiée pas de risque de poinçonnement \par}
 	
 	
 	
+	\chapter{Calcul et ferraillages des éléments du mur}
+	
+	\section{Calcul du mur 5}
+	
+	Nous décomposeront le rideau en tranches horizontales de 1m de hauteur et nous prendrons une pression moyenne dans chaque tranche, la pression ??? à mi-hauteur
+	
+	Nous donnerons le calcul complet pour la $5^{ème}$ tranche, pour les autres tranches le calcul sera sans analogue.
+	
+	\section{Calcul à l'ELU}
+	
+	
+	On décompose en tranche de 1m de hauteur.
+	
+	\begin{multicols}{2}
+		
+		
+		\[ \begin{aligned}
+			P &= 1,35(K \times \gamma_{h} \times Z) + 1,5 \times K \times q \\
+			&= 1,35(0,27 \times 19,8 \times 4,5) + 1,5 \times 0,27 \times 4 \\
+			&= 34,09\kn \quad (\text{Par ml}) 
+		\end{aligned} \]
+		
+		\columnbreak
+		
+		\begin{tikzpicture}
+			\point{a}{0}{0};
+			\point{b}{0}{5};
+			
+			\point{A}{4}{0};
+			\point{B}{4}{1};
+			\point{c}{4}{2};
+			\point{d}{4}{3};
+			\point{e}{4}{4};
+			\point{f}{4}{5};
+			
+			
+			\lineload{1}{a}{b}[-1][-1];
+			\lineload{1}{A}{f}[-2][0];
+			
+			\dimensioning{2}{a}{b}{-1}[Z];
+			\dimensioning{2}{A}{B}{3}[4,5];
+			\dimensioning{2}{B}{c}{3}[3,5];
+			\dimensioning{2}{c}{d}{3}[2,5];
+			\dimensioning{2}{d}{e}{3}[1,5];
+			\dimensioning{2}{e}{f}{3}[0,5];
+			
+			\node[below] at (a) {q};
+			
+			\node[below right] at (A) {$\gamma_{h} \times Z$};
+			
+		\end{tikzpicture}
+	\end{multicols}
+	
+	
+	La tranche du voile de 1m de hauteur repose sur 4 appuis (contrefort), elle est considéré comme une poutre continue constituer de trois travées égales.
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			\point{a}{0}{0};
+			\point{b}{3}{0};
+			\point{c}{6}{0};
+			\point{d}{9}{0};
+			
+			\beam{2}{a}{d};
+			
+			\support{1}{a};
+			\support{1}{b};
+			\support{1}{c};
+			\support{1}{d};
+			
+			\lineload{1}{a}{d}[.5][.5];
+			
+			\internalforces{a}{b}{0}{2}[2.5][red];
+			\internalforces{b}{c}{2}{2}[3.5][red];
+			\internalforces{c}{d}{2}{0}[2.5][red];
+			
+			\dimensioning{1}{a}{b}{-3}[5,25];
+			\dimensioning{1}{b}{c}{-3}[5,25];
+			\dimensioning{1}{c}{d}{-3}[5,25];
+			
+			\node[red] at (1.5,2) {$M_{1\max}$};
+			\node[red] at (3,-2.5) {$M_{1}$};
+			\node[red] at (4.5,2) {$M_{2\max}$};
+			\node[red] at (6,-2.5) {$M_{2}$};
+			\node[red] at (7.5,2) {$M_{3\max}$};
+			
+		\end{tikzpicture}
+	\end{figure}
+	
+	
+	\subsection{Calcul en travée}
+	
+	\subsubsection{Moments en travée}
+	
+	\[ M_{1\max} = \dfrac{2PL^{2}}{25} \]
+	
+	\[ M_{2\max} = \dfrac{2PL^{2}}{40} \]
+	
+	\[ M_{3\max} = \dfrac{2PL^{2}}{25} \]
+	
+	\[ \fbox{$M_{travée}^{\max} = \dfrac{2 \times 34,09 \times 5,25^{2}}{25} = 75,168\knxm$} \]
+	
+	\subsubsection{La solution en travée}
+	
+	\[ c = 5\cml \]
+	
+	\[ \text{La hauteur utile : } d = h - c = 40 - 5 = 35\cml \]
+	
+	
+	\[ \mu = \dfrac{M_{travee}^{\max}}{b \times d^{2 \times f_{bu}}} = \dfrac{\num{75,168e5}}{100 \times 35^{2} \times \num{14,2e2}} = 0,0432 < \mu_{l} = 0,392 \Rightarrow SSA \]
+	
+	Depuis les tableau avec interpolation on a :
+	
+	\[ \beta = \beta_{1}  + (\beta_{2} - \beta_{1}) \dfrac{\mu - \mu_{1}}{\mu_{2} - \mu_{1}} \]
+	
+	\[ \beta = 0,9779 \]
+	
+	\[ A_{st} = \dfrac{M_{\max}}{\beta \times d \times \sgma{st}} = \dfrac{\num{75,168e5}}{0,9779 \times 35 \times \num{348e2}} \]
+	
+	\[ A_{st} = 6,31\cmsq \]
+	
+	On adopte 7HA14 = $10,78\cmsq$
+	
+	
+	\subsection{Calcul en appuie}
+	
+	
+	\subsubsection{Moments en appuie}
+	
+	\[ M_{1} = \dfrac{-PL^{2}}{10} \]
+	
+	\[ M_{2} = \dfrac{-PL^{2}}{10} \]
+	
+	\[ \fbox{$M_{appuie}^{\max} = \dfrac{-34,09 \times 5,25^{2}}{10} = -93,96\knxm$} \]
+	
+	\subsubsection{La solution}
+	
+	\[ \mu = \dfrac{M_{\max}}{b \times d^{2} \times f_{bu}} = \dfrac{\num{93,96e5}}{100 \times 35^{2} \times \num{14,2e2}} = 0,054 < \mu_{l} = 0,392 \Rightarrow SSA \]
+	
+	\[ \mu = 0,054 \rightarrow \beta = 0,9722 \]
+	
+	\[ A_{st} = \dfrac{\num{93,96e5}}{0,9722 \times 35 \times \num{348e2}} = 7,93\cmsq \]
+	
+	On adopte 7HA14
+	
+	
+	\subsection{Vérification de l'effort tranchant}
+	
+	\[ V_{u} = \dfrac{3PL}{5} = \dfrac{3 \times 34,09 \times 5,25}{5} = 107,383\kn \]
+	
+	\[ \tau_{u} = \dfrac{V_{u}}{b \times d} = \dfrac{\num{107,383e3}}{1000 \times 350} = 0,306\mpa \]
+	
+	\[ \tau_{u} = 0,306\mpa \leq \taubar{u} = \min \{ 0,1f_{c28} = 2,5\mpa \quad;\quad 3\mpa \} \]
+	
+	{\centering Condition vérifiée \par}
+	
+	
+	\section{Calcul du contrefort}
+	
+	Il est considérer comme un console encastrée dans les semelles leur section est en T.
 	
 	
 	
+	\begin{multicols}{2}
+		\begin{tikzpicture}
+			\point{a}{0}{0};
+			\point{b}{3}{0};
+			\point{c}{6}{0};
+			\point{d}{9}{0};
+			
+			\point{A}{1.5}{0};
+			\point{B}{4.5}{0};
+			
+			\beam{2}{a}{d};
+			
+			\support{1}{a};
+			\support{1}{b};
+			\support{1}{c};
+			\support{1}{d};
+			
+			\lineload{1}{A}{B}[.5][.5];
+			\dimensioning{1}{A}{B}{-2}[L];
+			
+		
+			
+		\end{tikzpicture}
+		
+		\columnbreak
+		
+		
+		\begin{center}
+			\begin{tikzpicture}
+				\draw (2,0) coordinate (a) 
+				-- ++(3,0) coordinate (b)
+				-- ++(0,-.5) coordinate (c)
+				-- ++(-1,0)
+				-- ++(0,-2) coordinate (d) 
+				-- ++(-1,0) coordinate (e)
+				-- ++(0,2) coordinate (f)
+				-- ++(-1,0)
+				-- cycle;
+				
+				\dimensioning{1}{a}{b}{.5}[b];
+				\dimensioning{2}{b}{c}{5.5}[$E_{b}$];
+				\dimensioning{1}{d}{e}{-3.3}[$b_{0}$];
+				\dimensioning{2}{e}{a}{1.5}[h'];
+				
+				\node at (3.5,-.25) {Rideau};
+				\node[rotate=-90] at (3.5,-1.5) {\small Contrefort};
+				
+			\end{tikzpicture}
+			
+		\end{center}
+		
+		
+	\end{multicols}
+	
+	
+	
+	\subsection{Calcul à l'ELU}
+	
+	À la base du contrefort, nous avons
+	
+	\begin{multicols}{2}
+		
+		
+		\[ \begin{aligned}
+			P &= 1,35(K \times \gamma_{h} \times h \times L) + 1,5 \times K \times q \times L \\
+			&=\begin{aligned}
+				&1,35 \times (0,25 \times 19,8 \times 44 \times 5,25) \\
+				+ &1,50 \times 0,27 \times 4 \times 5,25
+			\end{aligned} \\
+			&= 175,22\kn
+		\end{aligned} \]
+		
+		\columnbreak
+		
+		\begin{tikzpicture}
+			\point{a}{0}{0};
+			\point{b}{0}{5};
+			
+			\point{A}{4}{0};
+			\point{B}{4}{1};
+			\point{c}{4}{2};
+			\point{d}{4}{3};
+			\point{e}{4}{4};
+			\point{f}{4}{5};
+			
+			
+			\lineload{1}{a}{b}[-1][-1];
+			\lineload{1}{A}{f}[-2][0];
+			
+			\dimensioning{2}{a}{b}{-1}[h];
+			\dimensioning{2}{A}{B}{3}[4,5];
+			\dimensioning{2}{B}{c}{3}[3,5];
+			\dimensioning{2}{c}{d}{3}[2,5];
+			\dimensioning{2}{d}{e}{3}[1,5];
+			\dimensioning{2}{e}{f}{3}[0,5];
+			
+			\node[below] at (a) {q};
+			
+			\node[below right] at (A) {$\gamma_{h} \times h$};
+			
+		\end{tikzpicture}
+	\end{multicols}
+	
+	\[ 
+	\begin{aligned}
+		M_{u} &= \dfrac{P \times h}{2} \times \dfrac{h}{3} \\
+		&= \dfrac{175,22}{2} \times \dfrac{4,4}{3} \\
+		&= 565,376\knxm 
+	\end{aligned}
+	\]
+	
+	
+	Nous prendrons comme largeur la table de compression b :
+	
+	\[ \dfrac{b - b_{0}}{2} \leq \dfrac{L}{10} \rightarrow b \leq \dfrac{2L}{10} + b_{0} \]
+	
+	\[ b = \dfrac{2 \times 5,25}{10} + 0,2 = 1,25\meterl \]
+	
+	\[ d = h' - c = 1,5 - 0,05 = 1,45\meterl \]
+	
+	\[ \begin{aligned}
+		M_{table} &= f_{bu} \times b \times E_{b} \times (d - \dfrac{E_{b}}{2}) \\
+		&= \num{14,2e3} \times 1,25 \times 0,4 \times (1,45 - \dfrac{0,4}{2}) \\
+		&= 8875\knxm > M_{u} = 565,376\knxm
+	\end{aligned} \]
+	
+	Donc on calcul pour section rectangulaire $(b \times h')$ (1,25X1,5)
+	
+	\[ \mu = \dfrac{M_{u}}{b \times d^{2} \times f_{bu}} = \dfrac{\num{565,376e5}}{125 \times 145^{2} \times \num{14,2e2}} = 0,0151 \]
+	
+	Par interpolation depuis les tableau on aura : 
+	
+	\[ \beta = 0,99235 \]
+	
+	\[ A_{st} = \dfrac{M_{u}}{\beta \times d \times \sgma{st}} = \dfrac{565,376 \times 10^{5}}{0,99235 \times 145 \times \num{348e2}} = 11,29\cmsq \]
+	
+	On adopte $3HA20 + 3HA16 = 15,45\cmsq$
+	
+	
+	\subsection{Vérification de l'effort tranchant}
+	
+	\[ Ve_{u} = \dfrac{P \times L^{2}}{2L} = \dfrac{PL}{2} \]
+	
+	\[ V_{u} = \dfrac{175,22 \times 5,25}{2} = 459,952\kn \]
+	
+	\[ \tau_{u} = \dfrac{V_{u}}{b \times d} = \dfrac{\num{459,952e3}}{1250 \times 1450} = 0,2587\mpa \]
+	
+	\[ \tau_{u} = 0,2537\mpa < \taubar{u} = \min \{ 0,1f_{c28} \quad;\quad 3\mpa \} = 2,5\mpa \]
+	
+	{\centering Condition vérifiée \par}
+	
+	
+	\subsection{Vérification des contraintes}
+	
+	On doit vérifier
+	
+	\[ \sgma{bc} = \dfrac{M_{ser}}{I} \times y \leq \sigmabar{bc} = 0,6 \times f_{c28} = 15\mpa \]
+	
+	\[ \sgma{st} = 15 \times \sgma{bc} \times \dfrac{d - y}{y} \leq \sigmabar{st} = 240\mpa \]
+	
+	\subsubsection{Position de l'axe neutre}
+	
+	\[ \begin{aligned}
+		\dfrac{E_{b}}{2} \times y^{2} + 15 \times A_{sc} \times y - 15 \times A_{st} \times d &= 0 \\
+		\dfrac{0,4}{2} \times y^{2} + 15 \times 0 \times y - 15 \times 15,46 \times 1,45 &= 0 
+	\end{aligned} \]
+	
+	\[ y = 7,919\meterl \]
+	
+
 	
 	
 	
