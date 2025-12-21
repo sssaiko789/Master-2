@@ -1,0 +1,385 @@
+
+%\begin{comment}
+
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{polyglossia}
+\setmainlanguage{french}
+
+\usepackage{amsmath, amssymb}
+
+\usepackage{graphicx}
+\usepackage{caption}
+
+\usepackage{siunitx} % Pour les unités
+
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2.5cm, left=3cm, right=3cm}
+\setlength{\parindent}{0pt}
+
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+
+\usepackage{multicol}
+\setlength{\columnseprule}{1pt}
+\def\columnseprulecolor{\color{gray}}
+
+\usepackage{tcolorbox}
+
+
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{\columnwidth}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+
+\newcommand{\RomanNum}[1] %pour les chiffre romain
+{\MakeUppercase{\romannumeral #1}}
+
+
+
+
+\usepackage{myunit}
+\usepackage{stanli}
+
+
+
+
+%fonction pour sigma
+\newcommand{\sgma}[1]{\sigma_{#1}}
+\newcommand{\sigmax}{\sigma_{\max}}
+\newcommand{\sigmin}{\sigma_{\min}}
+
+\newcommand{\sigmabar}[1]{\overline{\sigma}_{#1}}
+
+
+%fonction pour tau
+\newcommand{\taubar}[1]{\overline{\tau}_{#1}}
+
+
+
+
+
+
+
+
+\usepackage{multirow}
+
+
+\usepackage[hang,flushmargin,bottom,splitrule]{footmisc}%pour les footnote
+
+
+\usepackage{ragged2e}
+
+
+
+\newcommand{\mmt}[1]{M_{t_{#1}}}
+\newcommand{\mmti}[1]{M_{isostatique}^{#1}}
+
+
+
+
+\usepackage{comment}
+
+
+
+\begin{comment}
+
+\usepackage[
+backend=biber,
+style=authoryear,
+natbib=true
+]{biblatex}
+
+\addbibresource{biblio.bib}
+
+\end{comment}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\title{|}
+\author{}
+\date{\today}
+
+\begin{document}
+
+	
+
+%\end{comment}
+	
+	
+	\section{Calcul des escaliers et des poutres palières}
+	
+	
+	\subsection{Escaliers}
+	
+	\subsubsection{Introduction}
+	
+	Escalier est une structure de marches et paliers, qui relie différents niveaux d’un
+	bâtiment.Il transmet les charges générées par les utilisateurs vers les éléments porteurs comme les
+	poutres ou les murs.
+	
+	
+	
+	\subsubsection{Schéma statique}
+	
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			
+			\draw[very thick] (0,0)
+			coordinate (a) 
+			-- (2.7,1.6) 
+			coordinate (b)
+			-- (4.1,1.6)
+			coordinate (c);
+			
+			
+			\support{1}{a};
+			\support{1}{c};
+			
+			\dimensioning{1}{a}{b}{-1}[$270\cml$];
+			\dimensioning{1}{b}{c}{-1}[$140\cml$];
+			\dimensioning{2}{a}{b}{2.7}[$160\cml$];
+			\dimensioning{3}{a}{b}{1}[$L$];
+			
+			\draw[|-|, thick] (0,.5) -- (2.7,2.1)node[midway,above] {$L_{0}$} -- (4.1,2.1);
+			
+			
+			
+			
+		\end{tikzpicture}
+		\caption{Schéma statique de l'escalier}
+		\label{fig:schema-statique-escalier}
+	\end{figure}
+	
+	
+	
+	
+	\subsubsection{Dimensionnement des escaliers}
+	
+	
+	
+	\textbf{Épaisseur des escaliers}
+	
+	\[ \dfrac{L_{0}}{30} \leq e \leq \dfrac{L_{0}}{20} \]
+	
+	Avec $L_{0}$ étant la portée de l'escalier.
+	
+	\[ L = \sqrt{270^{2} + 160^{2}} = 313\cml \]
+	
+	\[ L_{0} = L + 140 = 313 + 140 = 453\cml  \]
+	
+	\vspace{\baselineskip}
+	
+	\[ 15,1 \leq e \leq 22,65 \]
+	
+	\[ \fbox{$e = 20\cml$} \]
+	
+	
+	\textbf{Dimensions des marches et contre-marche}
+	
+	\[ 60 < g + 2 \times h < 64 \]
+	
+	Avec g étant la longueur de la contre-marche et h la hauteur de la marche.
+	
+	On pose : 
+	
+	\[ \fbox{$h = 16\cml \quad;\quad g = 27\cml$} \]
+	
+	\[ 58 < 27 + 2 \times 16 = 59\cml < 64 \]
+	{\centering Condition vérifiée.\par}
+	
+	Nombre de marches = \underline{9 marches.}
+	
+	
+	
+	\subsubsection{Calcul des charges}
+	
+	\underline{Le calcul se fera pour 1ml.}
+	
+	\vspace{\baselineskip}
+	
+	\textbf{Charge permanente paillasse}
+	
+	\begin{table}[H]
+		\centering
+		\caption{Les charges appliquées à la paillasse}
+		\begin{tabular}{|l|c|c|}
+			\hline
+			\textbf{Nom de la charge} & \textbf{La charge} & \textbf{La charge appliqué} ($\knm$) \\ \hline
+			
+			Poids propre & $25\knmc$ & $25 \times e \times 1ml = 25 \times 0,2 = 5$ \\ \hline
+			
+			Poids des marches & $24\knmc$ & $24 \times h \times 1ml = 24 \times 0.16 = 3,84 $ \\ \hline
+			
+			Couche de sable & $0,36\knms$ & 0,36 \\ \hline
+			
+			Mortier de pose & $0,44\knms$ & $2 \times 0,44$ \\ \hline
+			
+			Carrelage & $0,4\knms$ & $2 \times 0,4$ \\ \hline
+			
+			Garde corps & & 0,4 \\ \hline
+			
+			\multicolumn{2}{|l|}{\textbf{\textcolor{blue}{La somme}}} 
+			& \textbf{\textcolor{blue}{11,28}} \\ \hline
+			
+			
+		\end{tabular}
+	\end{table}
+	
+	
+	
+	La charge du au mortier et au sable est multiplier par 2 car on aura ces deux là sur la marche et aussi sur la contre-marche.
+	
+	
+
+	
+	
+	\vspace{\baselineskip}
+	
+	\textbf{Charge permanente palier}
+	
+	
+	\begin{table}[H]
+	\centering
+	\caption{Les charges appliquées à la paillasse}
+		\begin{tabular}{|l|c|c|}
+			\hline
+			\textbf{Nom de la charge} & \textbf{La charge} & \textbf{La charge appliqué} ($\knm$) \\ \hline
+			
+			Poids propre & $25\knmc$ & $25 \times e \times 1ml = 25 \times 0,2 = 5$ \\ \hline
+			
+			
+			Couche de sable & $0,36\knms$ & 0,36 \\ \hline
+			
+			Mortier de pose & $0,44\knms$ & $0,44$ \\ \hline
+			
+			Carrelage & $0,4\knms$ & $0,4$ \\ \hline
+			
+
+			\multicolumn{2}{|l|}{\textbf{\textcolor{blue}{La somme}}} 
+			& \textbf{\textcolor{blue}{2,64}} \\ \hline
+			
+			
+		\end{tabular}
+	\end{table}
+	
+	
+	
+	\vspace{\baselineskip}
+	
+	
+	\textbf{Charge d'exploitation}
+	
+	Pour les escaliers on a :
+	
+	\[ Q = 2,5\knms \rightarrow Q' = 2,5 \times 1ml = 2,5\knm \]
+	
+	
+	\vspace{\baselineskip}
+	
+	\textbf{Charge totale à l'ELU}
+	
+	Paillasse : $q_{paillasse} = 1,35 \times 11,28 + 1,5 \times 2,5 = 18,978 \simeq 19\knm $
+
+	\vspace{\baselineskip}
+	
+	Palier : $q_{palier} = 1,35 \times 2,64 + 1,5 \times 2,5 = 7,314 \simeq 7,5\knm$
+	
+	
+	\[ \fbox{$\begin{aligned}
+			q_{paillasse} &= 19\knm \\
+			q_{palier} &= 7,5\knm
+		\end{aligned}$} \]
+		
+	
+	
+	\subsubsection{Calcul des efforts internes}
+	
+	
+	
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			
+			
+			\draw[very thick] (0,0) 
+			coordinate (a) --
+			(4,0)
+			coordinate (b) --
+			(7,0)
+			coordinate (c);
+			
+			\support{3}{a}[-90];
+			\support{3}{c}[90];
+			
+			\lineload{1}{a}{b}[2][2];
+			\lineload{1}{b}{c}[1][1];
+			
+			\dimensioning{1}{a}{b}{-1}[$3,13\meterl$];
+			\dimensioning{1}{b}{c}{-1}[$1,4\meterl$];
+			
+			\node at (2,3) {$q = 19\knm$};
+			\node at (5.8,1.8) {$q = 7,5\knm$};
+			
+		\end{tikzpicture}
+	\end{figure}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	\subsubsection{Calcul du ferraillage}
+	
+	\subsubsection{Plan de ferraillage}
+	
+	
+	
+	\subsection{Poutres palières}
+	
+	\subsubsection{Introduction}
+	
+	\subsubsection{Calcul des charges}
+	
+	\subsubsection{Schéma statique}
+	
+	\subsubsection{Calcul des efforts internes}
+	
+	\subsubsection{Calcul du ferraillage}
+	
+	\subsubsection{Plan de ferraillage}
+	
+	
+
+	
+\end{document}
+
