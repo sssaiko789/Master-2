@@ -1,0 +1,56 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{BAEL}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2c3f45899c4054dd6f00a836646955a4}{%
+           family={AFNOR},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Paris}%
+      }
+      \list{publisher}{1}{%
+        {AFNOR}%
+      }
+      \strng{namehash}{2c3f45899c4054dd6f00a836646955a4}
+      \strng{fullhash}{2c3f45899c4054dd6f00a836646955a4}
+      \strng{fullhashraw}{2c3f45899c4054dd6f00a836646955a4}
+      \strng{bibnamehash}{2c3f45899c4054dd6f00a836646955a4}
+      \strng{authorbibnamehash}{2c3f45899c4054dd6f00a836646955a4}
+      \strng{authornamehash}{2c3f45899c4054dd6f00a836646955a4}
+      \strng{authorfullhash}{2c3f45899c4054dd6f00a836646955a4}
+      \strng{authorfullhashraw}{2c3f45899c4054dd6f00a836646955a4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Norme française NF P 18-701}
+      \field{shorthand}{BAEL 91 révisé 99}
+      \field{title}{Règles techniques de conception et de calcul des ouvrages et constructions en béton armé suivant la méthode des états limites (BAEL 91 révisées 99)}
+      \field{year}{1999}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

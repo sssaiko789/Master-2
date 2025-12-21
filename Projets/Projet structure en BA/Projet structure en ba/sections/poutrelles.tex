@@ -1,0 +1,725 @@
+
+\begin{comment}
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{polyglossia}
+\setmainlanguage{french}
+
+\usepackage{amsmath, amssymb}
+
+\usepackage{graphicx}
+\usepackage{caption}
+
+\usepackage{siunitx} % Pour les unités
+
+\usepackage{geometry}
+\geometry{top=2cm, bottom=2.5cm, left=3cm, right=3cm}
+\setlength{\parindent}{0pt}
+
+\usepackage{enumitem}
+
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+
+\usepackage{multicol}
+
+\usepackage{tcolorbox}
+
+
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+\usepackage{float}
+
+
+
+\newcommand{\RomanNum}[1] %pour les chiffre romain
+{\MakeUppercase{\romannumeral #1}}
+
+
+
+\usepackage{myunit}
+\usepackage{stanli}
+
+
+
+
+%fonction pour sigma
+\newcommand{\sgma}[1]{\sigma_{#1}}
+\newcommand{\sigmax}{\sigma_{\max}}
+\newcommand{\sigmin}{\sigma_{\min}}
+
+\newcommand{\sigmabar}[1]{\overline{\sigma}_{#1}}
+
+
+%fonction pour tau
+\newcommand{\taubar}[1]{\overline{\tau}_{#1}}
+
+
+
+
+
+
+
+
+\usepackage{multirow}
+
+
+\usepackage[hang,flushmargin,bottom,splitrule]{footmisc}%pour les footnote
+
+
+\usepackage{ragged2e}
+
+
+
+\newcommand{\mmt}[1]{M_{t_{#1}}}
+\newcommand{\mmti}[1]{M_{isostatique}^{#1}}
+
+
+
+
+\usepackage{comment}
+
+
+
+
+
+\usepackage[
+backend=biber,
+style=authoryear,
+natbib=true
+]{biblatex}
+
+\addbibresource{biblio.bib}
+
+
+
+
+
+
+
+
+
+
+
+\title{|}
+\author{}
+\date{\today}
+
+\begin{document}
+
+
+\end{comment}
+
+\section{Calcul des poutrelles}
+
+\subsection{Introduction}
+
+Les poutrelles sont de petits éléments longitudinaux, souvent préfabriquées, qui
+supportent les planchers et transmettent les charges vers les poutres principales ou les murs porteurs.
+Elles permettent de répartir les efforts et d’assurer la rigidité locale du plancher.
+
+\subsection{Direction des poutrelles}
+
+La direction des poutrelles sera choisie selon la plus petite portée, dans le plan on constate que cette portée est la direction selon x-x (direction horizontale).
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\linewidth]{"../figures/Chapitre 3/Direction des poutrelles"}
+	\caption{}
+	\label{fig:direction-des-poutrelles}
+\end{figure}
+
+
+
+
+\subsection{Dimensions des poutrelles}
+
+Les dimensions des poutrelles seront choisie selon celle disponible sur le marché et selon notre plancher comme montrer dans la figure \ref{fig:poutrelle-et-hourdis-sans-dim}.
+
+
+
+
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}
+		
+		\draw[thick] (0,0) coordinate(a) -- (6,0) coordinate(b) -- 	++(0,-.5) coordinate(c)
+		-- ++(-2.5,0) -- ++(0,-2) coordinate(d) -- ++(-1,0) 	coordinate(e)
+		-- ++(0,2) -- ++(-2.5,0) -- cycle;
+		
+		
+		
+		\draw[thick] (3.5,-1.5) -- ++(.5,1) -- ++(4,0)
+		-- ++(.5,-1) -- ++(0,-.5) -- ++(-.5,-.5)
+		-- ++(-4,0) -- ++(-.5,.5) -- cycle;
+		
+		\draw[thick] (4.5,-2) rectangle ++(1,1);
+		\draw[thick] (6.5,-2) rectangle ++(1,1);
+		
+		\begin{scope}[shift={(-6,0)}]
+			\draw[thick] (3.5,-1.5) -- ++(.5,1) -- ++(4,0)
+			-- ++(.5,-1) -- ++(0,-.5) -- ++(-.5,-.5)
+			-- ++(-4,0) -- ++(-.5,.5) -- cycle;
+			
+			\draw[thick] (4.5,-2) rectangle ++(1,1);
+			\draw[thick] (6.5,-2) rectangle ++(1,1);
+		\end{scope}
+		
+		
+		
+		\draw[very thick,<-] (3,-1.5) -- ++(-.5,-2) node[below] 	{Poutrelle};
+		\draw[very thick,<-] (1.5,-.25) -- ++(-2,1) node[left] {Table 	de compression};
+		\draw[very thick,<-] (6,-1.5) -- ++(1.5,-2) node[below] 	{Hourdis (corps creux)};
+		
+		
+	\end{tikzpicture}
+	\caption{Poutrelle avec hourdis (corps creux).}
+	\label{fig:poutrelle-et-hourdis-sans-dim}
+\end{figure}
+
+
+\vspace{2\baselineskip}	
+
+
+
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}
+		
+		\draw[thick] (0,0) coordinate(a) -- (6,0) coordinate(b) -- 	++(0,-.5) coordinate(c)
+		-- ++(-2.5,0) -- ++(0,-2) coordinate(d) -- ++(-1,0) 	coordinate(e)
+		-- ++(0,2) -- ++(-2.5,0) -- cycle;
+		
+		\dimensioning{1}{a}{b}{.5}[65\cml];
+		\dimensioning{1}{e}{d}{-3}[12];
+		
+		\dimensioning{2}{b}{c}{6.5}[4];
+		\dimensioning{2}{c}{d}{6.5}[16];
+		\dimensioning{2}{b}{d}{7.2}[20\cml];
+		
+	\end{tikzpicture}
+	\caption{Dimensions des poutrelles}
+	\label{fig:dim-poutrelles}
+\end{figure}
+
+
+
+\subsection{Calcul des charges revenant au poutrelles}
+
+Les poutrelles reprennes la moitié des charges qui sur le corps creux à gauche et une autre moitié à droite comme présenter dans la figure \ref{fig:poutrelle-et-hourdis-sans-dim} avec la table de compression.
+
+\vspace{\baselineskip}
+
+Donc au finale la poutrelle reprend $65\cml$ du poids plancher au totale, et au chapitre \ref{subsubsec:descente-des-charges} les charges pour différent plancher on été calculer, nous avons :
+
+\[ \begin{cases}
+	\text{Pour un plancher terrasse : }\, G = 5,68\knms \, \text{ et }\, Q = 1\knms \\
+	\text{Pour un plancher courant : }\, G = 5,4\knms \, \text{ et }\, Q = 1,5\knms
+\end{cases} \]
+
+On retiendra uniquement le cas le plus défavorable a l'ELU, donc le plancher courant. 
+
+Comme c'est un calcul a l'ELU on aura :
+
+\[ (1,35 \cdot G + 1,5 \cdot Q) \cdot 0,65 = (1,35 \cdot 5,4 + 1,5 \cdot 1,5) \cdot 0,65 = 9,54\knm \]
+
+
+\begin{figure}[H]
+	\centering
+	
+	\begin{tikzpicture}
+		
+		\point{a}{0}{0};
+		\point{b}{3.8}{0};
+		\point{c}{7.8}{0};
+		\point{d}{9.9}{0};
+		\point{e}{13.3}{0};
+		\point{E}{11.6}{0};
+		
+		\beam{2}{a}{b};
+		\beam{2}{b}{c};
+		\beam{2}{c}{d};
+		\beam{2}{d}{e};
+		
+		\support{3}{a}[-90];
+		\support{1}{b};
+		\support{1}{c};
+		\support{1}{d};
+		\support{1}{e};
+		
+		\lineload{1}{a}{e};
+		
+		\dimensioning{1}{a}{b}{-2}[3,8\meterl];
+		\dimensioning{1}{b}{c}{-2}[4\meterl];
+		\dimensioning{1}{c}{d}{-2}[2,1\meterl];
+		\dimensioning{1}{d}{e}{-2}[3,4\meterl];
+		\dimensioning{1}{d}{E}{-3}[1,7\meterl];
+		
+		\notation{1}{a}{A}[below=1];
+		\notation{1}{b}{B}[below=1];
+		\notation{1}{c}{C}[below=1];
+		\notation{1}{d}{D}[below=1];
+		\notation{1}{e}{E}[below=1];
+		
+		\node at (5,1.6) {$9,54\knm$};
+		
+		\draw[very thick,dashed] (11.6,-3) -- (11.6,3) node[above] {Symétrie};
+		
+		
+	\end{tikzpicture}
+	\caption{Le schéma statique de la poutrelle}
+	\label{fig:schema-poutrelle}
+\end{figure}
+
+
+
+\subsection{Calcul des efforts internes}
+
+
+\subsubsection{Calcul des moments en appuis}
+
+Pour ce calcul la méthode des trois moments sera utiliser, comme la poutrelle est de section uniforme et continue avec un chargement uniformément répartie sur toute la longueur, alors cette formule simplifiée sera utiliser :
+
+\begin{equation}
+	\fbox{$l_{i} \times M_{i} + 2 \times (l_{i} + l_{i + 1}) \times M_{i} + l_{i + 1} \times M_{i + 1} = -q \times \dfrac{(l_{i}^{3} + l_{i + 1}^{3})}{4} $}
+\end{equation}
+\vspace{2\baselineskip}
+
+Avec cette formule on aura 8 équations, deux équations seront détailler (i = 1;2) car le calcul est répétitif.
+
+\textbf{i = 1}
+
+\[ \begin{aligned}
+	2 \times 3,8 \times M_{A} + 3,8 \times M_{B} &= -9,54 \times \dfrac{3,8^{3}}{4} \\
+	2M_{1} + M_{2} &= -34,44\knxm
+\end{aligned} \]
+
+\textbf{i = 2}
+
+\[ \begin{aligned}
+	3,8 \times M_{1} + 2 \times (3,8 + 4) \times M_{2} + 4 \times M_{3} &= -9,54\dfrac{(3,8^{3} + 4^{3})}{4} \\
+	3,8M_{1} + 15,6M_{2} + 4M_{3} &= -283,51\knxm
+\end{aligned} \]
+
+
+\textbf{Matrice|vecteur}
+
+\[
+\begin{pmatrix}
+	M_{A} & M_{B} & M_{C} & M_{D} & M_{E} & M_{F} & M_{G} & M_{H} & \vline & Res \\ \hline
+	2 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & \vline & -34.44 \\
+	3.8 & 15.6 & 4 & 0 & 0 & 0 & 0 & 0 & \vline & -283.5 \\
+	0 & 4 & 12.2 & 2.1 & 0 & 0 & 0 & 0 & \vline & -174.7 \\
+	0 & 0 & 2.1 & 11 & 3.4 & 0 & 0 & 0 & \vline & -115.8 \\
+	0 & 0 & 0 & 3.4 & 11 & 2.1 & 0 & 0 & \vline & -115.8 \\
+	0 & 0 & 0 & 0 & 2.1 & 12.2 & 4 & 0 & \vline & -174.7 \\
+	0 & 0 & 0 & 0 & 0 & 4 & 15.6 & 3.8 & \vline & -287.5 \\
+	0 & 0 & 0 & 0 & 0 & 0 & 3.8 & 7.6 & \vline & -130.8
+\end{pmatrix}
+\]
+
+
+Pour la résolution de cette matrice la méthode élimination de Gauss sera utiliser qui consiste à éliminer toutes les valeurs en dessous de la diagonale.
+
+\[ \begin{aligned}
+	\text{Ma} & \text{trice originale} \\
+	&\downarrow \\
+	L_{2} &= L_{2} - 1,9L_{1} \\
+	&\downarrow \\
+	L_{3} &= L_{3} - 0,292L_{2} \\
+	&\downarrow \\
+	L_{4} &= L_{4} - 0,19L_{3} \\
+	&\downarrow \\
+	L_{5} &= L_{5} - 0,32L_{4} \\
+	&\downarrow \\
+	L_{6} &= L_{6} - 0,21L_{5} \\
+	&\downarrow \\
+	L_{7} &= L_{7} - 0,34L_{6} \\
+	&\downarrow \\
+	L_{8} &= L_{8} - 0,27L_{7} \quad \text{(Pivot 7)}
+\end{aligned} \]
+
+
+Au final (pivot 7) on aura cette matrice (triangulaire supérieure) : 
+
+\[
+\begin{pmatrix}
+	M_{A} & M_{B} & M_{C} & M_{D} & M_{E} & M_{F} & M_{G} & M_{H} & \vline & Res \\ \hline
+	2 & 1 & 0 & 0 & 0 & 0 & 0 & 0 & \vline & -34.44 \\
+	0 & 13.7 & 4 & 0 & 0 & 0 & 0 & 0 & \vline & -218.06 \\
+	0 & 0 & 11.03 & 2.1 & 0 & 0 & 0 & 0 & \vline & -111.03 \\
+	0 & 0 & 0 & 10.6 & 3.4 & 0 & 0 & 0 & \vline & -94.7 \\
+	0 & 0 & 0 & 0 & 9.9 & 2.1 & 0 & 0 & \vline & -85.7 \\
+	0 & 0 & 0 & 0 & 0 & 11.76 & 4 & 0 & \vline & -156.7 \\
+	0 & 0 & 0 & 0 & 0 & 0 & 14.24 & 3.8 & \vline & -234.3 \\
+	0 & 0 & 0 & 0 & 0 & 0 & 0 & 6.57 & \vline & -67.5
+\end{pmatrix}
+\]
+
+La résolution se fera par remonté $6,57M_{H} = -67,5 \rightarrow M_{H} = \dfrac{-67,5}{6,57} = -10,54\knxm$ ainsi de suite....
+
+
+
+\begin{center}
+	\begin{tabular}{c c}
+		$M_A = -10{,}54\knxm$ & $M_E = -6{,}75\knxm$ \\
+		$M_B = -13{,}35\knxm$ & $M_F = -8{,}78\knxm$ \\
+		$M_C = -8{,}78\knxm$  & $M_G = -13{,}35\knxm$ \\
+		$M_D = -6{,}75\knxm$  & $M_H = -10{,}54\knxm$
+	\end{tabular}
+\end{center}
+
+
+
+\subsubsection{Calcul des moments en travées}
+
+La méthode graphique sera utiliser pour déterminer les moments, cette méthode consiste à calculé le moment isostatique et le superposé.
+
+
+\[ \begin{aligned}
+	\mmti{A-B} &= \dfrac{q \times l^{2}}{8} = \dfrac{9,54 \times 3,8^{3}}{8} = 17,21 \knxm \\
+\end{aligned} \]
+\begin{multicols}{3}
+
+\[ \begin{aligned}
+	\mmti{B-C} &= 19,08 \knxm \\
+	\mmti{C-D} &= 5,25  \knxm
+\end{aligned} \]
+
+\[ \begin{aligned}
+	\mmti{D-E} &= 13,78 \knxm \\
+	\mmti{E-F} &= 5,25  \knxm
+\end{aligned} \]
+
+\[ \begin{aligned}
+	\mmti{F-G} &= 19,08 \knxm \\
+	\mmti{G-H} &= 17,21 \knxm
+\end{aligned} \]
+
+\end{multicols}
+
+\vspace{\baselineskip}
+
+Pour calculer les moments en travée réelle on utilisera la méthode graphique en utilisant un logiciel de dessin comme suit :
+
+\textbf{Travée A-B}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../figures/Chapitre 3/moment-travee-poutrelles"}
+	\caption{Méthode de calcul des moments en travées}
+	\label{fig:moment-travee-poutrelles}
+\end{figure}
+
+
+\vspace{\baselineskip}
+
+\textbf{Les autres travées}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{"../figures/Chapitre 3/moments-travees-poutr"}
+	\caption{Les moments en travées}
+	\label{fig:moments-travees-poutr}
+\end{figure}
+
+
+
+
+\begin{multicols}{2}
+	\begin{align*}
+		\mmt{A-B} &= \hspace{.8em} 5,42 \knxm \\
+		\mmt{B-C} &= \hspace{.8em} 8,18 \knxm \\
+		\mmt{C-D} &= -2,61 \knxm
+	\end{align*}
+	
+	\begin{align*}
+		\mmt{D-E} &= \hspace{.8em} 7,03 \knxm \\
+		\mmt{E-F} &= -2,61 \knxm \\
+		\mmt{F-G} &= \hspace{.8em} 8,18 \knxm \\
+		\mmt{G-H} &= \hspace{.8em} 5,42 \knxm
+	\end{align*}
+\end{multicols}
+
+\subsubsection{Calcul des efforts tranchants}
+
+On sait que : 
+
+\begin{equation}
+	\fbox{$V(x) = \dfrac{dM(x)}{dx} = \dfrac{M_{droite} - M_{gauche}}{L} + \dfrac{q}{2} \times (L - 2x)$}
+\end{equation}
+
+\[ \begin{aligned}
+	V_{A}(x = 0) &= \dfrac{M_{B} - M_{A}}{L} + \dfrac{q \times L}{2} \\
+	&= \dfrac{-13,35 + 10,54}{3,8} + \dfrac{9,54 \times 3,9}{2} \\
+	&= 17,86\kn 
+\end{aligned} \]
+
+\[ \begin{aligned}
+	V_{B}(x = 3,8\meterl) &= \dfrac{-8,78 + 13,35}{3,8} - \dfrac{9,54 \times 3,8}{2} \\
+	&= -18,86\kn 
+\end{aligned} \]
+
+
+
+On répète le même calcul pour toutes les travées, et on aura :
+
+
+\begin{multicols}{4}
+	\[ \begin{aligned}
+		V_{A} &= 17,86\kn \\
+		V_{B} &= -18,86\kn \\
+		V_{B'} &= 20,22\kn \\
+		V_{C} &= -17,94\kn
+	\end{aligned} \]
+	
+	\[ \begin{aligned}
+		V_{C'} &= 10,98\kn \\
+		V_{D} &= -9,06\kn \\
+		V_{D'} &= 16,22\kn \\
+		V_{E} &= -16,22\kn
+	\end{aligned} \]
+	
+	\[ \begin{aligned}
+		V_{E'} &= 9,06\kn \\
+		V_{F} &= -10,98\kn \\
+		V_{F'} &= 17,94\kn \\
+		V_{G} &= -20,22\kn
+	\end{aligned} \]
+	
+	\[ \begin{aligned}
+		V_{G'} &= 18,86\kn \\
+		V_{H} &= -17,86 \kn
+	\end{aligned} \]
+	
+\end{multicols}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../figures/Chapitre 3/effort-tranchant-poutrelle"}
+	\caption{Efforts tranchants}
+	\label{fig:effort-tranchant-poutrelle}
+\end{figure}
+
+
+\subsection{Calcul du ferraillage}
+
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}
+		\draw (0,0) coordinate (A) -- (6,0) coordinate (B) -- (6,-1) coordinate (C) --
+		++(-2.5,0) -- ++(0,-4) coordinate (D) --
+		++(-1,0) coordinate (E) -- ++(0,4) --
+		++(-2.5,0) -- cycle;
+		
+		\dimensioning{1}{A}{B}{1}[$\underset{65\cml}{b}$];
+		\dimensioning{1}{D}{E}{-6}[$\underset{12\cml}{b_{0}}$];
+		\dimensioning{2}{A}{C}{7}[$\underset{4\cml}{h_{0}}$];
+		\dimensioning{2}{C}{D}{7}[$\underset{16\cml}{h}$];
+	\end{tikzpicture}
+	\caption{Indices des dimensions de la poutrelle}
+	\label{fig:indice-dim-poutrelle}
+\end{figure}
+
+
+Le calcul se fera uniquement avec les moments max en travée et en appui qui sont : 
+
+\textbf{Moment max en travée}
+
+\[ M_{u}^{t} = 8,18\knxm = 818\knxcm \]
+
+\textbf{Moment max en appui}
+
+\[ M_{u}^{a} = -13,35\knxm = -1335\knxcm \]
+
+\subsubsection{Contrainte de calcul}
+
+\[ f_{c28} = 25\mpa \]
+
+\[ f_{t28} = 2,1\mpa \]
+
+\[ \sgma{bc} = 14,2\mpa \]
+
+\[ \sgma{st} = 348\mpa \]
+
+
+
+\subsubsection{Armatures longitudinales en travée}
+
+
+\textbf{Calcul du moment équilibré par la table de compression} 
+
+\[ M_{t} = b \times h_{0} \times \sgma{bc} \times (d - \dfrac{h_{0}}{2}) \]
+
+avec : $c = 2\cml \rightarrow d = h - c = 20 - 2 = 18\cml$
+
+\[ M_{t} = 65 \times 4 \times 1,42 \times (18 - \dfrac{4}{2}) = 5907\knxcm \]
+
+
+\[ M_{t} = 5907\knxcm > M_{u} = 818\knxcm \]
+
+{\centering L'axe neutre se trouve dans la table de compression donc \underline{le calcul se fera en tant que section rectangulaire ($b \times h$)} \par}
+
+\vspace{\baselineskip}
+
+\[ \begin{aligned}
+	\mu &= \dfrac{M_{u}}{b \times d^{2} \times \sgma{bc}} \\
+	&= \dfrac{818}{65 \times 18^{2} \times 1,42} \\
+	&= 0,027
+\end{aligned} \]
+
+On sait que pour FeE400 : $\mu_{l} = 0,392$
+
+\[ \mu < \mu_{l} \]
+
+{\centering Section simplement armé.\par}
+
+\[ A_{sc} = 0 \qquad;\qquad A_{st} = \dfrac{M_{u}}{Z \times \sgma{st}} \]
+
+
+\begin{multicols}{2}
+
+	\[ \begin{aligned}
+		\alpha &= 1,25 \times (1 - \sqrt{1 - 2 \times \mu}) \\
+		&= 1,25 \times (1 - \sqrt{1 - 2 \times 0,027}) \\
+		&= 0,03 
+	\end{aligned}\]
+	
+	\[ \begin{aligned}
+		Z &= d \times (1 - 0,4 \times \alpha)\\
+		&= 18 \times (1 - 0,4 \times 0,03)\\
+		&= 17,78\cml
+	\end{aligned} \]
+
+\end{multicols}
+
+
+\[ A_{st} = \dfrac{818}{17,78 \times 34,8} = 1,32\cmsq \]
+
+\vspace{2\baselineskip}
+
+\textbf{Condition non fragilité}
+
+\[ A_{\min} = 0,23 \times \dfrac{f_{t28}}{f_{e}} \times b \times d = 0,23 \times \dfrac{0,21}{40} \times 65 \times 18 = 1,41\cmsq \]
+
+\[ A_{\min} > A_{st} \rightarrow A_{st} = A_{\min} = 1,41\cmsq \]
+
+\[ \fbox{On choisie $3HA8 = 1,51\cmsq$} \]
+
+\vspace{2\baselineskip}
+
+\textbf{Vérification de l'adhérence des barres (\cite[A.6.1.3]{BAEL})}
+
+\[ \tau_{se} = \dfrac{V_{u}}{0,9 \times d \times \sum u} \quad\leq\quad \taubar{se} = \psi_{s} \times f_{t28} \]
+
+Avec $V_{u}$ l'effort tranchant, $\sum u$ étant le périmètre totale des barres longitudinales, et $\psi_{s} = 1,5$ pour les barres de haute adhérence.
+
+\[ V_{u} = 20,22\kn \]
+
+\[ \sum u = n \times \pi \times \varPhi_{l} = 3 \times \pi \times 0,8 = 7,53\cml \]
+
+\[ \tau_{se} = \dfrac{\num{20,22e3}}{0,9 \times 180 \times 75,3} = 1,65\mpa \quad<\quad \taubar{se} = 1,5 \times 2,1 = 3,15\mpa \]
+{\centering L'adhérence des barres est vérifiée. \par}
+
+
+\subsubsection{Armatures longitudinales en appuie}
+
+
+Au appuis nous avons des moments négatifs, donc la table de compression ne sera plus comprimé mais plutôt tendue (ou partiellement tendue) (flexion simple). Donc le calcul se fera on considérant une section rectangulaire de section $b_{0} \times h = 12 \times 20 $, avec un moment max en appui de $M_{u} = 13,35\knxm = 1335\knxcm$.
+
+\vspace{\baselineskip}
+
+\[ \mu = \dfrac{1335}{12 \times 18^{2} \times 1,42} = 0,241 \]
+
+\[ \mu = 0,241 < \mu_{l} = 0,392 \]
+{\centering Section simplement armé \par}
+
+\[ A_{sc} = 0 \quad;\quad A_{st} = \dfrac{M_{u}}{Z \times \sgma{st}} \]
+
+\[ \alpha = 0,35 \rightarrow Z = 15,48\cml \]
+
+\[ A_{st} = \dfrac{1335}{15,48 \times 34,8} = 2,42\cmsq \]
+
+\vspace{\baselineskip}
+
+\textbf{Condition non fragilité}
+
+\[ A_{\min} = 0,23 \times \dfrac{0,21}{34,8} \times 12 \times 18 = 0,29\cmsq < A_{st} \]
+
+\vspace{\baselineskip}
+
+finalement :
+
+\[ \fbox{$A_{st} = 2,42\cmsq \rightarrow 2HA14 = 3,08\cmsq$} \]
+
+\vspace{2\baselineskip}
+
+\textbf{Vérification de l'adhérence des barres (\cite[A.6.1.3]{BAEL})}
+
+\[ \tau_{se} = \dfrac{\num{20,22e3}}{0,9 \times 180 \times 87,9} = 1,41\mpa \quad<\quad \taubar{se} = 3,15\mpa \]
+{\centering Condition vérifiée.\par}
+
+
+\subsubsection{Vérification au cisaillement (\cite[A.5.1.1]{BAEL})}
+
+
+\[ \tau_{u} = \dfrac{V_{u}}{b_{0} \times d} \quad\leq\quad \taubar{u} = \min\begin{cases}
+	0,2\dfrac{f_{c28}}{\gamma_{b}} = 3,33\mpa \\
+	5\mpa
+\end{cases} \]
+
+\[ \tau_{u} = \dfrac{\num{20,22e3}}{120 \times 180} = 0,936\mpa < 3,33\mpa \]
+{\centering Condition vérifiée, pas de risque de cisaillement. \par}
+
+\subsubsection{Armatures transversales (\cite[A.7.2.2]{BAEL})}
+
+\[ \varPhi_{t} = \min \begin{cases}
+	\dfrac{h}{35} = 0,57 \\
+	\varPhi_{l} = 1,4 ; 0,8 \\
+	\dfrac{b}{10} = 6,5
+\end{cases} \]
+
+\[ \varPhi_{t} = 0,57\cml = 5,7\mm \]
+
+\[ \fbox{Pour les armature transversales on prend : $1HA6 = 0,28\cmsq$} \]
+
+
+\vspace{\baselineskip}
+
+\textbf{Espacement (A.8.1.3)}
+
+Le BAEL préconise que : $\varPhi_{t} \geq \dfrac{1}{3}\varPhi_{l}$
+
+$\varPhi_{t} = 6\mm > \dfrac{1}{3}\varPhi_{l} = 4,6\mm$ condition vérifiée.
+
+\[ S_{t} \leq \min \begin{cases}
+	15\varPhi_{l} = 21\quad;12 \\
+	40\cml \\
+	\text{Plus petite dimension + 10cm} = 4 + 10 = 14\cml
+\end{cases} \]
+
+\[ S_{t} = 12\cml \rightarrow 10\cml \]
+
+
+
+\subsection{Plan de ferraillage}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{"../figures/Chapitre 3/ferraillage-poutrelles"}
+	\caption{Plan de ferraillage des poutrelles}
+	\label{fig:ferraillage-poutrelles}
+\end{figure}
+
+
+
+
+	
+%\end{document}

@@ -137,9 +137,14 @@ natbib=true
 
 
 
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
 
 
 
+
+\newcommand{\mmt}[1]{M_{t_{#1}}}
+\newcommand{\mmti}[1]{M_{isostatique}^{#1}}
 
 
 
@@ -210,7 +215,7 @@ natbib=true
 		\item[$M_{u}$] Moment de calcul ultime.
 		\item[$M_{ELU}$] Moment de calcul à l'ELU.
 		\item[$M_{ELS}$]  Moment de calcul à l'ELS.
-		\item[$M_{a}$] Moment sur appuie.
+		\item[$M_{a}$] Moment sur appui.
 		\item[$M_{t}$] Moment en travée.
 		\item[$N$] Effort normal.
 		\item[$S_{t}$] Espacement des armatures transversales.
@@ -1235,9 +1240,7 @@ natbib=true
 	\end{figure}
 	
 	
-	
-\begin{comment}
-	
+
 	
 	\section{Prédimensionnement des voiles}
 	
@@ -1501,9 +1504,7 @@ natbib=true
 	
 	
 	\[ 25 \cdot 25 = 625 ~\unit{cm^{2}} \quad > \quad 432 ~\unit{cm^{2}} \quad \text{Condition vérifier} \]
-	
-\end{comment}
-	
+
 	
 	\section{Conclusion du Prédimensionnement}
 	
@@ -1527,9 +1528,6 @@ natbib=true
 	
 	
 	
-
-
-\begin{comment}
 
 	
 	\chapter{Calcul des éléments secondaires}
@@ -1714,7 +1712,7 @@ natbib=true
 	
 	\vspace{\baselineskip}
 	
-	Un choix inférieur est une mauvaise idée, car de larges zones du l'acrotère seraient sans armatures.
+	Un choix inférieur de section d'armature est une mauvaise idée, car de larges zones du l'acrotère seraient sans armatures.
 	
 	
 	\subsubsection{Vérification au cisaillement}
@@ -1726,6 +1724,7 @@ natbib=true
 	
 	\[ \text{Condition vérifiée, on a pas besoin d'armatures transversale.} \]
 	
+
 	
 		
 	\subsection{Plan de ferraillage}
@@ -1741,8 +1740,10 @@ natbib=true
 	
 	
 	
+	\input{sections/poutrelles.tex}
 	
-	
+\begin{comment}
+
 	
 	\section{Calcul des poutrelles}
 	
@@ -1839,7 +1840,7 @@ natbib=true
 		\text{Pour un plancher courant : }\, G = 5,4\knms \, \text{ et }\, Q = 1,5\knms
 	\end{cases} \]
 	
-	On retiendra uniquement le cas le plus défavorable, donc le plancher courant. 
+	On retiendra uniquement le cas le plus défavorable a l'ELU, donc le plancher courant. 
 	
 	Comme c'est un calcul a l'ELU on aura :
 	
@@ -1905,6 +1906,12 @@ natbib=true
 	
 	
 	
+	
+	
+	
+	
+	
+	
 	\section{Calcul des escaliers et des poutres palières}
 	
 	
@@ -1963,13 +1970,25 @@ natbib=true
 	\section{Conclusion}
 	
 	
-	\chapter{Conclusion générale}
+	
+	
+	
 	
 	
 	
 	
 \end{comment}
 	
+	
+	
+	
+	
+	
+	\chapter{Conclusion générale}
+	
+	
+	
+
 	
 	
 	

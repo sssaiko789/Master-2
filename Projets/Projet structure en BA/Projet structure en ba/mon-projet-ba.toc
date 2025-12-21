@@ -9,40 +9,40 @@
 \contentsline {subsection}{\numberline {I.2.1}Caractéristiques géométriques de l’ouvrage}{3}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {I.2.2}Données sismiques de la structure}{4}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {I.2.3}Différents plans du bâtiment}{4}{subsection.1.2.3}%
-\contentsline {subsubsection}{Vue en plan}{4}{section*.18}%
-\contentsline {subsubsection}{Vue en élévation}{4}{section*.20}%
-\contentsline {subsubsection}{Vue en façade}{5}{section*.22}%
+\contentsline {subsubsection}{\numberline {I.2.3.1}Vue en plan}{4}{subsubsection.1.2.3.1}%
+\contentsline {subsubsection}{\numberline {I.2.3.2}Vue en élévation}{4}{subsubsection.1.2.3.2}%
+\contentsline {subsubsection}{\numberline {I.2.3.3}Vue en façade}{5}{subsubsection.1.2.3.3}%
 \contentsline {subsection}{\numberline {I.2.4}Les éléments de l’ouvrage}{5}{subsection.1.2.4}%
-\contentsline {subsubsection}{L’ossature}{5}{section*.24}%
-\contentsline {subsubsection}{Les planchers}{5}{section*.25}%
-\contentsline {subsubsection}{Les poteaux et les poutres}{5}{section*.26}%
-\contentsline {subsubsection}{Les voiles}{5}{section*.27}%
-\contentsline {subsubsection}{Les balcons}{5}{section*.28}%
-\contentsline {subsubsection}{Les escaliers}{5}{section*.29}%
-\contentsline {subsubsection}{Les murs}{5}{section*.30}%
-\contentsline {subsubsection}{Les revêtements}{6}{section*.31}%
+\contentsline {subsubsection}{\numberline {I.2.4.1}L’ossature}{5}{subsubsection.1.2.4.1}%
+\contentsline {subsubsection}{\numberline {I.2.4.2}Les planchers}{5}{subsubsection.1.2.4.2}%
+\contentsline {subsubsection}{\numberline {I.2.4.3}Les poteaux et les poutres}{5}{subsubsection.1.2.4.3}%
+\contentsline {subsubsection}{\numberline {I.2.4.4}Les voiles}{5}{subsubsection.1.2.4.4}%
+\contentsline {subsubsection}{\numberline {I.2.4.5}Les balcons}{5}{subsubsection.1.2.4.5}%
+\contentsline {subsubsection}{\numberline {I.2.4.6}Les escaliers}{5}{subsubsection.1.2.4.6}%
+\contentsline {subsubsection}{\numberline {I.2.4.7}Les murs}{5}{subsubsection.1.2.4.7}%
+\contentsline {subsubsection}{\numberline {I.2.4.8}Les revêtements}{6}{subsubsection.1.2.4.8}%
 \contentsline {section}{\numberline {I.3}Caractéristique des matériaux}{6}{section.1.3}%
 \contentsline {subsection}{\numberline {I.3.1}Introduction}{6}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {I.3.2}Le béton}{6}{subsection.1.3.2}%
-\contentsline {subsubsection}{Les ingrédient}{6}{section*.32}%
-\contentsline {subsubsection}{Les dosages du béton}{7}{section*.34}%
-\contentsline {subsubsection}{Les caractéristiques du béton}{8}{section*.35}%
-\contentsline {subsubsection}{Modèles de calcul}{9}{section*.36}%
+\contentsline {subsubsection}{\numberline {I.3.2.1}Les ingrédient}{6}{subsubsection.1.3.2.1}%
+\contentsline {subsubsection}{\numberline {I.3.2.2}Les dosages du béton}{7}{subsubsection.1.3.2.2}%
+\contentsline {subsubsection}{\numberline {I.3.2.3}Les caractéristiques du béton}{8}{subsubsection.1.3.2.3}%
+\contentsline {subsubsection}{\numberline {I.3.2.4}Modèles de calcul}{9}{subsubsection.1.3.2.4}%
 \contentsline {subsection}{\numberline {I.3.3}Les aciers}{10}{subsection.1.3.3}%
-\contentsline {subsubsection}{Module d'élasticité longitudinale de l'acier}{10}{section*.40}%
-\contentsline {subsubsection}{La contrainte de l'acier}{11}{section*.41}%
-\contentsline {subsubsection}{L'état limite de service ELS}{11}{section*.42}%
-\contentsline {subsubsection}{Protection des armatures}{11}{section*.43}%
+\contentsline {subsubsection}{\numberline {I.3.3.1}Module d'élasticité longitudinale de l'acier}{10}{subsubsection.1.3.3.1}%
+\contentsline {subsubsection}{\numberline {I.3.3.2}La contrainte de l'acier}{11}{subsubsection.1.3.3.2}%
+\contentsline {subsubsection}{\numberline {I.3.3.3}L'état limite de service ELS}{11}{subsubsection.1.3.3.3}%
+\contentsline {subsubsection}{\numberline {I.3.3.4}Protection des armatures}{11}{subsubsection.1.3.3.4}%
 \contentsline {subsection}{\numberline {I.3.4}Les contrainte de calcul}{12}{subsection.1.3.4}%
 \contentsline {section}{\numberline {I.4}Hypothèses de calcul}{12}{section.1.4}%
 \contentsline {subsection}{\numberline {I.4.1}Définition des états limites}{12}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {I.4.2}États limites ultimes (ELU)}{13}{subsection.1.4.2}%
-\contentsline {subsubsection}{Hypothèse de calcul à l'ELU}{13}{section*.44}%
+\contentsline {subsubsection}{\numberline {I.4.2.1}Hypothèse de calcul à l'ELU}{13}{subsubsection.1.4.2.1}%
 \contentsline {subsection}{\numberline {I.4.3}États limites de service (ELS)}{13}{subsection.1.4.3}%
-\contentsline {subsubsection}{Hypothèses de calcul à l'ELS}{13}{section*.45}%
+\contentsline {subsubsection}{\numberline {I.4.3.1}Hypothèses de calcul à l'ELS}{13}{subsubsection.1.4.3.1}%
 \contentsline {subsection}{\numberline {I.4.4}Sollicitations de calcul vis-à-vis des états limites}{14}{subsection.1.4.4}%
-\contentsline {subsubsection}{ELU}{14}{section*.46}%
-\contentsline {subsubsection}{ELS}{14}{section*.47}%
+\contentsline {subsubsection}{\numberline {I.4.4.1}ELU}{14}{subsubsection.1.4.4.1}%
+\contentsline {subsubsection}{\numberline {I.4.4.2}ELS}{14}{subsubsection.1.4.4.2}%
 \contentsline {section}{\numberline {I.5}Conclusion}{14}{section.1.5}%
 \contentsline {chapter}{\numberline {II}Prédimensionnement des éléments}{15}{chapter.2}%
 \contentsline {section}{\numberline {II.1}Introduction}{15}{section.2.1}%
@@ -54,6 +54,57 @@
 \contentsline {subsection}{\numberline {II.3.2}Prédimensionnement}{16}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {II.3.3}Hauteur}{16}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {II.3.4}Largeur}{17}{subsection.2.3.4}%
-\contentsline {section}{\numberline {II.4}Conclusion du Prédimensionnement}{17}{section.2.4}%
-\contentsline {chapter}{Conclusion générale}{18}{chapter*.50}%
-\contentsline {chapter}{Bibliographie}{19}{chapter*.51}%
+\contentsline {section}{\numberline {II.4}Prédimensionnement des voiles}{17}{section.2.4}%
+\contentsline {subsection}{\numberline {II.4.1}Introduction}{17}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {II.4.2}Prédimensionnement}{17}{subsection.2.4.2}%
+\contentsline {section}{\numberline {II.5}Prédimensionnement des poteaux}{18}{section.2.5}%
+\contentsline {subsection}{\numberline {II.5.1}Introduction}{18}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {II.5.2}Prédimensionnement}{18}{subsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {II.5.2.1}Calcul de la descente des charges}{18}{subsubsection.2.5.2.1}%
+\contentsline {paragraph}{Surcharge d'exploitation}{18}{section*.26}%
+\contentsline {paragraph}{Poids du plancher}{19}{section*.27}%
+\contentsline {subparagraph}{Plancher terrasse inaccessible}{19}{section*.28}%
+\contentsline {subparagraph}{Plancher courant}{19}{section*.30}%
+\contentsline {paragraph}{Poids propre des poutres}{20}{section*.31}%
+\contentsline {paragraph}{Poids propre d'un poteau}{20}{section*.32}%
+\contentsline {paragraph}{La charge F}{20}{section*.33}%
+\contentsline {subparagraph}{Plancher terrasse inaccessible}{20}{section*.34}%
+\contentsline {subparagraph}{Plancher courant}{20}{section*.36}%
+\contentsline {paragraph}{Dimensionnement}{21}{section*.38}%
+\contentsline {section}{\numberline {II.6}Conclusion du Prédimensionnement}{21}{section.2.6}%
+\contentsline {chapter}{\numberline {III}Calcul des éléments secondaires}{22}{chapter.3}%
+\contentsline {section}{\numberline {III.1}Introduction}{22}{section.3.1}%
+\contentsline {section}{\numberline {III.2}Calcul de l'acrotère}{22}{section.3.2}%
+\contentsline {subsection}{\numberline {III.2.1}Introduction}{22}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {III.2.2}Dimensions de l'acrotère}{22}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {III.2.3}Charge et surcharge d'exploitation}{23}{subsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {III.2.3.1}Charge permanente}{23}{subsubsection.3.2.3.1}%
+\contentsline {subsubsection}{\numberline {III.2.3.2}Surcharge d'exploitation}{23}{subsubsection.3.2.3.2}%
+\contentsline {subsection}{\numberline {III.2.4}Calcul du ferraillage}{23}{subsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {III.2.4.1}Calcul a l'ELU}{24}{subsubsection.3.2.4.1}%
+\contentsline {subsubsection}{\numberline {III.2.4.2}Données}{24}{subsubsection.3.2.4.2}%
+\contentsline {paragraph}{Données et indices}{24}{section*.44}%
+\contentsline {subsubsection}{\numberline {III.2.4.3}Calcul des armatures fictives}{25}{subsubsection.3.2.4.3}%
+\contentsline {subsubsection}{\numberline {III.2.4.4}Calcul des armatures réelles}{25}{subsubsection.3.2.4.4}%
+\contentsline {subsubsection}{\numberline {III.2.4.5}Condition non fragilité}{26}{subsubsection.3.2.4.5}%
+\contentsline {subsubsection}{\numberline {III.2.4.6}Vérification au cisaillement}{26}{subsubsection.3.2.4.6}%
+\contentsline {subsection}{\numberline {III.2.5}Plan de ferraillage}{26}{subsection.3.2.5}%
+\contentsline {section}{\numberline {III.3}Calcul des poutrelles}{26}{section.3.3}%
+\contentsline {subsection}{\numberline {III.3.1}Introduction}{26}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {III.3.2}Direction des poutrelles}{27}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {III.3.3}Dimensions des poutrelles}{27}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {III.3.4}Calcul des charges revenant au poutrelles}{28}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {III.3.5}Calcul des efforts internes}{29}{subsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {III.3.5.1}Calcul des moments en appuis}{29}{subsubsection.3.3.5.1}%
+\contentsline {subsubsection}{\numberline {III.3.5.2}Calcul des moments en travées}{31}{subsubsection.3.3.5.2}%
+\contentsline {subsubsection}{\numberline {III.3.5.3}Calcul des efforts tranchants}{32}{subsubsection.3.3.5.3}%
+\contentsline {subsection}{\numberline {III.3.6}Calcul du ferraillage}{33}{subsection.3.3.6}%
+\contentsline {subsubsection}{\numberline {III.3.6.1}Contrainte de calcul}{34}{subsubsection.3.3.6.1}%
+\contentsline {subsubsection}{\numberline {III.3.6.2}Armatures longitudinales en travée}{34}{subsubsection.3.3.6.2}%
+\contentsline {subsubsection}{\numberline {III.3.6.3}Armatures longitudinales en appuie}{35}{subsubsection.3.3.6.3}%
+\contentsline {subsubsection}{\numberline {III.3.6.4}Vérification au cisaillement (\blx@tocontentsinit {0}\cite [A.5.1.1]{BAEL})}{36}{subsubsection.3.3.6.4}%
+\contentsline {subsubsection}{\numberline {III.3.6.5}Armatures transversales (\blx@tocontentsinit {0}\cite [A.7.2.2]{BAEL})}{36}{subsubsection.3.3.6.5}%
+\contentsline {subsection}{\numberline {III.3.7}Plan de ferraillage}{37}{subsection.3.3.7}%
+\contentsline {chapter}{\numberline {IV}Conclusion générale}{38}{chapter.4}%
+\contentsline {chapter}{Conclusion générale}{39}{chapter*.55}%
+\contentsline {chapter}{Bibliographie}{40}{chapter*.56}%
