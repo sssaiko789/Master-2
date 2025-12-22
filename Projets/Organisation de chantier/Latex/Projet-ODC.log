@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.12.12)  16 DEC 2025 00:56
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.12.12)  22 DEC 2025 21:02
  restricted system commands enabled.
 **Projet-ODC.tex
 (./Projet-ODC.tex
@@ -1360,10 +1360,10 @@ Package rerunfilecheck Info: File `Projet-ODC.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  34036 strings out of 476081
  125097,1144653 words of node,token memory allocated
- 648 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 8 glue, 5 kern, 1 penalty, 2 glyph, 23 attribute, 6
-1 glue_spec, 14 attribute_list, 2 write nodes
-   avail lists: 1:2,2:796,3:348,4:119,5:354,6:87,7:5242,8:6,9:548,10:20,11:542
+ 661 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 9 glue, 5 kern, 1 penalty, 2 glyph, 25 attribute, 6
+1 glue_spec, 15 attribute_list, 2 write nodes
+   avail lists: 1:2,2:793,3:348,4:119,5:354,6:87,7:5242,8:6,9:548,10:20,11:542
  55687 multiletter control sequences out of 65536+600000
  44 fonts using 3238543 bytes
  98i,6n,104p,637b,931s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1374,7 +1374,7 @@ s/opentype/public/lm/lmroman12-bold.otf><C:/Users/amalo/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/amalo/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/amalo/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Projet-ODC.pdf (12 pages, 528184 bytes).
+Output written on Projet-ODC.pdf (12 pages, 528721 bytes).
 
 PDF statistics: 647 PDF objects out of 1000 (max. 8388607)
  38 named destinations out of 1000 (max. 131072)

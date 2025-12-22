@@ -2,6 +2,19 @@ Ce Changelog resume tout ce qui a été fait.
 
 ###### -----------------------------------------------------------------------
 
+# **22.12.2025**
+
+
+
+* **Suite PSBA fin poutrelles debut escalier, reste poutre palière et balcon.**
+* **Fin ODC.**
+
+
+
+
+
+###### -----------------------------------------------------------------------
+
 # **21.12.2025**
 
 

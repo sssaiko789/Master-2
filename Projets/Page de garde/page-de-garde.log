@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.12.12)  15 DEC 2025 00:57
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.12.12)  22 DEC 2025 21:30
  restricted system commands enabled.
 **page-de-garde.tex
 (./page-de-garde.tex
@@ -1117,7 +1117,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 111
 (C:/Users/amalo/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (6.17734pt too wide) in paragraph at lines 135--141
+Overfull \hbox (6.17734pt too wide) in paragraph at lines 135--142
  [][] 
  []
 
@@ -1139,7 +1139,7 @@ Here is how much of LuaTeX's memory you used:
  632 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 9 glue, 5 kern, 1 penalty, 1 glyph, 26 attribute, 5
 8 glue_spec, 15 attribute_list, 2 write nodes
-   avail lists: 1:1,2:435,3:155,4:21,5:140,6:48,7:2404,8:2,9:261,10:8,11:231
+   avail lists: 1:1,2:435,3:155,4:21,5:158,6:48,7:2416,8:2,9:261,10:8,11:249
  54451 multiletter control sequences out of 65536+600000
  53 fonts using 3637791 bytes
  98i,6n,104p,453b,977s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1147,7 +1147,7 @@ Here is how much of LuaTeX's memory you used:
 -bold.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm
 /lmroman12-regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opent
 ype/public/lm/lmroman17-regular.otf>
-Output written on page-de-garde.pdf (1 page, 75524 bytes).
+Output written on page-de-garde.pdf (1 page, 74736 bytes).
 
 PDF statistics: 37 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 131072)
