@@ -16,5 +16,37 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{rpa}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0e69a28a5500f35bcda9f9323acb6595}{%
+           family={{CGS}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Centre National de Recherche Appliquée en Génie Parasismique}%
+      }
+      \strng{namehash}{0e69a28a5500f35bcda9f9323acb6595}
+      \strng{fullhash}{0e69a28a5500f35bcda9f9323acb6595}
+      \strng{fullhashraw}{0e69a28a5500f35bcda9f9323acb6595}
+      \strng{bibnamehash}{0e69a28a5500f35bcda9f9323acb6595}
+      \strng{authorbibnamehash}{0e69a28a5500f35bcda9f9323acb6595}
+      \strng{authornamehash}{0e69a28a5500f35bcda9f9323acb6595}
+      \strng{authorfullhash}{0e69a28a5500f35bcda9f9323acb6595}
+      \strng{authorfullhashraw}{0e69a28a5500f35bcda9f9323acb6595}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{shorthand}{RPA 99 révisé 2003}
+      \field{title}{Règlement Parasismique Algérien RPA 1999 V2003}
+      \field{year}{2003}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

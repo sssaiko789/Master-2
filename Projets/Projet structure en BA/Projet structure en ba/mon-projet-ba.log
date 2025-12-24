@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.12.12)  21 DEC 2025 19:52
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.12.12)  24 DEC 2025 23:38
  restricted system commands enabled.
 **mon-projet-ba.tex
 (./mon-projet-ba.tex
@@ -1661,6 +1661,16 @@ Overfull \hbox (0.77997pt too wide) detected at line 25
 \TU/lmr/m/n/12 III.14 
  []
 
+
+Overfull \hbox (0.77997pt too wide) detected at line 26
+\TU/lmr/m/n/12 III.15 
+ []
+
+
+Overfull \hbox (0.77997pt too wide) detected at line 27
+\TU/lmr/m/n/12 III.16 
+ []
+
 )
 \tf@lof=\write9
 
@@ -1695,7 +1705,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 <../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 0.
-png, id=624, 473.77pt x 467.7475pt>
+png, id=709, 473.77pt x 467.7475pt>
 File: ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy co
 nv 0.png Graphic file (type png)
 <use ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy con
@@ -1704,7 +1714,7 @@ Package luatex.def Info: ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_G
 énie civil Copy conv 0.png  used on input line 425.
 (luatex.def)             Requested size: 176.40439pt x 174.163pt.
 <../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 1.
-png, id=625, 400.49625pt x 275.0275pt>
+png, id=710, 400.49625pt x 275.0275pt>
 File: ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy co
 nv 1.png Graphic file (type png)
 <use ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy con
@@ -1713,7 +1723,7 @@ Package luatex.def Info: ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_G
 énie civil Copy conv 1.png  used on input line 437.
 (luatex.def)             Requested size: 176.40439pt x 121.14256pt.
 <../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 2.
-png, id=626, 430.60875pt x 275.0275pt>
+png, id=711, 430.60875pt x 275.0275pt>
 File: ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy co
 nv 2.png Graphic file (type png)
 <use ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy con
@@ -1882,7 +1892,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [18]
-<figures/Chapitre-1/elements-plancher.png, id=777, 274.02374pt x 325.215pt>
+<figures/Chapitre-1/elements-plancher.png, id=862, 274.02374pt x 325.215pt>
 File: figures/Chapitre-1/elements-plancher.png Graphic file (type png)
 <use figures/Chapitre-1/elements-plancher.png>
 Package luatex.def Info: figures/Chapitre-1/elements-plancher.png  used on inpu
@@ -1897,7 +1907,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [19<./figures/Chapitre-1/elements-plancher.png>]
-<figures/Chapitre-1/charges-dimension.png, id=786, 199.49532pt x 255.20343pt>
+<figures/Chapitre-1/charges-dimension.png, id=871, 199.49532pt x 255.20343pt>
 File: figures/Chapitre-1/charges-dimension.png Graphic file (type png)
 <use figures/Chapitre-1/charges-dimension.png>
 Package luatex.def Info: figures/Chapitre-1/charges-dimension.png  used on inpu
@@ -1940,7 +1950,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [20<./figures/Chapitre-1/charges-dimension.png>]
-<figures/chapitre-1/section-ab-rpa.png, id=800, 70.76437pt x 80.55093pt>
+<figures/chapitre-1/section-ab-rpa.png, id=885, 70.76437pt x 80.55093pt>
 File: figures/chapitre-1/section-ab-rpa.png Graphic file (type png)
 <use figures/chapitre-1/section-ab-rpa.png>
 Package luatex.def Info: figures/chapitre-1/section-ab-rpa.png  used on input l
@@ -1956,7 +1966,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [21<./figures/chapitre-1/section-ab-rpa.png>]
 Chapitre III.
-<figures/chapitre-2/acrotere/dim-acrotere.png, id=808, 337.26pt x 402.00188pt>
+<figures/chapitre-2/acrotere/dim-acrotere.png, id=893, 337.26pt x 402.00188pt>
 File: figures/chapitre-2/acrotere/dim-acrotere.png Graphic file (type png)
 <use figures/chapitre-2/acrotere/dim-acrotere.png>
 Package luatex.def Info: figures/chapitre-2/acrotere/dim-acrotere.png  used on 
@@ -1965,14 +1975,14 @@ input line 1563.
 [22
 
 ]
-<figures/chapitre-2/acrotere/charge-acrotere.png, id=815, 295.85532pt x 361.35p
+<figures/chapitre-2/acrotere/charge-acrotere.png, id=900, 295.85532pt x 361.35p
 t>
 File: figures/chapitre-2/acrotere/charge-acrotere.png Graphic file (type png)
 <use figures/chapitre-2/acrotere/charge-acrotere.png>
 Package luatex.def Info: figures/chapitre-2/acrotere/charge-acrotere.png  used 
 on input line 1581.
 (luatex.def)             Requested size: 88.2022pt x 107.72765pt.
-<figures/chapitre-2/acrotere/efforts-acrotere.png, id=816, 342.5297pt x 122.708
+<figures/chapitre-2/acrotere/efforts-acrotere.png, id=901, 342.5297pt x 122.708
 44pt>
 File: figures/chapitre-2/acrotere/efforts-acrotere.png Graphic file (type png)
 <use figures/chapitre-2/acrotere/efforts-acrotere.png>
@@ -1989,7 +1999,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [23<./figures/chapitre-2/acrotere/dim-acrotere.png><./figures/chapitre-2/acroter
 e/charge-acrotere.png>]
-<figures/chapitre-2/acrotere/section-acro.png, id=824, 463.7325pt x 87.32625pt>
+<figures/chapitre-2/acrotere/section-acro.png, id=909, 463.7325pt x 87.32625pt>
 
 File: figures/chapitre-2/acrotere/section-acro.png Graphic file (type png)
 <use figures/chapitre-2/acrotere/section-acro.png>
@@ -2014,7 +2024,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [25]
-<figures/chapitre-2/acrotere/ferraillage-acro.png, id=836, 511.15968pt x 243.15
+<figures/chapitre-2/acrotere/ferraillage-acro.png, id=921, 511.15968pt x 243.15
 843pt>
 File: figures/chapitre-2/acrotere/ferraillage-acro.png Graphic file (type png)
 <use figures/chapitre-2/acrotere/ferraillage-acro.png>
@@ -2032,7 +2042,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [26<./figures/chapitre-2/acrotere/ferraillage-acro.png>]
 warning  (file ../figures/Chapitre 3/Direction des poutrelles.pdf) (pdf inclusio
 n): PDF inclusion: found PDF version '1.6', but at most version '1.5' allowed
-<../figures/Chapitre 3/Direction des poutrelles.pdf, id=842, 735.10936pt x 838.
+<../figures/Chapitre 3/Direction des poutrelles.pdf, id=927, 735.10936pt x 838.
 4394pt>
 File: ../figures/Chapitre 3/Direction des poutrelles.pdf Graphic file (type pdf
 )
@@ -2110,7 +2120,7 @@ Overfull \hbox (1.79187pt too wide) in paragraph at lines 381--382
 s mo-ments, cette mé-thode consiste
  []
 
-<../figures/Chapitre 3/moment-travee-poutrelles.png, id=866, 1817.28937pt x 593
+<../figures/Chapitre 3/moment-travee-poutrelles.png, id=951, 1817.28937pt x 593
 .21625pt>
 File: ../figures/Chapitre 3/moment-travee-poutrelles.png Graphic file (type png
 )
@@ -2118,7 +2128,7 @@ File: ../figures/Chapitre 3/moment-travee-poutrelles.png Graphic file (type png
 Package luatex.def Info: ../figures/Chapitre 3/moment-travee-poutrelles.png  us
 ed on input line 414.
 (luatex.def)             Requested size: 441.01773pt x 143.95886pt.
-<../figures/Chapitre 3/moments-travees-poutr.png, id=867, 3046.63219pt x 2605.4
+<../figures/Chapitre 3/moments-travees-poutr.png, id=952, 3046.63219pt x 2605.4
 8407pt>
 File: ../figures/Chapitre 3/moments-travees-poutr.png Graphic file (type png)
 <use ../figures/Chapitre 3/moments-travees-poutr.png>
@@ -2141,7 +2151,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [32<../figures/Chapitre 3/moments-travees-poutr.png>]
-<../figures/Chapitre 3/effort-tranchant-poutrelle.png, id=882, 941.01563pt x 50
+<../figures/Chapitre 3/effort-tranchant-poutrelle.png, id=967, 941.01563pt x 50
 2.12593pt>
 File: ../figures/Chapitre 3/effort-tranchant-poutrelle.png Graphic file (type p
 ng)
@@ -2195,13 +2205,127 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [36]
-<../figures/Chapitre 3/ferraillage-poutrelles.png, id=906, 712.16063pt x 256.70
+<../figures/Chapitre 3/ferraillage-poutrelles.png, id=991, 712.16063pt x 256.70
 906pt>
 File: ../figures/Chapitre 3/ferraillage-poutrelles.png Graphic file (type png)
 <use ../figures/Chapitre 3/ferraillage-poutrelles.png>
 Package luatex.def Info: ../figures/Chapitre 3/ferraillage-poutrelles.png  used
  on input line 716.
 (luatex.def)             Requested size: 441.01773pt x 158.96994pt.
+) (./sections/escalier-poutrep.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[37
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+<../figures/Chapitre 3/ferraillage-poutrelles.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[38]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[39
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[40
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[41]
+Overfull \hbox (24.34605pt too wide) in paragraph at lines 424--425
+[]\TU/lmr/m/n/12 On trans-forme les charges R en charges uni-for-mé-ment re-par
+-tie : $\OML/cmm/m/it/12 q[] \OT1/cmr/m/n/12 = [] = 26\OML/cmm/m/it/12 ; \OT1/c
+mr/m/n/12 47 [] \TU/lmr/m/n/12 m[] \OMS/cmsy/m/n/12 '
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[42
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[43
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[44]
+Overfull \hbox (42.9926pt too wide) in paragraph at lines 626--636
+[][] 
+ []
+
+<figures/Chapitre 3/ferraillage-escalier.png, id=1032, 895.09406pt x 661.72218p
+t>
+File: figures/Chapitre 3/ferraillage-escalier.png Graphic file (type png)
+<use figures/Chapitre 3/ferraillage-escalier.png>
+Package luatex.def Info: figures/Chapitre 3/ferraillage-escalier.png  used on i
+nput line 641.
+(luatex.def)             Requested size: 441.01773pt x 326.04398pt.
 ) Excluding 'comment' comment.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2210,30 +2334,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[37<../figures/Chapitre 3/ferraillage-poutrelles.png>]
+[45]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[46<./figures/Chapitre 3/ferraillage-escalier.png>]
 Chapitre IV.
-[38
+[47
 
 ]
-Overfull \hbox (0.24773pt too wide) in paragraph at lines 2003--2004
+Overfull \hbox (0.24773pt too wide) in paragraph at lines 2005--2006
 \TU/lmr/m/n/12 di-men-sions ap-proxi-ma-tives des élé-ments struc-tu-raux es-s
 en-tiels : po-teaux, poutres,
  []
 
 
-Overfull \hbox (3.84518pt too wide) in paragraph at lines 2011--2012
+Overfull \hbox (3.84518pt too wide) in paragraph at lines 2013--2014
 []\TU/lmr/m/n/12 En conclu-sion, ce pro-jet consti-tue un tra-vail pré-pa-ra-to
 ire so-lide, syn-thé-ti-sant les connais-
  []
 
-[39
+[48
 
 ]
 
 Package biblatex Warning: No driver for 'masterthesis'.
-(biblatex)                Using fallback driver on input line 2022.
+(biblatex)                Using fallback driver on input line 2024.
 
-[40
+[49
 
 ] (./mon-projet-ba.aux)
  ***********
@@ -2241,21 +2373,21 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `mon-projet-ba.out' has not changed.
-(rerunfilecheck)             Checksum: 931116755E37D4B7238115A893A2129B;17193.
+(rerunfilecheck)             Checksum: B1034C73709B2A39B5D73A2E71CB2B23;19845.
 Package logreq Info: Writing requests to 'mon-projet-ba.run.xml'.
 
 \openout1 = mon-projet-ba.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 45794 strings out of 476081
+ 45925 strings out of 476081
  125101,1977958 words of node,token memory allocated
- 4392 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 221 glue, 5 kern, 3 penalty, 1 glyph, 723 attribute
-, 88 glue_spec, 363 attribute_list, 2 write, 2 pdf_action nodes
-   avail lists: 1:3,2:6129,3:1519,4:188,5:692,6:151,7:5566,8:61,9:1205,10:10,11:
+ 4966 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 243 glue, 5 kern, 3 penalty, 1 glyph, 863 attribute
+, 88 glue_spec, 433 attribute_list, 2 write, 2 pdf_action nodes
+   avail lists: 1:3,2:5920,3:1521,4:188,5:693,6:151,7:5544,8:61,9:1205,10:10,11:
 558
- 66911 multiletter control sequences out of 65536+600000
+ 66999 multiletter control sequences out of 65536+600000
  79 fonts using 5806791 bytes
  98i,22n,104p,711b,2703s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2325,9 +2457,9 @@ ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/amalo
 C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
 6.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb>
-Output written on mon-projet-ba.pdf (49 pages, 1372260 bytes).
+Output written on mon-projet-ba.pdf (58 pages, 1489362 bytes).
 
-PDF statistics: 1020 PDF objects out of 1200 (max. 8388607)
- 242 named destinations out of 1000 (max. 131072)
- 776 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1152 PDF objects out of 1200 (max. 8388607)
+ 276 named destinations out of 1000 (max. 131072)
+ 896 words of extra memory for PDF output out of 10000 (max. 100000000)
 
