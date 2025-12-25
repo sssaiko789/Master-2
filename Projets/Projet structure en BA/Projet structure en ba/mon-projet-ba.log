@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.12.12)  24 DEC 2025 23:38
+This is LuaHBTeX, Version 1.22.0 (MiKTeX 25.4) (format=lualatex 2025.12.12)  26 DEC 2025 00:40
  restricted system commands enabled.
 **mon-projet-ba.tex
 (./mon-projet-ba.tex
@@ -1605,10 +1605,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [1
 
-{C:/Users/amalo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [1
-
-]
-(./mon-projet-ba.toc [2
+{C:/Users/amalo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Excluding 'comment' comment. (./mon-projet-ba.toc [1
 
 ]
 
@@ -1618,7 +1616,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[3])
+[2])
 \tf@toc=\write7
 
 \openout7 = mon-projet-ba.toc
@@ -1630,64 +1628,69 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[4] (./mon-projet-ba.lot)
+[3] (./mon-projet-ba.lot)
 \tf@lot=\write8
 
 \openout8 = mon-projet-ba.lot
- [5
+ [4
 
 ] (./mon-projet-ba.lof
-Overfull \hbox (0.77997pt too wide) detected at line 21
+Overfull \hbox (0.77997pt too wide) detected at line 23
 \TU/lmr/m/n/12 III.10 
  []
 
 
-Overfull \hbox (0.77997pt too wide) detected at line 22
+Overfull \hbox (0.77997pt too wide) detected at line 24
 \TU/lmr/m/n/12 III.11 
  []
 
 
-Overfull \hbox (0.77997pt too wide) detected at line 23
+Overfull \hbox (0.77997pt too wide) detected at line 25
 \TU/lmr/m/n/12 III.12 
  []
 
 
-Overfull \hbox (0.77997pt too wide) detected at line 24
+Overfull \hbox (0.77997pt too wide) detected at line 26
 \TU/lmr/m/n/12 III.13 
  []
 
 
-Overfull \hbox (0.77997pt too wide) detected at line 25
+Overfull \hbox (0.77997pt too wide) detected at line 27
 \TU/lmr/m/n/12 III.14 
  []
 
 
-Overfull \hbox (0.77997pt too wide) detected at line 26
+Overfull \hbox (0.77997pt too wide) detected at line 28
 \TU/lmr/m/n/12 III.15 
  []
 
 
-Overfull \hbox (0.77997pt too wide) detected at line 27
+Overfull \hbox (0.77997pt too wide) detected at line 29
 \TU/lmr/m/n/12 III.16 
+ []
+
+
+Overfull \hbox (0.77997pt too wide) detected at line 30
+\TU/lmr/m/n/12 III.17 
+ []
+
+
+Overfull \hbox (0.77997pt too wide) detected at line 31
+\TU/lmr/m/n/12 III.18 
+ []
+
+
+Overfull \hbox (0.77997pt too wide) detected at line 32
+\TU/lmr/m/n/12 III.19 
  []
 
 )
 \tf@lof=\write9
 
 \openout9 = mon-projet-ba.lof
- [6
-
-] [7
+ Excluding 'comment' comment. [5
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[8]
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
@@ -1705,32 +1708,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 <../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 0.
-png, id=709, 473.77pt x 467.7475pt>
+png, id=769, 473.77pt x 467.7475pt>
 File: ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy co
 nv 0.png Graphic file (type png)
 <use ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy con
 v 0.png>
 Package luatex.def Info: ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_G
-énie civil Copy conv 0.png  used on input line 425.
-(luatex.def)             Requested size: 176.40439pt x 174.163pt.
+énie civil Copy conv 0.png  used on input line 431.
+(luatex.def)             Requested size: 441.01773pt x 435.42175pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[4]
 <../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 1.
-png, id=710, 400.49625pt x 275.0275pt>
+png, id=780, 400.49625pt x 275.0275pt>
 File: ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy co
 nv 1.png Graphic file (type png)
 <use ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy con
 v 1.png>
 Package luatex.def Info: ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_G
-énie civil Copy conv 1.png  used on input line 437.
-(luatex.def)             Requested size: 176.40439pt x 121.14256pt.
+énie civil Copy conv 1.png  used on input line 443.
+(luatex.def)             Requested size: 441.01773pt x 302.8711pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[5<../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 0
+.png>]
 <../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 2.
-png, id=711, 430.60875pt x 275.0275pt>
+png, id=788, 430.60875pt x 275.0275pt>
 File: ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy co
 nv 2.png Graphic file (type png)
 <use ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy con
 v 2.png>
 Package luatex.def Info: ../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_G
-énie civil Copy conv 2.png  used on input line 449.
-(luatex.def)             Requested size: 176.40439pt x 112.66968pt.
+énie civil Copy conv 2.png  used on input line 455.
+(luatex.def)             Requested size: 441.01773pt x 281.68259pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1739,60 +1761,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[4<../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 0
-.png><../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy con
-v 1.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[5<../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 2
+[6<../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 1
 .png>]
+<../Plans/plan-de-coffrage2.pdf, id=794, 3019.28pt x 2661.945pt>
+File: ../Plans/plan-de-coffrage2.pdf Graphic file (type pdf)
+<use ../Plans/plan-de-coffrage2.pdf>
+Package luatex.def Info: ../Plans/plan-de-coffrage2.pdf  used on input line 466
+.
+(luatex.def)             Requested size: 529.21992pt x 466.57848pt.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[6]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[7]
-Overfull \hbox (15.9408pt too wide) in paragraph at lines 649--650
-[]| \TU/lmr/m/n/12 Mo-dule de dé-for-ma-tion lon-gi-tu-di-nale ins-tan-ta-née $\OML/cmm/m/it/12 E[]$ \TU/lmr/m/n/12 : Sous l
-’ef-fet des contraintes
- []
-
-
-Overfull \vbox (2.73326pt too high) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[8]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[9]
-Overfull \hbox (12.82571pt too wide) in paragraph at lines 808--820
+Overfull \hbox (88.2022pt too wide) in paragraph at lines 466--467
  [][] 
  []
 
@@ -1803,17 +1781,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[10]
-Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+[7<../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 2
+.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1821,13 +1790,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[11
-Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
-Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
-]
+[8<../Plans/plan-de-coffrage2.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[9]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[11]
+Overfull \hbox (15.9408pt too wide) in paragraph at lines 667--668
+[]| \TU/lmr/m/n/12 Mo-dule de dé-for-ma-tion lon-gi-tu-di-nale ins-tan-ta-née $\OML/cmm/m/it/12 E[]$ \TU/lmr/m/n/12 : Sous l
+’ef-fet des contraintes
+ []
+
+
+Overfull \vbox (6.62915pt too high) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1844,6 +1840,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [13]
+Overfull \hbox (12.82571pt too wide) in paragraph at lines 826--838
+ [][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1852,9 +1852,29 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [14]
-Chapitre II.
-[15
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[15
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≤ (U+2264) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
+Missing character: There is no ≥ (U+2265) in font [lmroman12-regular]:+tlig;!
 ]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1871,19 +1891,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[17
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-]
-Overfull \hbox (15.7904pt too wide) in paragraph at lines 1330--1331
-[]\TU/lmr/m/n/12 De-puis le do-cu-ment tech-nique ré-gle-men-taire : Charges et
- sur-charges d’ex-ploi-ta-tions(DTR),
- []
-
-
-Overfull \vbox (3.84778pt too high) has occurred while \output is active []
-
-
+[17]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1892,12 +1900,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [18]
-<figures/Chapitre-1/elements-plancher.png, id=862, 274.02374pt x 325.215pt>
-File: figures/Chapitre-1/elements-plancher.png Graphic file (type png)
-<use figures/Chapitre-1/elements-plancher.png>
-Package luatex.def Info: figures/Chapitre-1/elements-plancher.png  used on inpu
-t line 1359.
-(luatex.def)             Requested size: 88.2022pt x 104.68129pt.
+Chapitre II.
+[19
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[20]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[21
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+<../Plans/poteau-a-mettre-pdf.pdf, id=938, 2773.36125pt x 3019.28pt>
+File: ../Plans/poteau-a-mettre-pdf.pdf Graphic file (type pdf)
+<use ../Plans/poteau-a-mettre-pdf.pdf>
+Package luatex.def Info: ../Plans/poteau-a-mettre-pdf.pdf  used on input line 1
+328.
+(luatex.def)             Requested size: 220.50887pt x 240.02701pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1906,39 +1937,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[19<./figures/Chapitre-1/elements-plancher.png>]
-<figures/Chapitre-1/charges-dimension.png, id=871, 199.49532pt x 255.20343pt>
-File: figures/Chapitre-1/charges-dimension.png Graphic file (type png)
-<use figures/Chapitre-1/charges-dimension.png>
-Package luatex.def Info: figures/Chapitre-1/charges-dimension.png  used on inpu
-t line 1433.
-(luatex.def)             Requested size: 92.61424pt x 118.47755pt.
-
-Overfull \hbox (58.01553pt too wide) detected at line 1440
-\OML/cmm/m/it/12 G \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OM
-L/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 88\O
-ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 267 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825 + 9\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 187 = 111\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 28 []
+[22<../Plans/poteau-a-mettre-pdf.pdf>]
+Overfull \hbox (15.7904pt too wide) in paragraph at lines 1354--1355
+[]\TU/lmr/m/n/12 De-puis le do-cu-ment tech-nique ré-gle-men-taire : Charges et
+ sur-charges d’ex-ploi-ta-tions(DTR),
  []
 
+<figures/Chapitre-1/elements-plancher.png, id=950, 274.02374pt x 325.215pt>
+File: figures/Chapitre-1/elements-plancher.png Graphic file (type png)
+<use figures/Chapitre-1/elements-plancher.png>
+Package luatex.def Info: figures/Chapitre-1/elements-plancher.png  used on inpu
+t line 1383.
+(luatex.def)             Requested size: 88.2022pt x 104.68129pt.
 
-Overfull \hbox (2.60799pt too wide) in paragraph at lines 1430--1446
-[]$[]$ $[]$ 
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
+[23<./figures/Chapitre-1/elements-plancher.png>]
+<figures/Chapitre-1/charges-dimension.png, id=959, 199.49532pt x 255.20343pt>
 File: figures/Chapitre-1/charges-dimension.png Graphic file (type png)
 <use figures/Chapitre-1/charges-dimension.png>
 Package luatex.def Info: figures/Chapitre-1/charges-dimension.png  used on inpu
 t line 1457.
 (luatex.def)             Requested size: 92.61424pt x 118.47755pt.
 
-Overfull \hbox (58.50969pt too wide) detected at line 1463
+Overfull \hbox (58.01553pt too wide) detected at line 1464
 \OML/cmm/m/it/12 G \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OM
-L/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 83\O
-ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 916 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825 + 9\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 187 = 106\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 93 []
+L/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 88\O
+ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 267 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825 + 9\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 187 = 111\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 28 []
  []
 
 
-Overfull \hbox (2.60799pt too wide) in paragraph at lines 1454--1469
+Overfull \hbox (2.60799pt too wide) in paragraph at lines 1454--1470
 []$[]$ $[]$ 
  []
 
@@ -1949,14 +1982,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[20<./figures/Chapitre-1/charges-dimension.png>]
-<figures/chapitre-1/section-ab-rpa.png, id=885, 70.76437pt x 80.55093pt>
+[24]
+File: figures/Chapitre-1/charges-dimension.png Graphic file (type png)
+<use figures/Chapitre-1/charges-dimension.png>
+Package luatex.def Info: figures/Chapitre-1/charges-dimension.png  used on inpu
+t line 1481.
+(luatex.def)             Requested size: 92.61424pt x 118.47755pt.
+
+Overfull \hbox (58.50969pt too wide) detected at line 1487
+\OML/cmm/m/it/12 G \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OM
+L/cmm/m/it/12 G[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 G[] \OT1/cmr/m/n/12 = 83\O
+ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 916 + 13\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 825 + 9\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 187 = 106\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 93 []
+ []
+
+
+Overfull \hbox (2.60799pt too wide) in paragraph at lines 1478--1493
+[]$[]$ $[]$ 
+ []
+
+<figures/chapitre-1/section-ab-rpa.png, id=969, 70.76437pt x 80.55093pt>
 File: figures/chapitre-1/section-ab-rpa.png Graphic file (type png)
 <use figures/chapitre-1/section-ab-rpa.png>
 Package luatex.def Info: figures/chapitre-1/section-ab-rpa.png  used on input l
-ine 1498.
+ine 1522.
 (luatex.def)             Requested size: 66.15332pt x 75.3086pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -1964,30 +2013,39 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[21<./figures/chapitre-1/section-ab-rpa.png>]
+[25<./figures/Chapitre-1/charges-dimension.png><./figures/chapitre-1/section-ab-
+rpa.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[26]
 Chapitre III.
-<figures/chapitre-2/acrotere/dim-acrotere.png, id=893, 337.26pt x 402.00188pt>
+<figures/chapitre-2/acrotere/dim-acrotere.png, id=987, 337.26pt x 402.00188pt>
 File: figures/chapitre-2/acrotere/dim-acrotere.png Graphic file (type png)
 <use figures/chapitre-2/acrotere/dim-acrotere.png>
 Package luatex.def Info: figures/chapitre-2/acrotere/dim-acrotere.png  used on 
-input line 1563.
+input line 1589.
 (luatex.def)             Requested size: 176.40439pt x 210.26898pt.
-[22
+[27
 
 ]
-<figures/chapitre-2/acrotere/charge-acrotere.png, id=900, 295.85532pt x 361.35p
+<figures/chapitre-2/acrotere/charge-acrotere.png, id=993, 295.85532pt x 361.35p
 t>
 File: figures/chapitre-2/acrotere/charge-acrotere.png Graphic file (type png)
 <use figures/chapitre-2/acrotere/charge-acrotere.png>
 Package luatex.def Info: figures/chapitre-2/acrotere/charge-acrotere.png  used 
-on input line 1581.
+on input line 1607.
 (luatex.def)             Requested size: 88.2022pt x 107.72765pt.
-<figures/chapitre-2/acrotere/efforts-acrotere.png, id=901, 342.5297pt x 122.708
+<figures/chapitre-2/acrotere/efforts-acrotere.png, id=994, 342.5297pt x 122.708
 44pt>
 File: figures/chapitre-2/acrotere/efforts-acrotere.png Graphic file (type png)
 <use figures/chapitre-2/acrotere/efforts-acrotere.png>
 Package luatex.def Info: figures/chapitre-2/acrotere/efforts-acrotere.png  used
- on input line 1609.
+ on input line 1635.
 (luatex.def)             Requested size: 308.71106pt x 110.60133pt.
 
 
@@ -1997,14 +2055,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[23<./figures/chapitre-2/acrotere/dim-acrotere.png><./figures/chapitre-2/acroter
+[28<./figures/chapitre-2/acrotere/dim-acrotere.png><./figures/chapitre-2/acroter
 e/charge-acrotere.png>]
-<figures/chapitre-2/acrotere/section-acro.png, id=909, 463.7325pt x 87.32625pt>
-
+<figures/chapitre-2/acrotere/section-acro.png, id=1002, 463.7325pt x 87.32625pt
+>
 File: figures/chapitre-2/acrotere/section-acro.png Graphic file (type png)
 <use figures/chapitre-2/acrotere/section-acro.png>
 Package luatex.def Info: figures/chapitre-2/acrotere/section-acro.png  used on 
-input line 1637.
+input line 1663.
 (luatex.def)             Requested size: 308.71106pt x 58.13518pt.
 
 
@@ -2014,7 +2072,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[24<./figures/chapitre-2/acrotere/efforts-acrotere.png><./figures/chapitre-2/acr
+[29<./figures/chapitre-2/acrotere/efforts-acrotere.png><./figures/chapitre-2/acr
 otere/section-acro.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2023,13 +2081,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[25]
-<figures/chapitre-2/acrotere/ferraillage-acro.png, id=921, 511.15968pt x 243.15
-843pt>
+[30]
+<figures/chapitre-2/acrotere/ferraillage-acro.png, id=1014, 511.15968pt x 243.1
+5843pt>
 File: figures/chapitre-2/acrotere/ferraillage-acro.png Graphic file (type png)
 <use figures/chapitre-2/acrotere/ferraillage-acro.png>
 Package luatex.def Info: figures/chapitre-2/acrotere/ferraillage-acro.png  used
- on input line 1735.
+ on input line 1761.
 (luatex.def)             Requested size: 308.71106pt x 146.85344pt.
  (./sections/poutrelles.tex Excluding 'comment' comment.
 
@@ -2039,16 +2097,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[26<./figures/chapitre-2/acrotere/ferraillage-acro.png>]
+[31<./figures/chapitre-2/acrotere/ferraillage-acro.png>]
 warning  (file ../figures/Chapitre 3/Direction des poutrelles.pdf) (pdf inclusio
 n): PDF inclusion: found PDF version '1.6', but at most version '1.5' allowed
-<../figures/Chapitre 3/Direction des poutrelles.pdf, id=927, 735.10936pt x 838.
-4394pt>
+<../figures/Chapitre 3/Direction des poutrelles.pdf, id=1020, 735.10936pt x 838
+.4394pt>
 File: ../figures/Chapitre 3/Direction des poutrelles.pdf Graphic file (type pdf
 )
 <use ../figures/Chapitre 3/Direction des poutrelles.pdf>
 Package luatex.def Info: ../figures/Chapitre 3/Direction des poutrelles.pdf  us
-ed on input line 132.
+ed on input line 134.
 (luatex.def)             Requested size: 308.71106pt x 352.10378pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2057,109 +2115,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[27<../figures/Chapitre 3/Direction des poutrelles.pdf>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[28
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[29
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[30]
-Overfull \hbox (1.79187pt too wide) in paragraph at lines 381--382
-[]\TU/lmr/m/n/12 La mé-thode gra-phique se-ra uti-li-ser pour dé-ter-mi-ner le
-s mo-ments, cette mé-thode consiste
- []
-
-<../figures/Chapitre 3/moment-travee-poutrelles.png, id=951, 1817.28937pt x 593
-.21625pt>
-File: ../figures/Chapitre 3/moment-travee-poutrelles.png Graphic file (type png
-)
-<use ../figures/Chapitre 3/moment-travee-poutrelles.png>
-Package luatex.def Info: ../figures/Chapitre 3/moment-travee-poutrelles.png  us
-ed on input line 414.
-(luatex.def)             Requested size: 441.01773pt x 143.95886pt.
-<../figures/Chapitre 3/moments-travees-poutr.png, id=952, 3046.63219pt x 2605.4
-8407pt>
-File: ../figures/Chapitre 3/moments-travees-poutr.png Graphic file (type png)
-<use ../figures/Chapitre 3/moments-travees-poutr.png>
-Package luatex.def Info: ../figures/Chapitre 3/moments-travees-poutr.png  used 
-on input line 426.
-(luatex.def)             Requested size: 396.91325pt x 339.44043pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[31<../figures/Chapitre 3/moment-travee-poutrelles.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[32<../figures/Chapitre 3/moments-travees-poutr.png>]
-<../figures/Chapitre 3/effort-tranchant-poutrelle.png, id=967, 941.01563pt x 50
-2.12593pt>
-File: ../figures/Chapitre 3/effort-tranchant-poutrelle.png Graphic file (type p
-ng)
-<use ../figures/Chapitre 3/effort-tranchant-poutrelle.png>
-Package luatex.def Info: ../figures/Chapitre 3/effort-tranchant-poutrelle.png  
-used on input line 505.
-(luatex.def)             Requested size: 441.01773pt x 235.32498pt.
-
+[32<../figures/Chapitre 3/Direction des poutrelles.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -2172,7 +2128,8 @@ Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
-<../figures/Chapitre 3/effort-tranchant-poutrelle.png>]
+Missing character: There is no ; (U+003B) in font nullfont!
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -2180,7 +2137,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[34]
+[34
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -2189,81 +2173,88 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [35]
+Overfull \hbox (1.79187pt too wide) in paragraph at lines 383--384
+[]\TU/lmr/m/n/12 La mé-thode gra-phique se-ra uti-li-ser pour dé-ter-mi-ner le
+s mo-ments, cette mé-thode consiste
+ []
+
+<../figures/Chapitre 3/moment-travee-poutrelles.png, id=1045, 1817.28937pt x 59
+3.21625pt>
+File: ../figures/Chapitre 3/moment-travee-poutrelles.png Graphic file (type png
+)
+<use ../figures/Chapitre 3/moment-travee-poutrelles.png>
+Package luatex.def Info: ../figures/Chapitre 3/moment-travee-poutrelles.png  us
+ed on input line 416.
+(luatex.def)             Requested size: 441.01773pt x 143.95886pt.
+<../figures/Chapitre 3/moments-travees-poutr.png, id=1046, 3046.63219pt x 2605.
+48407pt>
+File: ../figures/Chapitre 3/moments-travees-poutr.png Graphic file (type png)
+<use ../figures/Chapitre 3/moments-travees-poutr.png>
+Package luatex.def Info: ../figures/Chapitre 3/moments-travees-poutr.png  used 
+on input line 428.
+(luatex.def)             Requested size: 396.91325pt x 339.44043pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[36<../figures/Chapitre 3/moment-travee-poutrelles.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[37<../figures/Chapitre 3/moments-travees-poutr.png>]
+<../figures/Chapitre 3/effort-tranchant-poutrelle.png, id=1060, 941.01563pt x 5
+02.12593pt>
+File: ../figures/Chapitre 3/effort-tranchant-poutrelle.png Graphic file (type p
+ng)
+<use ../figures/Chapitre 3/effort-tranchant-poutrelle.png>
+Package luatex.def Info: ../figures/Chapitre 3/effort-tranchant-poutrelle.png  
+used on input line 507.
+(luatex.def)             Requested size: 441.01773pt x 235.32498pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[38
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+<../figures/Chapitre 3/effort-tranchant-poutrelle.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[39]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[40]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cite' on input line 669.
+(hyperref)                removing `\cite' on input line 671.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\cite' on input line 680.
+(hyperref)                removing `\cite' on input line 682.
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[36]
-<../figures/Chapitre 3/ferraillage-poutrelles.png, id=991, 712.16063pt x 256.70
-906pt>
-File: ../figures/Chapitre 3/ferraillage-poutrelles.png Graphic file (type png)
-<use ../figures/Chapitre 3/ferraillage-poutrelles.png>
-Package luatex.def Info: ../figures/Chapitre 3/ferraillage-poutrelles.png  used
- on input line 716.
-(luatex.def)             Requested size: 441.01773pt x 158.96994pt.
-) (./sections/escalier-poutrep.tex
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[37
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-<../figures/Chapitre 3/ferraillage-poutrelles.png>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[38]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[39
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[40
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -2272,12 +2263,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [41]
-Overfull \hbox (24.34605pt too wide) in paragraph at lines 424--425
-[]\TU/lmr/m/n/12 On trans-forme les charges R en charges uni-for-mé-ment re-par
--tie : $\OML/cmm/m/it/12 q[] \OT1/cmr/m/n/12 = [] = 26\OML/cmm/m/it/12 ; \OT1/c
-mr/m/n/12 47 [] \TU/lmr/m/n/12 m[] \OMS/cmsy/m/n/12 '
- []
-
+<../figures/Chapitre 3/ferraillage-poutrelles.png, id=1084, 712.16063pt x 256.7
+0906pt>
+File: ../figures/Chapitre 3/ferraillage-poutrelles.png Graphic file (type png)
+<use ../figures/Chapitre 3/ferraillage-poutrelles.png>
+Package luatex.def Info: ../figures/Chapitre 3/ferraillage-poutrelles.png  used
+ on input line 718.
+(luatex.def)             Requested size: 441.01773pt x 158.96994pt.
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -2285,15 +2278,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[42
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-Missing character: There is no ; (U+003B) in font nullfont!
-]
+[42<../figures/Chapitre 3/ferraillage-poutrelles.png>]
+(./sections/escalier-poutrep.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.21004pt, for example:
@@ -2302,6 +2288,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [43
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
@@ -2315,17 +2303,176 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
 [44]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[45
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[46]
+Overfull \hbox (24.34605pt too wide) in paragraph at lines 424--425
+[]\TU/lmr/m/n/12 On trans-forme les charges R en charges uni-for-mé-ment re-par
+-tie : $\OML/cmm/m/it/12 q[] \OT1/cmr/m/n/12 = [] = 26\OML/cmm/m/it/12 ; \OT1/c
+mr/m/n/12 47 [] \TU/lmr/m/n/12 m[] \OMS/cmsy/m/n/12 '
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[47
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[48
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[49]
 Overfull \hbox (42.9926pt too wide) in paragraph at lines 626--636
 [][] 
  []
 
-<figures/Chapitre 3/ferraillage-escalier.png, id=1032, 895.09406pt x 661.72218p
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[50]
+<figures/Chapitre 3/ferraillage-escalier.png, id=1131, 895.09406pt x 661.72218p
 t>
 File: figures/Chapitre 3/ferraillage-escalier.png Graphic file (type png)
 <use figures/Chapitre 3/ferraillage-escalier.png>
 Package luatex.def Info: figures/Chapitre 3/ferraillage-escalier.png  used on i
 nput line 641.
 (luatex.def)             Requested size: 441.01773pt x 326.04398pt.
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[51<./figures/Chapitre 3/ferraillage-escalier.png>] (./sections/balcon.tex
+Overfull \hbox (3.55673pt too wide) in paragraph at lines 133--134
+ [][] 
+ []
+
+
+Overfull \vbox (7.32411pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (7.32411pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (7.32411pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (7.32411pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[52
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[53
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.21004pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.21004pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
+
+[54
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+<../figures/Chapitre 3/ferraillage-balcon.png, id=1153, 406.51875pt x 385.44pt>
+
+File: ../figures/Chapitre 3/ferraillage-balcon.png Graphic file (type png)
+<use ../figures/Chapitre 3/ferraillage-balcon.png>
+Package luatex.def Info: ../figures/Chapitre 3/ferraillage-balcon.png  used on 
+input line 335.
+(luatex.def)             Requested size: 308.71106pt x 292.71394pt.
 ) Excluding 'comment' comment.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2334,38 +2481,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
 
-[45]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.21004pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.21004pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.21004pt}.
-
-[46<./figures/Chapitre 3/ferraillage-escalier.png>]
-Chapitre IV.
-[47
-
-]
-Overfull \hbox (0.24773pt too wide) in paragraph at lines 2005--2006
+[55<../figures/Chapitre 3/ferraillage-balcon.png>]
+Overfull \hbox (0.24773pt too wide) in paragraph at lines 1978--1979
 \TU/lmr/m/n/12 di-men-sions ap-proxi-ma-tives des élé-ments struc-tu-raux es-s
 en-tiels : po-teaux, poutres,
  []
 
 
-Overfull \hbox (3.84518pt too wide) in paragraph at lines 2013--2014
+Overfull \hbox (3.84518pt too wide) in paragraph at lines 1987--1988
 []\TU/lmr/m/n/12 En conclu-sion, ce pro-jet consti-tue un tra-vail pré-pa-ra-to
 ire so-lide, syn-thé-ti-sant les connais-
  []
 
-[48
+[56
 
 ]
 
 Package biblatex Warning: No driver for 'masterthesis'.
-(biblatex)                Using fallback driver on input line 2024.
+(biblatex)                Using fallback driver on input line 1998.
 
-[49
+[57
 
 ] (./mon-projet-ba.aux)
  ***********
@@ -2373,21 +2508,21 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `mon-projet-ba.out' has not changed.
-(rerunfilecheck)             Checksum: B1034C73709B2A39B5D73A2E71CB2B23;19845.
+(rerunfilecheck)             Checksum: D2E8EAAEAF183C67036F6ACEEA2F523B;21893.
 Package logreq Info: Writing requests to 'mon-projet-ba.run.xml'.
 
 \openout1 = mon-projet-ba.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 45925 strings out of 476081
+ 46022 strings out of 476081
  125101,1977958 words of node,token memory allocated
- 4966 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 243 glue, 5 kern, 3 penalty, 1 glyph, 863 attribute
-, 88 glue_spec, 433 attribute_list, 2 write, 2 pdf_action nodes
-   avail lists: 1:3,2:5920,3:1521,4:188,5:693,6:151,7:5544,8:61,9:1205,10:10,11:
+ 5135 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 250 glue, 5 kern, 3 penalty, 1 glyph, 903 attribute
+, 88 glue_spec, 453 attribute_list, 2 write, 2 pdf_action nodes
+   avail lists: 1:3,2:5862,3:2211,4:189,5:684,6:151,7:5558,8:61,9:1205,10:10,11:
 558
- 66999 multiletter control sequences out of 65536+600000
+ 67056 multiletter control sequences out of 65536+600000
  79 fonts using 5806791 bytes
  98i,22n,104p,711b,2703s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -2438,9 +2573,9 @@ warning  (pdf backend): unreferenced destination with name 'Hfootnote.2'
 warning  (pdf backend): unreferenced destination with name 'Hfootnote.1'
 <c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12
 -italic.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/opentype/public/
-lm/lmroman10-regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts/ope
-ntype/public/lm/lmroman7-regular.otf><c:/users/amalo/appdata/local/programs/mikt
-ex/fonts/opentype/public/lm/lmromancaps10-regular.otf><c:/users/amalo/appdata/lo
+lm/lmromancaps10-regular.otf><c:/users/amalo/appdata/local/programs/miktex/fonts
+/opentype/public/lm/lmroman10-regular.otf><c:/users/amalo/appdata/local/programs
+/miktex/fonts/opentype/public/lm/lmroman7-regular.otf><c:/users/amalo/appdata/lo
 cal/programs/miktex/fonts/opentype/public/lm/lmroman8-regular.otf><c:/users/amal
 o/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><c:/
 users/amalo/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-reg
@@ -2457,9 +2592,9 @@ ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/amalo
 C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
 6.pfb><C:/Users/amalo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb>
-Output written on mon-projet-ba.pdf (58 pages, 1489362 bytes).
+Output written on mon-projet-ba.pdf (63 pages, 1602936 bytes).
 
-PDF statistics: 1152 PDF objects out of 1200 (max. 8388607)
- 276 named destinations out of 1000 (max. 131072)
- 896 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1269 PDF objects out of 1440 (max. 8388607)
+ 301 named destinations out of 1000 (max. 131072)
+ 1005 words of extra memory for PDF output out of 10000 (max. 100000000)
 

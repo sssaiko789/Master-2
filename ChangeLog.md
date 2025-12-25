@@ -2,6 +2,19 @@ Ce Changelog resume tout ce qui a été fait.
 
 ###### -----------------------------------------------------------------------
 
+# **25.12.2025**
+
+
+
+* **Fin projet structure en béton arme, reste a faire des verification surfacique.**
+* **reste presentation, et modélisation.**
+
+
+
+
+
+###### -----------------------------------------------------------------------
+
 # **24.12.2025**
 
 

@@ -2379,6 +2379,9 @@
     <bcf:citekey order="5" intorder="1">BAEL</bcf:citekey>
     <bcf:citekey order="6" intorder="1">BAEL</bcf:citekey>
     <bcf:citekey order="7" intorder="1">rpa</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">memoire</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">coursba</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">DTRCharges</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

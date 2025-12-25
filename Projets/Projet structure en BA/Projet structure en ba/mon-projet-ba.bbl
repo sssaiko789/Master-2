@@ -78,28 +78,22 @@
       \field{year}{2003}
     \endentry
     \entry{coursba}{misc}{}{}
-      \name{author}{2}{}{%
+      \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=274dc19178fe0cf5364139be76886290}{%
            family={Jugurta},
            familyi={J\bibinitperiod},
            given={AMALOU},
            giveni={A\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=e60fc55591fae1a69dde59f0f3b8f630}{%
-           family={Redouane},
-           familyi={R\bibinitperiod},
-           given={MEZIANI},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
       }
-      \strng{namehash}{52a8819596af9079c1382697497f442a}
-      \strng{fullhash}{52a8819596af9079c1382697497f442a}
-      \strng{fullhashraw}{52a8819596af9079c1382697497f442a}
-      \strng{bibnamehash}{52a8819596af9079c1382697497f442a}
-      \strng{authorbibnamehash}{52a8819596af9079c1382697497f442a}
-      \strng{authornamehash}{52a8819596af9079c1382697497f442a}
-      \strng{authorfullhash}{52a8819596af9079c1382697497f442a}
-      \strng{authorfullhashraw}{52a8819596af9079c1382697497f442a}
+      \strng{namehash}{274dc19178fe0cf5364139be76886290}
+      \strng{fullhash}{274dc19178fe0cf5364139be76886290}
+      \strng{fullhashraw}{274dc19178fe0cf5364139be76886290}
+      \strng{bibnamehash}{274dc19178fe0cf5364139be76886290}
+      \strng{authorbibnamehash}{274dc19178fe0cf5364139be76886290}
+      \strng{authornamehash}{274dc19178fe0cf5364139be76886290}
+      \strng{authorfullhash}{274dc19178fe0cf5364139be76886290}
+      \strng{authorfullhashraw}{274dc19178fe0cf5364139be76886290}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}

@@ -168,6 +168,8 @@ natbib=true
 	\pagenumbering{roman} 
 	\setcounter{page}{1}
 	
+	
+\begin{comment}	
 	\chapter*{Remerciement}
 	
 	Nous remercions avant tout \textbf{ALLAH} pour la force et la patience qu’Il nous a accordées afin de réaliser ce projet.
@@ -182,7 +184,7 @@ natbib=true
 	qui ont été mis à notre disposition durant toute la durée de la formation.
 	Je remercie également les membres des jurys pour l’effort qu’ils feront dans le but d’examiner ce travail.
 	
-	
+\end{comment}
 	
 	\tableofcontents
 	
@@ -191,7 +193,7 @@ natbib=true
 	\listoffigures
 	
 	
-	
+\begin{comment}	
 	\chapter*{Liste des notations}
 	\markboth{Liste des notations}{Liste des notations}
 	
@@ -247,9 +249,13 @@ natbib=true
 		\item[$\sigmabar{s}$] Contrainte de traction admissible de l’acier.
 		\item[$\sgma{sol}$] Contrainte du sol.
 	\end{itemize}
-
 	
 	\newpage
+	
+\end{comment}
+	
+	
+
 	
 	
 	
@@ -422,7 +428,7 @@ natbib=true
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=.4\linewidth]{"../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 0"}
+		\includegraphics[width=1\linewidth]{"../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 0"}
 		\caption{Vue en plan. Source : MAIZI Khalid,2020}
 		\label{fig:vue-plan}
 	\end{figure}
@@ -434,7 +440,7 @@ natbib=true
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=.4\linewidth]{"../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 1"}
+		\includegraphics[width=1\linewidth]{"../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 1"}
 		\caption{Vue en élévation.}
 		\label{fig:vue-elevation}
 	\end{figure}
@@ -446,10 +452,22 @@ natbib=true
 	
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=.4\linewidth]{"../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 2"}
+		\includegraphics[width=1\linewidth]{"../Plans/plan-normal/Exporter les Pages MAIZI_KHALID_Génie civil Copy conv 2"}
 		\caption{Vue en façade.}
 		\label{fig:vue-facade}
 	\end{figure}
+	
+	
+	
+	\subsubsection{Plan de coffrage}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.2\linewidth]{../Plans/plan-de-coffrage2}
+		\caption{Plan de coffrage}
+		\label{fig:plan-de-coffrage2}
+	\end{figure}
+	
 	
 	
 	
@@ -1302,10 +1320,16 @@ natbib=true
 	
 	\vspace{\baselineskip}
 		
-	On dimensionne uniquement le poteau le plus sollicité, donc celui qui reprend le plus de charge (surface), qui n'est autre que le poteau XX : 
+	On dimensionne uniquement le poteau le plus sollicité, donc celui qui reprend le plus de charge (surface), qui n'est autre que le poteau B2 = B5 = G2 = G5 : 
 	
 
-	{\huge \textcolor{red}{figure} \par}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\linewidth]{../Plans/poteau-a-mettre-pdf}
+		\caption{Poteau le plus sollicité}
+		\label{fig:poteau-a-mettre-pdf}
+	\end{figure}
+	
 	
 	
 	
@@ -1536,6 +1560,8 @@ natbib=true
 	
 	\section{Introduction}
 	
+	Le calcul des éléments secondaires repose sur l’évaluation des charges agissantes, la détermination des efforts internes (moments fléchissants et efforts tranchants) et le dimensionnement des armatures conformément aux règlements en vigueur. L’objectif est de vérifier que ces éléments présentent une résistance suffisante et un comportement satisfaisant en service.
+	
 	
 	\section{Calcul de l'acrotère}
 	
@@ -1739,10 +1765,31 @@ natbib=true
 	
 	
 
+
+
+
 	
 	\input{sections/poutrelles.tex}
 	
+	\newpage
+	
+	
 	\input{sections/escalier-poutrep.tex}
+	
+	
+	\newpage
+	
+	
+	\input{sections/balcon.tex}
+	
+	
+	\vspace{\baselineskip}
+	
+	\section{Conclusion}
+	
+	Ainsi se termine le calcul des éléments secondaires, qui est une étape indispensable même si considéré moins critique que les éléments principale.  Un mauvais dimensionnement de section ou armatures peut causé des dommages matériels et humains.
+	
+	
 	
 \begin{comment}
 
@@ -1897,79 +1944,10 @@ natbib=true
 	\end{figure}
 	
 	
-	
-	\subsection{Calcul des efforts internes}
-	
-	
-	\subsection{Calcul du ferraillage}
-	
-	
-	\subsection{Plan de ferraillage}
+
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	\section{Calcul des escaliers et des poutres palières}
-	
-	
-	\subsection{Escaliers}
-	
-	\subsubsection{Introduction}
-	
-	Escalier est une structure de marches et paliers, qui relie différents niveaux d’un
-	bâtiment.Il transmet les charges générées par les utilisateurs vers les éléments porteurs comme les
-	poutres ou les murs.
-	
-	\subsubsection{Dimensionnement des escaliers}
-	
-	\subsubsection{Calcul des charges}
-	
-	\subsubsection{Schéma statique}
-	
-	\subsubsection{Calcul des efforts internes}
-	
-	\subsubsection{Calcul du ferraillage}
-	
-	\subsubsection{Plan de ferraillage}
-	
-	
-	
-	\subsection{Poutres palières}
-	
-	\subsubsection{Introduction}
-	
-	\subsubsection{Calcul des charges}
-	
-	\subsubsection{Schéma statique}
-	
-	\subsubsection{Calcul des efforts internes}
-	
-	\subsubsection{Calcul du ferraillage}
-	
-	\subsubsection{Plan de ferraillage}
-	
-	
-	\section{Calcul des balcons}
-	
-	\subsection{Introduction}
-	
-	\subsection{Calcul des charges}
-	
-	\subsection{Schéma statique}
-	
-	\subsection{Calcul des efforts internes}
-	
-	\subsection{Calcul du ferraillage}
-	
-	\subsection{Plan de ferraillage}
-	
-	
-	\section{Conclusion}
 	
 	
 	
@@ -1985,11 +1963,6 @@ natbib=true
 	
 	
 	
-	
-	\chapter{Conclusion générale}
-	
-	
-	
 
 	
 	
@@ -1998,22 +1971,23 @@ natbib=true
 	\chapter*{Conclusion générale}
 	\addcontentsline{toc}{chapter}{Conclusion générale}
 	
-	Le projet présenté, structuré en deux chapitres principaux, a permis de couvrir l’ensemble des étapes préliminaires nécessaires à la conception d’un bâtiment :
+	Le projet présenté, structuré en trois chapitres principaux, a permis de couvrir l’ensemble des étapes préliminaires nécessaires à la conception d’un bâtiment :
 	
 	\begin{itemize}
 		\item Le premier chapitre, consacré aux généralités et caractéristiques, a permis de définir le cadre théorique du projet, les normes applicables, les propriétés des matériaux (béton, acier) et les principales charges agissant sur la structure.
 		\item Le deuxième chapitre, consacré au pré-dimensionnement, a permis d’évaluer les dimensions approximatives des éléments structuraux essentiels : poteaux, poutres, voiles et planchers, qui permettront a faire le calcul approfondis.
+		\item Quant au troisième chapitre, touche au calculs du ferraillages des éléments secondaires (Acrotère, poutrelles, escalier + poutre palière et balcons).
 	\end{itemize}
 	
 	
-	Ainsi, ce projet a permis de préparer les bases nécessaires pour le dimensionnement détaillé, qui prendra en compte les calculs précis des efforts, les armatures optimales et les vérifications selon les normes.
+	Ainsi, ce projet a permis de préparer les bases nécessaires pour le dimensionnement détaillé, qui prendra en compte les calculs précis des efforts, les armatures optimales et les vérifications selon les normes pour les éléments secondaire.
 	
 	\vspace{\baselineskip}
 	
 	En conclusion, ce projet constitue un travail préparatoire solide, synthétisant les connaissances théoriques et leur application pratique, et servira de référence pour la suite du dimensionnement et de l’exécution du bâtiment.
 	
 
-
+	\textcolor{white}{\cite{memoire}\cite{coursba}\cite{DTRCharges}}
 
 
 
@@ -2027,7 +2001,7 @@ natbib=true
 	
 	\addcontentsline{toc}{chapter}{Bibliographie}
 	
-	Document Saisi et écrit avec \Large \LaTeX.
+	\vfill \hfill \Large \LaTeX.
 	
 	
 	
