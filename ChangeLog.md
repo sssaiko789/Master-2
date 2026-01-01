@@ -2,6 +2,18 @@ Ce Changelog resume tout ce qui a été fait.
 
 ###### -----------------------------------------------------------------------
 
+# **01.01.2026**
+
+
+
+* **Debut du projet modélisation (débuter le 29/12/2025) reste a modéliser les voiles puis les charges et autres.**
+
+
+
+
+
+###### -----------------------------------------------------------------------
+
 # **25.12.2025**
 
 
