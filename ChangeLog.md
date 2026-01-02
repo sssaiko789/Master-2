@@ -2,6 +2,18 @@ Ce Changelog resume tout ce qui a été fait.
 
 ###### -----------------------------------------------------------------------
 
+# **02.01.2026**
+
+
+
+* **Suite du TP modélisation : fin de la modélisation reste l'etude sismique et autres.**
+
+
+
+
+
+###### -----------------------------------------------------------------------
+
 # **01.01.2026**
 
 
