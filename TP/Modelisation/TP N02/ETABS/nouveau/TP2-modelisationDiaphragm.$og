@@ -1,0 +1,225 @@
+                                                                                
+                                                                                
+ B E G I N   A N A L Y S I S                                2026/01/06  00:02:26
+                                                                                
+                                                                                
+ E L E M E N T   F O R M A T I O N                                      00:02:26
+
+
++NUMBER OF JOINT  ELEMENTS FORMED          =         161                        
+
++NUMBER OF SPRING ELEMENTS FORMED          =           0                        
+                                                                                
++Frame  element       0 of    2288                                              
++Frame  element     100 of    2288                                              
++Frame  element     200 of    2288                                              
++Frame  element     300 of    2288                                              
++Frame  element     400 of    2288                                              
++Frame  element     500 of    2288                                              
++Frame  element     600 of    2288                                              
++Frame  element     700 of    2288                                              
++Frame  element     800 of    2288                                              
++Frame  element     900 of    2288                                              
++Frame  element    1000 of    2288                                              
++Frame  element    1100 of    2288                                              
++Frame  element    1200 of    2288                                              
++Frame  element    1300 of    2288                                              
++Frame  element    1400 of    2288                                              
++Frame  element    1500 of    2288                                              
++Frame  element    1600 of    2288                                              
++Frame  element    1700 of    2288                                              
++Frame  element    1800 of    2288                                              
++Frame  element    1900 of    2288                                              
++Frame  element    2000 of    2288                                              
++Frame  element    2100 of    2288                                              
++Frame  element    2200 of    2288                                              
++Frame  element    2288 of    2288                                              
++NUMBER OF FRAME  ELEMENTS FORMED          =        2288                        
+                                                                                
++Shell  element       0 of     524                                              
++Shell  element     100 of     524                                              
++Shell  element     200 of     524                                              
++Shell  element     300 of     524                                              
++Shell  element     400 of     524                                              
++Shell  element     500 of     524                                              
++Shell  element     524 of     524                                              
++NUMBER OF SHELL  ELEMENTS FORMED          =         524                        
+                                                                                
++Weld       0 of      11                                                        
++Constraint      11 of      11                                                  
++NUMBER OF CONSTRAINTS FORMED              =          11                        
+                                                                                
+ REDUCTION OF CONSTRAINTS AND RESTRAINTS:                                       
+ NUMBER OF                                                                      
+   CONSTRAINT MASTER DOF BEFORE REDUCTION  =          33                        
+   COUPLED CONSTRAINT/RESTRAINT MASTER DOF =           0                        
+   CONSTRAINT MASTER DOF AFTER REDUCTION   =          33                        
+                                                                                
+                                                                                
+ E Q U A T I O N   S O L U T I O N                                      00:02:27
+                                                                                
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =        3009                        
+ APPROXIMATE "EFFECTIVE" BAND WIDTH        =         150                        
+                                                                                
+ NUMBER OF EQUATION STORAGE BLOCKS         =           1                        
+ MAXIMUM BLOCK SIZE (8-BYTE TERMS)         =      442995                        
+ SIZE OF STIFFNESS FILE(S) (BYTES)         =       3.391 MB                     
+                                                                                
+ NUMBER OF EQUATIONS TO SOLVE              =        3009                        
+ NUMBER OF STATIC LOAD CASES               =           5                        
+ NUMBER OF ACCELERATION LOADS              =           6                        
+ NUMBER OF NONLINEAR DEFORMATION LOADS     =           0                        
+                                                                                
+                                                                                
+ E I G E N   A N A L Y S I S                                            00:02:27
+                                                                                
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =        3009                        
+ NUMBER OF MASS DEGREES OF FREEDOM         =         209                        
+ NUMBER OF EIGEN MODES SOUGHT              =          12                        
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0                        
+ NUMBER OF SUBSPACE VECTORS USED           =          16                        
+                                                                                
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-07                        
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000                        
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =     .000000                        
+
+ Found mode       1 of      12, Eigenvalue = 1.1473757E+02, Period =    0.586580
+ Found mode       2 of      12, Eigenvalue = 1.6883889E+02, Period =    0.483552
+ Found mode       3 of      12, Eigenvalue = 2.5756360E+02, Period =    0.391505
+ Found mode       4 of      12, Eigenvalue = 2.0526344E+03, Period =    0.138683
+ Found mode       5 of      12, Eigenvalue = 2.3863513E+03, Period =    0.128621
+ Found mode       6 of      12, Eigenvalue = 3.0010984E+03, Period =    0.114694
+ Found mode       7 of      12, Eigenvalue = 8.4252952E+03, Period =    0.068452
+ Found mode       8 of      12, Eigenvalue = 1.1808450E+04, Period =    0.057821
+ Found mode       9 of      12, Eigenvalue = 1.2273262E+04, Period =    0.056715
+ Found mode      10 of      12, Eigenvalue = 1.9478345E+04, Period =    0.045020
+ Found mode      11 of      12, Eigenvalue = 2.7996686E+04, Period =    0.037551
+ Found mode      12 of      12, Eigenvalue = 3.2791084E+04, Period =    0.034698
+                                                                                
+ NUMBER OF EIGEN MODES FOUND               =          12                        
+ NUMBER OF ITERATIONS PERFORMED            =           9                        
+                                                                                
+                                                                                
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    00:02:28
+                                                                                
+                                                                                
+ J O I N T   O U T P U T                                                00:02:28
+                                                                                
+                                                                                
+ E L E M E N T   J O I N T - F O R C E   O U T P U T                    00:02:28
+
+                                                                                
++Joint  element       0 of     161                                              
++Joint  element     100 of     161                                              
++Joint  element     161 of     161                                              
++NUMBER OF JOINT  ELEMENTS SAVED           =         161                        
+                                                                                
++Frame  element       0 of    2288                                              
++Frame  element     100 of    2288                                              
++Frame  element     200 of    2288                                              
++Frame  element     300 of    2288                                              
++Frame  element     400 of    2288                                              
++Frame  element     500 of    2288                                              
++Frame  element     600 of    2288                                              
++Frame  element     700 of    2288                                              
++Frame  element     800 of    2288                                              
++Frame  element     900 of    2288                                              
++Frame  element    1000 of    2288                                              
++Frame  element    1100 of    2288                                              
++Frame  element    1200 of    2288                                              
++Frame  element    1300 of    2288                                              
++Frame  element    1400 of    2288                                              
++Frame  element    1500 of    2288                                              
++Frame  element    1600 of    2288                                              
++Frame  element    1700 of    2288                                              
++Frame  element    1800 of    2288                                              
++Frame  element    1900 of    2288                                              
++Frame  element    2000 of    2288                                              
++Frame  element    2100 of    2288                                              
++Frame  element    2200 of    2288                                              
++Frame  element    2288 of    2288                                              
++NUMBER OF FRAME  ELEMENTS SAVED           =        2288                        
+                                                                                
++Shell  element       0 of     524                                              
++Shell  element     100 of     524                                              
++Shell  element     200 of     524                                              
++Shell  element     300 of     524                                              
++Shell  element     400 of     524                                              
++Shell  element     500 of     524                                              
++Shell  element     524 of     524                                              
++NUMBER OF SHELL  ELEMENTS SAVED           =         524                        
+                                                                                
+                                                                                
+ E L E M E N T   O U T P U T                                            00:02:28
+
+                                                                                
+                                                                                
+ A N A L Y S I S   C O M P L E T E                          2026/01/06  00:02:28
+                                                                                
+                                                                                
+ C E N T E R S   O F   R I G I D I T Y                                  00:02:29
+                                                                                
+ NUMBER OF LOAD CASES TO SOLVE             =          33                        
+                                                                                
+                                                                                
+ B E G I N   A N A L Y S I S                                2026/01/06  00:02:29
+                                                                                
+                                                                                
+ E L E M E N T   F O R M A T I O N                                      00:02:29
+
+
++NUMBER OF JOINT  ELEMENTS FORMED          =         161                        
+
++NUMBER OF SPRING ELEMENTS FORMED          =           0                        
+                                                                                
+                                                                                
+ L O A D   R E - S O L U T I O N                                        00:02:29
+                                                                                
+ NUMBER OF STATIC LOAD CASES               =           5                        
+                                                                                
+                                                                                
+ E L E M E N T   J O I N T - F O R C E   O U T P U T                    00:02:29
+
+                                                                                
++Joint  element       0 of     161                                              
++Joint  element     100 of     161                                              
++Joint  element     161 of     161                                              
++NUMBER OF JOINT  ELEMENTS SAVED           =         161                        
+                                                                                
++Frame  element       0 of    2288                                              
++Frame  element     100 of    2288                                              
++Frame  element     200 of    2288                                              
++Frame  element     300 of    2288                                              
++Frame  element     400 of    2288                                              
++Frame  element     500 of    2288                                              
++Frame  element     600 of    2288                                              
++Frame  element     700 of    2288                                              
++Frame  element     800 of    2288                                              
++Frame  element     900 of    2288                                              
++Frame  element    1000 of    2288                                              
++Frame  element    1100 of    2288                                              
++Frame  element    1200 of    2288                                              
++Frame  element    1300 of    2288                                              
++Frame  element    1400 of    2288                                              
++Frame  element    1500 of    2288                                              
++Frame  element    1600 of    2288                                              
++Frame  element    1700 of    2288                                              
++Frame  element    1800 of    2288                                              
++Frame  element    1900 of    2288                                              
++Frame  element    2000 of    2288                                              
++Frame  element    2100 of    2288                                              
++Frame  element    2200 of    2288                                              
++Frame  element    2288 of    2288                                              
++NUMBER OF FRAME  ELEMENTS SAVED           =        2288                        
+                                                                                
++Shell  element       0 of     524                                              
++Shell  element     100 of     524                                              
++Shell  element     200 of     524                                              
++Shell  element     300 of     524                                              
++Shell  element     400 of     524                                              
++Shell  element     500 of     524                                              
++Shell  element     524 of     524                                              
++NUMBER OF SHELL  ELEMENTS SAVED           =         524                        
+                                                                                
+                                                                                
+ A N A L Y S I S   C O M P L E T E                          2026/01/06  00:02:30
