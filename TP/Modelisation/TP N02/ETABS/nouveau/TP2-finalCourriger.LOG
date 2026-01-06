@@ -1,0 +1,144 @@
+ Program ETABS Version 9.6.0.0                       File:TP2-finalCourriger.LOG
+                                                                     
+                                                                       
+
+
+ B E G I N   A N A L Y S I S                                2026/01/06  20:57:05
+
+ MAXIMUM MEMORY BLOCK SIZE (BYTES)         =      64.000 MB
+
+
+ E L E M E N T   F O R M A T I O N                                      20:57:05
+
+ NUMBER OF JOINT  ELEMENTS FORMED          =         161
+ NUMBER OF SPRING ELEMENTS FORMED          =           0
+ NUMBER OF FRAME  ELEMENTS FORMED          =        2264
+ NUMBER OF SHELL  ELEMENTS FORMED          =         522
+ NUMBER OF CONSTRAINTS FORMED              =          11
+
+ REDUCTION OF CONSTRAINTS AND RESTRAINTS:
+ NUMBER OF
+   CONSTRAINT MASTER DOF BEFORE REDUCTION  =          33
+   COUPLED CONSTRAINT/RESTRAINT MASTER DOF =           0
+   CONSTRAINT MASTER DOF AFTER REDUCTION   =          33
+
+
+ E Q U A T I O N   S O L U T I O N                                      20:57:06
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =        3009
+ APPROXIMATE "EFFECTIVE" BAND WIDTH        =         150
+
+ NUMBER OF EQUATION STORAGE BLOCKS         =           1
+ MAXIMUM BLOCK SIZE (8-BYTE TERMS)         =      442995
+ SIZE OF STIFFNESS FILE(S) (BYTES)         =       3.391 MB
+
+ NUMBER OF EQUATIONS TO SOLVE              =        3009
+ NUMBER OF STATIC LOAD CASES               =           5
+ NUMBER OF ACCELERATION LOADS              =           6
+ NUMBER OF NONLINEAR DEFORMATION LOADS     =           0
+
+
+ E I G E N   A N A L Y S I S                                            20:57:06
+
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =        3009
+ NUMBER OF MASS DEGREES OF FREEDOM         =         209
+ NUMBER OF EIGEN MODES SOUGHT              =          12
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0
+ NUMBER OF SUBSPACE VECTORS USED           =          16
+
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-07
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =     .000000
+
+ NUMBER OF EIGEN MODES FOUND               =          12
+ NUMBER OF ITERATIONS PERFORMED            =           9
+
+
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    20:57:06
+
+ NUMBER OF SPEC ANALYSES PERFORMED         =           2
+
+
+ J O I N T   O U T P U T                                                20:57:06
+
+ G L O B A L   F O R C E   B A L A N C E   R E L A T I V E   E R R O R S
+
+ PERCENT FORCE AND MOMENT ERROR AT THE ORIGIN, IN GLOBAL COORDINATES
+
+    LOAD          FX          FY          FZ          MX          MY          MZ
+G           1.11E-15    5.55E-15    3.88E-13    6.26E-14    5.76E-14    3.14E-15
+Q           3.69E-15    4.80E-15    1.17E-13    2.23E-14    1.84E-13    1.12E-15
+TRIBUTAR    1.64E-14    2.86E-15    2.29E-13    4.37E-14    9.97E-14    5.86E-15
+EX           .000000     .000000     .000000     .000000     .000000     .000000
+EY           .000000     .000000     .000000     .000000     .000000     .000000
+
+    MODE          FX          FY          FZ          MX          MY          MZ
+       1    1.68E-06    1.01E-06    1.04E-12    1.73E-07    6.45E-07    1.02E-06
+       2    2.01E-08    7.32E-09    6.72E-13    6.56E-10    1.59E-08    1.82E-07
+       3    5.46E-09    7.17E-10    3.04E-13    8.12E-10    6.02E-09    8.24E-08
+       4    3.31E-08    6.36E-07    2.81E-13    2.60E-07    2.28E-07    4.04E-08
+       5    6.33E-07    2.49E-06    3.38E-13    1.05E-06    2.29E-07    7.34E-06
+       6    2.61E-07    7.24E-07    2.21E-13    3.59E-07    5.39E-08    5.01E-07
+       7    2.73E-05    4.92E-05    3.10E-14    2.07E-05    1.06E-05    3.33E-05
+       8    0.000102    0.000167    4.12E-13    8.12E-05    5.25E-05    0.000163
+       9    6.95E-06    1.26E-05    4.84E-13    4.76E-06    7.09E-06    0.000181
+      10    2.83E-05    6.13E-06    1.50E-13    3.87E-07    5.61E-05    8.83E-05
+      11    2.35E-05    1.25E-05    1.33E-14    3.24E-05    5.07E-05    0.000556
+      12    8.90E-05    9.31E-05    4.11E-13    9.40E-05    0.000212    0.001531
+
+    SPEC          FX          FY          FZ          MX          MY          MZ
+EX          8.01E-06    1.13E-05    1.04E-12    5.59E-06    9.66E-06    6.56E-05
+EY          2.07E-06    3.51E-06    6.73E-13    1.74E-06    2.10E-06    4.07E-06
+
+
+ E L E M E N T   J O I N T - F O R C E   O U T P U T                    20:57:06
+
+ NUMBER OF JOINT  ELEMENTS SAVED           =         161
+ NUMBER OF FRAME  ELEMENTS SAVED           =        2264
+ NUMBER OF SHELL  ELEMENTS SAVED           =         522
+
+
+ E L E M E N T   O U T P U T                                            20:57:07
+
+
+
+ A N A L Y S I S   C O M P L E T E                          2026/01/06  20:57:07
+
+
+ Program ETABS Version 9.6.0.0                       File:TP2-finalCourriger.LOG
+                                                                     
+                                                                       
+
+
+ C E N T E R S   O F   R I G I D I T Y                                  20:57:07
+
+
+ Program ETABS Version 9.6.0.0                       File:TP2-finalCourriger.LOG
+                                                                     
+                                                                       
+
+
+ B E G I N   A N A L Y S I S                                2026/01/06  20:57:08
+
+ MAXIMUM MEMORY BLOCK SIZE (BYTES)         =      64.000 MB
+
+
+ E L E M E N T   F O R M A T I O N                                      20:57:08
+
+ NUMBER OF JOINT  ELEMENTS FORMED          =         161
+ NUMBER OF SPRING ELEMENTS FORMED          =           0
+
+
+ L O A D   R E - S O L U T I O N                                        20:57:08
+
+ NUMBER OF STATIC LOAD CASES               =           5
+
+
+ E L E M E N T   J O I N T - F O R C E   O U T P U T                    20:57:08
+
+ NUMBER OF JOINT  ELEMENTS SAVED           =         161
+ NUMBER OF FRAME  ELEMENTS SAVED           =        2264
+ NUMBER OF SHELL  ELEMENTS SAVED           =         522
+
+
+ A N A L Y S I S   C O M P L E T E                          2026/01/06  20:57:08
